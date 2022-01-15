@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>もう一度お試しください</item>
+        <item></item>
+        <item></item>
+        <item>指紋スキャナーを完全に覆い、圧力をかけてください</item>
+        <item></item>
+        <item>指紋スキャナーを完全に覆い、圧力をかけてください</item>
+        <item>指紋センサーをきれいに拭いて、もう一度お試しください</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>指紋スキャナーを完全に覆い、圧力をかけてください</item>
+        <item>指紋スキャナーを完全に覆い、圧力をかけてください</item>
+        <item>はやすぎます！指紋を認識できませんでした。</item>
+        <item>指を少し動かしてから、もう一度お試しください</item>
+        <item>指を持ち上げて、もう一度スキャナーに戻してください</item>
+        <item>スキャナーに指をもう少し長く当ててください</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>指を少しずらしてください</item>
+        <item>この指紋は追加されています。別の指を使用してください。</item>
+    </string-array>
+</resources>

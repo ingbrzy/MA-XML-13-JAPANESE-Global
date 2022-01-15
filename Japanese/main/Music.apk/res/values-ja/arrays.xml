@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recommendation_desc_week">
+        <item>日曜日のおすすめ</item>
+        <item>月曜日のおすすめ</item>
+        <item>火曜日のおすすめ</item>
+        <item>水曜日のおすすめ</item>
+        <item>木曜日のおすすめ</item>
+        <item>金曜日のおすすめ</item>
+        <item>土曜日のおすすめ</item>
+    </string-array>
+</resources>

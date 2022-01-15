@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">フローティングウィンドウ</string>
+    <string name="bottom_bar_smallwindow_text">指を離してピン留め</string>
+    <string name="contentDescription">ウィンドウを移動中</string>
+    <string name="freeform_demo_back">戻る</string>
+    <string name="freeform_demo_final_over">完了</string>
+    <string name="freeform_demo_final_restart">やり直す</string>
+    <string name="freeform_demo_final_title">準備が整いました！</string>
+    <string name="freeform_demo_go_on">次へ</string>
+    <string name="freeform_demo_title_finish">上手にできました！</string>
+    <string name="freeform_demo_title_skip">スキップ</string>
+    <string name="freeform_slide_to_small_freeform">フローティングウィンドウを最小化</string>
+    <string name="freeform_slide_to_small_freeform_summary">操作バーを長押しして、隅にドラッグする</string>
+    <string name="fullscreen_slide_to_small_freeform">アプリを最小化</string>
+    <string name="fullscreen_slide_to_small_freeform_summary">画面の下から右上にスワイプする</string>
+    <string name="how_to_close_or_fullscreen_freeform">フローティングウィンドウを閉じるか、全画面表示モードに切り替える</string>
+    <string name="how_to_drop_down_to_fullscreen">全画面表示モードに切り替える</string>
+    <string name="how_to_drop_down_to_fullscreen_summary">フローティングウィンドウの操作バーを長押ししてプルダウンする</string>
+    <string name="how_to_hang_freeform">フローティングウィンドウを最小化する</string>
+    <string name="how_to_hang_to_small_freeform">フローティングウィンドウを最小化</string>
+    <string name="how_to_hang_to_small_freeform_summary">フローティングウィンドウを画面の隅にドラッグする</string>
+    <string name="how_to_move_freeform">フローティングウィンドウを移動させる</string>
+    <string name="how_to_move_freeform_window">フローティングウィンドウを移動する</string>
+    <string name="how_to_move_freeform_window_summary">フローティングウィンドウの操作バーを長押ししてドラッグする</string>
+    <string name="how_to_notification_drop_down">フローティングウィンドウを開く</string>
+    <string name="how_to_notification_drop_down_summary">通知の操作バーを長押ししてプルダウンする</string>
+    <string name="how_to_open_freeform">フローティングウィンドウで通知を開く</string>
+    <string name="how_to_slide_up_to_close">フローティングウィンドウを閉じる</string>
+    <string name="how_to_slide_up_to_close_summary">フローティングウィンドウの操作バーから上にスワイプする</string>
+    <string name="how_to_use_freeform">フローティングウィンドウの使用方法</string>
+</resources>

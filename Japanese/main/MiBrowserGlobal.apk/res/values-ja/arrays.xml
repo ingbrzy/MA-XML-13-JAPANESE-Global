@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_user_gender_name">
+        <item>男性</item>
+        <item>女性</item>
+    </string-array>
+    <string-array name="menu_theme_setting">
+        <item>ホワイト</item>
+        <item>イエロー</item>
+        <item>グレー</item>
+        <item>ブラウン</item>
+        <item>グリーン</item>
+        <item>ブルー</item>
+    </string-array>
+    <string-array name="nf_ad_feedback_reason">
+        <item>興味がない</item>
+        <item>繰り返し表示される</item>
+        <item>質が低い</item>
+        <item>不適切な写真</item>
+        <item>詐欺情報</item>
+    </string-array>
+    <string-array name="nf_feedback_reason">
+        <item>不適切なコンテンツ</item>
+        <item>虚偽</item>
+        <item>古いニュース</item>
+        <item>過激派の見解</item>
+        <item>サブリミナル広告</item>
+        <item>好みではない</item>
+    </string-array>
+    <string-array name="pref_fling_on_border_gesture_entries">
+        <item>戻る/進む</item>
+        <item>タブを切り替える</item>
+        <item>なし</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>デフォルトのスタートページ</item>
+        <item>カスタム</item>
+    </string-array>
+    <string-array name="pref_nav_mode_summary">
+        <item>電話</item>
+        <item>パッド</item>
+    </string-array>
+    <string-array name="pref_navscreen_layoutstate_choices">
+        <item>縦表示</item>
+        <item>横表示</item>
+    </string-array>
+    <string-array name="pref_security_do_not_track_keys">
+        <item>オン</item>
+        <item>シークレットモードでのみ</item>
+        <item>オフ</item>
+    </string-array>
+    <string-array name="pref_text_zoom_choices">
+        <item>極小</item>
+        <item>小</item>
+        <item>普通</item>
+        <item>大</item>
+        <item>巨大</item>
+    </string-array>
+    <string-array name="pref_ua_choices">
+        <item>Android</item>
+        <item>デスクトップ</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+    </string-array>
+    <string-array name="setting_swipe_up_target">
+        <item>検索</item>
+        <item>ニュース</item>
+    </string-array>
+    <string-array name="shortcut_dialog_delete">
+        <item>削除</item>
+        <item>今はしない</item>
+    </string-array>
+    <string-array name="shortcut_dialog_keep">
+        <item>OК</item>
+        <item>フォロー</item>
+    </string-array>
+    <string-array name="shortcut_dialog_title">
+        <item>ブラウザーからのメッセージ</item>
+        <item>Miと共にオリンピックへ</item>
+    </string-array>
+    <string-array name="speed_result_tips">
+        <item>現在のネットワーク接続は非常に低速です。ネットワークカバレッジの悪いエリアにいるようです。</item>
+        <item>現在のネットワーク接続は低速です。</item>
+        <item>ネットワーク接続に問題は見つかりませんでした。</item>
+        <item>現在のネットワーク接続は高速です。映画のストリーミングには十分です。</item>
+        <item>現在のネットワーク接続は非常に高速です。スムーズにゲームプレイを楽しめます。</item>
+    </string-array>
+    <string-array name="user_guide_info_array">
+        <item>ソーシャルメディアからビデオと写真をダウンロードする</item>
+        <item>WhatsAppステータスから画像とビデオを保存する</item>
+        <item>デバイス上のファイルを管理し、プライベートにする</item>
+    </string-array>
+    <string-array name="user_guide_title_array">
+        <item>ビデオをダウンロード</item>
+        <item>WhatsAppステータスセーバー</item>
+        <item>プライベートファイル</item>
+    </string-array>
+</resources>
