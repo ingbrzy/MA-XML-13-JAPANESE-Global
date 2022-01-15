@@ -128,7 +128,6 @@
     <string name="cast_forward">早送り</string>
     <string name="cast_forward_10">10 秒早送り</string>
     <string name="cast_forward_30">30 秒早送り</string>
-    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">ライブ</string>
     <string name="cast_mute">ミュート</string>
     <string name="cast_notification_connected_message">%1$s に接続しました</string>
