@@ -1,25 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="calendar_info">"カレンダー情報"</string>
-  <string name="calendar_info_error">"エラー"</string>
-  <string name="calendar_info_events">"予定: %1$d件"</string>
-  <string name="calendar_info_events_dirty">"予定: %1$d、未保存: %2$d"</string>
-  <string name="calendar_info_no_calendars">"カレンダーがありません"</string>
-  <string name="calendar_storage">"カレンダーの保存"</string>
-  <string name="channel_name">カレンダーの通知</string>
-  <string name="cta_notice">カレンダーを開き、初めにインターネットへの接続を許可してください。</string>
-  <string name="debug_tool_delete_button">"今すぐ削除"</string>
-  <string name="debug_tool_email_body">"添付されているのは、私のすべての予定と個人情報を含むカレンダーデータベースです。取り扱いにご注意ください。"</string>
-  <string name="debug_tool_email_sender_picker">"ファイルを送信するプログラムを選択"</string>
-  <string name="debug_tool_email_subject">"カレンダー データベースを添付"</string>
-  <string name="debug_tool_message">"1）任意のアプリで読み取れるSDカード/USBストレージにカレンダーデータベースをコピーし、2）メールで送信しようとしています。デバイスからコピーを終えたら、またはメールが受信されたらすぐに、忘れずに削除してください。"</string>
-  <string name="debug_tool_start_button">"開始"</string>
-  <string name="holiday_data_no_network">"ネットワークに接続できませんでした。データ接続を確認して再度試してください。"</string>
-  <string name="holiday_data_update_failed">"更新できませんでした。データ接続を確認して再度試してください。"</string>
-  <string name="holiday_data_update_succeed">"更新が完了しました"</string>
-  <string name="holiday_data_updating">"更新中…"</string>
-  <string name="holiday_update_summary">"カレンダー情報を更新するにはタップします。"</string>
-  <string name="holiday_update_title">"更新が利用可能"</string>
-  <string name="provider_label">"カレンダー"</string>
-  <string name="upgrade_msg">"カレンダーのデータベースをアップグレードしています。"</string>
+    <string name="calendar_default_name">デフォルト</string>
+    <string name="calendar_info">カレンダー情報</string>
+    <string name="calendar_info_error">エラー</string>
+    <string name="calendar_info_events">イベント: %1$d</string>
+    <string name="calendar_info_events_dirty">イベント: %1$d | 未保存: %2$d</string>
+    <string name="calendar_info_no_calendars">カレンダーはありません</string>
+    <string name="calendar_storage">カレンダーストレージ</string>
+    <string name="channel_description" />
+    <string name="channel_name">カレンダーのリマインダー</string>
+    <string name="cta_notice">まずカレンダーを開き、インターネットへの接続を許可してください。</string>
+    <string name="debug_tool_delete_button">削除</string>
+    <string name="debug_tool_email_body">私の予定と個人情報が含まれたカレンダーのデータベースが添付されています。取り扱いにはご注意ください。</string>
+    <string name="debug_tool_email_sender_picker">ファイルを送信するアプリを選択</string>
+    <string name="debug_tool_email_subject">カレンダーデバッグツールが添付されました</string>
+    <string name="debug_tool_message">あらゆるアプリにより読み取れるSDカード/USBストレージにカレンダーのデータベースをコピーし、メールでデータベースを送信しようとしています。バックアップの完了直後、またはメールが受信されたら、忘れずにコピーを削除してください。</string>
+    <string name="debug_tool_start_button">開始</string>
+    <string name="holiday_data_no_network">ネットワークに接続できません。データ接続を確認してからもう一度お試しください。</string>
+    <string name="holiday_data_update_failed">アップデートできませんでした。データ接続を確認してからもう一度お試しください。</string>
+    <string name="holiday_data_update_succeed">アップデートが完了しました</string>
+    <string name="holiday_data_updating">アップデート中…</string>
+    <string name="holiday_update_summary">タップするとカレンダー情報をアップデートします。</string>
+    <string name="holiday_update_title">アップデートが利用可能です</string>
+    <string name="provider_label">カレンダー</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="upgrade_msg">カレンダーのデータベースをアップデート中…</string>
 </resources>

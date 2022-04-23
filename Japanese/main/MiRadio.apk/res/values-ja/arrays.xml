@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sleep_duration_values">
+        <item>15分</item>
+        <item>30分</item>
+        <item>45分</item>
+        <item>1時間</item>
+    </string-array>
+</resources>

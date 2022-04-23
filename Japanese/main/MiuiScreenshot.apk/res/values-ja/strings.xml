@@ -35,8 +35,10 @@
     <string name="afternoon">午後</string>
     <string name="am">午前</string>
     <string name="app_name">スクリーンショット</string>
+    <string name="can_drag">ドラッグして挿入または送信</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
+    <string name="custom_define_permission_desc_android.permission_group.STORAGE">スクリーンショットを保存するため</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -102,12 +104,16 @@
     <string name="friday">金曜日</string>
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
+    <string name="long_screenshot_error">エラーが発生しました。もう一度お試しください。</string>
     <string name="long_screenshot_guide_text">"タップして
 スクロールスクリーンショットを作成"</string>
+    <string name="long_screenshot_intercepted_error">スクリーンショットを撮影できませんでした。もう一度お試しください。</string>
     <string name="long_screenshot_out_of_memory_error">画像が大きすぎます</string>
     <string name="long_screenshot_processing">処理中…</string>
+    <string name="long_screenshot_processing_description_accessibility">処理中</string>
     <string name="long_screenshot_stop">完了</string>
     <string name="long_screenshot_top_msg">スクリーンショットを作成中…</string>
+    <string name="long_screenshot_top_msg_description_accessibility">スクリーンショットを作成中</string>
     <string name="long_screenshot_top_msg_manual">スクリーンショットの長さを手動で調整してから、ボタンをタップして終了します</string>
     <string name="midnight">真夜中</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
@@ -187,11 +193,13 @@
     <string name="saturday">土曜日</string>
     <string name="saturday_short">土</string>
     <string name="saturday_shortest">土</string>
+    <string name="save_success">正常に保存されました</string>
     <string name="screenshot_edit">編集</string>
     <string name="screenshot_failed_in_landscape_mode">横向きモードではスクロールスクリーンショットを作成できません</string>
     <string name="screenshot_feedback_txt">フィードバック</string>
     <string name="screenshot_insert_failed">スクリーンショットを読み込めませんでした。新しくスクリーンショットを撮影するか、ギャラリーでその画像を表示してください。</string>
     <string name="screenshot_long_screenshot">スクロール</string>
+    <string name="screenshot_save">保存</string>
     <string name="screenshot_send">送信</string>
     <string name="screenshot_thumbnail">スクリーンショットのサムネイル</string>
     <string name="search_menu_title">検索</string>

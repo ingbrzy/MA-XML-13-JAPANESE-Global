@@ -753,6 +753,7 @@ ID:%s
     <string name="homepage_search_hint">検索</string>
     <string name="homepage_top_card_menu">トップ</string>
     <string name="hot_games">人気</string>
+    <string name="i_know">停止</string>
     <string name="identity">識別</string>
     <string name="if_cancel">この操作をキャンセルしますか？</string>
     <string name="ignore_add_game_center_dialog_this_week">今週は表示しない</string>
@@ -1564,7 +1565,7 @@ ID:%s
     <string name="quicklinks_group_default_subtitle">空です</string>
     <string name="quicklinks_management">人気</string>
     <string name="quicklinks_most_visited">スタートページに追加</string>
-    <string name="quicklinks_most_visited_subtitle">新しいタブで最近訪れたサイトを表示</string>
+    <string name="quicklinks_most_visited_subtitle">最近アクセスしたサイトを新しいタブに表示する</string>
     <string name="quicklinks_most_visited_title">スタートページに追加</string>
     <string name="readmode_already_add_to_bookshelf">本棚に追加しました</string>
     <string name="readmode_battery">バッテリー </string>
@@ -1913,7 +1914,7 @@ ID:%s
     <string name="url_opened_in_background">バックグラウンドでタブを開く</string>
     <string name="url_suggest_indicator_bookmark">ブックマーク/履歴</string>
     <string name="url_suggest_indicator_hoturl">人気</string>
-    <string name="url_suggest_indicator_mostvisited">最も訪問されたサイト</string>
+    <string name="url_suggest_indicator_mostvisited">よく見るサイト</string>
     <string name="use_cellular_network_alert_message">Wi-Fiは利用できません。代わりにモバイルデータ接続を使用しますか？</string>
     <string name="use_cellular_network_alert_title">データ使用量</string>
     <string name="user_avatar_update_title">プロフィール写真を変更</string>

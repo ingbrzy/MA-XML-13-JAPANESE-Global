@@ -1,31 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1時間前</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1時間前</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">30分前</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">1時間後</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">30分後</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">今すぐ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d分後</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">たった今</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d分前</item>
+    </plurals>
     <plurals name="btn_clear_records">
         <item quantity="other">%d件の録音を削除</item>
-        <item quantity="one">%d件の録音を削除</item>
     </plurals>
     <plurals name="choose_call_records_count">
-        <item quantity="other">%d個のアイテム</item>
-        <item quantity="one">%d個のアイテム</item>
+        <item quantity="other">%d個</item>
+    </plurals>
+    <plurals name="confirm_delete_cloud_records">
+        <item quantity="other">クラウドから%d件の録音を削除しますか？</item>
+    </plurals>
+    <plurals name="confirm_delete_records">
+        <item quantity="other">%d件の録音を削除しますか？</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">30分前</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">1時間後</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">30分後</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">今すぐ</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d分後</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">たった今</item>
     </plurals>
     <plurals name="local_records_count">
-        <item quantity="other">%d items</item>
-        <item quantity="one">%d item</item>
+        <item quantity="other">%d個</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d個を選択済み</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
     </plurals>
     <plurals name="notification_warning">
-        <item quantity="other">空き容量わずか (残り%d分未満)</item>
-        <item quantity="one">空き容量わずか (残り%d分未満)</item>
+        <item quantity="other">ストレージ不足 (%d分未満)</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d分前</item>
     </plurals>
     <plurals name="record_downloading_complete_count">
-        <item quantity="other">%d recordings downloaded</item>
-        <item quantity="one">%d recording downloaded</item>
+        <item quantity="other">%d件の録音をダウンロードしました</item>
+    </plurals>
+    <plurals name="recovery_failed_dialog_message">
+        <item quantity="other">不明なエラーが発生したため、%d個のアイテムを復元できませんでした。</item>
+    </plurals>
+    <plurals name="search_alll_records_hint">
+        <item quantity="other">%d件の録音</item>
+    </plurals>
+    <plurals name="search_app_records_hint">
+        <item quantity="other">%d件の録音</item>
+    </plurals>
+    <plurals name="search_call_records_hint">
+        <item quantity="other">%d件の通話録音</item>
+    </plurals>
+    <plurals name="search_fm_records_hint">
+        <item quantity="other">%d件のラジオ録音</item>
+    </plurals>
+    <plurals name="search_recorder_records_hint">
+        <item quantity="other">%d件のオーディオ録音</item>
     </plurals>
     <plurals name="search_result">
-        <item quantity="other">Found %d recordings</item>
-        <item quantity="one">Found %d recording</item>
+        <item quantity="other">%d件の録音が見つかりました</item>
+    </plurals>
+    <plurals name="text_btn_list_with_message">
+        <item quantity="other">%d件の新しい録音</item>
+    </plurals>
+    <plurals name="time_left_for_clear_file">
+        <item quantity="other">残り%d日</item>
+    </plurals>
+    <plurals name="trash_box_delete_items">
+        <item quantity="other">選択した%d件の録音を完全に削除しますか？</item>
+    </plurals>
+    <plurals name="trash_box_tip">
+        <item quantity="other">削除されたアイテムは、最大%d日間ゴミ箱に保存することができます</item>
     </plurals>
     <plurals name="unsynced_records_count">
-        <item quantity="other">%d not synced</item>
-        <item quantity="one">%d not synced</item>
+        <item quantity="other">%d個が同期されていません</item>
     </plurals>
 </resources>

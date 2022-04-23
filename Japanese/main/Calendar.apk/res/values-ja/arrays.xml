@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="additional_cal_dialog_labels">
+        <item>なし</item>
+        <item>ヒジュラ暦</item>
+        <item>シャカ暦</item>
+        <item>ヴィクラマ暦</item>
+    </string-array>
     <string-array name="aquarius_info">
         <item>aquarius</item>
         <item>水瓶座</item>
@@ -9,6 +15,10 @@
         <item>aries</item>
         <item>牡羊座</item>
         <item>3/21 - 4/19</item>
+    </string-array>
+    <string-array name="bundesliga">
+        <item>2</item>
+        <item>ブンデスリーガ</item>
     </string-array>
     <string-array name="cancer_info">
         <item>cancer</item>
@@ -21,51 +31,88 @@
         <item>12/22 - 1/19</item>
     </string-array>
     <string-array name="change_response_labels">
-        <item>"この予定のみ"</item>
-        <item>"繰り返す予定すべて"</item>
-    </string-array>
-    <string-array name="close_alarm_repeating_labels">
-        <item>今回のみ</item>
-        <item>繰り返しの通知をオフにする</item>
+        <item>このイベントのみ</item>
+        <item>シリーズのすべてのイベント</item>
     </string-array>
     <string-array name="date_calculate_spinner">
-        <item>Forwards</item>
-        <item>Backwards</item>
+        <item>何日後</item>
+        <item>何日前</item>
+    </string-array>
+    <string-array name="dates">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
     </string-array>
     <string-array name="default_reminder_labels">
-        <item>予定の時刻</item>
+        <item>イベント時</item>
         <item>5分前</item>
-        <item>10分前</item>
         <item>15分前</item>
         <item>30分前</item>
         <item>1時間前</item>
+        <item>4時間前</item>
         <item>1日前</item>
         <item>2日前</item>
         <item>1週間前</item>
     </string-array>
-    <string-array name="default_reminder_later_time_labels">
-        <item>5分</item>
-        <item>10分</item>
-        <item>15分</item>
-        <item>30分</item>
-        <item>1時間</item>
-    </string-array>
     <string-array name="delete_repeating_labels">
-        <item>"この日の予定のみ"</item>
-        <item>"これ以降の予定"</item>
-        <item>"すべての予定"</item>
+        <item>このイベントのみ</item>
+        <item>これと将来のイベント</item>
+        <item>すべてのイベント</item>
     </string-array>
-    <string-array name="edit_event_dislike">
-        <item>No event type I want to create</item>
-        <item>More Settings</item>
-        <item>Some Settings cannot be determined</item>
-        <item>Just look around</item>
-        <item>"Don't tell you"</item>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
     </string-array>
     <string-array name="gemini_info">
         <item>gemini</item>
         <item>双子座</item>
         <item>5/21 - 6/21</item>
+    </string-array>
+    <string-array name="hijri_samvat_month_names">
+        <item>ムハッラム</item>
+        <item>サファル</item>
+        <item>ラビーウ・アルアウワル</item>
+        <item>ラビーウ・アッサーニー</item>
+        <item>ジュマーダー・アルウーラー</item>
+        <item>ジュマーダー・アルアーヒラ</item>
+        <item>ラジャブ</item>
+        <item>シャアバーン</item>
+        <item>ラマダーン</item>
+        <item>シャウワール</item>
+        <item>ズー・アルカアダ</item>
+        <item>ズー・アルヒッジャ</item>
+    </string-array>
+    <string-array name="la_liga">
+        <item>3</item>
+        <item>ラ・リーガ</item>
     </string-array>
     <string-array name="leo_info">
         <item>leo</item>
@@ -77,119 +124,118 @@
         <item>天秤座</item>
         <item>9/23 - 10/23</item>
     </string-array>
-    <string-array name="open_alarm_repeating_labels">
-        <item>今回のみ</item>
-        <item>繰り返しの通知を設定</item>
+    <string-array name="ligue_1">
+        <item>5</item>
+        <item>リーグ・アン</item>
+    </string-array>
+    <string-array name="panchang_weeks">
+        <item>日曜日</item>
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
     </string-array>
     <string-array name="pisces_info">
         <item>pisces</item>
         <item>魚座</item>
         <item>2/19 - 3/20</item>
     </string-array>
-    <string-array name="prefEntries_alerts_popup">
-        <item>オフ</item>
-        <item>すべての予定</item>
-        <item>最も関連性の高い予定</item>
-    </string-array>
-    <string-array name="prefEntries_alerts_popup_new">
-        <item>オフ</item>
-        <item>すべての予定</item>
-        <item>For time-sensitive events</item>
-    </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
-        <item>常に</item>
-        <item>マナーモードの場合のみ</item>
-        <item>無効</item>
+        <item>常時</item>
+        <item>サインレントモードのときのみ</item>
+        <item>しない</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
-        <item>"ユーザーの言語/地域での既定の設定"</item>
-        <item>"土曜日"</item>
-        <item>"日曜日"</item>
-        <item>"月曜日"</item>
+        <item>地域のデフォルト</item>
+        <item>土曜日</item>
+        <item>日曜日</item>
+        <item>月曜日</item>
     </string-array>
     <string-array name="repeat_choose_day">
-        <item>1st</item>
-        <item>2nd</item>
-        <item>3rd</item>
-        <item>4th</item>
-        <item>5th</item>
-        <item>6th</item>
-        <item>7th</item>
-        <item>8th</item>
-        <item>9th</item>
-        <item>10th</item>
-        <item>11th</item>
-        <item>12th</item>
-        <item>13th</item>
-        <item>14th</item>
-        <item>15th</item>
-        <item>16th</item>
-        <item>17th</item>
-        <item>18th</item>
-        <item>19th</item>
-        <item>20th</item>
-        <item>21st</item>
-        <item>22nd</item>
-        <item>23rd</item>
-        <item>24th</item>
-        <item>25th</item>
-        <item>26th</item>
-        <item>27th</item>
-        <item>28th</item>
-        <item>29th</item>
-        <item>30th</item>
-        <item>31st</item>
+        <item>1日</item>
+        <item>2日</item>
+        <item>3日</item>
+        <item>4日</item>
+        <item>5日</item>
+        <item>6日</item>
+        <item>7日</item>
+        <item>8日</item>
+        <item>9日</item>
+        <item>10日</item>
+        <item>11日</item>
+        <item>12日</item>
+        <item>13日</item>
+        <item>14日</item>
+        <item>15日</item>
+        <item>16日</item>
+        <item>17日</item>
+        <item>18日</item>
+        <item>19日</item>
+        <item>20日</item>
+        <item>21日</item>
+        <item>22日</item>
+        <item>23日</item>
+        <item>24日</item>
+        <item>25日</item>
+        <item>26日</item>
+        <item>27日</item>
+        <item>28日</item>
+        <item>29日</item>
+        <item>30日</item>
+        <item>31日</item>
     </string-array>
     <string-array name="repeat_choose_end">
-        <item>Never</item>
-        <item>Time</item>
-        <item>Count</item>
+        <item>しない</item>
+        <item>時刻</item>
+        <item>回数</item>
     </string-array>
     <string-array name="repeat_choose_month">
-        <item>Jan</item>
-        <item>Feb</item>
-        <item>Mar</item>
-        <item>Apr</item>
-        <item>May</item>
-        <item>Jun</item>
-        <item>Jul</item>
-        <item>Aug</item>
-        <item>Sep</item>
-        <item>Oct</item>
-        <item>Nov</item>
-        <item>Dec</item>
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
     </string-array>
     <string-array name="repeat_choose_week_left">
-        <item>first</item>
-        <item>second</item>
-        <item>third</item>
-        <item>fourth</item>
-        <item>last</item>
+        <item>第1週</item>
+        <item>第2週</item>
+        <item>第3週</item>
+        <item>第4週</item>
+        <item>最終週</item>
     </string-array>
     <string-array name="repeat_choose_week_right">
-        <item>Mon - Fri</item>
-        <item>Weekend</item>
-        <item>Whole week</item>
+        <item>月～金</item>
+        <item>週末</item>
+        <item>一週間</item>
     </string-array>
     <string-array name="repeat_choose_weekday">
-        <item>Mon</item>
-        <item>Tue</item>
-        <item>Wed</item>
-        <item>Thur</item>
-        <item>Fri</item>
-        <item>Sat</item>
-        <item>Sun</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+        <item>日</item>
     </string-array>
     <string-array name="repeat_countdown">
-        <item>Never</item>
+        <item>しない</item>
         <item>毎月</item>
         <item>毎年</item>
     </string-array>
     <string-array name="repeat_frequency_spinner">
-        <item>day</item>
-        <item>week</item>
-        <item>month</item>
-        <item>year</item>
+        <item>日</item>
+        <item>週</item>
+        <item>月</item>
+        <item>年</item>
     </string-array>
     <string-array name="repeat_monthly_on_day_count_values">
         <item>第1月曜日</item>
@@ -229,16 +275,10 @@
         <item>最終日曜日</item>
     </string-array>
     <string-array name="response_labels1">
-        <item>"応答がありません"</item>
-        <item>"はい"</item>
-        <item>"未定"</item>
-        <item>"いいえ"</item>
-    </string-array>
-    <string-array name="response_labels2">
-        <item>返信しない</item>
-        <item>承諾</item>
-        <item>後で決める</item>
-        <item>辞退</item>
+        <item>返答なし</item>
+        <item>はい</item>
+        <item>多分</item>
+        <item>いいえ</item>
     </string-array>
     <string-array name="sagittarius_info">
         <item>sagittarius</item>
@@ -250,6 +290,10 @@
         <item>蠍座</item>
         <item>10/24 - 11/22</item>
     </string-array>
+    <string-array name="serie_a">
+        <item>1</item>
+        <item>セリエA</item>
+    </string-array>
     <string-array name="taurus_info">
         <item>taurus</item>
         <item>牡牛座</item>
@@ -257,7 +301,7 @@
     </string-array>
     <string-array name="timezone_labels">
         <item>マーシャル諸島</item>
-        <item>ミッドウェー諸島</item>
+        <item>ミッドウェー島</item>
         <item>ハワイ</item>
         <item>アラスカ</item>
         <item>太平洋時間</item>
@@ -268,22 +312,22 @@
         <item>中央アメリカ</item>
         <item>中部時間</item>
         <item>メキシコシティ</item>
-        <item>サスカチュワン</item>
+        <item>サスカチュワン州</item>
         <item>ボゴタ</item>
         <item>東部時間</item>
         <item>ベネズエラ</item>
-        <item>大西洋時間（バルバドス）</item>
-        <item>大西洋時間（カナダ）</item>
+        <item>大西洋時間 (バルバドス)</item>
+        <item>大西洋時間 (カナダ)</item>
         <item>マナウス</item>
-        <item>サンチアゴ</item>
-        <item>ニューファンドランド</item>
+        <item>サンティアゴ</item>
+        <item>ニューファンドランド島</item>
         <item>ブラジリア</item>
         <item>ブエノスアイレス</item>
         <item>グリーンランド</item>
         <item>モンテビデオ</item>
         <item>中部大西洋</item>
         <item>アゾレス諸島</item>
-        <item>カーボヴェルデ諸島</item>
+        <item>カーボベルデ</item>
         <item>カサブランカ</item>
         <item>ロンドン、ダブリン</item>
         <item>アムステルダム、ベルリン</item>
@@ -291,7 +335,7 @@
         <item>ブリュッセル</item>
         <item>サラエボ</item>
         <item>ウィントフック</item>
-        <item>西アフリカ標準時</item>
+        <item>西アフリカ時間</item>
         <item>アンマン、ヨルダン</item>
         <item>アテネ、イスタンブール</item>
         <item>ベイルート、レバノン</item>
@@ -299,8 +343,8 @@
         <item>ヘルシンキ</item>
         <item>エルサレム</item>
         <item>ミンスク</item>
-        <item>ハラーレ</item>
-        <item>バグダッド</item>
+        <item>ハラレ</item>
+        <item>バグダード</item>
         <item>モスクワ</item>
         <item>クウェート</item>
         <item>ナイロビ</item>
@@ -310,9 +354,9 @@
         <item>エレバン</item>
         <item>ドバイ</item>
         <item>カブール</item>
-        <item>イスラマーバード、カラチ</item>
-        <item>ウラリスク</item>
-        <item>エカテリンブルグ</item>
+        <item>イスラマバード、カラチ</item>
+        <item>オラル</item>
+        <item>エカテリンブルク</item>
         <item>コルカタ</item>
         <item>スリランカ</item>
         <item>カトマンズ</item>
@@ -322,6 +366,8 @@
         <item>バンコク</item>
         <item>北京</item>
         <item>香港</item>
+        <item>マカオ</item>
+        <item>シンガポール</item>
         <item>イルクーツク</item>
         <item>クアラルンプール</item>
         <item>パース</item>
@@ -331,7 +377,7 @@
         <item>ヤクーツク</item>
         <item>アデレード</item>
         <item>ダーウィン</item>
-        <item>ブリズベーン</item>
+        <item>ブリスベン</item>
         <item>ホバート</item>
         <item>シドニー、キャンベラ</item>
         <item>ウラジオストク</item>
@@ -342,40 +388,88 @@
         <item>トンガ</item>
     </string-array>
     <string-array name="travel_reminder_minutes_labels">
-        <item>"3時間前"</item>
-        <item>"4時間前"</item>
-        <item>"5時間前"</item>
-        <item>"6時間前"</item>
-        <item>"1日前"</item>
+        <item>3時間前</item>
+        <item>4時間前</item>
+        <item>5時間前</item>
+        <item>6時間前</item>
+        <item>1日前</item>
+    </string-array>
+    <string-array name="vikrami_samvat_month_names">
+        <item>チャイトラ</item>
+        <item>ヴァイシャーカ</item>
+        <item>ジャイシュタ</item>
+        <item>アーシャーダ</item>
+        <item>シュラーヴァナ</item>
+        <item>バードラ</item>
+        <item>アーシュヴィナ</item>
+        <item>カールッティカ</item>
+        <item>マールガシールシャ</item>
+        <item>パウシャ</item>
+        <item>マーガ</item>
+        <item>パールグナ</item>
     </string-array>
     <string-array name="virgo_info">
         <item>virgo</item>
         <item>乙女座</item>
         <item>8/23 - 9/22</item>
     </string-array>
+    <string-array name="weather_forecasts">
+        <item>晴れ</item>
+        <item>曇り</item>
+        <item>本曇り</item>
+        <item>霧</item>
+        <item>激しい嵐</item>
+        <item>嵐</item>
+        <item>軽い嵐</item>
+        <item>雷雨</item>
+        <item>にわか雨</item>
+        <item>強い雨</item>
+        <item>雨</item>
+        <item>弱い雨</item>
+        <item>雨と雪</item>
+        <item>暴風雪</item>
+        <item>にわか雪</item>
+        <item>強い雪</item>
+        <item>雪</item>
+        <item>弱い雪</item>
+        <item>強い砂嵐</item>
+        <item>砂嵐</item>
+        <item>粉じん</item>
+        <item>弱い砂嵐</item>
+        <item>雹</item>
+        <item>浮遊粉じん</item>
+        <item>煙霧</item>
+        <item>氷晶雨</item>
+    </string-array>
     <string-array name="week_header_name">
-        <item>SUN</item>
-        <item>MON</item>
-        <item>TUE</item>
-        <item>WED</item>
-        <item>THU</item>
-        <item>FRI</item>
-        <item>SAT</item>
+        <item>日</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
     </string-array>
     <string-array name="widget_style_list">
-        <item>Transparent</item>
-        <item>White background</item>
+        <item>透明</item>
+        <item>白色背景</item>
     </string-array>
-    <string-array name="aqi_level_simple_desc">
-        <item>优</item>
-        <item>良</item>
-        <item>轻度</item>
-        <item>中度</item>
-        <item>重度</item>
-        <item>严重</item>
+    <string-array name="year_view_week_header_name">
+        <item>日</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
     </string-array>
-    <string-array name="fortune_gender">
-        <item>男</item>
-        <item>女</item>
+    <string-array name="year_view_week_header_name_other">
+        <item>7</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </string-array>
 </resources>

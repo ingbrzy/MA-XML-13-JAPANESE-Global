@@ -4,11 +4,9 @@
         <item>男性</item>
         <item>女性</item>
     </string-array>
-    <string-array name="playback_streaming_quality">
-        <item>自動</item>
-        <item>低品質</item>
-        <item>中品質</item>
-        <item>高品質</item>
-        <item>最高品質</item>
+    <string-array name="feedback_tag_list">
+        <item>バグ</item>
+        <item>提案</item>
+        <item>その他</item>
     </string-array>
 </resources>

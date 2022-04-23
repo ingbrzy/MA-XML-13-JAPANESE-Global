@@ -1,19 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1時間前</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1時間前</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">30分前</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">1時間後</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">30分後</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">今すぐ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d分後</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">たった今</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d分前</item>
+    </plurals>
     <plurals name="fileCount">
-        <item quantity="other">%d個のアイテム</item>
-        <item quantity="one">%d個のアイテム</item>
+        <item quantity="other">%d項目</item>
     </plurals>
     <plurals name="first_space_notification_format">
-        <item quantity="other">First spaceに%d個の通知</item>
-        <item quantity="one">First spaceに%d個の通知</item>
+        <item quantity="other">ファースト・スペースに%d件の通知があります</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">30分前</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">1時間後</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">30分後</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">今すぐ</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d分後</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">たった今</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d個を選択済み</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d分前</item>
     </plurals>
     <plurals name="search_app_count_txt_na">
         <item quantity="other">%d個のアプリを検索</item>
-        <item quantity="one">%d個のアプリを検索</item>
     </plurals>
     <plurals name="second_space_notification_format">
-        <item quantity="other">Second spaceに%d個の通知</item>
-        <item quantity="one">Second spaceに%d個の通知</item>
+        <item quantity="other">セカンド・スペースに%d件の通知があります</item>
+    </plurals>
+    <plurals name="xspace_guide_content">
+        <item quantity="other">&lt;font color=#0D84FF>%d&lt;/font>個の&lt;font>デュアルアプリ&lt;/font>を作成できます</item>
     </plurals>
 </resources>

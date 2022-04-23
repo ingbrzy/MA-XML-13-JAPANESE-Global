@@ -87,10 +87,10 @@
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -186,10 +186,13 @@
     <string name="miui_feedback_edit_toast_screenshot_too_large">100MBを超える画像またはビデオはアップロードできません</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">アプリ名を入力してください</string>
     <string name="miui_feedback_main_answer_title">この質問には答えがあります</string>
+    <string name="miui_feedback_main_customer_service_onfo_for_jp">"フリーダイヤル：0120-300-521
+受付時間：9:00〜18:00（祝日および弊社規定休業日を除く）
+Email：service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_frequent_question_title">よくあるトラブル時の対処について</string>
     <string name="miui_feedback_main_item_catch_full_log">ログを取得</string>
-    <string name="miui_feedback_main_item_customer_service">アフターサービス</string>
-    <string name="miui_feedback_main_item_feedback_list">マイ フィードバック</string>
+    <string name="miui_feedback_main_item_customer_service">アフターサービスセンター</string>
+    <string name="miui_feedback_main_item_feedback_list">報告履歴</string>
     <string name="miui_feedback_main_menu_view_privacy">プライバシーポリシー</string>
     <string name="miui_feedback_main_menu_view_withdraw_consent">同意の撤回</string>
     <string name="miui_feedback_main_search_footer">これらはあなたが聞きたい質問ではありませんか？</string>
@@ -246,7 +249,7 @@
     <string name="miui_main_update_back_to_home">ホーム画面を準備中…</string>
     <string name="miui_main_update_continue">次へ</string>
     <string name="miui_main_update_end_title">MIUIへようこそ</string>
-    <string name="miui_main_update_learn_more">もっと詳しく</string>
+    <string name="miui_main_update_learn_more">もっと詳しく知る</string>
     <string name="miui_main_update_start">今すぐアップデート</string>
     <string name="miui_main_update_success_sub_title">新しいMIUIの紹介</string>
     <string name="miui_main_update_success_title">生活がもっと快適になる</string>
@@ -422,7 +425,7 @@
     <string name="wednesday_short">水</string>
     <string name="wednesday_shortest">水</string>
     <string name="withdraw_consent_failed">同意を撤回できませんでした</string>
-    <string name="withdraw_consent_failed_hint">サーバーエラーが発生しました。1、2分待ってからもう一度お試しください。</string>
+    <string name="withdraw_consent_failed_hint">サーバーエラーが発生しました。数分待ってからもう一度お試しください。</string>
     <string name="withdraw_consent_failed_hint_connect_net">同意を撤回するには、デバイスがネットワークに接続されている必要があります。ネットワーク設定を確認して、もう一度お試しください。</string>
     <string name="withdrawing">同意を撤回中…</string>
     <string name="yesterday">昨日</string>

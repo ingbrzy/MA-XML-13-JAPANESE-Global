@@ -1,44 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="interview_record_scenes_entries">
-        <item>"音楽"</item>
-        <item>"音声"</item>
-        <item>"インタビュー"</item>
-    </string-array>
     <string-array name="hd_record_scenes_entries">
-        <item>"音楽"</item>
-        <item>"音声"</item>
-        <item>"インタビュー"</item>
+        <item>音楽</item>
+        <item>音声</item>
+        <item>インタビュー</item>
         <item>HD</item>
     </string-array>
+    <string-array name="interview_record_scenes_entries">
+        <item>音楽</item>
+        <item>音声</item>
+        <item>インタビュー</item>
+    </string-array>
+    <string-array name="record_format_entries">
+        <item>AAC</item>
+        <item>MP3</item>
+        <item>WAV</item>
+    </string-array>
+    <string-array name="record_locale_language">
+        <item>fa</item>
+        <item>ar</item>
+        <item>bn</item>
+    </string-array>
     <string-array name="record_quality_entries">
-        <item>"高音質"</item>
-        <item>"標準"</item>
-        <item>"低音質"</item>
+        <item>高音質</item>
+        <item>標準音質</item>
+        <item>低音質</item>
     </string-array>
     <string-array name="record_quality_summaries">
-        <item>MP3, ~192kbit/s, ~90MB/h</item>
-        <item>MP3, ~100kbit/s, ~45MB/h</item>
-        <item>MP3, ~75kbit/s, ~32MB/h</item>
+        <item>MP3、最大192kbit/s、最大90MB/h</item>
+        <item>MP3、最大100kbit/s、最大45MB/h</item>
+        <item>MP3、最大75kbit/s、最大32MB/h</item>
+    </string-array>
+    <string-array name="record_scenes_entries">
+        <item>音楽</item>
+        <item>音声</item>
     </string-array>
     <string-array name="record_scenes_summaries">
-        <item>Record music with better quality</item>
-        <item>Move the mic closer to the source of the sound for better quality</item>
-        <item>Place the phone between 2 people to record their conversation clearly</item>
-        <item>High dynamic range technology allows the microphone to capture more detailed sound</item>
+        <item>高音質で音楽を録音する</item>
+        <item>マイクを音源の近くに移動すると、音質が向上します</item>
+        <item>会話をはっきりと録音するために、スマートフォンを2人の間に置いてください</item>
+        <item>ハイダイナミックレンジ技術により、マイクはより詳細なサウンドを取り込むことができます</item>
     </string-array>
     <string-array name="record_scenes_summaries_stereo">
-        <item>Record through 2 channels, listen to stereo sound in the earphones</item>
-        <item>Move the mic closer to the source of the sound for better quality</item>
-        <item>Place the phone between 2 people to record their conversation clearly</item>
-        <item>High dynamic range technology allows the microphone to capture more detailed sound</item>
+        <item>2つのチャンネルから録音して、イヤホンでステレオサウンドを聴く</item>
+        <item>マイクを音源の近くに移動すると、音質が向上します</item>
+        <item>会話をはっきりと録音するために、スマートフォンを2人の間に置いてください</item>
+        <item>ハイダイナミックレンジ技術により、マイクはより詳細なサウンドを取り込むことができます</item>
     </string-array>
     <string-array name="record_type_entries">
         <item>MP3</item>
         <item>AMR</item>
-    </string-array>
-    <string-array name="record_scenes_entries">
-        <item>"音楽"</item>
-        <item>"音声"</item>
     </string-array>
 </resources>

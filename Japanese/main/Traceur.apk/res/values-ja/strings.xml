@@ -285,7 +285,6 @@
     <string name="enable_verbose_vendor_logging">ベンダーの詳細なロギングを有効にする</string>
     <string name="enable_verbose_vendor_logging_summary">バグレポートには、その他のデバイス固有のベンダーログが含まれます。これには、非公開の情報が含まれることがあります。また、電池やストレージの使用量が増えることもあります。</string>
     <string name="enabled_by_admin">管理者によって有効にされています</string>
-    <string name="enhanced_connectivity">接続強化</string>
     <string name="enhanced_connectivity_summary">接続強化機能を有効にします。</string>
     <string name="expand_button_title">詳細設定</string>
     <string name="external_source_trusted">許可</string>
@@ -315,7 +314,7 @@
     <string name="ims_reg_status_not_registered">未登録</string>
     <string name="ims_reg_status_registered">登録済み</string>
     <string name="ims_reg_title">IMS 登録ステータス</string>
-    <string name="imsi_protection_warning">このネットワークは一意の ID を受信します。この ID を使ってデバイスの位置情報が追跡される可能性があります。<annotation id="url">詳細</annotation></string>
+    <string name="imsi_protection_warning">このネットワークは SIM ID を受信します。この ID を使ってデバイスの位置情報が追跡される可能性があります。<annotation id="url">詳細</annotation></string>
     <string name="inactive_app_active_summary">有効です。タップすると切り替わります。</string>
     <string name="inactive_app_inactive_summary">無効です。タップすると切り替わります。</string>
     <string name="inactive_apps_title">スタンバイ状態のアプリ</string>
@@ -628,6 +627,7 @@
     <string name="wifi_cant_connect">接続できません</string>
     <string name="wifi_cant_connect_to_ap">「%1$s」に接続できません</string>
     <string name="wifi_check_password_try_again">パスワードを確認して、もう一度お試しください</string>
+    <string name="wifi_connected_low_quality">低品質</string>
     <string name="wifi_connected_no_internet">インターネットに接続されていません</string>
     <string name="wifi_disabled_by_recommendation_provider">ネットワークの品質が低いため、接続されていません</string>
     <string name="wifi_disabled_generic">無効</string>

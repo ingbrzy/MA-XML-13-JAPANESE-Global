@@ -1,162 +1,168 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1時間前</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1時間前</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">30分前</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">1時間後</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">30分後</item>
+    </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="other">Immediately</item>
+        <item quantity="other">すぐに</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d分後</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">たった今</item>
     </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d分前</item>
+    </plurals>
     <plurals name="batch_delete_msg">
         <item quantity="other">%1$d件の連絡先を削除しますか？</item>
-        <item quantity="one">%1$d件の連絡先を削除しますか？</item>
     </plurals>
     <plurals name="btn_delete_multi_contacts">
         <item quantity="other">%1$d件の連絡先を削除</item>
-        <item quantity="one">%1$d件の連絡先を削除</item>
     </plurals>
     <plurals name="callNoAnswerTimeFormat">
-        <item quantity="other">Rang %1$d times</item>
-        <item quantity="one">Rang %1$d time</item>
+        <item quantity="other">呼出回数%1$d回</item>
+    </plurals>
+    <plurals name="call_record_auto_whitelist_summary">
+        <item quantity="other">%d件の電話番号</item>
+    </plurals>
+    <plurals name="call_remove_exception_numbers_confirm">
+        <item quantity="other">%d件の電話番号を削除しますか？</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d件の連絡先または写真が同期されていません</item>
-        <item quantity="one">%1$d件の連絡先または写真が同期されていません</item>
     </plurals>
     <plurals name="confirm_delete_sim_entry_miui">
-        <item quantity="other">SIMカードから%1$d件の連絡先を削除しますか？</item>
-        <item quantity="one">SIMカードから%1$d件の連絡先を削除しますか？</item>
+        <item quantity="other">%1$d件の連絡先をSIMカードから削除しますか？</item>
     </plurals>
     <plurals name="contacts_count">
         <item quantity="other">%1$d件の連絡先</item>
-        <item quantity="one">%1$d件の連絡先</item>
+    </plurals>
+    <plurals name="contacts_trash_delete_dialog_respond">
+        <item quantity="other">%d件の連絡先を完全に削除しました</item>
+    </plurals>
+    <plurals name="contacts_trash_restore_respond">
+        <item quantity="other">%d件の連絡先を正常に復元しました</item>
     </plurals>
     <plurals name="device_import_done_toast">
         <item quantity="other">%1$d件の連絡先をインポートしました</item>
-        <item quantity="one">%1$d件の連絡先をインポートしました</item>
     </plurals>
     <plurals name="device_import_progress_toast_plurals">
-        <item quantity="other">Imported %1$d contacts</item>
-        <item quantity="one">Imported %1$d contact</item>
+        <item quantity="other">%1$d件の連絡先をインポートしました</item>
     </plurals>
     <plurals name="dlg_add_blacklist">
-        <item quantity="other">Block %1$d phone numbers?</item>
-        <item quantity="one">Block %1$d phone number?</item>
+        <item quantity="other">%1$d件の電話番号をブロックしますか？</item>
     </plurals>
     <plurals name="dlg_remove_blacklist">
-        <item quantity="other">Unblock %1$d phone numbers?</item>
-        <item quantity="one">Unblock %1$d phone number?</item>
+        <item quantity="other">%1$d件の電話番号のブロックを解除しますか？</item>
     </plurals>
     <plurals name="export_sim_contacts_dialog_message">
-        <item quantity="other">SIMカードには%1$d件の連絡先を保存できます。</item>
-        <item quantity="one">SIMカードには%1$d件の連絡先を保存できます。</item>
+        <item quantity="other">SIMカードは%1$d件の連絡先を保存できます。</item>
     </plurals>
     <plurals name="foundTooManyContacts_plurals">
         <item quantity="other">%d件以上の連絡先が見つかりました。</item>
-        <item quantity="one">%d件以上の連絡先が見つかりました。</item>
     </plurals>
     <plurals name="group_add_success_toast">
-        <item quantity="other">%1$d件の連絡先を追加しました</item>
-        <item quantity="one">%1$d件の連絡先を追加しました</item>
+        <item quantity="other">%1$d件の連絡先が追加されました</item>
     </plurals>
     <plurals name="group_list_num_contacts_in_group">
         <item quantity="other">%1$d人</item>
-        <item quantity="one">%1$d人</item>
     </plurals>
     <plurals name="group_list_num_numbers_in_group">
-        <item quantity="other">%1$d numbers</item>
-        <item quantity="one">%1$d number</item>
+        <item quantity="other">%1$d件の番号</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">30分前</item>
     </plurals>
     <plurals name="hint_account_contacts">
-        <item quantity="other">Found %1$d items</item>
-        <item quantity="one">Found %1$d item</item>
+        <item quantity="other">%1$d個</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d件の連絡先</item>
-        <item quantity="one">%1$d件の連絡先</item>
     </plurals>
     <plurals name="hint_search_emails">
         <item quantity="other">%1$d件のメール</item>
-        <item quantity="one">%1$d件のメール</item>
     </plurals>
     <plurals name="hint_search_phone_numbers">
-        <item quantity="other">%1$d numbers</item>
-        <item quantity="one">%1$d number</item>
+        <item quantity="other">%1$d件の番号</item>
     </plurals>
-    <plurals name="listFoundAllContacts">
-        <item quantity="other">%d件見つかりました</item>
-        <item quantity="one">1件見つかりました</item>
+    <plurals name="in_a_hour">
+        <item quantity="other">1時間後</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">30分後</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">今すぐ</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d分後</item>
+    </plurals>
+    <plurals name="label_duplicate_count_plurals">
+        <item quantity="other">(%1$d)</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">たった今</item>
     </plurals>
     <plurals name="listTotalAllContacts">
         <item quantity="other">%d件の連絡先</item>
-        <item quantity="one">1件の連絡先</item>
-    </plurals>
-    <plurals name="listTotalPhoneContacts">
-        <item quantity="other">電話番号のある連絡先%d件</item>
-        <item quantity="one">電話番号のある連絡先1件</item>
     </plurals>
     <plurals name="merge_contact_message_plurals">
-        <item quantity="other">%1$d contacts with partially identical info</item>
-        <item quantity="one">%1$d contacts with partially identical info</item>
+        <item quantity="other">%1$d件の連絡先が部分的に同一の情報を持っています</item>
     </plurals>
-    <plurals name="merge_info">
-        <item quantity="other">%0$d件の連絡先から統合</item>
-        <item quantity="one">統合する連絡先はありません</item>
-    </plurals>
-    <plurals name="notification_voicemail_title">
-        <item quantity="other">%1$d件のボイスメール</item>
-        <item quantity="one">1件のボイスメール</item>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d個を選択済み</item>
     </plurals>
     <plurals name="numSelectedSimContacts">
-        <item quantity="other">%1$d件選択済み</item>
-        <item quantity="zero">%1$d件選択済み</item>
-        <item quantity="one">%1$d件選択済み</item>
+        <item quantity="other">%1$d個を選択済み</item>
     </plurals>
     <plurals name="num_contacts_in_group">
         <item quantity="other">%2$sから%1$d人</item>
-        <item quantity="one">%2$sから%1$d人</item>
     </plurals>
-    <plurals name="num_groups_in_account">
-        <item quantity="other">%0$dグループ</item>
-        <item quantity="one">1グループ</item>
-    </plurals>
-    <plurals name="number_of_items_available">
-        <item quantity="other">残り%1$d件のアイテム</item>
-        <item quantity="one">残り%1$d件のアイテム</item>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d分前</item>
     </plurals>
     <plurals name="number_of_items_selected">
-        <item quantity="other">%1$d件選択済み</item>
-        <item quantity="one">%1$d件選択済み</item>
+        <item quantity="other">%1$d個を選択済み</item>
     </plurals>
     <plurals name="pick_favorites_contacts_list_title">
         <item quantity="other">%1$d件のお気に入り</item>
-        <item quantity="one">%1$d件のお気に入り</item>
     </plurals>
     <plurals name="pick_favorites_list_title">
         <item quantity="other">%1$d件のお気に入り</item>
-        <item quantity="one">%1$d件のお気に入り</item>
     </plurals>
     <plurals name="pick_recent_contacts_list_title">
-        <item quantity="other">%1$d recent contacts</item>
-        <item quantity="one">%1$d recent contact</item>
+        <item quantity="other">%1$d件の最近使用した連絡先</item>
     </plurals>
     <plurals name="pick_recent_list_title">
-        <item quantity="other">%1$d recent contacts</item>
-        <item quantity="one">%1$d recent contact</item>
+        <item quantity="other">%1$d件の最近使用した連絡先</item>
     </plurals>
     <plurals name="searchFoundContacts">
         <item quantity="other">%d件見つかりました</item>
-        <item quantity="one">1件見つかりました</item>
+    </plurals>
+    <plurals name="search_group_contacts_result">
+        <item quantity="other">%s件の結果</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
-        <item quantity="other">%1$d件以下で選択してください、すべてを選択することはできません</item>
-        <item quantity="one">%1$d件以下で選択してください、すべてを選択することはできません</item>
+        <item quantity="other">%1$d件以内で選択してください、すべては選択できません</item>
     </plurals>
     <plurals name="select_exceed_plurals">
-        <item quantity="other">%1$d件以下で選択してください</item>
-        <item quantity="one">%1$d件以下で選択してください</item>
+        <item quantity="other">%1$d件以内で選択してください</item>
     </plurals>
     <plurals name="smart_group_member_count">
         <item quantity="other">%1$d人</item>
-        <item quantity="one">%1$d人</item>
     </plurals>
 </resources>
