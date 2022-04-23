@@ -627,7 +627,6 @@
     <string name="private_dns_mode_provider">プライベート DNS プロバイダのホスト名</string>
     <string name="private_dns_mode_provider_failure">接続できませんでした</string>
     <string name="private_dns_mode_provider_hostname_hint">DNS プロバイダのホスト名を入力</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">接続エラーです。デバイスを OFF にしてから ON に戻してください</string>
     <string name="profile_info_settings_title">プロファイル情報</string>
     <string name="remaining_length_format">あと %1$s</string>

@@ -1110,7 +1110,6 @@ PINを入力してロックを解除してください。"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM カードが見つからないか読み取れません。SIM カードを挿入してください。</string>
     <string name="keyguard_missing_sim_message">スマートフォンに SIM カードが挿入されていません。</string>
     <string name="keyguard_missing_sim_message_short">SIM カードなし</string>
-    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">ネットワークがロックされました</string>
     <string name="keyguard_password_enter_password_code">ロックを解除するにはパスワードを入力してください</string>
     <string name="keyguard_password_enter_pin_code">PIN コードを入力してください</string>
@@ -1369,14 +1368,12 @@ EEEE"</string>
 
 詳しくは管理者にお問い合わせください。"</string>
     <string name="monitoring_description_ca_cert_settings">信頼できる認証情報を開く</string>
-    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">このデバイスには認証局がインストールされています。保護されたネットワーク トラフィックが監視、変更される可能性があります。</string>
     <string name="monitoring_description_do_body">管理者は、このデバイスに関連付けられた設定、コーポレート アクセス、アプリ、データのほか、デバイスの位置情報を監視、管理できます。</string>
     <string name="monitoring_description_do_body_vpn">「%1$s」に接続しています。このアプリはあなたのネットワーク アクティビティ（メール、アプリ、ウェブサイトなど）を監視できます。</string>
     <string name="monitoring_description_do_header_generic">このデバイスは %1$sで管理されています。</string>
     <string name="monitoring_description_do_header_with_name">%1$s は %2$sを使用してこのデバイスを管理しています。</string>
     <string name="monitoring_description_do_learn_more">詳細</string>
-    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">組織によって、あなたの仕事用プロファイルに認証局がインストールされました。保護されたネットワーク トラフィックが監視、変更される場合があります。</string>
     <string name="monitoring_description_managed_profile_named_vpn">この仕事用プロファイルは %1$s に接続しています。このアプリはあなたのネットワーク アクティビティ（メール、アプリ、ウェブサイトなど）を監視できます。</string>
     <string name="monitoring_description_management">"これは組織が所有するデバイスです。
@@ -1408,7 +1405,6 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
 
 また、VPN に接続しているため、このネットワークでのあなたのネットワーク アクティビティも監視されます。"</string>
     <string name="monitoring_description_vpn_settings">VPN 設定を開く</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA 証明書</string>
     <string name="monitoring_subtitle_network_logging">ネットワーク ログ</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1482,7 +1478,6 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="nav_bar">ナビゲーション バー</string>
     <string name="nav_bar_default">（デフォルト）</string>
     <string name="nav_bar_layout">レイアウト</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="night">夜</string>
     <string name="no_application">なし</string>
     <string name="no_auto_saver_action">いいえ</string>
@@ -1673,7 +1668,6 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="private_dns_mode_provider">プライベートDNSプロバイダーのホスト名</string>
     <string name="private_dns_mode_provider_failure">接続できません</string>
     <string name="private_dns_mode_provider_hostname_hint">DNSプロバイダーのホスト名を入力</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">接続に問題があります。デバイスをオフにして、再度オンにしてください。</string>
     <string name="profile_info_settings_title">プロファイル情報</string>
     <string name="profile_owned_footer">プロファイルが監視されている可能性があります</string>
@@ -2007,8 +2001,6 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="status_bar_clock_date_time_format_12">aah:mm M月d日 E</string>
     <string name="status_bar_clock_date_weekday_format">M月d日 EEEE</string>
     <string name="status_bar_clock_date_weekday_format_12">M月d日 EEEE</string>
-    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
-    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"M月d日
 EEEE"</string>
     <string name="status_bar_date_format_12">"M月d日

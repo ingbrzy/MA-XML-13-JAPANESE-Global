@@ -498,7 +498,6 @@
     <string name="shutdown_alarm_enable_summary">デバイスの電源をオフにした後、アラームが10分後以降に設定されている場合はアラームを鳴らす</string>
     <string name="shutdown_alarm_title">電源オフ時のアラーム</string>
     <string name="silent_alarm_summary">サイレント</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">%sに限りオフにする</string>
     <string name="sleep_analysis">統計</string>
     <string name="sleep_analysis_chart_date_format">MM/dd</string>
@@ -544,7 +543,6 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">aa h:mm:ss</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">ラップはありません</string>
     <string name="stopwatch_reset_notification">ストップウォッチがリセットされました</string>
     <string name="stopwatch_running_notification">ストップウォッチ</string>
@@ -553,7 +551,6 @@
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
-    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">すべての機能にアクセスするには、このアプリにインターネットへの接続を許可してください。</string>
     <string name="system_permission_main_purpose">時刻の表示、アラームとタイマーの設定、ストップウォッチの使用</string>
     <string name="system_permission_purpose">平日のアラームの作成とカスタマイズされた通知音の設定</string>

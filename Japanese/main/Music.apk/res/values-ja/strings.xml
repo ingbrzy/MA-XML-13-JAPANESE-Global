@@ -366,9 +366,7 @@ ID:%s
     <string name="download_method">ダウンロード</string>
     <string name="download_no_application_title">ファイルを開けません</string>
     <string name="download_paused_in_power_save_mode">バッテリーセーバーがオンのとき、ダウンロードは一時停止されます</string>
-    <string name="download_percent">%d%%</string>
     <string name="download_processing">ダウンロード中…</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_quality">ダウンロード品質</string>
     <string name="download_quality_summary">ダウンロードする曲の追加設定</string>
     <string name="download_queued">キューに登録済み</string>
@@ -466,9 +464,7 @@ ID:%s
     <string name="exo_media_action_repeat_all_description">全曲をリピート</string>
     <string name="exo_media_action_repeat_off_description">リピートなし</string>
     <string name="exo_media_action_repeat_one_description">1 曲をリピート</string>
-    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">モノラル</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">代替</string>
     <string name="exo_track_role_closed_captions">字幕</string>
     <string name="exo_track_role_commentary">解説</string>
@@ -872,7 +868,6 @@ ID:%s
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -1170,7 +1165,6 @@ ID:%s
     <string name="privacy_authorize_revoking">承認を撤回中…</string>
     <string name="privacy_desc">プライバシーポリシー（必須）</string>
     <string name="privacy_policy">プライバシーポリシー</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=ja_JP</string>
     <string name="privacy_request_desc">"&lt;Data>Mi ミュージックは、オンラインストリーミングサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取り扱い方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。Mi ミュージックに対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。
 Mi ミュージックを利用する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>を読んで同意してください。
 上記サービスの利用に同意しない場合、このアプリの一部機能が使用できません。ただし、基本的な機能は引き続き利用可能です。&lt;/Data>"</string>
@@ -1357,7 +1351,6 @@ Mi ミュージックを利用する前に、&lt;a href=\"%2$s\">利用規約&lt
     <string name="start_to_download">ダウンロード中…</string>
     <string name="start_to_play">再生準備中…</string>
     <string name="start_update">新しいバージョンをインストール中…</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">デュアルアプリ用のストレージ</string>
     <string name="storage_internal">内部ストレージ</string>
     <string name="storage_sd_card">SDカード</string>
@@ -1530,7 +1523,6 @@ Mi ミュージックを利用する前に、&lt;a href=\"%2$s\">利用規約&lt
     <string name="user_agreement_hint_with_telecom">&lt;Data>Mi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>eSurfingアカウント認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
     <string name="user_agreement_hint_with_unicom">&lt;Data>Mi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>チャイナ・ユニコム認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
     <string name="user_agreement_protocal_dialog_hint_default">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、およびMi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;/Data></string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=ja_JP</string>
     <string name="user_avatar_update_title">プロフィール写真を変更</string>
     <string name="user_avatar_uploading">お待ちください…</string>
     <string name="user_experience_program_open">ダウンロードした曲を再生するには、著作権の関係上、ユーザーエクスペリエンスプログラムへの登録が必要です。[設定] > [パスワードとセキュリティ] > [プライバシー] > [ユーザーエクスペリエンスプログラムに登録] で登録できます。</string>
