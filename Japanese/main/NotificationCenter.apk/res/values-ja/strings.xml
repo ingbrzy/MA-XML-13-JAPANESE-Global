@@ -233,7 +233,6 @@
     <string name="settings_guide_title">他の設定が必要ですか？</string>
     <string name="show_badge_notifications">通知バッジ</string>
     <string name="show_badge_notifications_short">バッジ</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">ステータスバー</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="summary_disable_float_notification">フローティング通知は許可されていません</string>

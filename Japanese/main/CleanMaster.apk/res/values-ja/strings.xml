@@ -301,7 +301,6 @@
     <string name="download">ダウンロード</string>
     <string name="downloading">ダウンロード中</string>
     <string name="early_morning">早朝</string>
-    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">空です</string>
     <string name="empty_content_no_privacy">空です</string>
     <string name="empty_content_no_similar_image">写真はありません</string>
@@ -478,7 +477,6 @@
     <string name="hints_garbage_cleanup_result_safe">ゴミは見つかりませんでした</string>
     <string name="hints_garbage_handle_item_content">%1$d項目、%2$s</string>
     <string name="hints_garbage_handle_item_empty_content">空です</string>
-    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">使用頻度の低い</string>
     <string name="hints_installed_app_near">最近使用された</string>
     <string name="hints_installed_app_never">未使用</string>

@@ -134,7 +134,6 @@
     <string name="cast_forward">早送り</string>
     <string name="cast_forward_10">10 秒早送り</string>
     <string name="cast_forward_30">30 秒早送り</string>
-    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">ライブ</string>
     <string name="cast_mute">ミュート</string>
     <string name="cast_notification_connected_message">%1$s に接続しました</string>
@@ -997,7 +996,6 @@ ID:%s
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -1076,7 +1074,6 @@ ID:%s
     <string name="ok">OK</string>
     <string name="online_play_hint">例）http://www.example.com/video.mp4</string>
     <string name="online_play_title">URLを入力</string>
-    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">最近のサブスクリプション</string>
     <string name="order_recently_updated">最近のアップデート</string>
     <string name="out_of_memory_background_playback_is_suspended">メモリ不足によりバックグラウンド再生を一時停止しました</string>
@@ -1564,7 +1561,6 @@ ID:%s
     <string name="sns_sign_in">その他のサインイン方法</string>
     <string name="source">"ソース: "</string>
     <string name="start_download_tip">キューに追加されました。プロフィール > ダウンロード で進行状況を確認できます。</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SDカード</string>
     <string name="storage_internal_sdcard">内部ストレージ</string>
     <string name="submit">送信</string>

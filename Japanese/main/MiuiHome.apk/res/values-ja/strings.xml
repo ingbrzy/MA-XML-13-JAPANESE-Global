@@ -837,7 +837,6 @@
     <string name="sort_by_not_defined">自動並べ替え</string>
     <string name="start_activity_failed">ランチャーを起動できません</string>
     <string name="starting_preset_app">起動中…</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%2$s中%1$s利用可能</string>
     <string name="status_bar_recent_memory_info2" />

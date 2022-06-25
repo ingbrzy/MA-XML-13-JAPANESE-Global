@@ -177,7 +177,6 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">中国暦</string>
-    <string name="date_time_fmt" formatted="false">%s %s</string>
     <string name="date_time_picker_dialog_title">日付と時刻を設定</string>
     <string name="date_today">" (今日)"</string>
     <string name="date_view">日付</string>
