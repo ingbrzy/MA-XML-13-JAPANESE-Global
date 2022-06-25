@@ -27,8 +27,96 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">%d日間不使用</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">%dか月間不使用</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">%d年間不使用</item>
+    </plurals>
+    <plurals name="clean_long_msg_p1">
+        <item quantity="other">"%1$d個のファイルをクリーンアップ中 (%2$d%%)
+"</item>
+    </plurals>
+    <plurals name="clean_long_msg_p2">
+        <item quantity="other">毎秒%1$d個 | 残り時間: %2$s</item>
+    </plurals>
+    <plurals name="dc_group_title_normal">
+        <item quantity="other">%1$dつのステップで%2$sを解放する</item>
+    </plurals>
+    <plurals name="dc_item_summary_apk">
+        <item quantity="other">&lt;Data>&lt;font color=#0097FF>%d&lt;/font>個のインストールパッケージを削除できます&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_app_data">
+        <item quantity="other">&lt;Data>&lt;font color=#0097FF>%d&lt;/font>個のアプリのデータを消去できます&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_image">
+        <item quantity="other">&lt;Data>&lt;font color=#0097FF>%d&lt;/font>枚の不必要な写真を削除できます&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_large_file">
+        <item quantity="other">&lt;Data>&lt;font color=#0097FF>%d&lt;/font>個の大きなファイルを削除できます&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_uninstall_app">
+        <item quantity="other">&lt;Data>&lt;font color=#0097FF>%d&lt;/font>個の使用頻度の低いアプリをアンインストールできます&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_video">
+        <item quantity="other">&lt;Data>&lt;font color=#0097FF>%d&lt;/font>本のビデオを削除できます&lt;/Data></item>
+    </plurals>
+    <plurals name="deepclean_apk_summary">
+        <item quantity="other">%d個のAPKが見つかりました。必要でないものは削除しましょう。</item>
+    </plurals>
+    <plurals name="deepclean_app_summary">
+        <item quantity="other">%d個のアプリが長い間使用されていません。必要のないものは削除しましょう。</item>
+    </plurals>
+    <plurals name="deepclean_cache_summary">
+        <item quantity="other">%d個のアプリの重要でないデータを消去できます</item>
+    </plurals>
+    <plurals name="deepclean_install_info_desc1">
+        <item quantity="other">%d個のアプリがインストールされています</item>
+    </plurals>
+    <plurals name="deepclean_large_summary">
+        <item quantity="other">%d個の大きなファイルが見つかりました。必要でないファイルは削除しましょう。</item>
+    </plurals>
+    <plurals name="deepclean_similar_summary">
+        <item quantity="other">%d枚の写真が見つかりました。似たような写真や写りの悪い写真を削除しましょう。</item>
+    </plurals>
+    <plurals name="deepclean_video_summary">
+        <item quantity="other">%d本のビデオが見つかりました。不要なビデオは削除できます。</item>
+    </plurals>
+    <plurals name="dialog_content_delete_image_confirm">
+        <item quantity="other">%d枚の写真を削除しますか？</item>
+    </plurals>
+    <plurals name="dialog_content_delete_image_from_all_devices_confirm">
+        <item quantity="other">すべてのデバイスから%1$s枚の写真を削除しますか？</item>
+    </plurals>
+    <plurals name="every_x_day">
+        <item quantity="other">%d日ごと</item>
+    </plurals>
+    <plurals name="global_wa_clean_finish_audio">
+        <item quantity="other">&lt;Data>&lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big>を解放しました（&lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big>曲用に十分です）&lt;/Data></item>
+    </plurals>
+    <plurals name="global_wa_clean_finish_picture">
+        <item quantity="other">&lt;Data>&lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big>を解放しました（&lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big>枚の写真用に十分です）&lt;/Data></item>
+    </plurals>
+    <plurals name="global_wa_image">
+        <item quantity="other">%1$d枚</item>
+    </plurals>
+    <plurals name="global_wa_video">
+        <item quantity="other">%1$d本</item>
+    </plurals>
+    <plurals name="global_wa_voice">
+        <item quantity="other">&lt;Data>&lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big>件のボイスメッセージが見つかりました&lt;/Data></item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
+    </plurals>
+    <plurals name="hint_similar_image_header_left">
+        <item quantity="other">%d個のグループ</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d時間</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">1時間後</item>
@@ -42,13 +130,58 @@
     <plurals name="in_num_minutes">
         <item quantity="other">%d分後</item>
     </plurals>
+    <plurals name="install_find_application">
+        <item quantity="other">%d個のアプリから検索</item>
+    </plurals>
+    <plurals name="install_find_application_num">
+        <item quantity="other">%d個のアプリが見つかりました</item>
+    </plurals>
+    <plurals name="last_x_day">
+        <item quantity="other">%d日以内</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">たった今</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d分</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d個を選択済み</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="other">%1$d人がダウンロードしました</item>
+    </plurals>
+    <plurals name="people_million">
+        <item quantity="other">%1$d人がダウンロードしました</item>
+    </plurals>
+    <plurals name="resutl_function_install_app_summary">
+        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> 個のアプリはしばらく使われていません。確認してみてください。&lt;/Data></item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d秒</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">%1$s人閲覧</item>
+    </plurals>
+    <plurals name="wechat_copy_video_failed_dialog_msg">
+        <item quantity="other">%d本のビデオをエクスポートできませんでした。容量を解放してから再度お試しください。</item>
+    </plurals>
+    <plurals name="wechat_empty_files">
+        <item quantity="other">(%1$d個の空のファイル)</item>
+    </plurals>
+    <plurals name="wechat_video_time_p1">
+        <item quantity="other">%1$s:</item>
+    </plurals>
+    <plurals name="wechat_video_time_p2">
+        <item quantity="other">%1$s</item>
+    </plurals>
+    <plurals name="whatsapp_delete_files">
+        <item quantity="other">%1$d個のアイテムを削除しますか？</item>
+    </plurals>
+    <plurals name="whatsapp_file_audio_dec">
+        <item quantity="other">%1$s件のオーディオファイル</item>
     </plurals>
 </resources>

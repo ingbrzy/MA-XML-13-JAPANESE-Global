@@ -30,11 +30,11 @@
     <plurals name="comment_model_watch_reply">
         <item quantity="other">%d件の返信を表示</item>
     </plurals>
+    <plurals name="dialog_app_rating_choose_star">
+        <item quantity="other">星%sつを選択済み</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">%1$d秒後にホームページに戻ります…</item>
-    </plurals>
-    <plurals name="follower">
-        <item quantity="other">%d人のフォロワー</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
@@ -51,8 +51,54 @@
     <plurals name="in_num_minutes">
         <item quantity="other">%d分後</item>
     </plurals>
+    <plurals name="incentive_dialog_congratulation_get_credits_title">
+        <item quantity="other">%dポイントを獲得しました</item>
+    </plurals>
+    <plurals name="incentive_dialog_credits">
+        <item quantity="other">%dポイント</item>
+    </plurals>
+    <plurals name="incentive_dialog_login_and_get_credits_message">
+        <item quantity="other">サインインして受け取ると、追加で%dポイントを獲得できます</item>
+    </plurals>
+    <plurals name="incentive_dialog_seconds">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="incentive_guide_all_time_tip">
+        <item quantity="other">合計%d分間視聴するとポイントを獲得できます。今すぐタスクを完了しますか？</item>
+    </plurals>
+    <plurals name="incentive_guide_coins_tip">
+        <item quantity="other">"受け取り可能なポイント数は%dです
+本日のみ有効です"</item>
+    </plurals>
+    <plurals name="incentive_guide_current_time_tip">
+        <item quantity="other">今日は%d分間視聴しました</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_begin">
+        <item quantity="other">%dポイント獲得！</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_finish">
+        <item quantity="other">今日のタスクを完了しました！%dポイントを獲得しました。</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_of_one">
+        <item quantity="other">%1$1d秒間視聴して、%2$2dポイントを獲得しました！</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_tip1">
+        <item quantity="other">任意のビデオを視聴すると%dポイントを獲得できます</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_tip2">
+        <item quantity="other">ビデオを%1$1d秒間視聴すると%2$2dポイントを獲得できます</item>
+    </plurals>
+    <plurals name="incentive_toast_share_success">
+        <item quantity="other">%dポイントを獲得しました。共有を続けるとさらにポイントを獲得できます。</item>
+    </plurals>
+    <plurals name="incentive_toast_subscribe_success">
+        <item quantity="other">%dポイントを獲得しました。登録を続けるとさらにポイントを獲得できます。</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">たった今</item>
+    </plurals>
+    <plurals name="local_diversion_video_number">
+        <item quantity="other">%d本のビデオ</item>
     </plurals>
     <plurals name="local_video_floder">
         <item quantity="other">%d個のフォルダー</item>
@@ -94,6 +140,12 @@
         <item quantity="other">%d 件の新しい通知</item>
         <item quantity="one">%d 件の新しい通知</item>
     </plurals>
+    <plurals name="new_incentive_toast_share_success">
+        <item quantity="other">正常に共有されました。%dポイントを獲得しました。ポイントセンターで受け取ってください。</item>
+    </plurals>
+    <plurals name="new_incentive_toast_subscribe_success">
+        <item quantity="other">正常に登録されました。%dポイントを獲得しました。ポイントセンターで受け取ってください。</item>
+    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">コンテンツには、コミュニティの基準に違反するアイテム（%1$s）が含まれています。アカウントは%2$sまで%3$d日間停止されます。</item>
     </plurals>
@@ -114,6 +166,9 @@
     </plurals>
     <plurals name="plus_edit_top_titletext">
         <item quantity="other">%s個を選択済み</item>
+    </plurals>
+    <plurals name="plus_local_edit_delete_confirm_text">
+        <item quantity="other">今すぐ%s個のファイルを完全に削除しますか？</item>
     </plurals>
     <plurals name="plus_player_subtitle_online_size">
         <item quantity="other">ファイルサイズ: %.2fKB</item>
@@ -147,6 +202,9 @@
     </plurals>
     <plurals name="toast_bookmark_max_size">
         <item quantity="other">ブックマークは%d件まで追加できます</item>
+    </plurals>
+    <plurals name="video_like_text">
+        <item quantity="other">%s件のいいね！</item>
     </plurals>
     <plurals name="video_view_count">
         <item quantity="other">%d回再生</item>

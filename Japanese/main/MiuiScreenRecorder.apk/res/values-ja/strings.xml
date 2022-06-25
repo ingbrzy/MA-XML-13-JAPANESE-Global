@@ -141,6 +141,7 @@
     <string name="hint_volume_down">音量ダウン</string>
     <string name="hint_volume_up">音量アップ</string>
     <string name="home_title_none">アイテムを選択してください</string>
+    <string name="invisible_mode_error_tip">シークレットモードになっています。録音できません。</string>
     <string name="is_checked">選択済み</string>
     <string name="is_go_home">スクリーンレコーダーに戻る</string>
     <string name="is_go_home_summary">録画を停止した後にスクリーンレコーダーのスタートページを開く</string>

@@ -144,7 +144,7 @@
     <string name="dlg_quick_delete_title">クイック削除</string>
     <string name="dlg_restore_message">復元中…</string>
     <string name="dlg_stick_message">ピン留め中…</string>
-    <string name="dlg_title_password_reset">パスワードをアップグレード</string>
+    <string name="dlg_title_password_reset">パスワードをアップグレードしてください</string>
     <string name="dlg_title_set_password">パスワードを設定</string>
     <string name="dlg_title_use_privacy_password">プライバシー保護パスワードを使用</string>
     <string name="dlg_unhide_message">再表示しています…</string>
@@ -496,6 +496,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -557,6 +558,7 @@
     <string name="note_sort_way">並べ替え</string>
     <string name="notealert_enter">メモを開く</string>
     <string name="notealert_ok">無視</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">メモはシステムアプリです。アンインストールすると、このアプリは使用できなくなります。</string>
     <string name="notes_description_title">メモをアンインストールしますか？</string>
     <string name="notification_content_add_todo_from_other_app">新しいタスクを追加しました。タップして表示します。</string>
@@ -946,6 +948,7 @@
     <string name="view_all_notes">すべて表示</string>
     <string name="warn_cannot_add_new_bullet">メモが長すぎるため、新しい箇条書きリストを追加できません</string>
     <string name="warn_cannot_add_new_checkbox">メモが長すぎるため、新しいチェックボックスを追加できません</string>
+    <string name="warn_cannot_add_new_content">メモが長すぎるため、新しいコンテンツを追加できません</string>
     <string name="warn_cannot_add_new_doodle">メモが長すぎるため、新しい落書きを追加できません</string>
     <string name="warn_cannot_add_new_element">メモが長すぎるため、新しいアイテムを追加できません</string>
     <string name="warn_cannot_add_new_link_card">メモが長すぎるため、新しいリンクを追加できません</string>
@@ -972,6 +975,8 @@
     <string name="widget_size_item_big">大</string>
     <string name="widget_size_item_medium">中</string>
     <string name="widget_size_item_small">小</string>
+    <string name="widget_size_item_super_big">特大</string>
+    <string name="widget_size_not_support">このデバイスでは、特大のウィジェットはサポートされていません</string>
     <string name="widget_take_notes_title">メモ</string>
     <string name="yesterday">昨日</string>
 </resources>

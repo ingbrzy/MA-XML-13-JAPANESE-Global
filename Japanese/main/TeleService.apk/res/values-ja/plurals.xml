@@ -80,11 +80,19 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d個を選択済み</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
     <plurals name="pin_attempts">
         <item quantity="other">"
 残り%d回入力できます。"</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d 台のデバイスが接続されています</item>
+        <item quantity="one">%1$d 台のデバイスが接続されています</item>
     </plurals>
 </resources>

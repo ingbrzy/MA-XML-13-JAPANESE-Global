@@ -697,7 +697,7 @@ ID:%s
     <string name="system_app_select">ビルトインアプリ</string>
     <string name="system_error_info">システムはビジー状態です。1、2分待ってからもう一度お試しください。</string>
     <string name="tab_title_chat">よくある質問</string>
-    <string name="tab_title_my_reports">マイ レポート</string>
+    <string name="tab_title_my_reports">報告履歴</string>
     <string name="tab_title_preferences">設定</string>
     <string name="tab_title_report">トラブル報告</string>
     <string name="temporary_not_available">この機能はまだ利用できません</string>

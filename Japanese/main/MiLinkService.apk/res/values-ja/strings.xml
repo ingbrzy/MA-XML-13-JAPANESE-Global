@@ -145,10 +145,10 @@
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -220,7 +220,7 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="help_page_text_28">まず、お使いのデバイスでMiracast機能がサポートされていることを確認してください。一部のモデルでは、リモコンの [MENU] ボタンを押して、設定 > 接続 > ネットワーク > マルチスクリーン を選択できます。</string>
     <string name="help_page_text_29">TPV カスタマーサポート：400-887-8007</string>
     <string name="help_page_text_30">Hisense</string>
-    <string name="help_page_text_31">まず、お使いのデバイスでMiracast機能がサポートされていることを確認してください。一部のモデルでは、リモコンの [SMART] ボタンを押して、キャスト > ワイヤレスディスプレイ を選択できます。一部のモデルはゲームのキャストもサポートしています：Hi Cast > ゲームをキャスト > Android。</string>
+    <string name="help_page_text_31">まず、お使いのデバイスでMiracast機能がサポートされていることを確認してください。一部のモデルでは、リモコンの [SMART] ボタンを押して、キャスト > ワイヤレスディスプレイ から確認できます。一部のモデルはゲームのキャストもサポートしています。Hi Cast > ゲームをキャスト > Android から確認できます。</string>
     <string name="help_page_text_32">Hisense カスタマーサポート：400-611-1111</string>
     <string name="help_page_text_33">Skyworth</string>
     <string name="help_page_text_34">まず、お使いのデバイスでMiracast機能がサポートされていることを確認してください。一部のモデルでは、アプリ > キャスト > Androidデバイス > Miracast を選択できます。</string>
@@ -254,6 +254,7 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="invisible_mode_dialog_title">シークレットモードになっています</string>
     <string name="keyguard_security_setting_privacy_policy">プライバシーポリシー</string>
     <string name="midnight">真夜中</string>
+    <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
@@ -421,7 +422,7 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="screen_projection_characteristics_privacy_protect_title">プライベートアイテムを非表示</string>
     <string name="screen_projection_characteristics_small_window_summary">キャストされるウィンドウを最小化して、スマートフォンの他の機能を使用できるようにします。</string>
     <string name="screen_projection_characteristics_small_window_title">ウィンドウを最小化</string>
-    <string name="screen_projection_example_document_summary">プレゼンテーションを外部モニターに表示できます。同時にスマートフォンを使用してスライドの切り替えや注釈の閲覧ができます。この機能を使用するには、ファイルマネージャー > ドキュメント に移動してください。</string>
+    <string name="screen_projection_example_document_summary">外部モニターにプレゼンテーションを表示しながら、スマートフォンでスライドの切り替えや注釈の閲覧ができます。この機能は、[ファイルマネージャー] > [ドキュメント] で使用できます。</string>
     <string name="screen_projection_example_document_title">ドキュメント</string>
     <string name="screen_projection_example_gallery_summary">ギャラリーアプリ内のアイテムの下にある共有ボタンをタップすると、そのアイテムが外部モニターに表示されます。</string>
     <string name="screen_projection_example_gallery_title">写真とビデオ</string>

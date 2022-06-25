@@ -168,10 +168,10 @@
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">D, EEEE</string>
-    <string name="fmt_weekday_date_time">D, W T</string>
-    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
-    <string name="fmt_weekday_date_timezone">D, W z</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -204,6 +204,7 @@
     <string name="low_battery_error_for_pad">バッテリー残量が%s未満です。録音が失われないように、停止して保存してください。</string>
     <string name="low_battery_error_title">バッテリーが残りわずかです</string>
     <string name="lyric_item_point_count">%1$dから%2$d</string>
+    <string name="manage_external_storage">すべてのファイルへのアクセス</string>
     <string name="mark_point_list_title">マーク</string>
     <string name="material_clock_toggle_content_description">午前または午後を選択</string>
     <string name="material_hour_selection">時刻を選択してください</string>
@@ -296,6 +297,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -427,7 +429,7 @@
     <string name="recognition_confirm_dialog_body">文字起こしには時間がかかる場合があります。このタスクが完了すると、通知が表示されます。今すぐ文字起こししますか？</string>
     <string name="recognition_error_cancel">キャンセルされました</string>
     <string name="recognition_error_code">エラーコード：%d</string>
-    <string name="recognition_error_download_cancel">後でする</string>
+    <string name="recognition_error_download_cancel">後で</string>
     <string name="recognition_error_download_data_msg">このサービスを利用できるように、文字起こしエンジンをダウンロードしてください。このダウンロードには、約20MBのモバイルデータが必要です。</string>
     <string name="recognition_error_download_fail">ダウンロードできませんでした。ネットワーク設定を確認してからもう一度お試しください。</string>
     <string name="recognition_error_download_msg">このサービスを利用できるようにするには、文字起こしエンジンをダウンロードしてください。</string>
@@ -570,6 +572,7 @@
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
+    <string name="sync_desc_state_complete">クラウドと同期済み：%1$s</string>
     <string name="tab_all">すべて</string>
     <string name="tab_apps">アプリ</string>
     <string name="tab_call">通話</string>

@@ -37,6 +37,7 @@
     <string name="add_private_files">ファイルを追加</string>
     <string name="add_remote">リモートデバイスを追加</string>
     <string name="agree_all">以下の使用条件をすべて読み、同意しました。</string>
+    <string name="agree_privacy_policy">プライバシーポリシーに同意</string>
     <string name="all">すべて</string>
     <string name="already_latest_version">現在のバージョンは最新です。</string>
     <string name="anonymous">匿名</string>
@@ -107,12 +108,12 @@
     <string name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
     <string name="common_google_play_services_enable_title">Google Play開発者サービスの有効化</string>
     <string name="common_google_play_services_install_button">インストール</string>
-    <string name="common_google_play_services_install_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いの端末にはインストールされていません。</string>
+    <string name="common_google_play_services_install_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスにはインストールされていません。</string>
     <string name="common_google_play_services_install_title">Google Play開発者サービスの入手</string>
     <string name="common_google_play_services_notification_channel_name">Google Play 開発者サービスの利用</string>
     <string name="common_google_play_services_notification_ticker">Google Play開発者サービスのエラー</string>
     <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
-    <string name="common_google_play_services_unsupported_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いの端末ではサポートされていません。</string>
+    <string name="common_google_play_services_unsupported_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスではサポートされていません。</string>
     <string name="common_google_play_services_update_button">更新</string>
     <string name="common_google_play_services_update_text">%1$sの実行にはGoogle Play開発者サービスの更新が必要です。</string>
     <string name="common_google_play_services_update_title">Google Play開発者サービスの更新</string>
@@ -207,6 +208,7 @@
     <string name="fcm_fallback_notification_channel_label">その他</string>
     <string name="feedback_desc">発生した問題について説明してください</string>
     <string name="feedback_send_email_body_extra_info">以下の情報を削除しないでください。この情報は問題の特定に使用されます。</string>
+    <string name="feeling_ok">普通</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">読み取り可: </string>
     <string name="file_info_canwrite">書き込み可: </string>
@@ -232,7 +234,8 @@
     <string name="ftp_username_hint">ユーザー名</string>
     <string name="gbk_summary">Windows簡体字中国語版 規定のエンコード</string>
     <string name="gigabyteShort">GB</string>
-    <string name="grid_order">グリッドビュー</string>
+    <string name="great">非常に満足</string>
+    <string name="grid_order">グリッド表示</string>
     <string name="homepage_tab_recent">最近</string>
     <string name="host">ホスト</string>
     <string name="hot_sticker">ステッカー</string>
@@ -252,7 +255,7 @@
     <string name="just_now">たった今</string>
     <string name="kilobyteShort">KB</string>
     <string name="lack_perm_dialog_title">アクセス許可が必要です</string>
-    <string name="list_order">リストビュー</string>
+    <string name="list_order">リスト表示</string>
     <string name="load_more">もっと表示</string>
     <string name="loading">お待ちください…</string>
     <string name="local_image">画像</string>
@@ -307,6 +310,7 @@
     <string name="not_connect_user">接続できません：%1$sと%2$s</string>
     <string name="not_installed_documentsui">DocumentsUIがインストールされていません</string>
     <string name="not_support_documentui">このデバイスではDocumentUIはサポートされていません</string>
+    <string name="not_very_dissatisfied">不満</string>
     <string name="notif_server_starting">FTPサーバーを起動しています…</string>
     <string name="notif_title">FTPサーバーが実行中です</string>
     <string name="notification_wechat_expired_empty">WeChatはこれらのビデオクリップを既に削除しました。</string>
@@ -439,6 +443,7 @@
     <string name="s5">カレンダーの予定の作成</string>
     <string name="s6">広告がカレンダーの予定を作成することを許可しますか？</string>
     <string name="s7">テスト広告</string>
+    <string name="satisfied">満足</string>
     <string name="save_seven_day">週に1回消去</string>
     <string name="scan_code_download_from_play">このQRコードをスキャンしてPlay ストアからダウンロードする</string>
     <string name="search_description">デバイス上のすべてのファイルを検索する</string>
@@ -494,6 +499,8 @@
     <string name="storage_usb">USBストレージ</string>
     <string name="storage_warning">外部ストレージを使用できません</string>
     <string name="str_clean">クリーンアップ</string>
+    <string name="switch_to_grid_mode">グリッド表示に切り替える</string>
+    <string name="switch_to_list_mode">リスト表示に切り替える</string>
     <string name="tab_common_app">アプリとフォルダー</string>
     <string name="tab_more">その他</string>
     <string name="terabyteShort">TB</string>
@@ -528,6 +535,7 @@
     <string name="user_notice_term_of_service">利用規約</string>
     <string name="utf8_summary">システムFTP 既定のエンコード</string>
     <string name="version_name">バージョン</string>
+    <string name="very_dissatisfied">非常に不満</string>
     <string name="view_by_document">ファイルで表示</string>
     <string name="wechat_video">%sのビデオ</string>
     <string name="whatsapp_cache_garbage">キャッシュ</string>

@@ -148,10 +148,10 @@ EE"</string>
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -167,6 +167,7 @@ EE"</string>
     <string name="midnight">真夜中</string>
     <string name="mini_time">小時計</string>
     <string name="minimalist_clock">シンプル時計</string>
+    <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
@@ -270,7 +271,7 @@ EE"</string>
     <string name="select_notification_notify_style">通知効果を選択</string>
     <string name="send">送信</string>
     <string name="share">共有</string>
-    <string name="share_to_community">Mi コミュニティに共有</string>
+    <string name="share_to_community">Xiaomi Communityに共有</string>
     <string name="show_battery">バッテリーステータスを表示</string>
     <string name="show_battery_status">バッテリーステータスを表示</string>
     <string name="show_lunar">中国暦を表示</string>
@@ -283,10 +284,11 @@ EE"</string>
 と常に信じている"</string>
     <string name="standard_clock_panel">標準</string>
     <string name="standard_style">標準</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">歩数はXiaomi Healthが提供しています。続けるには、Xiaomi Health 使用条件に同意してください。</string>
     <string name="step_component_info_desc">目標に到達すると、歩数はトロフィーに変わります。歩数はXiaomi Healthが提供しています。</string>
     <string name="step_component_info_tip">歩数はXiaomi Healthが提供しています。続けるには、Xiaomi Healthをインストールまたはアップデートし、使用条件に同意してください。</string>
-    <string name="step_to_image_community">Mi コミュニティでもっと探す</string>
+    <string name="step_to_image_community">Xiaomi Communityでもっと探す</string>
     <string name="summary">消費電力を削減するために、デバイスが長時間暗い場所にある場合はアイテムが表示されなくなります。</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
@@ -338,6 +340,7 @@ EE"</string>
     <string name="the_united_nations_day">国連の日</string>
     <string name="the_valentines_day">バレンタインデー</string>
     <string name="the_water_lantern_festival">下元節</string>
+    <string name="theme_manager_other">その他のアイテム</string>
     <string name="thursday">木曜日</string>
     <string name="thursday_short">木</string>
     <string name="thursday_shortest">木</string>

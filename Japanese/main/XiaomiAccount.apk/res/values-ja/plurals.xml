@@ -27,6 +27,9 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
+    <plurals name="area_code_search_result_size">
+        <item quantity="other">検索結果 %d件</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>

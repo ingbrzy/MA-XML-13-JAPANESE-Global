@@ -83,11 +83,6 @@
         <item>Qualcomm® aptX™ オーディオ</item>
         <item>Qualcomm® aptX™ HD オーディオ</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive オーディオ</item>
-        <item>Qualcomm® aptX™ TWS+ オーディオ</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>システムの選択を使用 (デフォルト)</item>
@@ -96,13 +91,6 @@
         <item>Qualcomm® aptX™ オーディオ</item>
         <item>Qualcomm® aptX™ HD オーディオ</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive オーディオ</item>
-        <item>Qualcomm® aptX™ TWS+ オーディオ</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
-        <item>オプションのコーデックを有効にする</item>
-        <item>オプションのコーデックを無効にする</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -136,13 +124,11 @@
         <item>無効済み</item>
         <item>フィルター済み</item>
         <item>有効済み</item>
-        <item>フィルター済みのヘッダー</item>
-        <item>フィルター済みのメディアパケット</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>強化された色合い</item>
-        <item>肉眼で見るのと同じような自然な色合い</item>
-        <item>デジタルコンテンツに最適化した色合い</item>
+        <item>目で見たままの自然な色合い</item>
+        <item>デジタルコンテンツに最適な色合い</item>
     </string-array>
     <string-array name="color_mode_names">
         <item>鮮やか (デフォルト)</item>
@@ -294,6 +280,20 @@
         <item>失敗</item>
         <item>ブロック済み</item>
         <item>接続不良を一時的に回避中</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>スキャン中…</item>
+        <item>接続中…</item>
+        <item>認証中…</item>
+        <item>IP アドレスを取得中…</item>
+        <item>接続済み</item>
+        <item>停止中</item>
+        <item>切断中…</item>
+        <item>未接続</item>
+        <item>エラー</item>
+        <item>ブロック済み</item>
+        <item>接続不良により一時的に無効</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>アニメーション オフ</item>

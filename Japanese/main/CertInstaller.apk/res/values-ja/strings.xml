@@ -29,9 +29,9 @@
     <string name="name_credential_dialog_title">この証明書の名前を指定してください</string>
     <string name="name_empty_error">名前を入力してください。</string>
     <string name="no_cert_to_saved">インストールする証明書がありません。</string>
-    <string name="one_cacrt">CA証明書1件</string>
-    <string name="one_usercrt">ユーザー証明書1件</string>
-    <string name="one_userkey">ユーザーキー1個</string>
+    <string name="one_cacrt">CA 証明書 1 件</string>
+    <string name="one_usercrt">ユーザー証明書 1 件</string>
+    <string name="one_userkey">ユーザーキー 1 個</string>
     <string name="only_primary_user_allowed">証明書をインストールできるのはこのデバイスの所有者だけです。</string>
     <string name="p12_description">PKCS12キーストアでの証明書。</string>
     <string name="password_empty_error">パスワードを入力してください。</string>

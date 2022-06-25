@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_frequent_phrases">よく使用するフレーズを追加</string>
+    <string name="edit_frequent_phrases">よく使用するフレーズを編集</string>
+    <string name="frequent_phrases">よく使用するフレーズ</string>
+    <string name="query">検索</string>
+    <string name="select">選択</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

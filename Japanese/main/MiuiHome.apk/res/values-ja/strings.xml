@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Icon_name_classic_mode">ホーム画面の設定</string>
     <string name="abc_action_bar_home_description">ホームに戻る</string>
     <string name="abc_action_bar_up_description">前に戻る</string>
     <string name="abc_action_menu_overflow_description">その他のオプション</string>
@@ -40,7 +41,9 @@
     <string name="accessibility_recent_task_exit">\"最近のタスク\"を閉じました</string>
     <string name="accessibility_recent_task_locked_state">ロックしました</string>
     <string name="accessibility_recent_task_memory_info">合計 RAM：%2$s | 利用可能 RAM：%1$s。ダブルタップして消去します。</string>
+    <string name="accessibility_recent_task_show_menu">その他のオプション</string>
     <string name="accessibility_recent_task_unlocked_state">ロックされていません</string>
+    <string name="accessibility_recents_item_dismissed">%1$sが消去されました</string>
     <string name="accessibility_recents_item_open_app_info">%sのアプリケーション情報を開きます。</string>
     <string name="accessibility_splite_screen_primary">画面分割の第1アプリとして追加しました</string>
     <string name="accessibility_splite_screen_secondary">画面分割の第2アプリとして追加しました</string>
@@ -50,8 +53,10 @@
     <string name="activity_not_unlocked">デバイスが完全に再起動してからアプリを開いてください</string>
     <string name="add_custom_category">カスタム</string>
     <string name="add_screen">画面を追加</string>
+    <string name="add_to_workspace">ホーム画面に追加</string>
     <string name="added_all_category">すべてのアプリを正常に追加しました</string>
     <string name="afternoon">午後</string>
+    <string name="agree_button">同意</string>
     <string name="alexa_notification_add">追加</string>
     <string name="alexa_notification_cancel">今はしない</string>
     <string name="alexa_notification_content">コントロールセンターにAlexaのショートカットを追加しますか？</string>
@@ -90,6 +95,7 @@
     <string name="all_apps_slide_up_tips">上にスワイプするとアプリドロワーが開きます。通常のホーム画面モードに切り替えてからもう一度操作してください。</string>
     <string name="all_apps_suggestions">アプリの提案</string>
     <string name="am">午前</string>
+    <string name="animation_rate_title">アニメーションの速度</string>
     <string name="announce_for_app_move_in_folder">フォルダー内の%1$dの位置に移動しました</string>
     <string name="announce_for_checked">%1$s、チェックしました</string>
     <string name="announce_for_choose_default_screen">画面%1$dをデフォルトのホーム画面に設定しました</string>
@@ -142,6 +148,13 @@
     <string name="app_category_tools">ツール</string>
     <string name="app_category_travel">旅行</string>
     <string name="app_category_vr">VR</string>
+    <string name="app_drawer_double_confirm_description">これにより、ホーム画面のレイアウトが変更されます。これらの変更は後で設定で元に戻すことができます。</string>
+    <string name="app_drawer_double_confirm_title">注意</string>
+    <string name="app_drawer_feature_description">アプリドロワーは、アプリを整理するのに最適なツールです。アプリを自動的に分類して、必要なものをすぐに見つけることができます。</string>
+    <string name="app_drawer_guide_description">お気に入りのアプリで探し物を見つける</string>
+    <string name="app_drawer_guide_title">アプリドロワー</string>
+    <string name="app_drawer_tip_title">コンテンツフィードをアプリドロワーに変更しました。</string>
+    <string name="app_install_state">インストール済み</string>
     <string name="app_name">smallWindow</string>
     <string name="application_name">システムランチャー</string>
     <string name="apply">設定</string>
@@ -164,8 +177,35 @@
     <string name="back">戻る</string>
     <string name="backup_fail">ランチャーをバックアップできませんでした</string>
     <string name="bad_wallpaper_source_prompt">壁紙を読み込めません</string>
+    <string name="branch_feature_description">アプリ以外にも、クイックファインダーではアプリ内のコンテンツやオンラインのアイテムを探すことができます。</string>
+    <string name="branch_guide_attention">拡張検索を使用するには、検索リクエスト、Google 広告ID、IPアドレスをBranch Metrics Inc.と共有する必要があります。この機能を使用する前に、<font color="#B3000000"><a href="http://url1">エンドユーザーディスカバリー使用条件</a></font>および<font color="#B3000000"><a href="http://url2">Branch ディスカバリープライバシーポリシー</a></font>を読んで同意してください。</string>
+    <string name="branch_guide_description_one">すべてのアプリをアプリドロワーに配置します。ホーム画面がすっきりと整理されて見えます。</string>
+    <string name="branch_guide_description_three">内蔵の検索機能を使用すると、必要なものを素早く見つけることができます！</string>
+    <string name="branch_guide_description_two">アプリドロワーはアプリを自動的に分類します。</string>
+    <string name="branch_guide_tip_title">すべてのアプリをそれぞれの場所に</string>
+    <string name="branch_guide_title">アプリドロワーの紹介</string>
+    <string name="branch_guide_type_four_desc">簡単な操作で以前のレイアウトに戻すことができます</string>
+    <string name="branch_guide_type_four_main">設定で、[ホーム画面] > [ホーム画面] に移動し、\"クラシック\"を選択してください。</string>
+    <string name="branch_guide_type_four_step_one">設定を開く</string>
+    <string name="branch_guide_type_four_step_two">ホーム画面を選択</string>
+    <string name="branch_guide_type_one_desc">アプリドロワーでアプリを管理</string>
+    <string name="branch_guide_type_one_main">アプリはアプリドロワーに収納して、ホーム画面をすっきりさせましょう。</string>
+    <string name="branch_new_feature">新しい機能</string>
+    <string name="branch_privacy_policy">プライバシーポリシー</string>
+    <string name="branch_search_guide_description">検索結果がより包括的になりました</string>
+    <string name="branch_search_guide_privacy">このサービスは、Branch Metrics Inc.によって提供されています。位置情報、検索クエリ、およびGoogle広告IDはBranchと共有されます。このサービスを利用する前に、Branchの<font color="#B3000000"><a href="http://url1">使用条件</a></font>と<font color="#B3000000"><a href="http://url2">プライバシーポリシー</a></font>を読んで同意してください。</string>
+    <string name="branch_search_guide_title">お気に入りのアプリで探し物を見つける</string>
+    <string name="branch_terms_condition">使用条件</string>
+    <string name="branch_tip_title">クイックファインダーを使えば、必要なものはすべてすぐに見つけることができます。</string>
+    <string name="btn_agree">同意</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="btn_close">オフにする</string>
+    <string name="btn_open">オンにする</string>
+    <string name="btn_request_permission">アクセス許可を付与</string>
+    <string name="btn_set_right_now">アクセス許可を付与</string>
     <string name="buffering">バッファ中…</string>
     <string name="cancel_action">キャンセル</string>
+    <string name="cancel_botton">キャンセル</string>
     <string name="cancel_btn_label">キャンセル</string>
     <string name="cant_edit_lock_screen">ロック画面のスタイルを編集できません</string>
     <string name="cant_remove_folder">フォルダーを削除できません</string>
@@ -187,7 +227,10 @@
     <string name="chooser_wallpaper">新しい壁紙を選択</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
+    <string name="close_multi_finger_slide_summary">これらのジェスチャーは、一部のシナリオ (ゲームやビデオの再生など) では無視されます。</string>
+    <string name="close_multi_finger_slide_title">3本指、4本指のジェスチャーに反応しない</string>
     <string name="cloud_app_restore_title">保留中</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
     <string name="common_home_search_delete">検索バーを削除</string>
     <string name="common_home_search_delete_cancle">キャンセル</string>
     <string name="common_home_search_delete_confirm">削除</string>
@@ -242,6 +285,7 @@
     <string name="deselect_all">すべての選択を解除</string>
     <string name="disable_wallpaper_scroll">サイドスクロールをオフにする</string>
     <string name="download_action">ダウンロード</string>
+    <string name="drag_icon_to_homescreen_guide">アプリアイコンを長押ししてドラッグすると、ホーム画面にショートカットを追加できます</string>
     <string name="drag_multiple_item_name" />
     <string name="drag_single_item_name" />
     <string name="drawer_background">背景</string>
@@ -273,9 +317,11 @@
     <string name="emptyplaylist">タップして曲を追加</string>
     <string name="enable_wallpaper_scroll">サイドスクロールをオンにする</string>
     <string name="encryption">暗号化</string>
+    <string name="enter_search_setting_title">アプリドロワーを開いた後に検索を開く</string>
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="evening">夕方</string>
+    <string name="exit_overview_because_task_stack_changed">バックグラウンドで発生した変更により、\"最近のタスク\"が終了されました</string>
     <string name="expand_button_title">詳細設定</string>
     <string name="failed_to_delete_temporary">削除できません</string>
     <string name="failed_to_drop">移動できません</string>
@@ -333,6 +379,8 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="fold_pair_install_shortcut_long_click">長押しするとホーム画面に追加できます</string>
+    <string name="fold_pair_installed_shortcut_launcher">このショートカットは既に存在します</string>
     <string name="folder_name">フォルダー</string>
     <string name="frame_load_failed">フレームを読み込めません</string>
     <string name="free_style_apps_title">アプリを選択</string>
@@ -388,11 +436,14 @@
     <string name="gadget_weather_title_14">天気</string>
     <string name="gadget_weather_title_24">天気</string>
     <string name="global_search_hint">検索</string>
+    <string name="got_it_botton">了解</string>
     <string name="group_folder">新しいフォルダー</string>
     <string name="group_live_folders">フォルダー</string>
     <string name="group_shortcuts">ショートカット</string>
     <string name="guide_install_app_msg">このアプリはお使いのデバイスにインストールされていません。今すぐアプリを探してインストールしますか？</string>
     <string name="guide_install_app_title">アプリを見つけてインストールしますか？</string>
+    <string name="guide_permission_title">アクセス許可が必要です</string>
+    <string name="guide_privacy_dialog_title">サービス利用規約</string>
     <string name="guide_tips_editing_mode">長押ししてウィジェットを選択</string>
     <string name="home_gesture_content_center">コンテンツセンター</string>
     <string name="home_gesture_global_search">検索</string>
@@ -423,6 +474,9 @@
     <string name="launcher_slide_up_title">ホーム画面で上にスワイプ</string>
     <string name="launcher_sliding_up_gesture">ホーム画面で上にスワイプして検索を開く</string>
     <string name="launcher_title">ホーム画面と最近のタスク</string>
+    <string name="layout_guide_description">アプリドロワーが気に入らない場合は、いつでも従来のホーム画面に戻すことができます。\"ホーム画面の設定\"ショートカットを使用して、2つのモードを切り替えるだけです。</string>
+    <string name="layout_guide_tip_title">ワンタップで以前の方法に戻すことができます</string>
+    <string name="layout_guide_title">アプリドロワーの削除方法</string>
     <string name="like">お気に入りに追加</string>
     <string name="liked">お気に入りに追加しました</string>
     <string name="loading_desktop">お待ちください…</string>
@@ -540,8 +594,12 @@
     <string name="mtzgadget_missing_text">ウィジェットは利用できません</string>
     <string name="multi_selecting_tips">アプリを選択するには、アイコンをドラッグしてここにドロップします。</string>
     <string name="navigation_guide_app_quick_switch_hide_line_summary">画面の下から上にスワイプしてから、左または右にスワイプ</string>
+    <string name="navigation_guide_app_quick_switch_hide_line_summary_pad">画面下部を左または右にスワイプ</string>
     <string name="navigation_guide_app_quick_switch_summary">全画面表示ラインまたは画面下部から左または右にスワイプ</string>
+    <string name="navigation_guide_app_quick_switch_summary_pad">全画面表示ラインまたは画面下部から左または右にスワイプ</string>
+    <string name="navigation_guide_app_quick_switch_summary_spec_pad">画面の下から左または右にスワイプ</string>
     <string name="navigation_guide_app_quick_switch_title">アプリを切り替える</string>
+    <string name="navigation_guide_app_quick_switch_title_spec_with_quotation_pad">アプリを切り替える</string>
     <string name="navigation_guide_app_summary">画面上部の端から左または右にスワイプする</string>
     <string name="navigation_guide_app_title">アプリの操作をトリガー</string>
     <string name="navigation_guide_appswitch_anim_summary">画面の端から横にスワイプすると前のアプリに戻ります</string>
@@ -550,24 +608,46 @@
     <string name="navigation_guide_appswitch_summary">画面の端から左または右にスワイプして一時停止</string>
     <string name="navigation_guide_appswitch_title">前のアプリに切り替える</string>
     <string name="navigation_guide_back_summary">画面の端から左または右にスワイプ</string>
+    <string name="navigation_guide_back_summary_pad">画面の横から中央にスワイプ</string>
+    <string name="navigation_guide_back_summary_spec_pad">画面の端から中央にスワイプ</string>
     <string name="navigation_guide_back_title">戻る</string>
+    <string name="navigation_guide_back_title_spec_with_quotation_pad">戻る</string>
     <string name="navigation_guide_dialog_dont_show_again">再度表示しない</string>
     <string name="navigation_guide_dialog_ok">学ぶ</string>
     <string name="navigation_guide_dialog_skip">今はしない</string>
     <string name="navigation_guide_dialog_summary">システムナビゲーションに使用できるジェスチャーについて説明します。</string>
     <string name="navigation_guide_dialog_title">ジェスチャーを学ぶ</string>
+    <string name="navigation_guide_dock_summary_pad">画面の下から上にスライド</string>
+    <string name="navigation_guide_dock_summary_spec_pad">画面の下端から上にスライド</string>
+    <string name="navigation_guide_dock_title_pad">アプリドックを表示</string>
+    <string name="navigation_guide_dock_title_spec_pad">アプリ内にアプリドックを表示</string>
+    <string name="navigation_guide_dock_title_spec_with_quotation_pad">アプリ内にアプリドックを表示</string>
     <string name="navigation_guide_finish_text">了解</string>
     <string name="navigation_guide_gesture_line_dialog_summary">全画面表示ラインを非表示にした後、アプリの切り替えには新しいジェスチャーが使用されます。このジェスチャーを今すぐ学びますか？</string>
     <string name="navigation_guide_gesture_line_dialog_title">新しいジェスチャーを学ぶ</string>
     <string name="navigation_guide_hide_gesture_line_summary">フルスクリーンジェスチャーの使用中は全画面表示ラインを表示しない</string>
     <string name="navigation_guide_hide_gesture_line_title">全画面表示ラインを非表示</string>
     <string name="navigation_guide_home_summary">画面の下から上にスワイプ</string>
+    <string name="navigation_guide_home_summary_spec_pad">画面の下端から上にスワイプ</string>
     <string name="navigation_guide_home_title">ホーム画面に移動</string>
+    <string name="navigation_guide_home_title_spec_with_quotation_pad">ホーム画面に移動</string>
+    <string name="navigation_guide_next_spec_pad">次へ</string>
+    <string name="navigation_guide_prev_spec_pad">戻る</string>
     <string name="navigation_guide_prohibit_gesture_hint">デモ視聴中はフルスクリーンジェスチャーを使用できません</string>
+    <string name="navigation_guide_provision_see_more_pad">その他のデモは、[設定] > [ホーム画面] > [フルスクリーンジェスチャー] で表示できます</string>
     <string name="navigation_guide_provision_see_more_pad_with_virtual_key">その他のデモは、[設定] > [ホーム画面] > [システムナビゲーション] で表示できます</string>
+    <string name="navigation_guide_provision_title_pad">フルスクリーンジェスチャー</string>
     <string name="navigation_guide_recent_summary">画面の下から上にスワイプして一時停止</string>
+    <string name="navigation_guide_recent_summary_pad">画面の下から上にスワイプして一時停止</string>
+    <string name="navigation_guide_recent_summary_spec_pad">画面の下端から上にスワイプし、一時停止してから指を上げる</string>
     <string name="navigation_guide_recent_title">\"最近のタスク\"を開く</string>
+    <string name="navigation_guide_recent_title_spec_with_quotation_pad">\"最近のタスク\"を開く</string>
     <string name="navigation_guide_settings">ジェスチャーデモ</string>
+    <string name="navigation_position_center">中央</string>
+    <string name="navigation_position_left">左</string>
+    <string name="navigation_position_right">右</string>
+    <string name="navigation_position_summary">ナビゲーションボタンの位置のカスタム設定は、ホーム画面にのみ適用できます</string>
+    <string name="navigation_position_title">ナビゲーションボタンの位置</string>
     <string name="navigation_set_miui_home_as_default_dialog_cancel">キャンセル</string>
     <string name="navigation_set_miui_home_as_default_dialog_message">サードパーティ製ランチャーではフルスクリーンジェスチャーを使用できません。システムランチャーに切り替えて、フルスクリーンジェスチャーをオンにしますか？</string>
     <string name="navigation_set_miui_home_as_default_dialog_ok">OK</string>
@@ -576,9 +656,11 @@
     <string name="navigation_type_title">システムナビゲーション</string>
     <string name="navigation_type_virtual_key">ボタン</string>
     <string name="network_error">ネットワークに接続できませんでした。もう一度お試しください。</string>
+    <string name="new_feature_title">アップデート内容</string>
     <string name="night">夜</string>
     <string name="no_detail_page">詳細ページはありません</string>
     <string name="no_space_toast">スペースが足りません</string>
+    <string name="no_space_toast_fold">ここはスペースが足りません</string>
     <string name="no_space_toast_when_click_widget">このページには十分なスペースがありません。このアイテムを別のページにドラッグしてください。</string>
     <string name="noon">正午</string>
     <string name="normal_wallpaper">壁紙</string>
@@ -599,6 +681,7 @@
     <string name="ota_layout_adjustment_content">新バージョンでは、ホーム画面の内側と外側のレイアウトが同期されました。</string>
     <string name="ota_layout_adjustment_title">ホーム画面のレイアウト</string>
     <string name="out_of_space">このホーム画面にはこれ以上スペースはありません</string>
+    <string name="pair_icon_name">%1$s | %2$s</string>
     <string name="perfect_icons_switch_summary">サードパーティのアプリアイコンにアニメーションをレンダリングする</string>
     <string name="perfect_icons_switch_title">グローバルアイコンアニメーション</string>
     <string name="permdesc_install_shortcut">ユーザーによる手動操作なしに、アプリに ショートカットを追加することを許可します。</string>
@@ -618,6 +701,7 @@
     <string name="photo_load_failed">写真を読み込めません</string>
     <string name="please_slide_agian">もう一度スライドしてください</string>
     <string name="pm">午後</string>
+    <string name="popular_search">人気</string>
     <string name="pref_cell_layout_size">アプリアイコンのレイアウト</string>
     <string name="pref_enable_drawing_cache_summary">オフにしてメモリを解放します。これにより、パフォーマンスが低下する可能性があります。</string>
     <string name="pref_enable_drawing_cache_title">描画キャッシュ</string>
@@ -638,6 +722,14 @@
     <string name="privacy_thumbnail_blur_summary">\"最近のタスク\"でアプリのプレビューをぼかす</string>
     <string name="privacy_thumbnail_blur_title">アプリのプレビューをぼかす</string>
     <string name="quick_app">クイックアプリ</string>
+    <string name="quick_finder_feature_description">クイックファインダーを使用すると、アプリ、アプリ内コンテンツ、オンラインのアイテムを素早く見つけることができます。設定でこの機能をオフにすることができます。</string>
+    <string name="quick_finder_tip_title">必要なものを素早く見つける</string>
+    <string name="quick_search_all_app_desc">アプリドロワーにすべてのアプリを表示する</string>
+    <string name="quick_search_desc">アプリドロワーを開いた後に検索を開く</string>
+    <string name="quick_search_guide_all_apps">すべてのアプリ</string>
+    <string name="quick_search_guide_ok_btn">OK</string>
+    <string name="quick_search_guide_quick_search">クイック検索</string>
+    <string name="quick_search_guide_title">デフォルトモードを選択</string>
     <string name="recent_apps">最近</string>
     <string name="recent_menu_item_info">情報</string>
     <string name="recent_menu_item_lock">ロック</string>
@@ -667,6 +759,7 @@
     <string name="recents_title_security_scan">セキュリティスキャン</string>
     <string name="recents_tv_small_window_text">フローティングウィンドウ</string>
     <string name="recents_worldcirculate_text">指を離して選択</string>
+    <string name="recnets_relay_device_info">%sから</string>
     <string name="recnets_worldcirculate_button_text">Mi Smart Hub</string>
     <string name="recnets_worldcirculate_display_computer_info">このアプリは %s で動作しています。</string>
     <string name="recnets_worldcirculate_display_default_info">タップしてここに戻します。</string>
@@ -688,6 +781,8 @@
     <string name="remove_invalidate_gadget_tips">使用しているウィジェットの1つが使用できなくなりました。別のものを追加できます。</string>
     <string name="remove_sys_app_content">ホーム画面ショートカットは、[設定] > [アプリ] > [ホーム画面ショートカットを管理] から再度追加することができます。今すぐ削除しますか？</string>
     <string name="remove_sys_app_title">ホーム画面ショートカットを削除しますか？</string>
+    <string name="request_permission_msg">POCO Launcherのすべての機能にアクセスするには、いくつかの権限が必要です。</string>
+    <string name="request_permission_title">アクセス許可が必要です</string>
     <string name="reset_cate_tip_content">続けると、デフォルトのアプリグループが復元されます。続けてもよろしいですか？</string>
     <string name="reset_cate_tip_title">デフォルトのグループを復元</string>
     <string name="reset_description_first_time">%1$sから2時間以内にレイアウトを復元できます</string>
@@ -703,6 +798,8 @@
     <string name="screen_cells_config_title">ホーム画面のレイアウト</string>
     <string name="screen_locked_toast">ホーム画面のレイアウトはロックされています。</string>
     <string name="screen_number">%d番目の画面</string>
+    <string name="search_bar_hint_content">アプリとコンテンツを検索する</string>
+    <string name="search_guide_btn">了解</string>
     <string name="search_in_apps_store">%2$sで \"%1$s\" を検索</string>
     <string name="search_menu_title">検索</string>
     <string name="search_no_result">該当結果が見つかりませんでした</string>
@@ -711,6 +808,7 @@
     <string name="select_photo">写真</string>
     <string name="send">送信</string>
     <string name="server_error">サーバーエラーが発生しました。1、2分待ってからもう一度お試しください。</string>
+    <string name="service_double_attention">拡張検索機能は、Branch Metrics Inc.によって提供されます。この機能を動作させるためには、検索リクエスト、Google 広告ID、IPアドレスをBranch Metrics Inc.と共有する必要があります。この機能を使用する前に、<font color="#B3000000"><a href="http://url1">エンドユーザーディスカバリー使用条件</a></font>および<font color="#B3000000"><a href="http://url2">Branch ディスカバリープライバシーポリシー</a></font>を読んで同意してください。</string>
     <string name="setting_wallpaper_tip">ピンチまたはスワイプして調整</string>
     <string name="settings">設定</string>
     <string name="settings_shortcut">設定</string>
@@ -726,6 +824,7 @@
     <string name="show_most_popular_apps_you_used">ドロワーに最もよく使うアプリを表示する</string>
     <string name="show_recents_recommend_title">提案を表示</string>
     <string name="slide_to_open_newhome">上にスワイプしてコンテンツセンターを開く</string>
+    <string name="small_window">フローティングウィンドウ</string>
     <string name="small_window_button_complete">完了</string>
     <string name="small_window_edit_content">最大%d個のアプリを追加できます</string>
     <string name="small_window_edit_title">現在のアプリ</string>
@@ -738,6 +837,7 @@
     <string name="sort_by_not_defined">自動並べ替え</string>
     <string name="start_activity_failed">ランチャーを起動できません</string>
     <string name="starting_preset_app">起動中…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%2$s中%1$s利用可能</string>
     <string name="status_bar_recent_memory_info2" />
@@ -747,12 +847,14 @@
     <string name="status_installing">インストール中</string>
     <string name="status_paused">一時停止中</string>
     <string name="status_pending">待機中</string>
+    <string name="suggestions">提案</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
     <string name="swipe_the_desktop_to_the_left">ホーム画面で左にスワイプ</string>
     <string name="swipe_the_desktop_to_the_right">ホーム画面で右にスワイプ</string>
+    <string name="switch_on_button">オンにする</string>
     <string name="switch_personal_assistant_app_vault">アプリ保管庫</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">なし</string>
@@ -763,6 +865,10 @@
     <string name="system_shortcuts_remove">削除</string>
     <string name="system_text">自動調整</string>
     <string name="task_access_locked_app_msg">アプリロックをオンにしました</string>
+    <string name="term_of_service">使用条件</string>
+    <string name="terms_of_services_one">アプリドロワーとクイックファインダーへようこそ！クイックファインダーを使用すると、アプリ、アプリ内コンテンツ、オンラインのアイテムを素早く見つけることができます。これらの機能を使用する前に、Xiaomiの<font color="#B3000000"><a href="http://url1">プライバシーポリシー</a></font>を読んで同意してください。</string>
+    <string name="terms_of_services_three">この機能は設定でオフにできます。</string>
+    <string name="terms_of_services_two">拡張検索を使用するには、検索クエリ、Google 広告ID、IPアドレスなどの必要な個人情報をBranch Metrics Incと共有する必要があります。Branchは、<font color="#B3000000"><a href="http://url1">Branch Discovery プライバシーポリシー</a></font>に従ってご利用者の個人情報を処理します。この機能を使用する前に、<font color="#B3000000"><a href="http://url2">エンドユーザー Discovery 使用条件</a></font>および<font color="#B3000000"><a href="http://url3">Branch Discovery プライバシーポリシー</a></font>を読んで同意してください。</string>
     <string name="the_anniversary_of_lifting_martial_law">戒厳令解除記念日</string>
     <string name="the_anti_aggression_day">反侵略の日</string>
     <string name="the_arbor_day">植樹節</string>
@@ -829,6 +935,11 @@
     <string name="tuesday">火曜日</string>
     <string name="tuesday_short">火</string>
     <string name="tuesday_shortest">火</string>
+    <string name="uni_search_permission_content">オンライン検索機能をオンにします。(検索サービスはBranchによって提供されます。)</string>
+    <string name="uni_search_permission_msg">検索結果を改善するために、POCO Launcherに位置情報と連絡先へのアクセスを許可してください。</string>
+    <string name="uni_search_permission_title">改善された検索</string>
+    <string name="uni_search_setting_summary">アプリ内のコンテンツを直接検索する</string>
+    <string name="uni_search_setting_title">アプリ内検索モード</string>
     <string name="uninstall">アンインストール</string>
     <string name="uninstall_dialog_message">アンインストールすると、すべてのアプリデータが削除されます。</string>
     <string name="uninstall_dialog_title_format">%sをアンインストールしますか？</string>
@@ -839,6 +950,7 @@
     <string name="uninstall_xspace_dialog_title_format">デュアル\"%s\"をアンインストールしますか？</string>
     <string name="unknown_artist_name">不明なアーティスト</string>
     <string name="unnamed_folder_name">フォルダー</string>
+    <string name="upgrade_remove_small_window_in_recents">サイドバーを使用して、フローティングウィンドウでアプリを開くことができます</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="wallpaper">壁紙</string>

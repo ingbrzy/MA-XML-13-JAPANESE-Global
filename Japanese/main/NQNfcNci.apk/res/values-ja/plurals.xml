@@ -27,18 +27,6 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
-    <plurals name="fast_connect_headset_reset">
-        <item quantity="other">ケースのボタンを%1$d秒間長押し</item>
-    </plurals>
-    <plurals name="fast_connect_reset_air2_se">
-        <item quantity="other">イヤホンのタッチセンサー部分を%1$d秒間長押ししてください</item>
-    </plurals>
-    <plurals name="fast_connect_reset_common_seconds">
-        <item quantity="other">リセットするには、%1$d秒間長押ししてください</item>
-    </plurals>
-    <plurals name="fast_connect_reset_nzbt">
-        <item quantity="other">デバイスがオフのときに、ボタンを%1$s秒間長押しする</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
@@ -60,14 +48,7 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d個を選択済み</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d 件の新しい通知</item>
-        <item quantity="one">%d 件の新しい通知</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d分前</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d個のデバイスが接続されています</item>
     </plurals>
 </resources>

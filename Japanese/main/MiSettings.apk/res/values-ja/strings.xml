@@ -296,7 +296,7 @@
     <string name="focus_time_exception_tip">システム時刻が変更されたようです。集中モードをオフにしました。</string>
     <string name="follow_sim1">SIM 1の設定を適用</string>
     <string name="fps_high">高</string>
-    <string name="fps_nature_summary">最大リフレッシュレートではすべてのものを鮮明でクリアに表示します</string>
+    <string name="fps_nature_summary">最大リフレッシュレートにより、すべてが鮮明に表示されます</string>
     <string name="fps_nature_title">最大</string>
     <string name="fps_normal">標準</string>
     <string name="fps_radio_btn_title">リフレッシュレート</string>
@@ -652,6 +652,7 @@
     <string name="time_picker_dialog_title">時刻を設定</string>
     <string name="time_picker_label_hour">時</string>
     <string name="time_picker_label_minute">分</string>
+    <string name="time_placeholder">--</string>
     <string name="title_activity_easy_mode">シンプルモード</string>
     <string name="title_mix_match_sound">Nature mix</string>
     <string name="title_mix_match_tips">Tap animals to listen to demos. You can add up to 5 animals to the mix.</string>
@@ -744,7 +745,7 @@
     <string name="usage_home_premission_second_summary_double_link_prefix">当社は、関連する法律、規制、およびプライバシーポリシーに従ってご利用者の個人情報を保護します。上記の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合は、このアプリを使用することはできません。承認の撤回は、[スクリーンタイム] > [設定] > [スクリーンタイムをオフにする] で行うことができます。</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>このアプリを使用する前に、&lt;a href='%1s'>利用規約&lt;/a>と&lt;a href='%2s'>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;/Data>"</string>
     <string name="usage_home_premission_second_summary_new">当社は、関連する法律、規制、およびプライバシーポリシーに従ってご利用者の個人情報を保護します。上記の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合は、このアプリを使用することはできません。承認の撤回は、[スクリーンタイム] > [設定] > [スクリーンタイムをオフにする] で行うことができます。プライバシーに関してさらにご質問がある場合は、privacy@xiaomi.com までご連絡ください。</string>
-    <string name="usage_new_home_app_limit_summary">このアプリの1日のスクリーンタイムの制限を設定する</string>
+    <string name="usage_new_home_app_limit_summary">このアプリの1日のスクリーンタイム制限を設定する</string>
     <string name="usage_new_home_app_limit_title">スクリーンタイムを制限</string>
     <string name="usage_new_home_average">"平均 "</string>
     <string name="usage_new_home_avg_usage_day">1日平均%s</string>
@@ -763,7 +764,7 @@
     <string name="usage_new_home_day_usage_title_new">%sのスクリーンタイム</string>
     <string name="usage_new_home_first_unlock">最初のロック解除：%s</string>
     <string name="usage_new_home_name">名前</string>
-    <string name="usage_new_home_show_more_data_summary">個々のアプリのスクリーンタイムを制限することもできます</string>
+    <string name="usage_new_home_show_more_data_summary">アプリごとにスクリーンタイムを制限することもできます</string>
     <string name="usage_new_home_show_more_data_title">統計をさらに表示</string>
     <string name="usage_new_home_sys_no_limit_summary">システムアプリのスクリーンタイムは制限できません</string>
     <string name="usage_new_home_unlock_equals_text">前日と同じ</string>
@@ -793,7 +794,7 @@
 このアプリはインターネットに接続する必要があり、正常に動作するためには以下の権限が必要です。"</string>
     <string name="usage_permission_title">注意</string>
     <string name="usage_reach_device_limit">時間切れです！制限に達しました。</string>
-    <string name="usage_reach_device_limit_warning_text">今日のスクリーンタイムの制限時間に達しました</string>
+    <string name="usage_reach_device_limit_warning_text">今日のスクリーンタイム制限に達しました</string>
     <string name="usage_refresh">再試行</string>
     <string name="usage_remain_about_hour_miunte">≒%1$s%2$s</string>
     <string name="usage_remain_hour_miunte">%1$s%2$s</string>
@@ -897,7 +898,7 @@
     <string name="usage_state_wakeups_title">画面をオンにしました</string>
     <string name="usage_state_wednesday">水</string>
     <string name="usage_state_week_day_hour_minute">週末：%1$d時間%2$d分</string>
-    <string name="usage_state_week_total_text">スクリーンタイム（過去7日間）</string>
+    <string name="usage_state_week_total_text">スクリーンタイム (過去7日間)</string>
     <string name="usage_state_which_mouth">M月</string>
     <string name="usage_state_work_day">平日</string>
     <string name="usage_state_work_day_hour_minute">平日：%1$d時間%2$d分</string>
@@ -913,7 +914,7 @@
     <string name="usage_stats_limit_time_low_accuracy_title">低</string>
     <string name="usage_stats_limit_time_warn">スクリーンタイム警告</string>
     <string name="usage_stats_limit_time_warn_summary">通知シェードに残りのスクリーンタイムを表示する</string>
-    <string name="usage_stats_limit_time_warn_title">残りスクリーンタイムについて警告する</string>
+    <string name="usage_stats_limit_time_warn_title">残りのスクリーンタイムを警告</string>
     <string name="usage_stats_no_limit">アプリの例外</string>
     <string name="usage_stats_normal_day">平日</string>
     <string name="usage_stats_week_day">週末</string>

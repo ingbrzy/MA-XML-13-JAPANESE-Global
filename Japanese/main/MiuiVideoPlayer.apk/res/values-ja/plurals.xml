@@ -90,6 +90,10 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d個を選択済み</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">コンテンツには、コミュニティの基準に違反するアイテム（%1$s）が含まれています。アカウントは%2$sまで%3$d日間停止されます。</item>
     </plurals>

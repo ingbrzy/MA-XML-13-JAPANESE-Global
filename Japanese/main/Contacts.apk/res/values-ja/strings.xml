@@ -48,8 +48,8 @@
     <string name="add_field">別のフィールドを追加</string>
     <string name="add_field_toast">これ以上追加するフィールドはありません。</string>
     <string name="add_new_account">新しいアカウントを追加</string>
-    <string name="add_xiaomi_account_dialog_btn">Mi アカウントを使用する</string>
-    <string name="add_xiaomi_account_dialog_msg">Mi アカウントに連絡先をバックアップすると、どこからでもアクセスできます！</string>
+    <string name="add_xiaomi_account_dialog_btn">Xiaomi アカウントを使用</string>
+    <string name="add_xiaomi_account_dialog_msg">Xiaomi アカウントに連絡先をバックアップすると、どこからでもアクセスできます！</string>
     <string name="add_xiaomi_account_dialog_title">アカウントを選択</string>
     <string name="afternoon">午後</string>
     <string name="aggregation_suggestion_edit_dialog_message">同じ名前の連絡先 の編集に切り替えますか？これまでに入力した情報はコピーされます。</string>
@@ -148,6 +148,7 @@
     <string name="calllog_menu_edit_before_call">編集</string>
     <string name="calllog_menu_send_sms">メッセージを送信</string>
     <string name="calllog_record_none_toast">表示する通話録音はありません</string>
+    <string name="calllog_record_searching_toast">通話録音を検索中…</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d分%2$d秒</string>
     <string name="callrecordview_item_op_time_missed">接続できませんでした</string>
     <string name="callrecordview_item_op_time_only_minutes">%d分</string>
@@ -503,6 +504,7 @@
     <string name="friday">金曜日</string>
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">名前</string>
     <string name="gallery">ギャラリー</string>
     <string name="ghostData_company">会社</string>
@@ -559,7 +561,7 @@
     <string name="import_to_xiaomi_account_confirm">インポート</string>
     <string name="import_to_xiaomi_account_progress_finish">連絡先をインポートしました</string>
     <string name="import_to_xiaomi_account_progress_message">インポート中…</string>
-    <string name="import_to_xiaomi_account_title">Mi アカウントにインポート</string>
+    <string name="import_to_xiaomi_account_title">Xiaomi アカウントにインポート</string>
     <string name="import_vcard_dialog_message">vCardをインポートしますか？</string>
     <string name="importing_sim_contacts_miui">SIMカードから連絡先をインポート中…</string>
     <string name="importing_sim_contacts_miui_prepare">連絡先を準備中…</string>
@@ -568,6 +570,11 @@
     <string name="importing_vcard_finished_title">vCard %s のインポートが完了しました</string>
     <string name="insertContactDescription">連絡先を作成</string>
     <string name="invalidContactMessage">連絡先が存在しません</string>
+    <string name="invisible_mode_dialog_cancel">キャンセル</string>
+    <string name="invisible_mode_dialog_to_close">オフにする</string>
+    <string name="invisible_mode_title">シークレットモードになっています</string>
+    <string name="invisible_mode_unable_connect_camera">カメラを使用するには、シークレットモードをオフにしてください。今すぐオフにしますか？</string>
+    <string name="invisible_mode_unable_get_location">位置情報サービスを利用したり、Bluetooth経由で他のデバイスから連絡先をインポートしたりするには、シークレットモードをオフにしてください。今すぐオフにしますか？</string>
     <string name="item_offical">公式</string>
     <string name="keep_local">同期しない</string>
     <string name="keep_local_btn">デバイスの内部ストレージを使用する</string>
@@ -594,6 +601,9 @@
     <string name="low_memory_toast">メモリ不足のため、この機能を使用できません。</string>
     <string name="lunarBirthdayLabelsGroup">旧暦の誕生日</string>
     <string name="make_primary">この選択を記憶</string>
+    <string name="manage_external_storage_dialog_message">通話録音を管理するには、このアプリがすべてのファイルにアクセスすることを許可してください。</string>
+    <string name="manage_external_storage_dialog_positive">設定</string>
+    <string name="manage_external_storage_dialog_title">アクセス許可が必要です</string>
     <string name="map_custom">%sの住所を表示</string>
     <string name="map_home">自宅の住所を表示</string>
     <string name="map_other">住所を表示</string>
@@ -628,6 +638,7 @@
     <string name="menu_sync_remove">同期グループを削除</string>
     <string name="midnight">真夜中</string>
     <string name="miprofile_account_type">連絡先カード</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">プロフィールを編集</string>
     <string name="miprofile_name">マイ プロフィール</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -784,6 +795,7 @@
     <string name="permission_retry_dialog_msg_pad">このアプリでSIMカードを使用し、連絡先を管理するためには、このアプリによる連絡先へのアクセスと編集、およびデバイス情報へのアクセスを許可してください。</string>
     <string name="permission_retry_setting">設定</string>
     <string name="phoneLabelsGroup">電話</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">番号が長すぎます</string>
     <string name="phone_primary">主要</string>
     <string name="photoPickerNotFoundText">デバイスには利用可能な写真はありません</string>
@@ -817,9 +829,9 @@
     <string name="pref_key_sim_manage">SIMカード</string>
     <string name="pref_key_sim_manage1">SIMカード1を設定する</string>
     <string name="pref_key_sim_manage2">SIMカード2を設定する</string>
-    <string name="pref_summary_import_from_account">GoogleやExchangeアカウントからMi アカウントに連絡先を転送する</string>
+    <string name="pref_summary_import_from_account">GoogleやExchange アカウントからXiaomi アカウントに連絡先を転送する</string>
     <string name="pref_title_account_import">連絡先をインポート</string>
-    <string name="pref_title_import_from_account">Mi アカウントにインポート</string>
+    <string name="pref_title_import_from_account">Xiaomi アカウントにインポート</string>
     <string name="preference_contacts">連絡先</string>
     <string name="preference_contacts_filter">連絡先リストを構成する</string>
     <string name="preference_contacts_more">連絡先を整理する</string>
@@ -860,7 +872,7 @@
     <string name="privacy_password_set_password">設定</string>
     <string name="privacy_password_title1">パスワードを設定してください</string>
     <string name="privacy_password_title2">プライバシー保護パスワードを使用</string>
-    <string name="privacy_password_title3">パスワードをアップグレード</string>
+    <string name="privacy_password_title3">パスワードをアップグレードしてください</string>
     <string name="privacy_password_title4">パスワードがアップグレードされました</string>
     <string name="privacy_settings_blue_scan_connect">付近のデバイスへの接続</string>
     <string name="privacy_settings_call_phone">通話の発信</string>
@@ -1026,6 +1038,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">グループメンバーがいません</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">会社</string>
     <string name="smart_group_company_unavailable">会社情報がありません</string>
     <string name="smart_group_frequency_1">過去1か月以内</string>
@@ -1067,6 +1080,7 @@
     <string name="starred_contacts">お気に入り</string>
     <string name="status_available">チャット可能</string>
     <string name="status_away">退席中</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">取り込み中</string>
     <string name="strequentList">お気に入り</string>
     <string name="success_message_import_from_account">連絡先がインポートされました</string>
@@ -1170,6 +1184,7 @@
     <string name="unknown_contact_name">不明な連絡先</string>
     <string name="unknown_details_add_to_contact">既存の連絡先</string>
     <string name="unknown_details_new_contact">新規</string>
+    <string name="unshow_qr_code_in_narrow_screen_split">画面分割の使用中はQRコードを表示できません</string>
     <string name="update_sim_contact_photo_toast">SIMの連絡先のプロフィール写真を設定できません</string>
     <string name="upgrade_in_progress">連絡先リストがアップデートされています。</string>
     <string name="upgrade_out_of_memory">"連絡先はアップグレード中です。 

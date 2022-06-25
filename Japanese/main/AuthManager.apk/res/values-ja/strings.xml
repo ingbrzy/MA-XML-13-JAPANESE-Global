@@ -166,6 +166,7 @@
     <string name="clipboard_read_allow_once">%1$sがクリップボードのアイテムにアクセスしました</string>
     <string name="clipboard_read_deny_dialog_title">%1$sのクリップボードへのアクセスを制限しました</string>
     <string name="close">閉じる</string>
+    <string name="copy">コピー</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -177,6 +178,7 @@
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="evening">夕方</string>
+    <string name="expand_button_title">詳細設定</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d日</string>
@@ -323,6 +325,7 @@
     <string name="night">夜</string>
     <string name="no">いいえ</string>
     <string name="noon">正午</string>
+    <string name="not_set">未設定</string>
     <string name="notification_click_tip">タップして詳細を表示</string>
     <string name="ok">OK</string>
     <string name="perm_action_allow">許可</string>
@@ -366,6 +369,7 @@
     <string name="permission_warning_template_ask">%1$sに次の権限を許可しますか？</string>
     <string name="permisson_reject_notice_toast_text2">%1$sへの権限がありません</string>
     <string name="pm">午後</string>
+    <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="real_location_off">おおよその位置はオンです</string>
     <string name="real_location_on">おおよその位置はオフです</string>
     <string name="saturday">土曜日</string>
@@ -390,6 +394,7 @@
     <string name="storage_policy_notify_gallery_title">%1$sはギャラリーへのアクセスを許可されていません</string>
     <string name="storage_policy_notify_sociality_title">%1$sはソーシャルメディアアプリのメッセージへのアクセスを許可されていません</string>
     <string name="storage_policy_notify_title">%1$sはギャラリーへのアクセスを許可されていません</string>
+    <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
@@ -444,6 +449,8 @@
     <string name="tuesday">火曜日</string>
     <string name="tuesday_short">火</string>
     <string name="tuesday_shortest">火</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
     <string name="virtual_reject_notice_content">個人情報を保護するために、空の応答がアプリに送信されました</string>
     <string name="virtual_reject_notice_title_calendar">%1$sによるカレンダーへのアクセス</string>
     <string name="virtual_reject_notice_title_calllog">%1$sによる通話履歴へのアクセス</string>

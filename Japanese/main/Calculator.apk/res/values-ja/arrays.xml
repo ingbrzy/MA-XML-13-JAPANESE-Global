@@ -6,6 +6,10 @@
         <item>フィート</item>
         <item>インチ</item>
     </string-array>
+    <string-array name="loan_rulers">
+        <item>@string/loan_type_summary_lpr</item>
+        <item>@string/loan_type_summary_base</item>
+    </string-array>
     <string-array name="mortgage_repayment">
         <item>元利均等返済</item>
         <item>元金均等返済</item>

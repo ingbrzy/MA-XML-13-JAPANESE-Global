@@ -463,7 +463,7 @@
     <string name="network_confirm_content">通貨換算、税金・住宅ローン計算機が正常に動作するには、インターネットへの接続と位置情報サービスへのアクセスが必要です。</string>
     <string name="network_confirm_title">アクセス許可が必要です</string>
     <string name="network_purpose">電卓へようこそ！電卓を使用すると、通貨の換算、住宅ローンの返済額の計算などを行うことができます。</string>
-    <string name="new_privacy_string">&lt;Data>電卓へようこそ！&lt;br/>このアプリには、次の機能が含まれています：&lt;br/>• 基本的な計算機能&lt;br/>• 関数電卓&lt;br/>• ユニバーサルコンバーター（通貨、測定単位など）&lt;br/>• ローン、投資、毎月の支払い金額などの計算テンプレート&lt;br/>電卓アプリは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取り扱い方法については、&lt;a href= \"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。電卓の利用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。電卓に対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。プライバシーポリシーに同意しない場合は、このアプリの一部機能が使用できません。ただし、基本的な機能については引き続きご利用いただけます。&lt;/Data></string>
+    <string name="new_privacy_string">&lt;Data>電卓へようこそ！&lt;br/>このアプリには、次の機能が含まれています：&lt;br/>• 基本的な計算機能&lt;br/>• 関数電卓&lt;br/>• ユニバーサルコンバーター（通貨、測定単位など）&lt;br/>• ローン、投資、毎月の支払い金額などの計算テンプレート&lt;br/>当社が収集した情報の取り扱いについては、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。電卓の利用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。電卓に対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。プライバシーポリシーに同意しない場合は、このアプリの一部機能が使用できません。ただし、基本的な機能については引き続きご利用いただけます。&lt;/Data></string>
     <string name="night">夜</string>
     <string name="none">なし</string>
     <string name="noon">正午</string>
@@ -602,6 +602,7 @@
     <string name="tax_total_insurance_provident_fund">保険と住宅基金</string>
     <string name="tax_unemployment">失業</string>
     <string name="tax_update_time_format">データ提供: HeXun (%s)</string>
+    <string name="tenure_year_month">%1$s%2$s</string>
     <string name="the_anniversary_of_lifting_martial_law">戒厳令解除記念日</string>
     <string name="the_anti_aggression_day">反侵略の日</string>
     <string name="the_arbor_day">植樹節</string>
@@ -695,6 +696,7 @@
     <string name="unit_data_display_currency_btn">ブータンニュルタム</string>
     <string name="unit_data_display_currency_bwp">ボツワナプーラ</string>
     <string name="unit_data_display_currency_byn">ベラルーシルーブル</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">カナダドル</string>
     <string name="unit_data_display_currency_cdf">コンゴフラン</string>
     <string name="unit_data_display_currency_chf">スイスフラン</string>
@@ -1037,12 +1039,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_calculator_delete_description">電卓はシステムアプリです。アプリをアンインストールすると、複数のコンバーターや追加機能を使用できなくなります。</string>
     <string name="xiaomi_calculator_delete_title">電卓をアンインストールしますか？</string>
     <string name="xiaomi_calculator_remove_icon_description">電卓はシステムアプリです。ホーム画面のショートカットを削除すると、複数のコンバーターや追加機能を使用できなくなります。</string>
     <string name="xiaomi_calculator_remove_icon_title">ホーム画面から\"電卓\"を削除しますか？</string>
     <string name="xiaomi_connect_download_manager_fail">ダウンロードに接続できませんでした。設定 > インストール済みのアプリ でこのアプリに必要な権限がすべて付与されているかを確認してください。</string>
     <string name="xiaomi_external_storage_unavailable">ストレージが利用できません。SDカードを確認してください。</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"バージョン%1$sの概要
 サイズ：%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"バージョン%1$sの概要

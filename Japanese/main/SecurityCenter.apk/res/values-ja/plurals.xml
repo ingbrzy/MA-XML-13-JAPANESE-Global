@@ -193,6 +193,9 @@
     <plurals name="gb_dialog_game_uninstall_multi_tips_title">
         <item quantity="other">%2$d個のゲーム (%1$sを含む) を削除</item>
     </plurals>
+    <plurals name="gb_dialog_record_way_ai_desc">
+        <item quantity="other">重要な瞬間を自動的に記録し、セッションのハイライトを含むビデオを生成します。各ゲームセッションの後にそれらを永久保存するかどうかを選択できます。未保存のビデオは%1$d日後に自動的に削除されます。</item>
+    </plurals>
     <plurals name="gb_game_video_ai_record_finish_tips">
         <item quantity="other">%d件のAI録画をゲームターボに保存しました</item>
     </plurals>

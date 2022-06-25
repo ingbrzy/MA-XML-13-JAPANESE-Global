@@ -29,6 +29,7 @@
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
     <string name="about_device_info">デバイスの詳細を表示</string>
     <string name="accept">許可</string>
+    <string name="access_denied_info">試行回数が多すぎます。1、2分待ってからもう一度お試しください。</string>
     <string name="access_token_expired_warning">Weiboアカウントが利用不可になっています</string>
     <string name="access_token_invalid_warning">Weiboアカウントが無効になっています</string>
     <string name="account">アカウント</string>
@@ -95,6 +96,8 @@
     <string name="agreement_and_privacy">使用条件</string>
     <string name="am">午前</string>
     <string name="app_name">Mi アカウント</string>
+    <string name="area_code_no_search_result">該当結果が見つかりませんでした</string>
+    <string name="area_code_search_hint">国または地域を検索</string>
     <string name="auth_fail_warning">セッションの有効期限が切れました。後で再度サインインしてください。</string>
     <string name="authorize_title">承認</string>
     <string name="bind_facebook">Facebookアカウントに接続する</string>
@@ -292,10 +295,10 @@ ID:%s
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">EEEE, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -429,7 +432,10 @@ ID:%s
     <string name="multi_user_not_show_sync_activity_title">クラウドとの同期をオンにしないでください</string>
     <string name="my_device_title">現在のデバイス</string>
     <string name="need_install_wechat">まず、WeChatをインストールしてください</string>
+    <string name="network_error_info">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="network_timeout_info">ネットワークに接続できませんでした。もう一度お試しください。</string>
     <string name="night">夜</string>
+    <string name="no_account_or_forget_password">アカウントを作成する、またはパスワードを忘れた場合はこちら</string>
     <string name="no_install">インストールされていません</string>
     <string name="no_network_btn">更新</string>
     <string name="no_network_title">ネットワークに接続できません。</string>
@@ -664,7 +670,9 @@ ID:%s
     <string name="passport_talkback_voice_captcha">音声認証コードを再生</string>
     <string name="passport_ticket_login_select_sim_card">SIMカードを選択</string>
     <string name="passport_ticket_login_select_sim_card_1">SIM 1</string>
+    <string name="passport_ticket_login_select_sim_card_1_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_2">SIM 2</string>
+    <string name="passport_ticket_login_select_sim_card_2_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_cancel">キャンセル</string>
     <string name="passport_title_reg">アカウントを作成</string>
     <string name="passport_trust_device">このデバイスを認証済みのデバイスに追加する</string>
@@ -722,6 +730,7 @@ ID:%s
     <string name="privacy_policy_reject_confirm_title">Mi アカウントを使用できません</string>
     <string name="privacy_policy_update_msg">Mi アカウントのプライバシーポリシーが更新されました。&lt;br/>%1$s&lt;br/>続ける前に、新しいバージョンの&lt;a href=%2$s>&lt;u>プライバシーポリシー&lt;/u>&lt;/a>を読んで同意してください。</string>
     <string name="privacy_policy_update_title">プライバシーポリシーの更新</string>
+    <string name="progressbar_title">セキュリティの問題を確認中…</string>
     <string name="provision_back">戻る</string>
     <string name="provision_next">次へ</string>
     <string name="provision_skip_underline">スキップ</string>
@@ -802,6 +811,7 @@ ID:%s
     <string name="system_ad_summary">"この機能をオンにすると、システムアプリで少数の広告を表示できるようになります。これらの広告収入は、製品とサービスの開発と向上に役立てられます。この機能はいつでもオフにすることができます。ご理解ありがとうございます。 "</string>
     <string name="system_ad_switch">システムアプリの広告</string>
     <string name="system_ad_switch_failed">設定を適用できませんでした</string>
+    <string name="system_error_info">システムはビジー状態です。1、2分待ってからもう一度お試しください。</string>
     <string name="talkback_scan_barcode">QRコードをスキャン</string>
     <string name="temporary_not_available">この機能はまだ使用できません。</string>
     <string name="the_anniversary_of_lifting_martial_law">戒厳令解除記念日</string>
@@ -866,6 +876,7 @@ ID:%s
     <string name="two_factor_auth_need_code_summary">接続されている他のMi デバイスにコードが表示されます。このコードを新しいデバイスに入力してサインインしてください。</string>
     <string name="two_factor_auth_summary">新しいデバイスまたは新しい場所でサインインしようとすると、接続されている他のデバイスに通知されます。このようなサインインの試行が許可されているかどうかを確認する必要があります。</string>
     <string name="unbind_sns_description">このアカウントを切断すると、%sアカウント情報を使用してMi アカウントにサインインすることができなくなります。</string>
+    <string name="unknown_error_info">不明なエラー</string>
     <string name="unlock_help_notice">"ヘルプ:
 1. パスワードをお忘れの場合、id.mi.com にアクセスしてパスワードをリセットしてください。
 2. パスワードをリセットできない、または他人にデバイスをロックされている場合は、i.mi.com にアクセスしてデバイスのロックを解除してください。

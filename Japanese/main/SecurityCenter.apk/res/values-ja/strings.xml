@@ -919,6 +919,7 @@
     <string name="card_main_private_space_summary">セカンド・スペースを使用することは、2つのデバイスを持っているようなものです</string>
     <string name="card_main_private_space_title">セカンド・スペース</string>
     <string name="card_main_sectool_title">ツール</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">作成</string>
     <string name="card_main_xspace_summary">任意のアプリのデュアルアカウントを作成する</string>
     <string name="card_main_xspace_title">デュアルアプリ</string>
@@ -971,6 +972,8 @@
     <string name="cmcc_app_check_dialog_negative">後で</string>
     <string name="cmcc_app_check_dialog_positive">今すぐ再起動</string>
     <string name="cmcc_app_check_dialog_title">システムが修復されました</string>
+    <string name="columbus_ad_flag_text">広告</string>
+    <string name="columbus_skip_ad">スキップ</string>
     <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
     <string name="confirmSecondSpacePassword">セカンド・スペースのパスワードを確認</string>
     <string name="confirm_allow_all_permission">すべてのアプリに対しこの機能の使用を許可しますか？</string>
@@ -1179,6 +1182,7 @@
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="early_morning">早朝</string>
+    <string name="ellipsis">…</string>
     <string name="email">メール</string>
     <string name="empty" />
     <string name="empty_app">アプリはありません</string>
@@ -1253,7 +1257,9 @@
     <string name="exo_download_notification_channel_name">ダウンロード</string>
     <string name="exo_download_removing">ダウンロードを削除しています</string>
     <string name="exo_item_list">%1$s、%2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">モノラル</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">代替</string>
     <string name="exo_track_role_closed_captions">字幕</string>
     <string name="exo_track_role_commentary">解説</string>
@@ -1507,6 +1513,7 @@
     <string name="gamebox_app_not_find">まず、アプリをインストールしてください。</string>
     <string name="gamebox_brightness">明るさ</string>
     <string name="gamebox_browser_not_find">まず、Mi ブラウザーをインストールしてください</string>
+    <string name="gamebox_bullet_chat">画面上のコメント</string>
     <string name="gamebox_collimator">照準器</string>
     <string name="gamebox_display_1">なし</string>
     <string name="gamebox_display_2">彩度調整</string>
@@ -1608,6 +1615,10 @@
     <string name="gb_dialog_record_way_ai">AI録画はゲームボックスに保存され、7日間保存されます。</string>
     <string name="gb_dialog_record_way_finish">完了</string>
     <string name="gb_dialog_record_way_manual">最長30秒のビデオを手動で録画する</string>
+    <string name="gb_dialog_record_way_manual_desc" formatted="false">ゲーム中に%d〜%d秒の録画を手動で行います。</string>
+    <string name="gb_dialog_record_way_setting_tip_one">消費電力と遅延の増加</string>
+    <string name="gb_dialog_record_way_setting_tip_title">この機能により、次の問題が発生する可能性があります。</string>
+    <string name="gb_dialog_record_way_setting_tip_two">他のスクリーンレコーダーとの競合</string>
     <string name="gb_dialog_record_way_setting_tips">注意：ゲームセッションを録画すると消費電力が大きくなるため、遅延が生じる可能性があります。</string>
     <string name="gb_dialog_record_way_title">録画方法を選択</string>
     <string name="gb_first_guide_function_shiled_title">ゲームターボがオンのときにシステム機能をオフにする</string>
@@ -1636,6 +1647,7 @@
     <string name="gb_game_video_page_null">ゲームセッションのキーモーメントを録画する</string>
     <string name="gb_game_video_record_finish_tips">手動で録画したビデオをゲームターボに保存しました</string>
     <string name="gb_game_video_save">保存</string>
+    <string name="gb_game_video_save_tip">正常に保存されました</string>
     <string name="gb_game_video_type_ai">AI</string>
     <string name="gb_game_video_type_ai_record">AIを使用して録画</string>
     <string name="gb_game_video_type_manual">手動</string>
@@ -1648,6 +1660,7 @@
     <string name="gb_gpu_driver_update_app_tips">現在のバージョンは最新です</string>
     <string name="gb_have_signed">今日はチェックインしました</string>
     <string name="gb_manual_record_dialog_del_video_message">選択したビデオを完全に削除しますか？</string>
+    <string name="gb_manual_video_record_title">記録</string>
     <string name="gb_msg_completely_shielded">メッセージを隠す</string>
     <string name="gb_msg_completely_shielded_summary">隠す</string>
     <string name="gb_msg_not_shielded_summary">表示</string>
@@ -1667,26 +1680,39 @@
     <string name="gb_performance_tips">"パフォーマンスモードはグラフィックス性能を向上させますが、
 消費電力が増加し、デバイスが発熱する可能性があります。"</string>
     <string name="gb_shortcut_pref_title">ホーム画面ショートカット</string>
-    <string name="gb_shoulder_key">ショルダーボタン</string>
+    <string name="gb_shoulder_guide_message1">[L]を任意の機能位置に移動させると、ポップアップトリガーで起動できます</string>
+    <string name="gb_shoulder_guide_message2">ボタンを押すと操作[1]が起動します。ボタンを離すと操作[2]が起動します。</string>
+    <string name="gb_shoulder_guide_tips1">ツールボックスを開き、ポップアップトリガーを設定します</string>
+    <string name="gb_shoulder_guide_title1">操作</string>
+    <string name="gb_shoulder_guide_title2">連続</string>
+    <string name="gb_shoulder_key">ポップアップトリガー</string>
     <string name="gb_shoulder_key_add_show_btn">ゲーム中に仮想ボタンを表示</string>
-    <string name="gb_shoulder_key_add_tips">[L]と[R]ボタンを使用したい機能の位置に移動させると、ショルダーボタンで起動することができます</string>
+    <string name="gb_shoulder_key_add_tips">[L]と[R]を任意の機能位置に移動させると、ポップアップトリガーで起動できます</string>
     <string name="gb_shoulder_key_btn_cancel">キャンセル</string>
     <string name="gb_shoulder_key_btn_save_exit">保存</string>
-    <string name="gb_shoulder_key_dialog_message">ゲームをしていないときは、両方のショルダーボタンを同時に使用してゲームターボを起動することができます。</string>
-    <string name="gb_shoulder_key_dialog_txt">ショルダーボタンでゲームターボをオンにできます。</string>
+    <string name="gb_shoulder_key_dialog_message">ゲームをしていないときは、両方のポップアップトリガーを同時に使用してゲームターボを起動できます。</string>
+    <string name="gb_shoulder_key_dialog_txt">ポップアップトリガーでゲームターボをオンにできます。</string>
     <string name="gb_shoulder_key_guide_btn_done">了解</string>
     <string name="gb_shoulder_key_guide_btn_next">次へ</string>
-    <string name="gb_shoulder_key_guide_tips">ショルダーボタンを設定してプロのようにプレイしましょう！</string>
-    <string name="gb_shoulder_key_guide_tips1">ツールボックスを開き、ショルダーボタンを設定します</string>
+    <string name="gb_shoulder_key_guide_tips">ポップアップトリガーを設定すると、プロ並みのプレイを実現できます</string>
+    <string name="gb_shoulder_key_guide_tips1">ツールボックスを開き、ポップアップトリガーを設定します</string>
     <string name="gb_shoulder_key_light_effect">カラーアニメーション</string>
     <string name="gb_shoulder_key_light_effect_color">色</string>
-    <string name="gb_shoulder_key_light_effect_subtitle">ショルダーボタンがオンの状態でゲームをしていると、カラーアニメーションが表示されます</string>
+    <string name="gb_shoulder_key_light_effect_subtitle">ポップアップトリガーがオンの状態でゲームをしていると、カラーアニメーションが表示されます</string>
     <string name="gb_shoulder_key_light_effect_title">アニメーション</string>
     <string name="gb_shoulder_key_settings_guide_tips1">[L]と[R]ボタンを使用したい機能の位置に移動させると設定が完了します</string>
-    <string name="gb_shoulder_key_settings_guide_tips2">ゲーム中にショルダーボタンを使用して設定した機能を起動します</string>
-    <string name="gb_shoulder_key_settings_summary">ゲームをしていないときは両方のショルダーボタンでゲームターボを起動できます</string>
-    <string name="gb_shoulder_key_settings_title">ショルダーボタンでゲームターボを起動</string>
+    <string name="gb_shoulder_key_settings_guide_tips2">ゲーム中に、割り当てた機能のポップアップトリガーを使用します</string>
+    <string name="gb_shoulder_key_settings_summary">ゲームをしていないときは両方のポップアップトリガーでゲームターボを起動できます</string>
+    <string name="gb_shoulder_key_settings_title">ポップアップトリガーをゲームターボに使用</string>
     <string name="gb_shoulder_key_settings_title_new">ゲームターボをクイック起動</string>
+    <string name="gb_shoulder_set_left_right">[%s]を設定</string>
+    <string name="gb_shoulder_set_title">ポップアップトリガーをオンにして設定してください</string>
+    <string name="gb_shoulder_set_title2">[%s]を任意の機能位置に移動させると、ポップアップトリガーで起動できます</string>
+    <string name="gb_shoulder_single_trigger">操作</string>
+    <string name="gb_shoulder_subsection_down">押す</string>
+    <string name="gb_shoulder_subsection_trigger">連続</string>
+    <string name="gb_shoulder_subsection_up">離す</string>
+    <string name="gb_shoulder_update_left_right">%sを編集</string>
     <string name="gb_sign_gift">チェックインして報酬を得る</string>
     <string name="gb_sign_gift_button_text">受け取る</string>
     <string name="gb_sign_notification_summary">ネットワーク遅延なしでゲームをプレイする</string>
@@ -2182,6 +2208,7 @@
     <string name="menu_text_license_manager">アクセス許可</string>
     <string name="menu_text_networkassistants">データ使用量</string>
     <string name="menu_text_networkassistants_danger">%s以上</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">残り%s</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2190,6 +2217,7 @@
     <string name="menu_text_optimize_manage">スピードブースト</string>
     <string name="menu_text_optimize_manage_1">スピードブースト</string>
     <string name="menu_text_power_manager">バッテリー</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">例外から削除</string>
     <string name="menu_white">例外に追加</string>
     <string name="mi_ime_not_used">Xiaomiが認定したキーボードを使用してください</string>
@@ -2606,7 +2634,7 @@
     <string name="pc_fast_charge_notifi_action_text_on">ブースト</string>
     <string name="pc_fast_charge_notifi_power_threshold_title">通知するときのバッテリー残量を設定</string>
     <string name="pc_fast_charge_notifi_summary">通常よりも最大%s速く充電中…</string>
-    <string name="pc_fast_charge_notifi_summary_on">この機能により、デバイスが熱くなる可能性があります</string>
+    <string name="pc_fast_charge_notifi_summary_on">画面をオフにすると充電速度が上がります。デバイスが熱くなります。</string>
     <string name="pc_fast_charge_notifi_switch_summary">付属の%dWの充電器が接続されていてバッテリー残量が設定値を下回っている場合に、充電速度のブーストについて通知する</string>
     <string name="pc_fast_charge_notifi_switch_title">ブーストについて通知</string>
     <string name="pc_fast_charge_notifi_title">%dW充電</string>
@@ -2820,6 +2848,11 @@
     <string name="power_center_dialog_msg_top">バッテリーセーバーがオンのとき、MIUIは以下の最適化を実行します。</string>
     <string name="power_center_hints_scan_danger_result">バッテリーの問題を修正できます</string>
     <string name="power_center_list_item_auto_brightness">画面の明るさを自動的に調整する</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">時間</string>
     <string name="power_center_list_item_close_bluetooth">Bluetoothをオフにする</string>
     <string name="power_center_list_item_deep_save_title">高度な設定</string>
@@ -3078,6 +3111,7 @@
     <string name="pref_normal_traffic_limit">データプランを使い切った場合</string>
     <string name="pref_open_adjust_traffic">通信事業者からの統計情報を使用してデータ使用量を毎日アップデートする</string>
     <string name="pref_operator_not_set">通信事業者が設定されていません</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">データプランを超えて利用した場合</string>
     <string name="pref_package_traffic_settings">データプラン</string>
     <string name="pref_pkg_begin_date">データプランの開始日</string>
@@ -3328,6 +3362,7 @@
     <string name="privacy_using_record">録音中</string>
     <string name="privacyapp_number_masked_text">通知内容を非表示にしたアプリ</string>
     <string name="privacyapp_number_unmasked_text">通知内容を非表示にできるアプリ</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">メディアサーバー</string>
     <string name="process_vpnsdkmanager_label">ゲームターボ</string>
     <string name="promotion">広告</string>
@@ -3403,6 +3438,7 @@
     <string name="result_sms_title_antispam">悪意のあるSMSのURLによって脅かされています</string>
     <string name="result_sms_title_auth">金融関連のSMSは情報漏洩のリスクが存在します</string>
     <string name="result_wifi_header">Wi-Fiリスクが検出されました</string>
+    <string name="resume">復元</string>
     <string name="right_precent">100%</string>
     <string name="risk_app_install_agree_button">このアプリを信頼</string>
     <string name="risk_app_install_agree_checkbox">私はリスクの存在を認識し、一切の責任を引き受けます。</string>
@@ -4424,7 +4460,7 @@
     <string name="vb_video_effects_3d">サラウンドサウンド</string>
     <string name="vb_video_effects_3d_summary">イヤホンやスピーカーの音の再現性を高める</string>
     <string name="vb_video_effects_3d_summary_headset">イヤホンでオーディオを聴くときの没入感や包囲感を高める</string>
-    <string name="vb_video_effects_3d_surround">サラウンドサウンド</string>
+    <string name="vb_video_effects_3d_surround">バーチャルイマーシブサウンド</string>
     <string name="vb_video_effects_display_style">スタイル</string>
     <string name="vb_video_effects_dolby">Dolby Atmos</string>
     <string name="vb_video_effects_dolby_dialog_enhancer">ダイアログ強化</string>
@@ -4452,7 +4488,7 @@
     <string name="vb_video_effects_settings_stereo">音量</string>
     <string name="vb_video_effects_some_headphone">一部のイヤホンモデルで対応</string>
     <string name="vb_video_effects_spatial">頭の動きを追跡</string>
-    <string name="vb_video_effects_spatial_summary">"頭の動きに合わせてサラウンドサウンドを調整する
+    <string name="vb_video_effects_spatial_summary">"頭の動きに合わせてイマーシブサウンドを調整する
 * ゲーミングイヤホンモデルでのみ対応"</string>
     <string name="vb_video_effects_srs_premium_sound">サウンド</string>
     <string name="vb_video_super_division">アップスケール</string>

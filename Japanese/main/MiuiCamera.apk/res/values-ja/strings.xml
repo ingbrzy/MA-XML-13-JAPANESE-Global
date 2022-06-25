@@ -667,6 +667,7 @@
     <string name="edit_smile">笑顔</string>
     <string name="edit_solid">輪郭</string>
     <string name="emoticon">ステッカーパック</string>
+    <string name="empty" />
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="error_fail_to_start_audio_capture">音声キャプチャを起動できませんでした</string>
@@ -764,10 +765,10 @@
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">D, EEEE</string>
-    <string name="fmt_weekday_date_time">D, W T</string>
-    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
-    <string name="fmt_weekday_date_timezone">D, W z</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -875,6 +876,9 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="live_sticker_updating">アップデート中…</string>
     <string name="live_workspace_title">下書き</string>
     <string name="live_workspace_title_edit">削除するアイテムを選択してください</string>
+    <string name="live_workspace_title_pause">停止</string>
+    <string name="live_workspace_title_play">再生</string>
+    <string name="live_workspace_title_pre_edit">削除するアイテムを選択してください</string>
     <string name="location_access_allow">同意</string>
     <string name="location_fromkeyguard_not_permission">現在、カメラは位置情報にアクセスできません。まずデバイスのロックを解除してください。</string>
     <string name="location_permission_des">写真とビデオの位置情報を記憶する</string>
@@ -1070,6 +1074,10 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="module_name_multi_camera">マルチカメラ</string>
     <string name="module_name_new_slow_motion">スローモーション</string>
     <string name="module_name_panorama">パノラマ</string>
+    <string name="module_name_pixel_108m">108MP</string>
+    <string name="module_name_pixel_48m">48MP</string>
+    <string name="module_name_pixel_50m">50MP</string>
+    <string name="module_name_pixel_64m">64MP</string>
     <string name="module_name_portrait">ポートレート</string>
     <string name="module_name_professional">プロ</string>
     <string name="module_name_scanner">スキャナー</string>
@@ -1207,6 +1215,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="popup_tips_near_range_mode">カラーフォーカス</string>
     <string name="popup_tips_privacy_watermark_edit">透かしを編集</string>
     <string name="portait_effect_entry_blackwhite">B&amp;W</string>
+    <string name="portait_effect_entry_cold_white">スターライト</string>
     <string name="portait_effect_entry_cool">ミント</string>
     <string name="portait_effect_entry_dusk">夕暮れ</string>
     <string name="portait_effect_entry_fairytale">おとぎ話</string>
@@ -1224,6 +1233,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="portait_effect_entry_riddle">キャンディー</string>
     <string name="portait_effect_entry_romance">ロマンチック</string>
     <string name="portait_effect_entry_sepia">セピア</string>
+    <string name="portait_effect_entry_shallots">サンビーム</string>
     <string name="portait_effect_entry_story">物語</string>
     <string name="portait_effect_entry_tea">お茶</string>
     <string name="portrait_bokeh_first_tips">"ポートレートモードを使用すると
@@ -1286,6 +1296,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_camera_auxiliary_close">オフ</string>
     <string name="pref_camera_auxiliary_exposure_feedback">露出検証</string>
     <string name="pref_camera_auxiliary_focus_peak">フォーカスピーキング</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">高</string>
     <string name="pref_camera_beautify_entry_low">低</string>
     <string name="pref_camera_beautify_entry_normal">中</string>
@@ -1415,8 +1426,8 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_camera_portrait_mode_entry_off">ポートレートモードはオフです</string>
     <string name="pref_camera_portrait_mode_entry_on">ポートレートモードはオンです</string>
     <string name="pref_camera_portrait_mode_title">ポートレートモード</string>
-    <string name="pref_camera_predictive_shutter_description">子どもやペット、その他のアクティブな被写体を撮影する際にブレを最小限に抑えるために動きを追跡します</string>
-    <string name="pref_camera_predictive_shutter_title">ムーブメントトラック</string>
+    <string name="pref_camera_predictive_shutter_description">子どもやペットなどの活動的な被写体を撮影する際に、動きを追跡してブレを最小限に抑えます</string>
+    <string name="pref_camera_predictive_shutter_title">モーションキャプチャ</string>
     <string name="pref_camera_proximity_lock_summary">デバイスがポケットの中にあるとき、タッチ操作を無効にします</string>
     <string name="pref_camera_proximity_lock_title">ポケットモード</string>
     <string name="pref_camera_quick_settings">クイック設定</string>
@@ -1478,10 +1489,12 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_camera_tip_id_card">IDスキャナー</string>
     <string name="pref_camera_touchafaec_entry_off">オフ</string>
     <string name="pref_camera_touchafaec_entry_on">オン</string>
-    <string name="pref_camera_track_focus_intro_description">When you take photos or shoot videos with moving subjects, this feature detects people, cats, and dogs, and keeps them in focus automatically. Additionally, you can also double tap any subject to track movement.</string>
-    <string name="pref_camera_track_focus_intro_goto">Turn on</string>
+    <string name="pref_camera_track_eye_preferred_description">フレーム内に一人の人間がいる際は目の動きを追跡してピントを合わせます。</string>
+    <string name="pref_camera_track_eye_preferred_title">アイトラッキングフォーカス</string>
+    <string name="pref_camera_track_focus_intro_description">動いている被写体の写真やビデオを撮影する際に、人や猫、犬などを検出して、自動的にピントを合わせます。さらに、被写体をダブルタップするとその動きを追跡することができます。</string>
+    <string name="pref_camera_track_focus_intro_goto">オンにする</string>
     <string name="pref_camera_track_focus_preferred_description">動いている人や猫、犬に自動でピントを合わせます。被写体をダブルタップすると追跡することができます。</string>
-    <string name="pref_camera_track_focus_preferred_title">フォーカストラッキング</string>
+    <string name="pref_camera_track_focus_preferred_title">モーショントラッキングフォーカス</string>
     <string name="pref_camera_ubifocus_title">リフォーカス</string>
     <string name="pref_camera_ultra_wide_ldc_description">ゆがんだ物体を自動的に修正する</string>
     <string name="pref_camera_ultra_wide_ldc_title">超広角撮影でのゆがみを修正</string>
@@ -1497,6 +1510,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_camera_video_tag_description">ビデオの撮影中に \"タグ\" をタップすると、再生中にタグ付けされた位置に戻ることができます</string>
     <string name="pref_camera_volumekey_function_entry_shutter">シャッター</string>
     <string name="pref_camera_volumekey_function_entry_timer">シャッターカウントダウン</string>
+    <string name="pref_camera_volumekey_function_entry_timer_new">Timer (%ds)</string>
     <string name="pref_camera_volumekey_function_entry_volume">音量</string>
     <string name="pref_camera_volumekey_function_entry_zoom">ズーム</string>
     <string name="pref_camera_volumekey_function_title">音量ボタン機能</string>
@@ -1550,6 +1564,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_hdr10_hdr10plus_video_mode_description">HDR10+/HDR10で高解像度のビデオを撮影し、色やダイナミックレンジを最適化します。撮影したビデオは、HDR10+/HDR10対応デバイスでのみ再生できます。</string>
     <string name="pref_hdr10_video_mode_description">4Kおよび8Kビデオの色とコントラストを自動的に最適化します。最適化されたビデオは、HDR10対応デバイスでのみ再生できます。</string>
     <string name="pref_hdr10plus_video_mode_description">4Kおよび8Kビデオの色を最適化し、コントラストを調整します。この機能は、HDR10+ 対応デバイスでのみ機能します。</string>
+    <string name="pref_hybrid_video_mode_description">HLG技術を使用し、高解像度で記録された映像の色やダイナミックレンジを向上させる</string>
     <string name="pref_i_n_r_b">スマートノイズリダクション</string>
     <string name="pref_k_h">ライブインイヤーモニター</string>
     <string name="pref_k_s_i">有線イヤホン接続時にイヤホンで録音している音を確認する</string>

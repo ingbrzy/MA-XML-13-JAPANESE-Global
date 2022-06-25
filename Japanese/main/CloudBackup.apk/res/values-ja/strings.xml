@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
     <string name="about_to_recover">お待ちください…</string>
+    <string name="access_denied_info">試行回数が多すぎます。1、2分待ってからもう一度お試しください。</string>
     <string name="actionbar_button_up_description">戻る</string>
     <string name="afternoon">午後</string>
     <string name="am">午前</string>
@@ -265,10 +266,10 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">EEEE, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -364,6 +365,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="msg_restore_with_metered_network_hint">これらのアイテムを復元する場合、モバイルデータがダウンロードに使用されます。</string>
     <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font>のファイルがダウンロードされます。"</string>
     <string name="network_error">ネットワークに接続</string>
+    <string name="network_error_info">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="network_timeout_info">ネットワークに接続できませんでした。もう一度お試しください。</string>
     <string name="night">夜</string>
     <string name="no_account">Mi アカウントにサインインしていません。</string>
     <string name="no_backup">Xiaomi Cloudにバックアップがありません。</string>
@@ -374,10 +377,13 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">バックアップのスイッチを切り替える</string>
     <string name="other_device_main_space">ファースト・スペース</string>
     <string name="other_device_second_space">セカンド・スペース</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">PCモードではアイテムを復元できません。PCモードをオフにして、もう一度お試しください。</string>
     <string name="pm">午後</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="process_whole_recovery">\"%s\"を復元中</string>
+    <string name="progressbar_title">セキュリティの問題を確認中…</string>
     <string name="provision_back">戻る</string>
     <string name="provision_background_restore_more_data">バックグラウンドで他のアイテムを復元する</string>
     <string name="provision_error_connect_msg">ネットワークをテストしてもう一度お試しください。デバイスがオフラインの場合、バックアップは使用できません。</string>
@@ -457,6 +463,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
+    <string name="system_error_info">システムはビジー状態です。1、2分待ってからもう一度お試しください。</string>
     <string name="the_anniversary_of_lifting_martial_law">戒厳令解除記念日</string>
     <string name="the_anti_aggression_day">反侵略の日</string>
     <string name="the_arbor_day">植樹節</string>
@@ -514,6 +521,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="tuesday">火曜日</string>
     <string name="tuesday_short">火</string>
     <string name="tuesday_shortest">火</string>
+    <string name="unknown_error_info">不明なエラー</string>
     <string name="unselected">未選択</string>
     <string name="unsupported_home">MIUIを最新バージョンにアップデートしてください。</string>
     <string name="v7_preference_off">OFF</string>

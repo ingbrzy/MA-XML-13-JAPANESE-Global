@@ -77,8 +77,6 @@
         <item>Qualcomm® aptX™ オーディオ</item>
         <item>Qualcomm® aptX™ HD オーディオ</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive オーディオ</item>
-        <item>Qualcomm® aptX™ TWS+ オーディオ</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>システムの選択（デフォルト）を使用</item>
@@ -87,8 +85,6 @@
         <item>Qualcomm® aptX™ オーディオ</item>
         <item>Qualcomm® aptX™ HD オーディオ</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive オーディオ</item>
-        <item>Qualcomm® aptX™ TWS+ オーディオ</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -122,8 +118,6 @@
         <item>無効</item>
         <item>有効（フィルタ済み）</item>
         <item>有効</item>
-        <item>有効（ヘッダーのみ）</item>
-        <item>有効（メディアパケット除外）</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>拡張色</item>
@@ -147,9 +141,9 @@
         <item>glGetErrorでのスタック呼び出し</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>HDCPチェックを使用しない</item>
-        <item>DRMコンテンツにのみHDCPチェックを使用する</item>
-        <item>HDCPチェックを常に使用する</item>
+        <item>HDCP チェックを使用しない</item>
+        <item>DRM コンテンツにのみ HDCP チェックを使用する</item>
+        <item>HDCP チェックを常に使用する</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>チェックしない</item>
@@ -182,7 +176,7 @@
         <item>256 K / ログバッファ</item>
         <item>1 M / ログバッファ</item>
         <item>4 M / ログバッファ</item>
-        <item>16 M / ログバッファ</item>
+        <item>8 M / ログバッファ</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>OFF</item>
@@ -190,7 +184,7 @@
         <item>256 K</item>
         <item>1 M</item>
         <item>4 M</item>
-        <item>16 M</item>
+        <item>8 M</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>OFF</item>
@@ -268,6 +262,20 @@
         <item>切断されました</item>
         <item>失敗しました</item>
         <item>ブロック中</item>
+        <item>接続不良により一時的に無効</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>スキャン中…</item>
+        <item>接続中…</item>
+        <item>認証中…</item>
+        <item>IP アドレスを取得中…</item>
+        <item>接続済み</item>
+        <item>停止中</item>
+        <item>切断中…</item>
+        <item>未接続</item>
+        <item>エラー</item>
+        <item>ブロック済み</item>
         <item>接続不良により一時的に無効</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
