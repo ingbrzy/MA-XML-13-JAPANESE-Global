@@ -68,6 +68,7 @@
     <string name="afternoon">午後</string>
     <string name="am">午前</string>
     <string name="auth_fail_warning">セッションが期限切れです。もう一度サインインしてください。</string>
+    <string name="back">戻る</string>
     <string name="bind_sign_in_title">Mi アカウントを追加</string>
     <string name="change_activate_email">メールアドレスを変更</string>
     <string name="change_password">パスワードを変更</string>
@@ -75,6 +76,7 @@
     <string name="choose_to_signup">いいえ、アカウントを新規作成します</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
+    <string name="close_country_code_content_description">国番号を削除</string>
     <string name="collect_diagnosis_log">ログを収集</string>
     <string name="confirm_activate_email">認証済み</string>
     <string name="confirm_bundled_phone_dialog_title">関連付けられている電話番号を確認</string>
@@ -102,6 +104,7 @@ ID:%s
     <string name="evening">夕方</string>
     <string name="exceed_binded_phone_times_notice">この電話番号は既に別のMi アカウントに関連付けられています。</string>
     <string name="expand_button_title">詳細設定</string>
+    <string name="facebook_login_btn_content_description">Facebookでサインイン</string>
     <string name="failed_dup_secure_phone_number">この電話番号は既に別のMi アカウントに関連付けられています</string>
     <string name="find_psw">パスワードを忘れた場合</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -147,10 +150,10 @@ ID:%s
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -164,7 +167,9 @@ ID:%s
     <string name="get_ph_ticket">コードを取得</string>
     <string name="get_phone_bind_exceed_limit">1つの電話番号には最大3つのMi アカウントを関連付けることができます。これ以上アカウントを追加できません。</string>
     <string name="get_phone_verifycode_exceed_limit">この番号に送信された認証コードが多すぎます。 24時間待ってからもう一度お試しください。</string>
+    <string name="google_login_btn_content_description">Googleでサインイン</string>
     <string name="goto_sign_up">アカウントを作成</string>
+    <string name="header_help">ヘルプ</string>
     <string name="i_know">了解</string>
     <string name="identity">識別</string>
     <string name="inconsistent_pwd">パスワードが一致しません</string>
@@ -181,6 +186,23 @@ ID:%s
     <string name="login_with_sns">その他のサインイン方法</string>
     <string name="logout_account">サインアウト</string>
     <string name="midnight">真夜中</string>
+    <string name="miui_clock_city_name_local">ローカル</string>
+    <string name="miui_clock_city_name_second">第2時計</string>
+    <string name="miui_lock_screen_date">M月d日 EEEE</string>
+    <string name="miui_lock_screen_date_12">M月d日 EEEE</string>
+    <string name="miui_lock_screen_date_two_lines">"M月d日
+EEEE"</string>
+    <string name="miui_lock_screen_date_two_lines_12">"M月d日
+EEEE"</string>
+    <string name="miui_lock_screen_large_date">"M月d日
+EEE"</string>
+    <string name="miui_lock_screen_large_date_12">"M月d日
+EEE"</string>
+    <string name="miui_vertical_time_format_12">"hh
+mm"</string>
+    <string name="miui_vertical_time_format_24">"HH
+mm"</string>
+    <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
@@ -352,8 +374,12 @@ ID:%s
     <string name="pm">午後</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="progressbar_title">セキュリティの問題を確認中…</string>
+    <string name="protocal_dialog_cancel">キャンセル</string>
+    <string name="protocal_dialog_confirm">同意</string>
+    <string name="protocal_dialog_title">注意</string>
     <string name="psw_hint">パスワード</string>
     <string name="psw_sign_in">パスワードを使用してサインイン</string>
+    <string name="qq_login_btn_content_description">QQでサインイン</string>
     <string name="register_by_local_phone_long_text">アカウントを作成</string>
     <string name="register_by_local_phone_short_text">アカウントを作成</string>
     <string name="request_agree">許可</string>
@@ -389,6 +415,7 @@ ID:%s
     <string name="sns_access_token_expired_warning">セッションの期限が切れました。もう一度サインインしてこのアカウントに再接続してください。</string>
     <string name="sns_bind_limit">試行回数が多すぎます。他の方法でサインインしてください。</string>
     <string name="sns_sign_in">その他のサインイン方法</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
@@ -458,11 +485,12 @@ ID:%s
     <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Mi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>チャイナ・モバイル認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
     <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Mi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>eSurfingアカウント認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
     <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Mi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>チャイナ・ユニコム認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
-    <string name="user_agreement_hint_default">&lt;Data>Mi アカウント&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="user_agreement_hint_default">&lt;Data>Mi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読み、同意しました。&lt;/Data></string>
     <string name="user_agreement_hint_first_login">初めて電話番号を使用する場合は、自動的にアカウントが作成されます。</string>
     <string name="user_agreement_hint_with_mobile">&lt;Data>Mi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>チャイナ・モバイル認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
     <string name="user_agreement_hint_with_telecom">&lt;Data>Mi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>eSurfingアカウント認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
     <string name="user_agreement_hint_with_unicom">&lt;Data>Mi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>チャイナ・ユニコム認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="user_agreement_protocal_dialog_hint_default">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、およびMi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;/Data></string>
     <string name="user_avatar_update_title">プロフィール写真を変更</string>
     <string name="user_avatar_uploading">お待ちください…</string>
     <string name="user_id_hint">メールアドレス/電話番号/Mi アカウントID</string>
@@ -473,5 +501,7 @@ ID:%s
     <string name="wednesday">水曜日</string>
     <string name="wednesday_short">水</string>
     <string name="wednesday_shortest">水</string>
+    <string name="weibo_login_btn_content_description">Weiboでサインイン</string>
+    <string name="weixin_login_btn_content_description">WeChatでサインイン</string>
     <string name="yesterday">昨日</string>
 </resources>

@@ -62,6 +62,19 @@
         <item>iPhone</item>
         <item>iPad</item>
     </string-array>
+    <string-array name="pref_web_permissions">
+        <item>制限</item>
+        <item>確認</item>
+        <item>許可</item>
+    </string-array>
+    <string-array name="pref_web_permissions_sub_one">
+        <item>制限</item>
+        <item>確認</item>
+    </string-array>
+    <string-array name="pref_web_permissions_sub_two">
+        <item>制限</item>
+        <item>許可</item>
+    </string-array>
     <string-array name="setting_swipe_up_target">
         <item>検索</item>
         <item>ニュース</item>

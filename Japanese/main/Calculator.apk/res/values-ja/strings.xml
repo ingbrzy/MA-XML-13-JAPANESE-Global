@@ -696,6 +696,7 @@
     <string name="unit_data_display_currency_btn">ブータンニュルタム</string>
     <string name="unit_data_display_currency_bwp">ボツワナプーラ</string>
     <string name="unit_data_display_currency_byn">ベラルーシルーブル</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">カナダドル</string>
     <string name="unit_data_display_currency_cdf">コンゴフラン</string>
     <string name="unit_data_display_currency_chf">スイスフラン</string>
@@ -1038,12 +1039,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_calculator_delete_description">電卓はシステムアプリです。アプリをアンインストールすると、複数のコンバーターや追加機能を使用できなくなります。</string>
     <string name="xiaomi_calculator_delete_title">電卓をアンインストールしますか？</string>
     <string name="xiaomi_calculator_remove_icon_description">電卓はシステムアプリです。ホーム画面のショートカットを削除すると、複数のコンバーターや追加機能を使用できなくなります。</string>
     <string name="xiaomi_calculator_remove_icon_title">ホーム画面から\"電卓\"を削除しますか？</string>
     <string name="xiaomi_connect_download_manager_fail">ダウンロードに接続できませんでした。設定 > インストール済みのアプリ でこのアプリに必要な権限がすべて付与されているかを確認してください。</string>
     <string name="xiaomi_external_storage_unavailable">ストレージが利用できません。SDカードを確認してください。</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"バージョン%1$sの概要
 サイズ：%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"バージョン%1$sの概要

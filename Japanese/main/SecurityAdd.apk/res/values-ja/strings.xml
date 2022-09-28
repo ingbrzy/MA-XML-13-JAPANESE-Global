@@ -58,6 +58,7 @@
     <string name="dual_app_title">デュアルアプリ</string>
     <string name="dual_app_words">すべてのアカウントで専用のアプリを使う</string>
     <string name="early_morning">早朝</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="evening">夕方</string>
@@ -348,6 +349,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>

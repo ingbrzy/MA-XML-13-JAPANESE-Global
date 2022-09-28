@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">共有</string>
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
+    <string name="access_denied_info">試行回数が多すぎます。1、2分待ってからもう一度お試しください。</string>
     <string name="actionbar_button_up_description">戻る</string>
     <string name="add_remark_hint">ここにコメントを入力してください</string>
     <string name="add_remark_tip">タップしてコメントを追加</string>
@@ -85,6 +86,8 @@
     <string name="dialog_privacy_revoke_tips">承認を撤回すると、アプリはデータの収集を停止し、すべての関連データがサーバーから削除されます。これにより、アプリは実質的に使用できなくなる可能性があります。承認を撤回してもよろしいですか？アカウントのセキュリティを確保するため、Xiaomi Cloudサービスへの承認を撤回する前に i.mi.com にサインインしてください。</string>
     <string name="dialog_title_storage_full">空き容量が足りません</string>
     <string name="download">ダウンロード</string>
+    <string name="download_pause">ダウンロードが一時停止されました。タップすると再開します。</string>
+    <string name="downloading">ダウンロード中です。タップすると一時停止します。</string>
     <string name="duration_format_hour">%s時間</string>
     <string name="duration_format_minute">%s分</string>
     <string name="duration_format_second">%s秒</string>
@@ -168,10 +171,10 @@
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -220,9 +223,9 @@
     <string name="material_timepicker_text_input_mode_description">時刻をテキストで入力するモードに切り替えます。</string>
     <string name="menu">メニュー</string>
     <string name="message_file_size_error">録音が%sでサポートされている最大長に達しました</string>
-    <string name="mi_account_msg">Mi アカウントにサインインすれば、クラウド上のファイルを書き写すことができ、最初の60分は無料で利用できます。</string>
+    <string name="mi_account_msg">Xiaomi アカウントでサインインすると、クラウド上のファイルを書き写すことができ、最初の60分が無料になります。</string>
     <string name="mi_account_ok">サインイン</string>
-    <string name="mi_account_title">Mi アカウントでサインイン</string>
+    <string name="mi_account_title">Xiaomi アカウントでサインイン</string>
     <string name="midnight">真夜中</string>
     <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
@@ -297,6 +300,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -323,6 +327,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">タップすると、日の選択に切り替わります</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
     <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
+    <string name="network_error_info">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="network_timeout_info">ネットワークに接続できませんでした。もう一度お試しください。</string>
     <string name="network_tip_dialog_cancel">同意しない</string>
     <string name="network_tip_dialog_content">レコーダーが正常に動作するにはインターネットへの接続が必要です。同意しますか？</string>
     <string name="network_tip_dialog_ok">同意</string>
@@ -422,6 +428,7 @@
     <string name="privacy_policy_title">プライバシーポリシー</string>
     <string name="privacy_settings">プライバシー</string>
     <string name="progress">再生プログレスバー</string>
+    <string name="progressbar_title">セキュリティの問題を確認中…</string>
     <string name="recognition_button_add_to_queue">キューに追加</string>
     <string name="recognition_button_cancel">今はしない</string>
     <string name="recognition_button_start">文字起こし</string>
@@ -429,7 +436,7 @@
     <string name="recognition_error_cancel">キャンセルされました</string>
     <string name="recognition_error_code">エラーコード：%d</string>
     <string name="recognition_error_download_cancel">後で</string>
-    <string name="recognition_error_download_data_msg">このサービスを利用できるように、文字起こしエンジンをダウンロードしてください。このダウンロードには、約20MBのモバイルデータが必要です。</string>
+    <string name="recognition_error_download_data_msg">このサービスを利用可能にするには、文字起こしエンジンをダウンロードしてください。このダウンロードには、約20MBのモバイルデータが必要です。</string>
     <string name="recognition_error_download_fail">ダウンロードできませんでした。ネットワーク設定を確認してからもう一度お試しください。</string>
     <string name="recognition_error_download_msg">このサービスを利用できるようにするには、文字起こしエンジンをダウンロードしてください。</string>
     <string name="recognition_error_download_ok">ダウンロード</string>
@@ -572,6 +579,7 @@
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
     <string name="sync_desc_state_complete">クラウドと同期済み：%1$s</string>
+    <string name="system_error_info">システムはビジー状態です。1、2分待ってからもう一度お試しください。</string>
     <string name="tab_all">すべて</string>
     <string name="tab_apps">アプリ</string>
     <string name="tab_call">通話</string>
@@ -654,6 +662,7 @@
     <string name="tuesday_shortest">火</string>
     <string name="uninstall_warning_content">レコーダーはシステムアプリです。アンインストールすると、音声通話や音声の録音・文字起こしができなくなります。</string>
     <string name="uninstall_warning_title">レコーダーをアンインストールしますか？</string>
+    <string name="unknown_error_info">不明なエラー</string>
     <string name="usage_description">オーディオの文字起こしとクラウドとのアイテムの同期</string>
     <string name="user_feedback">フィードバック</string>
     <string name="v7_preference_off">OFF</string>

@@ -132,10 +132,10 @@
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>

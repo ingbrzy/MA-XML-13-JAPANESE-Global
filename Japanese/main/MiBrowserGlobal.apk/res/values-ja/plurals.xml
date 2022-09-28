@@ -51,6 +51,14 @@
     <plurals name="download_dialog_confirm_delete_downloads_message">
         <item quantity="other">%d件のタスクを削除しますか？</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d 秒早送り</item>
+        <item quantity="one">%d 秒早送り</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d 秒巻き戻し</item>
+        <item quantity="one">%d 秒巻き戻し</item>
+    </plurals>
     <plurals name="file_count">
         <item quantity="other">%1$d個のアイテム</item>
     </plurals>
@@ -81,8 +89,14 @@
     <plurals name="in_num_minutes">
         <item quantity="other">%d分後</item>
     </plurals>
+    <plurals name="intercept_panel_img_text">
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="intercept_panel_protection_total">
+        <item quantity="other">%d回保護されました</item>
+    </plurals>
     <plurals name="le_notification_download_completed">
-        <item quantity="other">%d個のアイテムを正常にダウンロードしました</item>
+        <item quantity="other">%1$s個のアイテムが正常にダウンロードされました</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">たった今</item>
@@ -111,11 +125,17 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
+    <plurals name="person_menu_protect_count">
+        <item quantity="other">%s回保護されました</item>
+    </plurals>
     <plurals name="players">
         <item quantity="other">%d人のプレイヤー</item>
     </plurals>
     <plurals name="pref_adblock_counts">
         <item quantity="other">%d件の広告をブロックしました</item>
+    </plurals>
+    <plurals name="reading__search_resultful">
+        <item quantity="other">%1$d件の結果が見つかりました</item>
     </plurals>
     <plurals name="search_trending_views">
         <item quantity="other">%s件の検索リクエスト</item>
@@ -132,11 +152,17 @@
     <plurals name="suggest_access_item_singer_pop">
         <item quantity="other">人気の歌%d曲</item>
     </plurals>
+    <plurals name="tag_count">
+        <item quantity="other">%d個のタブ</item>
+    </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">%1$d件を選択済み</item>
     </plurals>
     <plurals name="video_collection_reminder_view">
         <item quantity="other">%d本のお気に入りのビデオを長い間視聴していません。</item>
+    </plurals>
+    <plurals name="video_views">
+        <item quantity="other">%s回再生</item>
     </plurals>
     <plurals name="videos_updated_amount">
         <item quantity="other">%1$d本の新しいビデオをチェック</item>
@@ -149,5 +175,35 @@
     </plurals>
     <plurals name="vote_all_people">
         <item quantity="other">%d人が投票しました</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_ad">
+        <item quantity="other">%d件の広告をブロックしました</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_allow_times">
+        <item quantity="other">%d回許可しました</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_disallow_times">
+        <item quantity="other">%d回制限しました</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_privacy">
+        <item quantity="other">%d回停止しました</item>
+    </plurals>
+    <plurals name="web_permission_ad_subtitle">
+        <item quantity="other">%s件の広告をブロックしました</item>
+    </plurals>
+    <plurals name="web_permission_allow_default_subtitle">
+        <item quantity="other">%s回許可しました</item>
+    </plurals>
+    <plurals name="web_permission_deny_default_subtitle">
+        <item quantity="other">%s回制限しました</item>
+    </plurals>
+    <plurals name="web_permission_privacy_subtitle">
+        <item quantity="other">%s回停止しました</item>
+    </plurals>
+    <plurals name="web_permission_protect_subtitle_day">
+        <item quantity="other">%s日</item>
+    </plurals>
+    <plurals name="web_permission_protect_subtitle_time">
+        <item quantity="other">%s回</item>
     </plurals>
 </resources>

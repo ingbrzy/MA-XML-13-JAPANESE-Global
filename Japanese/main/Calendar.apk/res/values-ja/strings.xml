@@ -55,6 +55,8 @@
     <string name="agenda_tomorrow">明日、%1$s</string>
     <string name="agenda_view">イベント</string>
     <string name="alarm_label">解除</string>
+    <string name="alarm_open_reminder">リマインダーをオンにする</string>
+    <string name="alarm_reminder_already">リマインダーはオンです</string>
     <string name="alert_reminder_divider">|</string>
     <string name="alert_reminder_expired">期限切れ</string>
     <string name="alert_title">カレンダー通知</string>
@@ -90,6 +92,7 @@
     <string name="birthday_term">誕生日</string>
     <string name="button_record_menstruation">記録</string>
     <string name="calendar_permission_desc">イベントを管理</string>
+    <string name="calendar_privacy_policy">プライバシーポリシー</string>
     <string name="can_not_create_long_event">イベント名が長すぎます</string>
     <string name="can_not_modify_allday_event">終日のイベントを変更できません</string>
     <string name="can_not_modify_event">イベントを変更できません</string>
@@ -145,7 +148,7 @@
     <string name="countdown_notify_title">カウントダウン: %1$s</string>
     <string name="countdown_secondary_tag">カウントダウン</string>
     <string name="countdown_today">今日</string>
-    <string name="create_an_account_desc">"カレンダーはMi アカウントと一緒に使用すると便利です。
+    <string name="create_an_account_desc">"カレンダーはXiaomi アカウントと一緒に使用すると便利です。
 
 •任意のウェブブラウザーからカレンダーにアクセスできます。
 •イベントを安全にバックアップできます。"</string>
@@ -177,11 +180,13 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">中国暦</string>
+    <string name="date_time_fmt" formatted="false">%s %s</string>
     <string name="date_time_picker_dialog_title">日付と時刻を設定</string>
     <string name="date_today">" (今日)"</string>
     <string name="date_view">日付</string>
     <string name="day">日</string>
     <string name="day_view_new_event_hint">新しいイベント</string>
+    <string name="default_reminder_later_time">\"後で通知\"のデフォルトの間隔</string>
     <string name="default_reminder_mode">リマインダー</string>
     <string name="delete_menstruation_record_confirm">この記録を削除しますか？</string>
     <string name="delete_recurring_event_title">%sを削除しますか？</string>
@@ -212,8 +217,10 @@
     <string name="edit_event_label">詳細</string>
     <string name="edit_event_no_reminder_value">通知しない</string>
     <string name="edit_event_reminder_3_days_before">%d日前にもリマインド</string>
+    <string name="edit_event_reminder_3_days_before_time">%d日前にもリマインド</string>
     <string name="edit_event_reminder_summary">当日の%1$s</string>
     <string name="edit_event_reminder_summary_3_days_before">%2$d日前と当日の%1$s</string>
+    <string name="edit_event_reminder_summary_3_days_before_today">%1$d日前と当日%1$s</string>
     <string name="edit_event_reminder_text">%1$sの%2$s</string>
     <string name="edit_event_reminder_time">リマインダー時刻</string>
     <string name="edit_event_reminder_with_another_day_text">%1$s、%2$sの%3$s</string>
@@ -222,6 +229,14 @@
     <string name="edit_event_tab_birthday">誕生日</string>
     <string name="edit_event_tab_countdown">カウントダウン</string>
     <string name="edit_event_tab_event">イベント</string>
+    <string name="edit_event_title_create_agenda">イベントを作成</string>
+    <string name="edit_event_title_create_anniversary">記念日を作成</string>
+    <string name="edit_event_title_create_birthday">誕生日を作成</string>
+    <string name="edit_event_title_create_countdown">カウントダウンを作成</string>
+    <string name="edit_event_title_edit_agenda">イベントを編集</string>
+    <string name="edit_event_title_edit_anniversary">記念日を編集</string>
+    <string name="edit_event_title_edit_birthday">誕生日を編集</string>
+    <string name="edit_event_title_edit_countdown">カウントダウンを編集</string>
     <string name="edit_event_to_label">終了日時</string>
     <string name="edit_your_long_holidays">休日を編集</string>
     <string name="ee_dd_short_month">M月d日 (EEE)</string>
@@ -390,7 +405,9 @@
     <string name="item_num_selected">%1$d個を選択済み</string>
     <string name="language_change_confirmation">正常に変更されました。カレンダーの設定で言語を変更できます。</string>
     <string name="launch_weather_comment">ここをタップして天気情報を取得</string>
-    <string name="load_more_hint">%1$dからイベントを読み込む</string>
+    <string name="load_more_events">%dのイベントを表示</string>
+    <string name="load_more_events_default">翌年のイベントを表示</string>
+    <string name="load_more_hint">%1$dのイベントを表示</string>
     <string name="loading">お待ちください…</string>
     <string name="local_calendar_display_name">ローカルカレンダー</string>
     <string name="local_owner_account_name">このデバイスに保存されました</string>
@@ -543,6 +560,7 @@
     <string name="no_internet_dialog_message">同意を撤回するには、デバイスがネットワークに接続されている必要があります。ネットワーク設定を確認して、もう一度お試しください。</string>
     <string name="no_internet_dialog_title">エラーが発生しました</string>
     <string name="no_long_holidays">今後の長期休暇はありません</string>
+    <string name="no_more_events">これ以上表示するイベントはありません</string>
     <string name="no_network">"ネットワークに接続できませんでした。
 ネットワーク設定を確認して、もう一度お試しください。"</string>
     <string name="no_network_btn">再試行</string>
@@ -596,6 +614,7 @@
     <string name="panchang_yog">Yog</string>
     <string name="partner_compatibility">パートナーの互換性</string>
     <string name="path_calendar_settings">システムアプリ/カレンダー/設定</string>
+    <string name="permission_description">アクセス許可の詳細</string>
     <string name="picker_day">選択した日：%1$d。縦にスワイプして選択します。</string>
     <string name="picker_month">選択した月：%1$d。縦にスワイプして選択します。</string>
     <string name="picker_year">選択した年：%1$d。縦にスワイプして選択します。</string>
@@ -609,14 +628,20 @@
     <string name="pref_title_notification_remind">通知リマインダー</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="preferences_additional_cal_default">0</string>
+    <string name="preferences_alarms_category_title">アラームリマインダー</string>
+    <string name="preferences_alarms_sound">サウンド</string>
+    <string name="preferences_alarms_vibrateWhen">バイブレーション</string>
     <string name="preferences_alerts_ringtone_title">サウンド</string>
     <string name="preferences_alerts_vibrateWhen_title">バイブレーション</string>
     <string name="preferences_alerts_vibrate_title">バイブレーションと通知音</string>
+    <string name="preferences_allow_remind">リマインダーを許可</string>
     <string name="preferences_default_allday_reminder_title">デフォルトの終日リマインダー時刻</string>
     <string name="preferences_default_reminder_dialog">デフォルトのリマインダー時刻</string>
     <string name="preferences_default_reminder_title">デフォルトのリマインダー時刻</string>
     <string name="preferences_home_tz_title">居住地のタイムゾーン</string>
     <string name="preferences_notification_ringtone_title">サウンド</string>
+    <string name="preferences_popup_alert_smart_summary_new">時間的制約のあるイベントとは、正確な時間を持つイベントのことです</string>
+    <string name="preferences_popup_alert_title">ポップアップリマインダー</string>
     <string name="preferences_show_indic_date_title">インド暦を表示</string>
     <string name="preferences_title">カレンダー</string>
     <string name="preferences_use_home_tz_descrip">旅行時に、カレンダーやイベントの時間を居住地のタイムゾーンで表示する</string>
@@ -624,12 +649,18 @@
     <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_week_start_day_dialog">週の始まり</string>
     <string name="preferences_week_start_day_title">週の始まり</string>
+    <string name="privacy_and_permissions">プライバシーとアクセス許可</string>
     <string name="privacy_card_description">すべての機能にアクセスするには、プライバシーポリシーに同意してください。</string>
     <string name="privacy_policy_dialog_agree">同意</string>
     <string name="privacy_policy_dialog_dont_agree">同意しない</string>
     <string name="privacy_policy_dialog_message">&lt;Data>カレンダーへようこそ！&lt;br/>このアプリを使用すると、イベントの作成と管理、リマインダーの設定、および現在地に関する追加情報の受信を行うことができます。&lt;br/>カレンダーは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取り扱い方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。&lt;br/>カレンダーの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。カレンダーに対するプライバシーポリシーへの同意はいつでも設定で撤回できます。&lt;br/> プライバシーポリシーに同意しない場合、このアプリの一部機能が使用できません。ただし、基本的な機能は引き続きご利用いただけます。&lt;/Data></string>
     <string name="privacy_policy_dialog_title">使用条件</string>
     <string name="privacy_revoke_switch_text">同意の撤回</string>
+    <string name="pull_refresh_events">%dのイベントを表示</string>
+    <string name="pull_refresh_events_default">前年のイベントを表示</string>
+    <string name="pull_refresh_progress_load_finish">正常に読み込まれました</string>
+    <string name="pull_refresh_progress_loading">お待ちください…</string>
+    <string name="pull_refresh_progress_release_to_load">指を離して読み込む</string>
     <string name="pull_to_refresh_hint">プルダウンして%1$dからイベントを読み込む</string>
     <string name="recorded_menstruation">記録済みの生理</string>
     <string name="refresh">更新</string>
@@ -686,6 +717,8 @@
     <string name="search_calendar">日付;節気;太陰;アルマナック;占い;アジェンダ;会議;リマインダー;休暇;祝日;誕生日;2016;2017;春節;元旦;国際労働デー;中秋節</string>
     <string name="search_calendar_edit_event">会議;リマインダー;アジェンダ</string>
     <string name="search_calendar_settings">カレンダー;アジェンダ;リマインダー</string>
+    <string name="search_events">イベントを検索</string>
+    <string name="search_history">検索履歴</string>
     <string name="search_menu_title">検索</string>
     <string name="second_saturday_holiday">毎月第2土曜日は休みです</string>
     <string name="select_date">日付にジャンプ</string>
@@ -705,7 +738,9 @@
     <string name="setting_features_title">機能設定</string>
     <string name="setting_holiday_display_desc">祝日カードはホームページの日程の下にあります</string>
     <string name="setting_holiday_reminder">祝日リマインダー</string>
+    <string name="setting_import_events">イベントをインポート</string>
     <string name="setting_others">追加</string>
+    <string name="setting_show_reject_agenda">拒否したイベントを表示</string>
     <string name="setting_title_about">バージョン情報</string>
     <string name="setting_title_holiday_display">祝日を表示する</string>
     <string name="setting_title_import_todo">タスクをインポート</string>
@@ -722,7 +757,7 @@
     <string name="show_day_view">日付を表示</string>
     <string name="show_indic_date_summary">インド暦は、インドのいずれかの言語がシステム言語として設定されている場合に使用できます</string>
     <string name="show_menstruation_info">生理情報を表示</string>
-    <string name="simple_date_format">yyyy年M月d日</string>
+    <string name="simple_date_format">yyyy/MM/dd</string>
     <string name="single_selected_holiday">%1$sは休みです</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
@@ -768,6 +803,10 @@
     <string name="tab_title_day">日</string>
     <string name="tab_title_month">月</string>
     <string name="tab_title_week">週</string>
+    <string name="tab_view_day">日</string>
+    <string name="tab_view_month">月</string>
+    <string name="tab_view_week">週</string>
+    <string name="tab_view_year">年</string>
     <string name="talk_back_read_date">%1$s (陰暦 %2$s)。</string>
     <string name="talk_back_setting">設定</string>
     <string name="talk_back_tab_switch">ビューを切り替える</string>
@@ -939,7 +978,7 @@
     <string name="work_day_indication">: (</string>
     <string name="xiaomi_calendar_delete_description">カレンダーは、イベントの作成や管理ができるシステムアプリです。 ホーム画面のショートカットを削除しても、一部機能は引き続き使用できます。</string>
     <string name="xiaomi_calendar_delete_title">ホーム画面から\"カレンダー\"を削除しますか？</string>
-    <string name="xiaomi_calendar_display_name">Mi アカウントカレンダー</string>
+    <string name="xiaomi_calendar_display_name">Xiaomi アカウントカレンダー</string>
     <string name="year">年</string>
     <string name="yearly">毎年 (毎%s)</string>
     <string name="yearly_plain">毎年</string>

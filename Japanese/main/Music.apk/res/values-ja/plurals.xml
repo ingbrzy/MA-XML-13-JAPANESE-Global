@@ -90,6 +90,14 @@
     <plurals name="download_running">
         <item quantity="other">&lt;font color=\"red\">%d曲&lt;/font>ダウンロード中</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d 秒早送り</item>
+        <item quantity="one">%d 秒早送り</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d 秒巻き戻し</item>
+        <item quantity="one">%d 秒巻き戻し</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">無料ダウンロード残り%d回</item>
     </plurals>
@@ -153,6 +161,9 @@
     </plurals>
     <plurals name="sound_fade_duration_in_seconds">
         <item quantity="other">曲間のクロスフェード：%d秒</item>
+    </plurals>
+    <plurals name="task_guide">
+        <item quantity="other">今日は%1$d枚のコインを獲得できます</item>
     </plurals>
     <plurals name="video_count">
         <item quantity="other">ビデオ</item>

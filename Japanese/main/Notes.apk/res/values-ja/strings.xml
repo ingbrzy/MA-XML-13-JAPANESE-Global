@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">共有</string>
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
+    <string name="access_denied_info">試行回数が多すぎます。1、2分待ってからもう一度お試しください。</string>
     <string name="action_collapse">非表示</string>
     <string name="action_expand">さらに表示</string>
     <string name="action_folder_description">フォルダーを表示</string>
@@ -137,6 +138,7 @@
     <string name="dlg_hide_message">隠しています…</string>
     <string name="dlg_info_creating_message">画像を作成中…</string>
     <string name="dlg_info_save_to_gallery_message">画像をギャラリーに保存中…</string>
+    <string name="dlg_info_save_to_local_message">保存中…</string>
     <string name="dlg_message_password_reset">隠しメモのパスワードは、メッセージ、写真、および隠しフォルダーに使用されているプライバシー保護パスワードに置き換えられます</string>
     <string name="dlg_message_set_password">プライバシー保護パスワードは、メッセージ、写真、および隠しフォルダーに使用されます</string>
     <string name="dlg_message_use_privacy_password">プライバシー保護パスワードを使用してください。このパスワードは、メッセージ、写真、隠しフォルダーに使用されます。</string>
@@ -496,6 +498,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -522,6 +525,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">タップすると、日の選択に切り替わります</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
     <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
+    <string name="network_error_info">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="network_timeout_info">ネットワークに接続できませんでした。もう一度お試しください。</string>
     <string name="new_app_name">Mi メモ</string>
     <string name="new_audio_create_cancel_talkback_des">キャンセルされました</string>
     <string name="new_audio_create_done_talkback_des">作成されました</string>
@@ -552,11 +557,14 @@
     <string name="note_mindnote_entrance_hint_newversion">"入力開始 "</string>
     <string name="note_mindnote_entrance_icon_text">マインドマップを作成</string>
     <string name="note_mindnote_entrance_icon_text_newversion">マインドマップを作成</string>
+    <string name="note_mindnote_not_support_in_phone_model">このデバイスではマインドマップを編集できません</string>
     <string name="note_module_name">メモ</string>
     <string name="note_not_text_stub">テキストなし</string>
     <string name="note_sort_way">並べ替え</string>
+    <string name="note_write_hint">書き始める</string>
     <string name="notealert_enter">メモを開く</string>
     <string name="notealert_ok">無視</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">メモはシステムアプリです。アンインストールすると、このアプリは使用できなくなります。</string>
     <string name="notes_description_title">メモをアンインストールしますか？</string>
     <string name="notification_content_add_todo_from_other_app">新しいタスクを追加しました。タップして表示します。</string>
@@ -619,6 +627,8 @@
     <string name="permission_phone_state_desc">通話中の音声メモの録音を停止するため</string>
     <string name="permission_read_contact_desc">通話中に作成したメモと連絡先を関連付ける</string>
     <string name="permission_storage_desc">メモを画像として保存するため</string>
+    <string name="permission_storage_desc_new_v12">メモに画像を追加したり、メモを画像として保存したりするため</string>
+    <string name="permission_storage_desc_pad_new_v12">メモに画像を追加したり、メモを画像として保存したりするため</string>
     <string name="permission_storage_desc_pad_v12">メモに画像を追加したり、メモを画像として保存したりするため</string>
     <string name="permission_storage_desc_v12">メモに画像を追加したり、メモを画像として保存したりするため</string>
     <string name="permission_xiaoai_desc">&lt;Data>Mi AIは、音声録音とデバイスIDを収集してオーディオを書き起こし、音声メモを作成します。詳しくはMi AI &lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。&lt;/Data></string>
@@ -656,6 +666,7 @@
     <string name="privacy_note_content_empty">ここにアイテムはまだありません。</string>
     <string name="private_entry_available">指を離してプライベートフォルダーを開く</string>
     <string name="private_entry_default">プルダウンしてプライベートフォルダーを開く</string>
+    <string name="progressbar_title">セキュリティの問題を確認中…</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">クイックメモではメモや抜粋を作成できます</string>
     <string name="recover_notes_hint">エラーが発生しました。i.mi.comにアクセスしてメモを復元してください。</string>
@@ -704,6 +715,9 @@
     <string name="save_to_gallery_failure_message">保存できませんでした</string>
     <string name="save_to_gallery_icon_name">ギャラリーに保存</string>
     <string name="save_to_gallery_success_message">正常に保存されました</string>
+    <string name="save_to_local_failure_message">保存できませんでした</string>
+    <string name="save_to_local_icon_name">保存</string>
+    <string name="save_to_local_success_message">正常に保存されました</string>
     <string name="search">メモ</string>
     <string name="search_hint">メモを検索する</string>
     <string name="search_keyword_notes">ノート;メモ</string>
@@ -765,6 +779,7 @@
     <string name="sync_note_folder">%1$sと%2$s</string>
     <string name="sync_note_todo">%1$sと%2$s</string>
     <string name="sync_tips">タップしてメモをクラウドと同期します。</string>
+    <string name="system_error_info">システムはビジー状態です。1、2分待ってからもう一度お試しください。</string>
     <string name="the_anniversary_of_lifting_martial_law">戒厳令解除記念日</string>
     <string name="the_anti_aggression_day">反侵略の日</string>
     <string name="the_arbor_day">植樹節</string>
@@ -940,6 +955,7 @@
     <string name="tuesday_shortest">火</string>
     <string name="unclassfied_folder_name">未分類</string>
     <string name="undo">元に戻す</string>
+    <string name="unknown_error_info">不明なエラー</string>
     <string name="unknown_source">不明なソース</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>

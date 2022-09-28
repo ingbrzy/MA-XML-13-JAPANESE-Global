@@ -466,7 +466,9 @@
     <string name="hdcp_checking_dialog_title">HDCPチェック動作を設定</string>
     <string name="hdcp_checking_title">HDCPチェック</string>
     <string name="headset_battery_fw_failed">まずデバイスを充電してください</string>
+    <string name="headset_battery_low">バッテリーが残りわずかです。今すぐイヤホンを充電してください。</string>
     <string name="headset_connect_device">デバイスに接続してください</string>
+    <string name="headset_connect_timeout">接続がタイムアウトしました。最初からやり直してください。</string>
     <string name="headset_device_check_failed">アップデートを確認できませんでした</string>
     <string name="headset_device_donot_move">デバイスを近くに置いてください</string>
     <string name="headset_device_enter_upgrade_failed">アップデートを開始できませんでした</string>
@@ -492,6 +494,7 @@
     <string name="headset_loss_notify_summary">イヤホンの片方または両方が充電ケースに入っていないようです。紛失していないか確認してください。</string>
     <string name="headset_loss_notify_summary1">イヤホンがケースに入っていないようです。ケースに戻して充電してください。</string>
     <string name="headset_loss_notify_title">イヤホン紛失アラート</string>
+    <string name="headset_not_in_case">両方のイヤホンをケースに入れ、最初からやり直してください</string>
     <string name="headset_read_fw_state">アップデート情報を取得できませんでした</string>
     <string name="headset_update_failed">アップデートできませんでした</string>
     <string name="headset_update_ok">完了</string>
@@ -683,6 +686,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>

@@ -141,10 +141,10 @@
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -270,6 +270,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -457,7 +458,7 @@
     <string name="sound_id_function_description">自分の好みに合わせてイコライザーカーブをパーソナライズ</string>
     <string name="sound_id_function_name">パーソナライズされたサウンド</string>
     <string name="sound_id_headset_status">現在のイヤホン</string>
-    <string name="sound_id_hz_high">"高温
+    <string name="sound_id_hz_high">"高音
 %dHz"</string>
     <string name="sound_id_hz_low">"低音
 %dHz"</string>

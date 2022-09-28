@@ -59,6 +59,7 @@
     <string name="copies_increase">プラス一部</string>
     <string name="copy">コピー</string>
     <string name="could_not_create_file">ファイルを作成できませんでした</string>
+    <string name="current_page_template">%1$d / %2$d</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -146,6 +147,7 @@
     <string name="label_paper_size">紙</string>
     <string name="label_paper_size_summary">用紙サイズ:</string>
     <string name="mediasize_default">ISO_A4</string>
+    <string name="mediasize_standard">@string/mediasize_standard_japan</string>
     <string name="midnight">真夜中</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
@@ -263,6 +265,7 @@
     <string name="printer_busy">プリンターはビジー状態です</string>
     <string name="printer_error">プリンターエラー</string>
     <string name="printer_error_msg">プリンターエラー: %1$s</string>
+    <string name="printer_extended_description_template">%1$s - %2$s</string>
     <string name="printer_info_desc">このプリンタの詳細</string>
     <string name="printer_notification_error_title">%1$s 印刷できませんでした</string>
     <string name="printer_unavailable">プリンターは利用できません</string>

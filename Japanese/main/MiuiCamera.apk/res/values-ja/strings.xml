@@ -667,6 +667,7 @@
     <string name="edit_smile">笑顔</string>
     <string name="edit_solid">輪郭</string>
     <string name="emoticon">ステッカーパック</string>
+    <string name="empty" />
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="error_fail_to_start_audio_capture">音声キャプチャを起動できませんでした</string>
@@ -1295,6 +1296,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_camera_auxiliary_close">オフ</string>
     <string name="pref_camera_auxiliary_exposure_feedback">露出検証</string>
     <string name="pref_camera_auxiliary_focus_peak">フォーカスピーキング</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">高</string>
     <string name="pref_camera_beautify_entry_low">低</string>
     <string name="pref_camera_beautify_entry_normal">中</string>

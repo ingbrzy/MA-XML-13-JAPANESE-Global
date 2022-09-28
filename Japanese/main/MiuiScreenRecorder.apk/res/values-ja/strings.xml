@@ -33,7 +33,7 @@
     <string name="app_name">スクリーンレコーダー</string>
     <string name="app_notification_channel_record_complete">録画終了の通知</string>
     <string name="app_notification_info">スクリーンレコーダーがバックグラウンドで実行されています</string>
-    <string name="app_notification_record_complete">"ギャラリーに画面録画を保存しました
+    <string name="app_notification_record_saved">"録画が正常に保存されました
 タップして表示"</string>
     <string name="app_notification_title">スクリーンレコーダー</string>
     <string name="auto_stop_title">ビデオは正常に保存されました</string>

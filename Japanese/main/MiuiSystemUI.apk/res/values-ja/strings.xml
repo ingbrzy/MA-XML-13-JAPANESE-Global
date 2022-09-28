@@ -1213,6 +1213,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM カードが見つからないか読み取れません。SIM カードを挿入してください。</string>
     <string name="keyguard_missing_sim_message">スマートフォンに SIM カードが挿入されていません。</string>
     <string name="keyguard_missing_sim_message_short">SIM カードなし</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">ネットワークがロックされました</string>
     <string name="keyguard_password_enter_password_code">ロックを解除するにはパスワードを入力してください</string>
     <string name="keyguard_password_enter_pin_code">PIN コードを入力してください</string>
@@ -1522,12 +1523,14 @@ mm"</string>
 
 詳しくは管理者にお問い合わせください。"</string>
     <string name="monitoring_description_ca_cert_settings">信頼できる認証情報を開く</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">このデバイスには認証局がインストールされています。保護されたネットワーク トラフィックが監視、変更される可能性があります。</string>
     <string name="monitoring_description_do_body">管理者は、このデバイスに関連付けられた設定、コーポレート アクセス、アプリ、データのほか、デバイスの位置情報を監視、管理できます。</string>
     <string name="monitoring_description_do_body_vpn">「%1$s」に接続しています。このアプリはあなたのネットワーク アクティビティ（メール、アプリ、ウェブサイトなど）を監視できます。</string>
     <string name="monitoring_description_do_header_generic">このデバイスは %1$sで管理されています。</string>
     <string name="monitoring_description_do_header_with_name">%1$s は %2$sを使用してこのデバイスを管理しています。</string>
     <string name="monitoring_description_do_learn_more">詳細</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">組織によって、あなたの仕事用プロファイルに認証局がインストールされました。保護されたネットワーク トラフィックが監視、変更される場合があります。</string>
     <string name="monitoring_description_managed_profile_named_vpn">この仕事用プロファイルは %1$s に接続しています。このアプリはあなたのネットワーク アクティビティ（メール、アプリ、ウェブサイトなど）を監視できます。</string>
     <string name="monitoring_description_managed_profile_network_logging">管理者がネットワーク ログを有効にしているため、仕事用プロファイルのトラフィックは監視されています（個人用プロファイルは対象外）。</string>
@@ -1561,6 +1564,7 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
 
 また、VPN に接続しているため、このネットワークでのあなたのネットワーク アクティビティも監視されます。"</string>
     <string name="monitoring_description_vpn_settings">VPN 設定を開く</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s がこのデバイスに関連するデータにアクセスし、アプリを管理し、デバイスの設定を変更できる可能性があります。
 
 ご不明な点がある場合は、%2$s にお問い合わせください。"</string>
@@ -1641,6 +1645,7 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -1671,6 +1676,7 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="nav_bar">ナビゲーション バー</string>
     <string name="nav_bar_default">（デフォルト）</string>
     <string name="nav_bar_layout">レイアウト</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s さんが画像を送信しました</string>
     <string name="new_notification_text_content_description">%1$s さんからのメッセージ: %2$s</string>
     <string name="new_status_content_description">%1$s さんの近況: %2$s</string>
@@ -1894,6 +1900,7 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="private_dns_mode_provider">プライベート DNS プロバイダのホスト名</string>
     <string name="private_dns_mode_provider_failure">接続できませんでした</string>
     <string name="private_dns_mode_provider_hostname_hint">DNS プロバイダのホスト名を入力</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">接続エラーです。デバイスを OFF にしてから ON に戻してください</string>
     <string name="profile_info_settings_title">プロファイル情報</string>
     <string name="profile_owned_footer">プロファイルが監視されている可能性があります</string>
@@ -2263,6 +2270,8 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="status_bar_clock_date_time_format_12">M月d日 (E) a h:mm</string>
     <string name="status_bar_clock_date_weekday_format">M月d日 EEEE</string>
     <string name="status_bar_clock_date_weekday_format_12">M月d日 EEEE</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"M月d日
 EEEE"</string>
     <string name="status_bar_date_format_12">"M月d日

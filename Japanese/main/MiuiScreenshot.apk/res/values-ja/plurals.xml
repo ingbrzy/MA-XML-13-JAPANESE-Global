@@ -27,6 +27,9 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
+    <plurals name="file_type_detail_count">
+        <item quantity="other">%1$d個のファイル</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
@@ -50,5 +53,77 @@
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">%1$sからの%2$d件のインストールパッケージ (%3$s)</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">%1$sから%2$d件のインストールパッケージ (%3$s) を受信しました</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">%1$sから%2$d件のインストールパッケージ (%3$s) を受信中…</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%1$sからの%2$d件のオーディオファイル (%3$s)</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">%1$sから%2$d件のオーディオファイル (%3$s) を受信しました</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">%1$sから%2$d件のオーディオファイル (%3$s) を受信中…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%1$sからの%2$d件の%3$sファイル (%4$s)</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">%1$sから%2$d件の%3$sファイル (%4$s) を受信しました</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">%1$sから%2$d件の%3$sファイル (%4$s) を受信中…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%1$sからの%2$d枚の画像</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">%1$sから%2$d枚の画像を受信しました</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">%1$sから%2$d枚の画像を受信中…</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%1$sからの%2$d件の画像やビデオ</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">%1$sから%2$d件の画像やビデオを受信しました</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">%1$sから%2$d件の画像やビデオを受信中…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%1$sからの%2$d件のファイル</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">%1$sから%2$d件のファイルを受信しました</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">%1$sから%2$d件のファイルを受信中…</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%1$sからの%2$d本のビデオ</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">%1$sから%2$d本のビデオを受信しました</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">%1$sから%2$d本のビデオを受信中…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%1$sからの%2$d件のアーカイブ (%3$s)</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">%1$sから%2$d件のアーカイブ (%3$s) を受信しました</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">%1$sから%2$d件のアーカイブ (%3$s) を受信中…</item>
     </plurals>
 </resources>

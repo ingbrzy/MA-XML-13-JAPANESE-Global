@@ -127,6 +127,7 @@
     <string name="content_desc_activity_main_add_city">都市を追加</string>
     <string name="content_desc_activity_main_add_city_manage">都市を管理</string>
     <string name="content_desc_activity_main_more_settings">その他の設定</string>
+    <string name="content_desc_activity_main_page">ページ %1$d/%2$d</string>
     <string name="content_desc_back_button">戻る</string>
     <string name="content_desc_city_manage_del">削除</string>
     <string name="content_desc_close_button">閉じる</string>
@@ -162,6 +163,7 @@
     <string name="dynamic_weather">天気</string>
     <string name="early_morning">早朝</string>
     <string name="edit_city">都市を管理</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">アップデート中…</string>
     <string name="empty_view_net_unavailable">ネットワークに接続できませんでした</string>
     <string name="empty_view_refresh">再試行</string>
@@ -271,13 +273,22 @@
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
     <string name="hourly_forcast_now">現在</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">M/d</string>
     <string name="index_item_experience_now">今すぐインストール</string>
     <string name="indices_title_chance_of_rain">降水確率</string>
     <string name="indices_title_feel">体感温度</string>
     <string name="indices_title_pressure">気圧</string>
+    <string name="indices_title_uv">UV</string>
     <string name="indices_title_wind_speed">風速</string>
+    <string name="indices_wind_direction_east">東</string>
+    <string name="indices_wind_direction_north">北</string>
+    <string name="indices_wind_direction_south">南</string>
+    <string name="indices_wind_direction_west">西</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">紫外線指数</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">位置情報サービスをオンにする</string>
     <string name="location_tag">位置を特定</string>
     <string name="manager_city_option_add_home">スタートページに追加</string>
@@ -377,7 +388,7 @@
     <string name="particulate_matter_not_exceeded">標準</string>
     <string name="particulate_matter_serious_exceeded">深刻な基準越え</string>
     <string name="permission_device_info">デバイス情報</string>
-    <string name="permission_device_introduce">デバイスモデルとIMEIに基づいてデバイスIDを認識し、言語設定に基づいてローカライズされたサービスを提供するため</string>
+    <string name="permission_device_introduce">デバイスモデルに基づいてデバイスを認識し、言語設定に基づいてローカライズされたサービスを提供するため</string>
     <string name="permission_exit">終了</string>
     <string name="permission_privacy">プライバシーポリシー（必須）</string>
     <string name="permission_select_all">すべて選択</string>
@@ -426,6 +437,8 @@
     <string name="send">送信</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
+    <string name="setting_notification_manager">通知</string>
+    <string name="setting_used_to_push_reminder">気象警報や注意報を受信する</string>
     <string name="settings">設定</string>
     <string name="settings_atmospheric_pressure_atm">標準気圧 (atm)</string>
     <string name="settings_atmospheric_pressure_hpa">ヘクトパスカル (hPa)</string>
@@ -437,6 +450,7 @@
     <string name="share_menu_title">共有</string>
     <string name="share_subject">共有</string>
     <string name="share_weather_desc">\#MIUI 天気#今日：%1$s、%2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">、</string>
     <string name="share_weather_save_pic_fail">スクリーンショットを撮影できませんでした</string>
     <string name="shortcut_short_label_24_hour_forecast">24時間予報</string>

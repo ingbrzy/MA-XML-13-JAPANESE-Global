@@ -123,6 +123,7 @@
     <string name="cast_closed_captions_unavailable">クローズド キャプションを使用できません</string>
     <string name="cast_connecting_to_device">「%1$s」に接続しています</string>
     <string name="cast_disconnect">接続を解除</string>
+    <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Cast レシーバーが広告を再生している間に表示された画像</string>
     <string name="cast_expanded_controller_ad_in_progress">広告の編集中…</string>
     <string name="cast_expanded_controller_background_image">アルバムアート</string>
@@ -134,6 +135,7 @@
     <string name="cast_forward">早送り</string>
     <string name="cast_forward_10">10 秒早送り</string>
     <string name="cast_forward_30">30 秒早送り</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">ライブ</string>
     <string name="cast_mute">ミュート</string>
     <string name="cast_notification_connected_message">%1$s に接続しました</string>
@@ -166,6 +168,8 @@
     <string name="choose">選択</string>
     <string name="choose_to_signin">はい</string>
     <string name="choose_to_signup">いいえ、アカウントを新規作成します</string>
+    <string name="chromecast_connecting">Chromecastに接続中…</string>
+    <string name="chromecast_playing">このビデオをChromecastで視聴しています</string>
     <string name="clear_text_end_icon_content_description">テキストを消去</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="click_to_open_pip">タップしてピクチャー・イン・ピクチャーに切り替える</string>
@@ -233,6 +237,7 @@
     <string name="continue_play">再開</string>
     <string name="controller_bar_edit">編集</string>
     <string name="copy">コピー</string>
+    <string name="copy_toast_msg">リンクをクリップボードにコピーしました</string>
     <string name="data_empty">ここにアイテムはありません</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -244,6 +249,8 @@ Mi ビデオはアップデートの準備ができています。
 今すぐアプリをアップデートして、新しいクールな機能をチェックしてください！
 Mi ビデオチーム"</string>
     <string name="description">説明</string>
+    <string name="desktop_widget_local_media">メディアファイル</string>
+    <string name="desktop_widget_new">新着</string>
     <string name="detail_select_source">再生ソースを選択</string>
     <string name="diagnosis_log_send_failed">ログを送信できませんでした。もう一度お試しください。</string>
     <string name="diagnosis_log_sent_format">"正常にログを送信しました。
@@ -381,6 +388,9 @@ ID:%s
     <string name="failed_dup_secure_phone_number">この電話番号は既に別のMi アカウントに関連付けられています</string>
     <string name="failed_to_fetch_data">情報を読み込めませんでした。</string>
     <string name="failure">ダウンロードできませんでした</string>
+    <string name="fallback_menu_item_copy_link">リンクをコピー</string>
+    <string name="fallback_menu_item_open_in_browser">ブラウザで開く</string>
+    <string name="fallback_menu_item_share_link">リンクの共有</string>
     <string name="favor_movie">映画</string>
     <string name="favor_online_video">ビデオ</string>
     <string name="favor_playlist">プレイリスト</string>
@@ -538,6 +548,7 @@ ID:%s
     <string name="galleryplus_notification_linkvideo_title4">何百本ものビデオが期間限定で無料公開</string>
     <string name="galleryplus_notification_linkvideo_title5">好きなテレビ番組を無料視聴</string>
     <string name="galleryplus_notification_try_now_btn">今すぐ試す</string>
+    <string name="galleryplus_notification_type_link_video">ローカルビデオへの切り替え</string>
     <string name="galleryplus_online_cta">Mi ビデオが正常に動作するにはインターネットへの接続が必要です。同意しますか？</string>
     <string name="galleryplus_online_cta_agree">同意</string>
     <string name="galleryplus_online_cta_disagree">同意しない</string>
@@ -642,8 +653,10 @@ ID:%s
     <string name="incentive_exchange">引き換え</string>
     <string name="incentive_exchange_code">コード</string>
     <string name="incentive_exchange_code_copy">コピー</string>
+    <string name="incentive_exchange_code_copy_and_start">使用</string>
     <string name="incentive_exchange_details">詳細</string>
     <string name="incentive_exchange_details_current">注文合計</string>
+    <string name="incentive_exchange_details_dotask">ポイントを獲得</string>
     <string name="incentive_exchange_details_total">残高</string>
     <string name="incentive_exchange_empty_tip">ここにはまだ何もありません。ポイントを利用して交換しましょう。</string>
     <string name="incentive_exchange_expire_tip">受け取っていないポイントは午前0時に消滅します</string>
@@ -651,6 +664,7 @@ ID:%s
     <string name="incentive_exchange_successful">引き換え完了</string>
     <string name="incentive_exchange_tip">ポイントは本日のみ有効です</string>
     <string name="incentive_login_for_claim">Google アカウントにサインインしてポイントを受け取りましょう</string>
+    <string name="incentive_login_success_for_already_claimd">正常にサインインしました。ポイントを獲得しました。</string>
     <string name="incentive_login_tip">サインインしてポイントを獲得し、報酬を獲得する</string>
     <string name="incentive_my_points">マイ ポイント</string>
     <string name="incentive_popup_window_share">共有するとポイント獲得</string>
@@ -666,10 +680,16 @@ ID:%s
     <string name="incentive_task_title_novice">新しいユーザー向け</string>
     <string name="incentive_task_to_get">開始</string>
     <string name="incentive_task_to_login">サインイン</string>
+    <string name="incentive_toast_share_success_new">正常に共有されました</string>
+    <string name="incentive_toast_subscribe_success_new">正常に登録されました</string>
+    <string name="incentive_ui_tab_earn_credits">ポイント</string>
     <string name="incentive_view_all_prizes">すべての報酬を表示</string>
     <string name="incentive_view_details">詳細</string>
     <string name="inconsistent_pwd">パスワードが一致しません</string>
     <string name="init_channels">デフォルトに戻す</string>
+    <string name="inline_auto_play_tip">"モバイルデータを使用中… "</string>
+    <string name="inline_auto_play_to_set">設定</string>
+    <string name="inline_mute_click_tip">タップしてミュートを解除</string>
     <string name="input_email_address_notice">このメールアドレスを使用してアカウントを認証します</string>
     <string name="input_new_pwd">新しいパスワードを入力してください</string>
     <string name="input_size_tips_new">%d文字以内で入力してください</string>
@@ -684,6 +704,7 @@ ID:%s
     <string name="item_download_path">ダウンロード場所</string>
     <string name="item_download_path_setting">ダウンロード場所の設定</string>
     <string name="item_setting_go_back">同意の撤回</string>
+    <string name="item_title_for_search_page_hot">人気</string>
     <string name="item_title_unknown">不明なタイトル</string>
     <string name="item_view_role_description">タブ</string>
     <string name="just_a_second">お待ちください…</string>
@@ -695,8 +716,14 @@ ID:%s
     <string name="later">後で</string>
     <string name="live_now">今すぐライブ</string>
     <string name="live_title">生放送</string>
+    <string name="live_tv_dialog_item_passed">この番組は終了しました。次回の放送をお楽しみに！</string>
+    <string name="live_tv_dialog_subscirbe_button">登録</string>
+    <string name="live_tv_dialog_subscirbe_tips">%1$sを登録するとエピソードを見逃すことはありません</string>
     <string name="live_tv_title">テレビ放送</string>
+    <string name="live_tv_toast_item_subscirbe">この番組はすでに登録されています</string>
     <string name="loading">お待ちください…</string>
+    <string name="local_adjust_zoom_mode_hint">%sで視聴しています</string>
+    <string name="local_crop_zoom_mode">画像がトリミングされています</string>
     <string name="local_diversion_all_local_videos">デバイス上のすべてのビデオ</string>
     <string name="local_diversion_close_recommend">閉じる</string>
     <string name="local_diversion_download_more_video">その他のビデオ</string>
@@ -714,6 +741,7 @@ ID:%s
     <string name="local_push_setting_power_tag">ローカルビデオに関する通知</string>
     <string name="local_push_title">今日の人気</string>
     <string name="local_push_video_title">新しいローカルビデオを見つける</string>
+    <string name="local_stretch_zoom_mode">画像が引き伸ばされています</string>
     <string name="local_video_create_a_new_playlist">新しいプレイリスト</string>
     <string name="local_video_date">日付</string>
     <string name="local_video_dialog_default">デフォルト</string>
@@ -734,6 +762,7 @@ ID:%s
     <string name="local_video_size">サイズ</string>
     <string name="local_video_space">占有：%s</string>
     <string name="local_video_time">時間</string>
+    <string name="local_zoom_adjust_button">表示モードを切り替える</string>
     <string name="lock_screen">ロック画面</string>
     <string name="login">サインイン</string>
     <string name="login_tip">サインインすると、フィードバックへの返信を受け取ることができます。</string>
@@ -761,6 +790,7 @@ ID:%s
     <string name="lp_video_zoom_title">拡大/縮小</string>
     <string name="lv_advance_sound">オーディオを強化</string>
     <string name="lv_airkan_control_device_des">再生を制御するには、下部のバーをタップします。</string>
+    <string name="lv_airkan_device_my_device">マイ デバイス</string>
     <string name="lv_airkan_device_xiaomi_phone">マイ Mi Phone</string>
     <string name="lv_airkan_playing">%sにキャストしています</string>
     <string name="lv_airkan_tips">タップしてキャスト</string>
@@ -839,10 +869,10 @@ ID:%s
     <string name="lv_subtitle_no_subtitle">字幕は利用できません</string>
     <string name="lv_subtitle_non_subtitle_file">利用可能な字幕ファイルはありません</string>
     <string name="lv_subtitle_offset_add_1s_new">+%d秒</string>
-    <string name="lv_subtitle_offset_add_dot5s_new">+%f秒</string>
+    <string name="lv_subtitle_offset_add_dot5s_new">+%.1f秒</string>
     <string name="lv_subtitle_offset_normal">字幕を動かさない</string>
     <string name="lv_subtitle_offset_sub_1s_new">-%d秒</string>
-    <string name="lv_subtitle_offset_sub_dot5s_new">-%f秒</string>
+    <string name="lv_subtitle_offset_sub_dot5s_new">-%.1f秒</string>
     <string name="lv_subtitle_onlinesub_language">言語：%s</string>
     <string name="lv_subtitle_onlinesub_loading">字幕を読み込み中…</string>
     <string name="lv_subtitle_onlinesub_loading_wait">字幕を読み込み中…</string>
@@ -969,11 +999,12 @@ ID:%s
     <string name="month_september_shortest">9月</string>
     <string name="more">その他</string>
     <string name="morning">午前</string>
-    <string name="mr_button_content_description">キャスト アイコン</string>
-    <string name="mr_cast_button_connected">キャスト アイコン。接続済み</string>
-    <string name="mr_cast_button_connecting">キャスト アイコン。接続中</string>
-    <string name="mr_cast_button_disconnected">キャスト アイコン。接続解除済み</string>
-    <string name="mr_chooser_searching">端末を検出しています</string>
+    <string name="mr_button_content_description">キャスト</string>
+    <string name="mr_cast_button_connected">キャスト。接続済み</string>
+    <string name="mr_cast_button_connecting">キャスト。接続中</string>
+    <string name="mr_cast_button_disconnected">キャスト。未接続</string>
+    <string name="mr_cast_dialog_title_view_placeholder">情報がありません</string>
+    <string name="mr_chooser_searching">デバイスを検出しています</string>
     <string name="mr_chooser_title">キャスト先</string>
     <string name="mr_controller_album_art">アルバムアート</string>
     <string name="mr_controller_casting_screen">画面をキャストしています</string>
@@ -988,14 +1019,18 @@ ID:%s
     <string name="mr_controller_stop">停止</string>
     <string name="mr_controller_stop_casting">キャストを停止</string>
     <string name="mr_controller_volume_slider">音量スライダー</string>
+    <string name="mr_dialog_default_group_name">グループ</string>
+    <string name="mr_dialog_groupable_header">デバイスの追加</string>
+    <string name="mr_dialog_transferable_header">グループで再生</string>
     <string name="mr_system_route_name">システム</string>
-    <string name="mr_user_route_category_name">端末</string>
+    <string name="mr_user_route_category_name">デバイス</string>
     <string name="mtrl_badge_numberless_content_description">新しい通知</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s を削除します</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d 件以上の新しい通知</string>
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -1063,6 +1098,7 @@ ID:%s
     <string name="notification_recall_desc">Mi ビデオは、人気のあるビデオとサブスクリプションについて通知します。</string>
     <string name="notification_recall_title">通知をオンにする</string>
     <string name="notification_tool">ツールボックス</string>
+    <string name="notification_type_channel_music">音楽再生</string>
     <string name="notify_apk_installed">正常にダウンロードされました</string>
     <string name="offline_notification_text">タップすると広告を表示します</string>
     <string name="offline_notification_title">オフライン時に保存した広告を表示します</string>
@@ -1073,7 +1109,12 @@ ID:%s
     <string name="offline_opt_in_title">ネットワークに接続したときに、広告を表示します。</string>
     <string name="ok">OK</string>
     <string name="online_play_hint">例）http://www.example.com/video.mp4</string>
+    <string name="online_play_start_loading_tip">お待ちください…</string>
+    <string name="online_play_start_ready_loading_tip_b">読み込み中 %.2f B/s</string>
+    <string name="online_play_start_ready_loading_tip_kb">読み込み中 %.2f KB/s</string>
+    <string name="online_play_start_ready_loading_tip_mb">読み込み中 %.2f MB/s</string>
     <string name="online_play_title">URLを入力</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">最近のサブスクリプション</string>
     <string name="order_recently_updated">最近のアップデート</string>
     <string name="out_of_memory_background_playback_is_suspended">メモリ不足によりバックグラウンド再生を一時停止しました</string>
@@ -1434,6 +1475,7 @@ ID:%s
     <string name="popup_click_for_download_video">ビデオをダウンロード</string>
     <string name="popup_pip_activate_button">設定</string>
     <string name="popup_pip_not_activated">まず、Mi ビデオがピクチャー・イン・ピクチャーを使用することを許可してください。</string>
+    <string name="popup_recommend_text">お気に入りのビデオをもっと見つけましょう</string>
     <string name="popup_window_home_tip">オンラインビデオをダウンロード</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="privacy_agree_subtitle">プライバシーポリシーに同意することで、Mi ビデオのすべての機能を利用することができます</string>
@@ -1534,6 +1576,15 @@ ID:%s
     <string name="sending">送信中…</string>
     <string name="service_error">サーバーエラー</string>
     <string name="set_success">正常に変更されました</string>
+    <string name="settings_inline_auto_play">常に自動再生</string>
+    <string name="settings_inline_auto_play_close">自動再生オフ</string>
+    <string name="settings_inline_auto_play_tip_close_forever">常にオフ</string>
+    <string name="settings_inline_auto_play_tip_close_month">1か月間オフ</string>
+    <string name="settings_inline_auto_play_tip_open">オン</string>
+    <string name="settings_inline_auto_play_tip_title">モバイルデータ使用のリマインダー</string>
+    <string name="settings_inline_auto_play_title">自動再生</string>
+    <string name="settings_inline_auto_play_wify">Wi-Fi接続時のみ自動再生</string>
+    <string name="settings_inline_title">ページの自動再生を開始</string>
     <string name="settings_manager_hidden_folder">隠しビデオを管理</string>
     <string name="share">共有</string>
     <string name="share_fail">共有できませんでした。ネットワーク設定を確認してから、もう一度お試しください。</string>
@@ -1554,13 +1605,14 @@ ID:%s
     <string name="small_video_load_more_hint">上にスワイプすると、他のビデオを再生できます</string>
     <string name="small_video_snack_download_description">SnackVideoをダウンロードして、お気に入りのクリエイターの最新ビデオを閲覧しましょう。</string>
     <string name="small_video_snack_download_title">SnackVideo</string>
-    <string name="small_video_tab_expose_hint">Tap for more short videos</string>
+    <string name="small_video_tab_expose_hint">タップすると他のショートビデオが見られます</string>
     <string name="sms_send_success">正常に送信されました</string>
     <string name="sns_access_token_expired_warning">セッションの期限が切れました。もう一度サインインしてこのアカウントに再接続してください。</string>
     <string name="sns_bind_limit">試行回数が多すぎます。他の方法でサインインしてください。</string>
     <string name="sns_sign_in">その他のサインイン方法</string>
     <string name="source">"ソース: "</string>
     <string name="start_download_tip">キューに追加されました。プロフィール > ダウンロード で進行状況を確認できます。</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SDカード</string>
     <string name="storage_internal_sdcard">内部ストレージ</string>
     <string name="submit">送信</string>
@@ -1831,6 +1883,12 @@ ID:%s
     <string name="welcome_tip_into_mivideo">始める</string>
     <string name="welcome_tip_skip">スキップ</string>
     <string name="welcome_tip_title">Mi ビデオへようこそ</string>
+    <string name="widget_local_video">ローカルビデオ</string>
+    <string name="widget_local_video_click">タップすると、デバイスに保存されているビデオを視聴します</string>
+    <string name="widget_more_channel">その他のチャンネル</string>
+    <string name="widget_more_channel_click">タップすると、テレビチャンネルが表示されます</string>
+    <string name="widget_trending_click">タップすると、今日の人気ビデオが表示されます</string>
+    <string name="widget_trending_today">今日の人気</string>
     <string name="yesterday">昨日</string>
     <string name="yt_subscription_notification_setting_title">サブスクリプションの通知</string>
     <string name="ytb_account">アカウント</string>

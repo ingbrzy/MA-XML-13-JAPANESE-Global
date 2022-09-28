@@ -73,6 +73,12 @@
     <plurals name="incentive_guide_current_time_tip">
         <item quantity="other">今日は%d分間視聴しました</item>
     </plurals>
+    <plurals name="incentive_popup_window_share_success">
+        <item quantity="other">正常に共有されました。%dポイントを獲得しました。</item>
+    </plurals>
+    <plurals name="incentive_popup_window_subscribe_success">
+        <item quantity="other">正常に登録されました。%dポイントを獲得しました。</item>
+    </plurals>
     <plurals name="incentive_task_watchvideo_begin">
         <item quantity="other">%dポイント獲得！</item>
     </plurals>

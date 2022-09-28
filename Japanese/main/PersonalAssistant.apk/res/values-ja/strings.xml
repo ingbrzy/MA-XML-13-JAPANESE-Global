@@ -178,6 +178,7 @@
     <string name="saturday_shortest">土</string>
     <string name="search_menu_title">検索</string>
     <string name="send">送信</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>

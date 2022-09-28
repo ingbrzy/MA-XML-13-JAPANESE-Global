@@ -35,13 +35,13 @@
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
+    <string name="cast_image_des">キャストチュートリアル</string>
     <string name="casting_tips">キャスト中…</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
     <string name="close_hotspot_hint">キャストする前にポータブルホットスポットをオフにしてください</string>
     <string name="close_slave_wifi_hint">キャストする前に補助Wi-Fiネットワークから切断してください</string>
     <string name="close_slave_wifi_hint_china">キャストする前に補助Wi-Fiネットワークから切断してください</string>
-    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
     <string name="config_wifi_label_china">Xiaomi Conference Tapcast WLAN</string>
     <string name="config_wifi_label_global">Xiaomi Conference Tapcast Wi-Fi</string>
     <string name="connect_device_fail">デバイスに接続できませんでした</string>
@@ -65,7 +65,7 @@
     <string name="dialog_connect_verify_perssion_fail">テレビでのキャストを許可できませんでした。数分待ってからもう一度お試しください。</string>
     <string name="dialog_connected">接続しました</string>
     <string name="dialog_connecting">接続中…</string>
-    <string name="dialog_location_permission_message">このアプリは、付近にある外部モニターを検索するために位置情報にアクセスする必要があります。エラーが発生しないように、この許可を与える際には「常に許可」を選択してください。</string>
+    <string name="dialog_location_permission_message">このアプリは、付近にある外部モニターを検索するために位置情報にアクセスする必要があります。エラーが発生しないように、この許可を与える際には\"常に許可\"を選択してください。</string>
     <string name="dialog_location_permission_title">アクセス許可が必要です</string>
     <string name="dialog_miplay_permission_message">キャストに、録音、内部ストレージのファイルへのアクセス、位置情報へのアクセスを許可して、この機能を正常に使用できるようにしてください。続けるには、\"設定\"をタップし、\"アプリの権限\"を選択します。</string>
     <string name="dialog_miplay_permission_positive">設定</string>
@@ -89,7 +89,7 @@
     <string name="dialog_scanning_device">付近のデバイスを検索中…</string>
     <string name="dialog_scanning_precondition">ワイヤレスディスプレイを使用するには、スマートフォンでWi-FiとBluetoothをオンにします。</string>
     <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
-    <string name="dialog_scanning_precondition_new_global">キャストを使用できるようにするには、Wi-Fi、Bluetooth、および位置情報サービスをオンにします。今すぐオンにしますか？</string>
+    <string name="dialog_scanning_precondition_new_global">キャストを使用するには、Wi-Fiと位置情報サービスをオンにする必要があります。今すぐオンにしますか？</string>
     <string name="dialog_select_tv">デバイスを選択 (%1$d)</string>
     <string name="dialog_show_help">ヘルプ</string>
     <string name="disconnect">キャストを停止</string>
@@ -164,6 +164,7 @@
     <string name="global_privacy_main">スマートフォンの画面からアイテムをより大きな外部モニターに投影します。</string>
     <string name="global_privacy_negative">同意しない</string>
     <string name="global_privacy_positive">同意</string>
+    <string name="global_privacy_screencast">この機能を提供するサービスは、録音またはキャスト中に、画面に表示されるかデバイスから再生されるセンシティブな情報をキャプチャする可能性があります。センシティブな情報には、オーディオ、パスワード、支払い情報、写真、メッセージなどが含まれます。</string>
     <string name="global_privacy_tip">&lt;Data>基本的なサービスをユーザーに提供し、キャストプロセスの最適化を行うためには、必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=%1$s>プライバシーポリシー&lt;/a>を参照してください。プライバシーポリシーへの同意は、いつでも設定で撤回することができます。&lt;/Data></string>
     <string name="hang_up">画面オフの状態でキャスト</string>
     <string name="hang_up_alert_dialog_content">デバイスの画面がオフになってもキャストを続けます。この機能により、消費電力が削減されます。電源ボタンを押すと画面がオンに戻ります。</string>
@@ -367,6 +368,8 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="privacy_permission_nfc_desc">NFCを使用してデバイスをペア設定するため</string>
     <string name="privacy_permission_optional">任意のアクセス許可</string>
     <string name="privacy_permission_optional_desc">追加機能を使用しているときに使用します</string>
+    <string name="privacy_permission_screencast">画面上の情報へのアクセス</string>
+    <string name="privacy_permission_screencast_desc">この機能を提供するサービスは、録音またはキャスト中に、画面に表示されるかデバイスから再生されるセンシティブな情報をキャプチャする可能性があります。センシティブな情報には、オーディオ、パスワード、支払い情報、写真、メッセージなどが含まれます。</string>
     <string name="privacy_permission_wlan">Wi-Fiのオンとオフの切り替え</string>
     <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
     <string name="privacy_permission_wlan_desc">付近の利用可能なデバイスを探すため</string>

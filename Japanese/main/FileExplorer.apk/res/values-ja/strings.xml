@@ -35,6 +35,7 @@
     <string name="ad_download">ダウンロード</string>
     <string name="add_private">ファイルを非公開にする</string>
     <string name="add_private_files">ファイルを追加</string>
+    <string name="add_to_widget">ウィジェットに追加</string>
     <string name="added_category">追加済み</string>
     <string name="afternoon">午後</string>
     <string name="aggree_desc">このアプリにインターネットへの接続を許可し、上記の必須のアクセス許可を付与してください。</string>
@@ -156,6 +157,7 @@
     <string name="delete_folder">このフォルダーを削除しますか？</string>
     <string name="des_hide_pwd">パスワードを非表示</string>
     <string name="des_show_pwd">パスワードを表示</string>
+    <string name="dialog_keep_choice">この選択を記憶</string>
     <string name="dialog_select_type">種類を選択</string>
     <string name="dialog_type_audio">オーディオ</string>
     <string name="dialog_type_image">画像</string>
@@ -209,6 +211,7 @@
     <string name="favorite_photo">写真</string>
     <string name="favorite_ringtone">着信音</string>
     <string name="favorite_screen_cap">スクリーンショット</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="file_info_canread">読み取り可: </string>
     <string name="file_info_canwrite">書き込み可: </string>
     <string name="file_info_ishidden">非表示: </string>
@@ -322,6 +325,8 @@
     <string name="instruction_pre_phone">パソコンからこのデバイス上のファイルを管理</string>
     <string name="internal_storage">内部ストレージ</string>
     <string name="just_now">たった今</string>
+    <string name="lack_perm_msg">ファイルマネージャーが正常に動作するには、以下のアクセス許可が必要です：&lt;b>%s&lt;/b></string>
+    <string name="lack_perm_title">アクセス許可が必要です</string>
     <string name="launcher_icon_add_description">ホーム画面ショートカットを追加</string>
     <string name="launcher_icon_remove_description_content">ファイルマネージャーはシステムアプリです。ホーム画面のショートカットを削除すると、デバイス上のファイルを管理することができなくなります。</string>
     <string name="launcher_icon_remove_description_title">\"ファイルマネージャー\"をホーム画面から削除しますか？</string>
@@ -332,6 +337,9 @@
     <string name="local_image">画像</string>
     <string name="local_music">オーディオファイル</string>
     <string name="local_video">ビデオファイル</string>
+    <string name="main_button_continue">設定</string>
+    <string name="main_button_ok">OK</string>
+    <string name="main_button_quit">キャンセル</string>
     <string name="make_private">非公開にする</string>
     <string name="make_private_msg_1">このファイルを非公開にしますか？</string>
     <string name="make_private_msg_2">これらのファイルを非公開にしますか？</string>
@@ -348,6 +356,7 @@
     <string name="menu_item_sort_type">種類</string>
     <string name="menu_item_usb">USB</string>
     <string name="menu_set_wallpaper">壁紙に設定</string>
+    <string name="message_request_manage_external_storage_perm">ファイルマネージャーは、デバイス上のファイルを管理するために、ファイルへのアクセス許可が必要です。このアクセス許可は、設定で付与することができます。</string>
     <string name="mi_router_label">ルーター</string>
     <string name="mi_share">Mi シェア</string>
     <string name="midnight">真夜中</string>
@@ -520,6 +529,7 @@
     <string name="partial_delete_failure">一部のファイルを削除できませんでした。もう一度お試しください。</string>
     <string name="partial_encrypt_success">一部のファイルを非公開にできませんでした。もう一度お試しください。</string>
     <string name="path_name_email">メール</string>
+    <string name="perm_manage_external_storage">すべてのファイルへのアクセス</string>
     <string name="permission_denial">ファイルにアクセスできませんでした。設定で、ファイルマネージャーにファイルへのアクセスを許可してください。</string>
     <string name="permission_description">アクセス許可の詳細</string>
     <string name="permission_required">ファイルにアクセスできませんでした。設定で、ファイルマネージャーにファイルへのアクセスを許可してください。</string>
@@ -620,6 +630,7 @@
     <string name="set_pattern">パスワードをアップグレードしてください</string>
     <string name="set_pattern_btn">設定</string>
     <string name="set_pattern_msg">パスワードをもう一度設定してください。プライバシー保護パスワードは、写真、メッセージ、メモにも使用されます。</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">%dKB未満</string>
     <string name="size_lv2" formatted="false">%1dKB - %2dMB</string>
     <string name="size_lv3" formatted="false">%1dMB - %2dMB</string>
@@ -710,9 +721,11 @@
     <string name="time_picker_label_hour">時</string>
     <string name="time_picker_label_minute">分</string>
     <string name="tip">注意</string>
+    <string name="tips_add_to_widget">このウィジェットには、最大で%d件のファイルを追加できます。さらにファイルを追加すると、以前に追加したファイルが置き換えられます。</string>
     <string name="title_app_tags">アプリ</string>
     <string name="title_expire_video">もうすぐ期限が切れます</string>
     <string name="title_recent">最近</string>
+    <string name="title_request_manage_external_storage_perm">アクセス許可が必要です</string>
     <string name="title_select_volume">フォルダーを選択</string>
     <string name="to_open">設定</string>
     <string name="to_setting">設定</string>
@@ -753,6 +766,16 @@
     <string name="wednesday">水曜日</string>
     <string name="wednesday_short">水</string>
     <string name="wednesday_shortest">水</string>
+    <string name="widget_add_files">ファイルを追加</string>
+    <string name="widget_added_fail_content">%1$sはすでにホーム画面に表示されています</string>
+    <string name="widget_added_fail_tips">追加できませんでした</string>
+    <string name="widget_added_success_content">%1$sをホーム画面に追加しました</string>
+    <string name="widget_added_success_tips">正常に追加されました</string>
+    <string name="widget_choose_document_please">ドキュメントを選択</string>
+    <string name="widget_choose_file">タップしてファイルを追加</string>
+    <string name="widget_choose_fragment_title">ファイルの種類を選択</string>
+    <string name="widget_finish">完了</string>
+    <string name="widget_name">最近閲覧したファイル</string>
     <string name="wifi_state">Wi-Fi ステータス</string>
     <string name="withdraw">撤回</string>
     <string name="withdraw_consent">同意の撤回</string>
