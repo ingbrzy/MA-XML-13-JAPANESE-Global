@@ -609,7 +609,6 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -724,7 +723,6 @@
     <string name="private_dns_mode_provider">プライベート DNS プロバイダのホスト名</string>
     <string name="private_dns_mode_provider_failure">接続できませんでした</string>
     <string name="private_dns_mode_provider_hostname_hint">DNS プロバイダのホスト名を入力</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">接続エラーです。デバイスを OFF にしてから ON に戻してください</string>
     <string name="profile_info_settings_title">プロファイル情報</string>
     <string name="remaining_length_format">あと %1$s</string>

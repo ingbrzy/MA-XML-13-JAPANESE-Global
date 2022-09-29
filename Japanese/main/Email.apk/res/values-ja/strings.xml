@@ -258,7 +258,6 @@
     <string name="back">戻る</string>
     <string name="bank_card_detail">クレジット カードの詳細</string>
     <string name="bcc">Bcc</string>
-    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">請求設定</string>
     <string name="bill_center_setting_head">これらのアカウントから情報をインポートします。</string>
     <string name="bill_cycle_text">お支払いサイクル</string>
@@ -280,7 +279,6 @@
     <string name="cancel_pop3_attchemt_downloading">POP3アカウントでは、進行中の添付ファイルのダウンロードをキャンセルすることはできません</string>
     <string name="cant_move_or_change_labels">複数のアカウントからアイテムを移動できません。</string>
     <string name="cc">Cc</string>
-    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="certificate_add_failed">\"%s\" 証明書を追加できませんでした</string>
@@ -310,7 +308,6 @@
     <string name="click_to_reload">画面をタップして更新してください。</string>
     <string name="close">閉じる</string>
     <string name="collapse_recipient_details">受信者の詳細を折りたたむ</string>
-    <string name="colon">:</string>
     <string name="compose">メールを作成</string>
     <string name="compose_event">招待</string>
     <string name="compose_paste_address_oob">文字が多すぎます</string>
@@ -630,7 +627,6 @@
     <string name="go_to_mail_content">メールを表示</string>
     <string name="have_auth_code">コードをお持ちの場合</string>
     <string name="header_category_account">アカウント</string>
-    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_label_general_preferences">一般</string>
     <string name="help_and_info">ヘルプ</string>
     <string name="help_me_get_qq_auth">コードを取得</string>
@@ -652,7 +648,6 @@
     <string name="interact_with_server_error">サーバーに接続できませんでした。</string>
     <string name="invalid_recipient_title">受信者エラー</string>
     <string name="kilobytes">%s KB</string>
-    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="list_empty_to_fresh">まだメールはありません。</string>
     <string name="load_from_remote">サーバー上のメールボックスを検索</string>
     <string name="load_more">もっと読み込む</string>
@@ -1177,7 +1172,6 @@
 %s"</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
-    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -1187,7 +1181,6 @@
     <string name="size_tera_byte">TB</string>
     <string name="smtp_password_error">送信メールサーバーのパスワードが正しくありません</string>
     <string name="sort_attachment">並べ替え</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">すべて選択</string>
     <string name="str_select_none">すべての選択を解除</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>

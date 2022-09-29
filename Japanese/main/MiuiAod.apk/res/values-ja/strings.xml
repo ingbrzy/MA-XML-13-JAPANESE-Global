@@ -259,7 +259,6 @@ EE"</string>
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -338,7 +337,6 @@ EE"</string>
 と常に信じている"</string>
     <string name="standard_clock_panel">標準</string>
     <string name="standard_style">標準</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">歩数はXiaomi Healthが提供しています。続けるには、Xiaomi Health 使用条件に同意してください。</string>
     <string name="step_component_info_desc">目標に到達すると、歩数はトロフィーに変わります。歩数はXiaomi Healthが提供しています。</string>
     <string name="step_component_info_tip">歩数はXiaomi Healthが提供しています。続けるには、Xiaomi Healthをインストールまたはアップデートし、使用条件に同意してください。</string>
