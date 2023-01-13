@@ -260,6 +260,7 @@
     <string name="search_menu_title">検索</string>
     <string name="send">送信</string>
     <string name="sim_activate_failed">アクティブ化に失敗</string>
+    <string name="sim_activate_notificat_channel">アクティブ化通知</string>
     <string name="sim_activate_prepare">サービスをアクティブ化</string>
     <string name="sim_activated_failed_msg">サービスをアクティブ化できませんでした。タップしてもう一度お試しください。</string>
     <string name="sim_unactivated_feature_title">\"%s\"はアクティブ化されませんでした</string>

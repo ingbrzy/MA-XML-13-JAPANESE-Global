@@ -44,6 +44,8 @@
     <string name="agree">同意</string>
     <string name="alarm_alert_alert_silenced">%1$s後にアラームがサイレントになりました。</string>
     <string name="alarm_alert_disabled">オフ</string>
+    <string name="alarm_alert_now">%sのアラーム</string>
+    <string name="alarm_alert_snooze_button">スヌーズ</string>
     <string name="alarm_ascending_mode_summary">アラームの音量を徐々に大きくする</string>
     <string name="alarm_ascending_mode_title">音量を大きく</string>
     <string name="alarm_clock_more_setting">追加設定</string>
@@ -117,6 +119,7 @@
     <string name="cities_show_limit_desc">これ以上時計を表示できません</string>
     <string name="city_time_contrast_desc">タップして異なる都市の時刻を比較する</string>
     <string name="clearable_edittext_clear_description">消去</string>
+    <string name="click_to_cancel_alarm">タップしてオフにする</string>
     <string name="clock_bg_button_setting_summary_common">時計アプリの背景の色を選択する</string>
     <string name="clock_bg_button_setting_summary_follow_sys">ダークモードに切り替えると、黒が背景の色に使用されます</string>
     <string name="clock_bg_button_setting_title">背景の色</string>
@@ -236,6 +239,8 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_start_permission_desc">アプリを閉じてもアラームが正常に機能することを許可する</string>
+    <string name="force_start_permission_title">自動起動</string>
     <string name="force_touch_add_alarm">アラームを追加</string>
     <string name="force_touch_enter_stopwatch">ストップウォッチ</string>
     <string name="force_touch_enter_timer">タイマー</string>
@@ -302,6 +307,22 @@
     <string name="menu_item_sort_by_gmt_offset">時間で並べ替え</string>
     <string name="menu_item_sort_by_name">名前で並べ替え</string>
     <string name="midnight">真夜中</string>
+    <string name="miui_clock_city_name_local">ローカル</string>
+    <string name="miui_clock_city_name_second">第2時計</string>
+    <string name="miui_lock_screen_date">M月d日 (EEE)</string>
+    <string name="miui_lock_screen_date_12">M月d日 (EEE)</string>
+    <string name="miui_lock_screen_date_two_lines">"M月d日
+EEE"</string>
+    <string name="miui_lock_screen_date_two_lines_12">"M月d日
+EEE"</string>
+    <string name="miui_lock_screen_large_date">"M月d日
+EEE"</string>
+    <string name="miui_lock_screen_large_date_12">"M月d日
+EEE"</string>
+    <string name="miui_vertical_time_format_12">"hh
+mm"</string>
+    <string name="miui_vertical_time_format_24">"HH
+mm"</string>
     <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
@@ -504,6 +525,7 @@
     <string name="shutdown_alarm_enable_summary">デバイスの電源をオフにした後、アラームが10分後以降に設定されている場合はアラームを鳴らす</string>
     <string name="shutdown_alarm_title">電源オフ時のアラーム</string>
     <string name="silent_alarm_summary">サイレント</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">%sに限りオフにする</string>
     <string name="sleep_analysis">統計</string>
     <string name="sleep_analysis_chart_date_format">MM/dd</string>
@@ -549,6 +571,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">aa h:mm:ss</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">ラップはありません</string>
     <string name="stopwatch_reset_notification">ストップウォッチがリセットされました</string>
     <string name="stopwatch_running_notification">ストップウォッチ</string>
@@ -557,6 +580,7 @@
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">すべての機能にアクセスするには、このアプリにインターネットへの接続を許可してください。</string>
     <string name="system_permission_main_purpose">時刻の表示、アラームとタイマーの設定、ストップウォッチの使用</string>
     <string name="system_permission_purpose">平日のアラームの作成とカスタマイズされた通知音の設定</string>

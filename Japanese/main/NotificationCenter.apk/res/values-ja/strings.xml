@@ -44,6 +44,8 @@
     <string name="date_picker_lunar">中国暦</string>
     <string name="date_time_picker_dialog_title">日付と時刻を設定</string>
     <string name="default_list_type">受信日時で並べ替え</string>
+    <string name="disable_description_content">通知はシステムアプリです。無効にすると、アプリの通知を管理できなくなります。無効にしてもよろしいですか？</string>
+    <string name="disable_description_title">システムアプリを無効にしますか？</string>
     <string name="disable_float_notification">フローティング通知は許可されていません</string>
     <string name="disable_lockscreen_notification">ロック画面での通知は許可されていません</string>
     <string name="disable_show_badge_notification">通知バッジは許可されていません</string>
@@ -233,6 +235,7 @@
     <string name="settings_guide_title">他の設定が必要ですか？</string>
     <string name="show_badge_notifications">通知バッジ</string>
     <string name="show_badge_notifications_short">バッジ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">ステータスバー</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="summary_disable_float_notification">フローティング通知は許可されていません</string>
@@ -241,12 +244,12 @@
     <string name="summary_enable_float_notification">フローティング通知は許可されています</string>
     <string name="summary_enable_lockscreen_notification">ロック画面での通知は許可されています</string>
     <string name="summary_enable_show_badge_notification">通知バッジは許可されています</string>
-    <string name="summary_float_enable_notification_first">通知にフローティング通知をオンにできるようにすることを許可してください</string>
+    <string name="summary_float_enable_notification_first">通知を許可してフローティング通知をオンにできるようにしてください</string>
     <string name="summary_fold_importance_default">MIUIは表示すべき通知を自動的に判断します</string>
     <string name="summary_fold_importance_important">通知は通知シェードに表示されます</string>
     <string name="summary_fold_importance_unimportant">通知は別個のフォルダーに表示されます</string>
-    <string name="summary_lock_screen_enable_notification_first">通知にロック画面での通知をオンにできるようにすることを許可してください</string>
-    <string name="summary_show_badge_enable_notification_first">通知に通知バッジをオンにできるようにすることを許可してください</string>
+    <string name="summary_lock_screen_enable_notification_first">通知を許可してロック画面での通知をオンにできるようにしてください</string>
+    <string name="summary_show_badge_enable_notification_first">通知を許可して通知バッジをオンにできるようにしてください</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>

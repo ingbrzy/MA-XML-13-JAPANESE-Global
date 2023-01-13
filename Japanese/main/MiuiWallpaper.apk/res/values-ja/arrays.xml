@@ -30,9 +30,4 @@
         <item>壁紙/スーパー壁紙</item>
         <item>スーパー壁紙;壁紙;ダイナミック壁紙;3D壁紙</item>
     </string-array>
-    <string-array name="settings_search_weather">
-        <item>天気</item>
-        <item>壁紙/スーパー壁紙/天気</item>
-        <item>天気;天気情報;スーパー壁紙;壁紙</item>
-    </string-array>
 </resources>

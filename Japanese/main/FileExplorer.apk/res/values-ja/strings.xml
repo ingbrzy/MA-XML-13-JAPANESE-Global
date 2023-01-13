@@ -29,8 +29,10 @@
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
     <string name="access_limit">アクセス制限</string>
     <string name="access_tips">アイテムにアクセスできません。Android ストレージアクセスフレームワークを使用してみてください。</string>
+    <string name="action_cache_to_local">デバイスにダウンロード</string>
     <string name="action_mode_deselect_all">すべての選択を解除</string>
     <string name="action_mode_select_all">すべて選択</string>
+    <string name="action_release_file_cache">キャッシュを消去</string>
     <string name="actionbar_button_up_description">戻る</string>
     <string name="ad_download">ダウンロード</string>
     <string name="add_private">ファイルを非公開にする</string>
@@ -66,6 +68,16 @@
     <string name="can_not_send_with_too_many">一度にたくさんのアイテムを送信することはできません</string>
     <string name="cancel">キャンセル</string>
     <string name="cancel_error">解除できませんでした。もう一度お試しください。</string>
+    <string name="cancel_mi_drive">Mi Driveサービスを解約</string>
+    <string name="cancel_mi_drive_alert_description" formatted="false">サービスを解約するには、Mi Driveからすべてのアイテムを消去してください。以下の手順でアイテムを消去してください。&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. Mi Driveのスタートページでアイテムを長押しすると、 \"すべて選択\" ボタンが表示されます。このボタンで一度に200個までのファイルを選択し、削除できます。&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. その後、最近削除したアイテムを消去してください。</string>
+    <string name="cancel_mi_drive_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=cancel_mi_drive_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. アイテムを削除する前に、バックアップを取ることをお勧めします。i.mi.comにアクセスし、Mi Driveをクリックして、アイテムをパソコンにダウンロードしてください。&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. 最近削除したアイテムは、完全に削除すると復元不能ですのでご注意ください。</string>
+    <string name="cancel_mi_drive_confirm_button">サービスを解約</string>
+    <string name="cancel_mi_drive_confirm_description">続けると、Mi Driveのサービスを解約することになります。当社は個人情報の収集を停止し、すでに収集され保持されている個人情報については、別段の定めがない限り、関係法令に基づき所定の期間内に削除します。</string>
+    <string name="cancel_mi_drive_confirm_hint">Mi Driveサービスを解約しても、他のXiaomi製品やサービスの利用には影響しません。Xiaomi アカウントを削除したい場合は、&lt;font color=#0097FF>&lt;a href=%1$s>こちら&lt;/a>&lt;/font>から実行できます。</string>
+    <string name="cancel_mi_drive_confirm_reminder_card_summary" formatted="false">&lt;font color=#F22424>以下のアイテムは、サービス解約後、完全に削除されます。&lt;/font>&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. ドキュメント、プライベートファイル、削除したアイテムを含みますがこれらに限定されない、Mi Drive上のすべてのアイテム。&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. デバイスの権限、設定、その他のキャッシュされたコンテンツ。&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_3 refersto=3>%3d&lt;/xliff:g>. Mi Driveのアップロードとダウンロードの履歴。</string>
+    <string name="cancel_mi_drive_privacy_revoked_retry">Mi Driveをオンにして、もう一度お試しください</string>
+    <string name="cancel_mi_drive_success">サービスを正常に解約しました</string>
+    <string name="cancel_mi_drive_title">サービスを解約</string>
     <string name="cancel_msg">すべての選択を解除しますか？</string>
     <string name="cancel_operation">操作をキャンセル</string>
     <string name="cancel_success">ファイルを%sに移動しました</string>
@@ -75,6 +87,7 @@
     <string name="category_all">すべてのファイル</string>
     <string name="category_apk">APK</string>
     <string name="category_bluetooth">Bluetooth</string>
+    <string name="category_cloud_drive">Mi Drive</string>
     <string name="category_document">ドキュメント</string>
     <string name="category_download">ダウンロード</string>
     <string name="category_editor_mode">編集</string>
@@ -110,6 +123,26 @@
     <string name="click_to_switch_volume_pad">タップして内部ストレージとSDカードを切り替える</string>
     <string name="clock_in">チェックイン中…</string>
     <string name="close">閉じる</string>
+    <string name="cloud_copy_to_local_title">保存先…</string>
+    <string name="cloud_drive_files">Mi Drive ファイル</string>
+    <string name="cloud_drive_not_login_summary">サインインしていません</string>
+    <string name="cloud_drive_settings">Mi Driveの設定</string>
+    <string name="cloud_empty_hint_text">"ここには何もありません。
+デバイスからMi Driveにファイルを移動してください。"</string>
+    <string name="cloud_guide_summary_text">アイテムをすべてのデバイスに自動的に同期する</string>
+    <string name="cloud_guide_title_text">Mi Driveと同期</string>
+    <string name="cloud_permission_storage_desc">デバイスに写真とドキュメントを保存するため</string>
+    <string name="cloud_recycle_bin">最近削除したアイテム</string>
+    <string name="cloud_space_full">クラウドストレージがいっぱいです。さらにアイテムをアップロードするには、ストレージプランをアップグレードしてください。</string>
+    <string name="cloud_transfer_download_error">ダウンロードできませんでした</string>
+    <string name="cloud_transfer_download_loading">ダウンロード中</string>
+    <string name="cloud_transfer_downloading">ダウンロード中</string>
+    <string name="cloud_transfer_pause">一時停止中</string>
+    <string name="cloud_transfer_upload_error">アップロードできませんでした</string>
+    <string name="cloud_transfer_uploading">アップロード中</string>
+    <string name="cloud_transfer_wait_download">ダウンロードを待機中</string>
+    <string name="cloud_transfer_wait_network">インターネットを待機中</string>
+    <string name="cloud_transfer_wait_upload">アップロードを待機中</string>
     <string name="compress_fail">圧縮できませんでした。同じ名前のファイルが既に存在します。</string>
     <string name="compress_fail_unknown">圧縮できませんでした。ストレージがいっぱいであるか、不明なエラーが発生しました。</string>
     <string name="compress_message">圧縮先…</string>
@@ -124,6 +157,10 @@
     <string name="copy_to">コピー先…</string>
     <string name="create_folder">作成</string>
     <string name="create_shortcut_success">ショートカットを正常に追加しました</string>
+    <string name="cta_function_account_operation">Xiaomi アカウントに簡単にサインインするため</string>
+    <string name="data_consume_dialog_message">現在、モバイルデータを使用しています。続けると、%sのデータを使用します。</string>
+    <string name="data_consume_dialog_title">モバイルデータを使用しますか？</string>
+    <string name="data_consume_dialog_upload_title">モバイルデータを使用してアップロード</string>
     <string name="data_consumption_cancel">同意しない</string>
     <string name="data_consumption_checkbox_hint">今後表示しない</string>
     <string name="data_consumption_confirm">OK</string>
@@ -157,7 +194,14 @@
     <string name="delete_folder">このフォルダーを削除しますか？</string>
     <string name="des_hide_pwd">パスワードを非表示</string>
     <string name="des_show_pwd">パスワードを表示</string>
+    <string name="dialog_account_permission_denied_msg">Mi Driveにサインインするには、このアプリによるデバイスアカウントへのアクセスを許可してください。この許可は、設定で付与できます。</string>
+    <string name="dialog_account_permission_denied_negative_button">キャンセル</string>
+    <string name="dialog_account_permission_denied_positive_button">設定</string>
+    <string name="dialog_account_permission_denied_title">アクセス許可が必要です</string>
     <string name="dialog_keep_choice">この選択を記憶</string>
+    <string name="dialog_open_mi_drive_button">了解</string>
+    <string name="dialog_open_mi_drive_err">Mi Driveを再起動して、もう一度お試しください。</string>
+    <string name="dialog_open_mi_drive_title">サーバーエラー</string>
     <string name="dialog_select_type">種類を選択</string>
     <string name="dialog_type_audio">オーディオ</string>
     <string name="dialog_type_image">画像</string>
@@ -199,6 +243,7 @@
     <string name="error_not_support">サポートされていません</string>
     <string name="error_open_file_failed_no_app_found">このファイルを開くためのアプリが見つかりませんでした。</string>
     <string name="evening">夕方</string>
+    <string name="exception_net_not_available">ネットワーク設定を確認して、もう一度お試しください</string>
     <string name="exit">終了</string>
     <string name="expand_button_title">詳細設定</string>
     <string name="extended_storage_file_can_not_open">ファイルを開けません。ファイルを内部ストレージにコピーしてください。</string>
@@ -211,6 +256,7 @@
     <string name="favorite_photo">写真</string>
     <string name="favorite_ringtone">着信音</string>
     <string name="favorite_screen_cap">スクリーンショット</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="file_info_canread">読み取り可: </string>
     <string name="file_info_canwrite">書き込み可: </string>
     <string name="file_info_ishidden">非表示: </string>
@@ -307,6 +353,7 @@
     <string name="guide_three_title">ショートカットの再配置</string>
     <string name="guide_two_summary">ギャラリーの写真やスクリーンショットはデフォルトでは非表示になっています。</string>
     <string name="guide_two_title">必須アイテムのみを表示</string>
+    <string name="h5_ppt_to_pdf_introduce_title">PDFの作成について</string>
     <string name="hint_switch_to_grid_mode">グリッド表示に切り替えました</string>
     <string name="hint_switch_to_list_mode">リスト表示に切り替えました</string>
     <string name="home_action_up">戻る</string>
@@ -315,10 +362,14 @@
     <string name="homepage_tab_file_view_phone">ストレージ</string>
     <string name="homepage_tab_recent">最近</string>
     <string name="hot_sticker">ステッカー</string>
+    <string name="hybrid_provider">提供：%1$s</string>
     <string name="if_cancel">この操作をキャンセルしますか？</string>
     <string name="image_loading_error">画像を読み込めませんでした</string>
     <string name="imm_str_storage">ストレージ</string>
     <string name="import_files_from_old_phones">古いデバイスからインポート</string>
+    <string name="install_media_editor_button_text">ダウンロード</string>
+    <string name="install_media_editor_message">アイテムを編集できるようにするには、まずプラグインをダウンロードしてください。今すぐダウンロードしますか？</string>
+    <string name="install_media_editor_title">プラグインが必要です</string>
     <string name="instruction">FTPクライアントに次のアドレスを入力してください: </string>
     <string name="instruction_pre_pad">パソコンからこのデバイス上のファイルを管理</string>
     <string name="instruction_pre_phone">パソコンからこのデバイス上のファイルを管理</string>
@@ -343,6 +394,7 @@
     <string name="make_private_msg_1">このファイルを非公開にしますか？</string>
     <string name="make_private_msg_2">これらのファイルを非公開にしますか？</string>
     <string name="make_private_msg_3">このフォルダー内のすべてのファイルが非公開になります。</string>
+    <string name="manage_cloud_space">クラウドストレージを管理</string>
     <string name="menu_item_cleanup">クリーンアップ</string>
     <string name="menu_item_ftp">FTP</string>
     <string name="menu_item_router">ルーター</string>
@@ -359,6 +411,12 @@
     <string name="mi_router_label">ルーター</string>
     <string name="mi_share">Mi シェア</string>
     <string name="midnight">真夜中</string>
+    <string name="midrive_display_related">表示設定</string>
+    <string name="midrive_get_cloudvideo_file">お待ちください…</string>
+    <string name="midrive_hide_recent_cloud_files">最近のタスクにMi Driveファイルを表示しない</string>
+    <string name="midrive_not_found">このアイテムにアクセスできませんでした</string>
+    <string name="midrive_overseas_unavailable">この機能は中国本土でのみ利用可能です。</string>
+    <string name="midrive_reset_privacy_and_check_availability_retry">Mi Driveをオンにできませんでした。もう一度お試しください。</string>
     <string name="midriver_install_button_text">インストール</string>
     <string name="midriver_not_install_title">Mi Driveはアンインストールされました</string>
     <string name="mirror_can_not_drag_mask">ドラッグしてMi シェアを使用</string>
@@ -464,6 +522,7 @@
     <string name="need_read_storage_permission">ファイルマネージャーが正常に動作するためには、デバイスのストレージへのアクセス許可が必要です。</string>
     <string name="network_not_available">ネットワークに接続できません</string>
     <string name="new_folder_name">新しいフォルダー</string>
+    <string name="new_storage_info_detail">無料：%1$s | 合計：%2$s</string>
     <string name="next">次へ</string>
     <string name="night">夜</string>
     <string name="no">いいえ</string>
@@ -472,6 +531,9 @@
     <string name="no_enough_storage_indication">デバイスのストレージがいっぱいです。</string>
     <string name="no_enough_storage_title">ストレージ容量が足りません</string>
     <string name="no_file">空です</string>
+    <string name="no_network">ネットワークに接続できません</string>
+    <string name="no_network_error_message">ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="no_network_error_title">ネットワークに接続できませんでした</string>
     <string name="no_permission">この機能にアクセスするには、必要な権限を付与してください</string>
     <string name="no_wifi">Wi-Fi ネットワークなし</string>
     <string name="noon">正午</string>
@@ -481,16 +543,29 @@
     <string name="not_use">今はしない</string>
     <string name="notif_server_starting">FTPサーバーを起動しています…</string>
     <string name="notif_title">FTPサーバーが実行中です</string>
+    <string name="notification_title_sync_result">同期が完了しました</string>
+    <string name="notification_title_syncing">同期中…</string>
+    <string name="notification_title_syncing_with_count">アイテムを同期しています。残りのファイル：%1$s</string>
     <string name="online_not_support">現在、このファイルを表示できません。</string>
+    <string name="open_cloud_drive">Mi Driveをオンにする</string>
     <string name="open_or_close_wlan">Wi-Fiのオンとオフの切り替え</string>
     <string name="open_private_folder">指を離して非公開ファイルを表示</string>
     <string name="operation_add_fav">お気に入りに追加中…</string>
+    <string name="operation_batch_failed_err">複数のファイルに対してこの操作を完了できませんでした。</string>
+    <string name="operation_cache_use_data">ダウンロード</string>
+    <string name="operation_cache_use_free_network">Wi-Fiを待機</string>
     <string name="operation_cancel">キャンセル</string>
+    <string name="operation_cloud_copy_to_local">保存先…</string>
     <string name="operation_compress">圧縮</string>
     <string name="operation_compressing">圧縮中…</string>
     <string name="operation_copy">コピー</string>
     <string name="operation_create_folder">フォルダーを作成</string>
     <string name="operation_create_folder_message">フォルダー名を入力してください</string>
+    <string name="operation_create_folder_name_conflict">フォルダーを作成できませんでした。この名前のフォルダーはすでに存在しています。</string>
+    <string name="operation_create_folder_name_illegal_char">フォルダーを作成できませんでした。フォルダー名にはサポートされていない文字が含まれています。</string>
+    <string name="operation_create_folder_network_not_available">フォルダーを作成できませんでした。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="operation_create_folder_not_support_for_overseas">フォルダーを作成できませんでした。この機能は、中国本土でのみ利用できます。</string>
+    <string name="operation_create_folder_other">フォルダーを作成できませんでした</string>
     <string name="operation_decompressing">解凍中…</string>
     <string name="operation_del_fav">お気に入りから削除中…</string>
     <string name="operation_delete">削除</string>
@@ -498,28 +573,59 @@
     <string name="operation_delete_confirm_message_folder">"フォルダー内のすべてのコンテンツは削除されます。
 "</string>
     <string name="operation_deleting">削除中…</string>
+    <string name="operation_download">ダウンロード</string>
+    <string name="operation_download_error_no_space">ストレージが足りません</string>
+    <string name="operation_download_error_other">システムエラーが発生しました。数分待ってからもう一度お試しください。</string>
+    <string name="operation_download_error_title">ダウンロードできませんでした</string>
+    <string name="operation_editor">編集</string>
     <string name="operation_encrypt_summary">非公開フォルダー内のファイルを暗号化します。大きなファイルの暗号化の解除には時間がかかる場合があります。</string>
     <string name="operation_encrypt_title">非公開ファイルを暗号化</string>
     <string name="operation_favorite">お気に入りに追加</string>
+    <string name="operation_file_downloading_err">この操作を完了できませんでした。このファイルのダウンロードが完了するまで待ってから、もう一度お試しください。</string>
+    <string name="operation_file_exist_err">この操作を完了できませんでした。このファイルはすでに存在しています。</string>
+    <string name="operation_file_not_found_err">この操作を完了できませんでした。元のファイルが見つかりませんでした。</string>
+    <string name="operation_gallary">ギャラリーに表示</string>
     <string name="operation_hide_sys">隠しファイルを非表示</string>
     <string name="operation_info">詳細</string>
     <string name="operation_move">移動</string>
     <string name="operation_moving">移動中…</string>
     <string name="operation_new_folder">フォルダーを作成</string>
+    <string name="operation_no_network_err">ネットワークに接続できませんでした。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="operation_not_support_directory_rename">このフォルダーは名前を変更できません。</string>
+    <string name="operation_not_support_err">この操作を完了できませんでした。</string>
     <string name="operation_open">開く</string>
     <string name="operation_open_mode">次で開く</string>
     <string name="operation_other_apps">別のアプリで開く</string>
     <string name="operation_paste">貼り付け</string>
     <string name="operation_paste_to_folder">フォルダーに貼り付ける</string>
     <string name="operation_pasting">コピー中…</string>
+    <string name="operation_pic_to_pdf">PDFを作成</string>
     <string name="operation_refresh">更新</string>
     <string name="operation_rename">名前の変更</string>
+    <string name="operation_rename_err">名前を変更できませんでした</string>
     <string name="operation_rename_message">新しい名前を入力してください</string>
+    <string name="operation_retry">再試行</string>
     <string name="operation_send">送信</string>
     <string name="operation_send_to_pc">パソコンに移動</string>
+    <string name="operation_set_pic_wallpaper">壁紙に設定</string>
     <string name="operation_show_privacy_policy">プライバシーポリシーを表示</string>
     <string name="operation_show_sys">隠しファイルを表示</string>
+    <string name="operation_sync_cloud_data_error">サーバーエラーが発生しました。数分待ってからもう一度お試しください。</string>
     <string name="operation_unfavorite">お気に入りから削除</string>
+    <string name="operation_unknown_err">この操作を完了できませんでした。</string>
+    <string name="operation_upload_buy_space">アップグレード</string>
+    <string name="operation_upload_delete">削除</string>
+    <string name="operation_upload_err_file_not_found">このファイルは存在しないようです。</string>
+    <string name="operation_upload_err_file_size_zero">空のファイルをアップロードできません。</string>
+    <string name="operation_upload_err_full_space">クラウドストレージがいっぱいです。さらにアイテムをアップロードするには、ストレージプランをアップグレードしてください。</string>
+    <string name="operation_upload_err_illegal_char">このファイル名にはサポートされていない文字が含まれています。</string>
+    <string name="operation_upload_err_larger_than_4g">%dGBより大きいファイルをアップロードできません。</string>
+    <string name="operation_upload_err_not_support_overseas">現時点では、中国本土のユーザーのみがアイテムをアップロードできます。</string>
+    <string name="operation_upload_err_other">システムエラーが発生しました。数分待ってからもう一度お試しください。</string>
+    <string name="operation_upload_error_title">アップロードできませんでした</string>
+    <string name="operation_upload_retry">再試行</string>
+    <string name="operation_upload_save_to_local">保存先…</string>
+    <string name="operation_upload_use_data">アップロード</string>
     <string name="otg_data_transfer_success">正常に転送されました</string>
     <string name="otg_data_transferring">ファイルを転送中… 外部ストレージを切断しないでください。</string>
     <string name="otg_file_security_note">OGTセキュリティ</string>
@@ -529,9 +635,16 @@
     <string name="partial_encrypt_success">一部のファイルを非公開にできませんでした。もう一度お試しください。</string>
     <string name="path_name_email">メール</string>
     <string name="perm_manage_external_storage">すべてのファイルへのアクセス</string>
+    <string name="permission_account_desc">デバイス上に保存されたアカウント情報にアクセスするため</string>
+    <string name="permission_account_desc_pad">デバイス上に保存されたアカウント情報にアクセスするため</string>
+    <string name="permission_account_title">デバイスアカウントへのアクセス</string>
+    <string name="permission_account_title_pad">デバイスアカウントへのアクセス</string>
     <string name="permission_denial">ファイルにアクセスできませんでした。設定で、ファイルマネージャーにファイルへのアクセスを許可してください。</string>
     <string name="permission_description">アクセス許可の詳細</string>
     <string name="permission_required">ファイルにアクセスできませんでした。設定で、ファイルマネージャーにファイルへのアクセスを許可してください。</string>
+    <string name="permission_storage_desc_pad">デバイスに写真とドキュメントを保存するため</string>
+    <string name="permission_storage_title">デバイスストレージへのアクセス</string>
+    <string name="permission_storage_title_pad">デバイスストレージへのアクセス</string>
     <string name="phone">内部ストレージ</string>
     <string name="phone_storage">ストレージ</string>
     <string name="phone_storage_apk_title">APK: </string>
@@ -550,6 +663,7 @@
     <string name="pick_folder">フォルダーを選択</string>
     <string name="pm">午後</string>
     <string name="port_range">ポートは1024～65535の間でなければなりません</string>
+    <string name="pre_privacy_recall">同意の撤回</string>
     <string name="pref_permission_allowed">付与済み</string>
     <string name="pref_permission_manage_key_storage">デバイス上の写真とファイルへのアクセス</string>
     <string name="pref_permission_not_allowed">未付与</string>
@@ -557,6 +671,14 @@
     <string name="privacy_policy">プライバシーポリシー</string>
     <string name="privacy_policy_renew">プライバシーポリシーの更新</string>
     <string name="privacy_policy_renew_content">&lt;Data>ファイルマネージャーの&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>が更新されました。ユーザーとしてのご利用者の権利と当社によるデータの使用方法を完全に理解するため、続ける前に新しいバージョンのプライバシーポリシーを読んで同意してください。&lt;/Data></string>
+    <string name="privacy_recall_alert_description" formatted="false">同意を撤回するには、Mi Driveからすべてのアイテムを消去してください。以下の手順でアイテムを消去してください。&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. Mi Driveのスタートページでアイテムを長押しすると、 \"すべて選択\" ボタンが表示されます。このボタンで一度に200個までのファイルを選択し、削除できます。&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. その後、最近削除したアイテムを消去してください。</string>
+    <string name="privacy_recall_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. アイテムを削除する前に、バックアップを取ることをお勧めします。i.mi.comにアクセスし、Mi Driveをクリックして、アイテムをパソコンにダウンロードしてください。&lt;br />&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. 最近削除したアイテムは、完全に削除すると復元不能ですのでご注意ください。</string>
+    <string name="privacy_recall_confirm_button">撤回</string>
+    <string name="privacy_recall_confirm_description">続けると、ファイルマネージャープライバシーポリシーへの同意を撤回することになります。当社による個人情報の収集が停止されます。すでに収集され保持されている個人情報は、別段の要求がない限り、適用される法令に基づき特定の期間内に削除されます。</string>
+    <string name="privacy_recall_confirm_reminder_card_summary" formatted="false">&lt;font color=#F22424>以下のアイテムは、同意撤回後、完全に削除されます。&lt;/font>&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. ドキュメント、プライベートファイル、削除したアイテムを含みますがこれらに限定されない、Mi Drive上のすべてのアイテム。&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. デバイスの権限、設定、その他のキャッシュされたコンテンツ。&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_3 refersto=3>%3d&lt;/xliff:g>. Mi Driveのアップロードとダウンロードの履歴。</string>
+    <string name="privacy_recall_success">同意は正常に撤回されました</string>
+    <string name="privacy_recall_title">同意の撤回</string>
+    <string name="privacy_recalling">同意を撤回中…</string>
     <string name="private_files">非公開</string>
     <string name="private_folder">非公開ファイル</string>
     <string name="private_folder_no_file_hints">ファイルやフォルダーを長押しすると非公開になります</string>
@@ -568,11 +690,15 @@
     <string name="pull_to_enter_private">プルダウンして非公開フォルダーを開く</string>
     <string name="qq_msg">Android 11の制限により、ファイルマネージャーはQQドキュメントにアクセスして表示することができません。</string>
     <string name="qq_title">WeChatドキュメントにアクセスできません</string>
+    <string name="query_quota_exception">サーバーエラーが発生しました。数分待ってからもう一度お試しください。</string>
+    <string name="query_quota_searching">お待ちください…</string>
     <string name="recent_hide_camera_and_screenshots">ギャラリーのアイテムやスクリーンショットを最近のファイルに表示しない</string>
+    <string name="recent_hide_cloud_drive_files">最近のタスクにMi Driveファイルを表示しない</string>
     <string name="refresh_success">更新完了</string>
     <string name="reinstall_midriver_message">今すぐ再インストールしますか？</string>
     <string name="release_enter_private">指を離して非公開フォルダーを開く</string>
     <string name="remainder_size">残り：%s</string>
+    <string name="reminder_card_title">注意</string>
     <string name="rename_alert">このファイルの拡張子を変更すると、ファイルを開くことができなくなる可能性があります。</string>
     <string name="rename_alert2">名前が \".\" で始まるファイルは、システムによって自動的に非表示にされます。この名前を使用してもよろしいですか？</string>
     <string name="rename_failed">%1$sの名前を変更できませんでした</string>
@@ -629,6 +755,7 @@
     <string name="set_pattern">パスワードをアップグレードしてください</string>
     <string name="set_pattern_btn">設定</string>
     <string name="set_pattern_msg">パスワードをもう一度設定してください。プライバシー保護パスワードは、写真、メッセージ、メモにも使用されます。</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">%dKB未満</string>
     <string name="size_lv2" formatted="false">%1dKB - %2dMB</string>
     <string name="size_lv3" formatted="false">%1dMB - %2dMB</string>
@@ -746,9 +873,12 @@
     <string name="unknown_error">不明なエラーが発生しました。数分待ってからもう一度お試しください。</string>
     <string name="unlock_pattern_msg">プライバシー保護パスワードは、写真、メッセージ、メモにも使用されます。</string>
     <string name="unlock_pattern_title">新しいパスワード</string>
+    <string name="update_no_network">ネットワークに接続できませんでした。ネットワーク設定を確認して、もう一度お試しください。</string>
     <string name="upload_user_photo">アップロード</string>
     <string name="usb_label">USB</string>
     <string name="use">使用</string>
+    <string name="use_mobile_data_update_summary">Mi Driveからダウンロードしたファイルの変更を自動的に同期するためにモバイルデータを使用する</string>
+    <string name="use_mobile_data_update_title">モバイルデータを使用して同期</string>
     <string name="use_to_all">すべてに適用</string>
     <string name="used">使用済み</string>
     <string name="user_guide_continue_use">OK</string>
@@ -757,7 +887,12 @@
     <string name="utf8_title">UTF-8</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
+    <string name="video_data_consume_dialog_confirm">続ける</string>
+    <string name="video_data_consume_dialog_title">モバイルデータを使用しますか？</string>
     <string name="view_type">表示</string>
+    <string name="web_sso_login_fail">再度サインインする必要があります</string>
+    <string name="web_sso_login_message">サインイン中…</string>
+    <string name="webview_reload">再試行</string>
     <string name="wechat_msg">Android 11の制限により、ファイルマネージャーはWeChatでプレビューされたドキュメントにアクセスして表示することができません。WeChatでドキュメントを開いて保存すると、ここに表示されるようになります。</string>
     <string name="wechat_title">WeChatドキュメントにアクセスできません</string>
     <string name="wechat_video">%sのビデオ</string>

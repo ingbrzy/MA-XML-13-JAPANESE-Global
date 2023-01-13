@@ -151,10 +151,10 @@
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -182,6 +182,7 @@
     <string name="miui_transfer_history_title">Bluetooth転送</string>
     <string name="miui_transfer_inbound_title">受信</string>
     <string name="miui_transfer_outbound_title">送信</string>
+    <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
@@ -264,7 +265,9 @@
     <string name="opp_notification_group">Bluetooth 共有</string>
     <string name="outbound_history_title">外部への転送</string>
     <string name="outbound_noti_title">Bluetooth共有: 送信したファイル</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">%1$sとの接続の承諾がタイムアウトになりました</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">%1$sでのセッションキーの入力がタイムアウトになりました</string>
     <string name="pbap_notification_group">Bluetooth での連絡先の共有</string>
     <string name="pbap_session_key_dialog_header">Bluetoothセッションキーが必要です</string>

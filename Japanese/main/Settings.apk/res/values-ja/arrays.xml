@@ -2,7 +2,7 @@
 <resources>
     <string-array name="accessibility_button_gesture_selector_titles">
         <item>ボタン</item>
-        <item>操作</item>
+        <item>ジェスチャー</item>
     </string-array>
     <string-array name="accessibility_button_location_selector_titles">
         <item>他のアプリの上にフローティング</item>
@@ -206,7 +206,7 @@
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>標準制限</item>
-        <item>バックグラウンドプロセスなし</item>
+        <item>バックグラウンドプロセスはありません</item>
         <item>最大で1つのプロセス</item>
         <item>最大で2つのプロセス</item>
         <item>最大で3つのプロセス</item>
@@ -222,6 +222,8 @@
         <item>60 日以上経過</item>
         <item>90 日以上経過</item>
     </string-array>
+    <array name="avatar_image_descriptions" />
+    <array name="avatar_images" />
     <string-array name="battery_indicator_style_entries">
         <item>グラフィック</item>
         <item>パーセンテージ（アイコン内）</item>
@@ -261,24 +263,24 @@
         <item>低レイテンシーモード</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>システムの選択を使用 (デフォルト)</item>
+        <item>システムの選択を使用する（デフォルト）</item>
         <item>16 ビット/サンプル</item>
         <item>24 ビット/サンプル</item>
         <item>32 ビット/サンプル</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>システムの選択を使用 (デフォルト)</item>
+        <item>システムの選択を使用する（デフォルト）</item>
         <item>16 ビット/サンプル</item>
         <item>24 ビット/サンプル</item>
         <item>32 ビット/サンプル</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>システムの選択を使用 (デフォルト)</item>
+        <item>システムの選択を使用する（デフォルト）</item>
         <item>モノ</item>
         <item>ステレオ</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>システムの選択を使用 (デフォルト)</item>
+        <item>システムの選択を使用する（デフォルト）</item>
         <item>モノ</item>
         <item>ステレオ</item>
     </string-array>
@@ -309,24 +311,24 @@
         <item>接続品質に最適化</item>
         <item>オーディオと接続品質のバランスを取る</item>
         <item>オーディオ品質に最適化</item>
-        <item>ベストエフォート（自動ビットレート）</item>
+        <item>できる限りより良い音質を提供する (自動ビットレート)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles">
         <item>低レイテンシーに最適化 (256kbps)</item>
         <item>接続品質に最適化 (400kbps)</item>
         <item>オーディオと接続品質のバランスを取る (500/560kbps)</item>
         <item>オーディオ品質に最適化 (900kbps)</item>
-        <item>ベストエフォート（自動ビットレート）</item>
+        <item>できる限りより良い音質を提供する (自動ビットレート)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>システムの選択を使用 (デフォルト)</item>
+        <item>システムの選択を使用する（デフォルト）</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>システムの選択を使用 (デフォルト)</item>
+        <item>システムの選択を使用する（デフォルト）</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -369,9 +371,9 @@
         <item>" | アクティブ (スマートフォン)"</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp14</item>
-        <item>avrcp13</item>
         <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
@@ -408,6 +410,8 @@
         <item>無効済み</item>
         <item>フィルター済み</item>
         <item>有効済み</item>
+        <item>フィルター済みのヘッダー</item>
+        <item>フィルター済みのメディアパケット</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1秒</item>
@@ -435,7 +439,7 @@
     <string-array name="captioning_font_size_selector_titles">
         <item>極小</item>
         <item>小</item>
-        <item>デフォルト</item>
+        <item>中</item>
         <item>大</item>
         <item>極大</item>
     </string-array>
@@ -492,7 +496,7 @@
         <item>ダルエスサラーム</item>
         <item>ジブチ</item>
         <item>フリータウン</item>
-        <item>ガボローネ</item>
+        <item>ハボローネ</item>
         <item>ハラレ</item>
         <item>ヨハネスブルグ</item>
         <item>カンパラ</item>
@@ -757,10 +761,10 @@
         <item>チワワ</item>
         <item>グルグラム</item>
         <item>マンチェスター</item>
-        <item>キエフ</item>
+        <item>キーウ</item>
         <item>サンクトペテルブルク</item>
         <item>クラクフ</item>
-        <item>ブロツラフ</item>
+        <item>ヴロツワフ</item>
         <item>ハンブルク</item>
         <item>オウル</item>
         <item>ハイファ</item>
@@ -769,10 +773,35 @@
         <item>パラマリボ</item>
         <item>キト</item>
     </string-array>
+    <array name="click_bottom">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom08</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="color_mode_descriptions">
         <item>強化された色合い</item>
-        <item>目で見たままの自然な色合い</item>
-        <item>デジタルコンテンツに最適な色合い</item>
+        <item>肉眼で見るのと同じような自然な色合い</item>
+        <item>デジタルコンテンツに最適化した色合い</item>
     </string-array>
     <string-array name="color_mode_names">
         <item>鮮やか (デフォルト)</item>
@@ -780,12 +809,12 @@
         <item>標準</item>
     </string-array>
     <string-array name="color_picker">
-        <item>ティール</item>
+        <item>シアン</item>
         <item>ブルー</item>
-        <item>インディゴ</item>
+        <item>グリーン</item>
         <item>パープル</item>
         <item>ピンク</item>
-        <item>レッド</item>
+        <item>オレンジ</item>
     </string-array>
     <string-array name="common_password_business_names">
         <item>ロック画面</item>
@@ -898,6 +927,15 @@
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
     </string-array>
+    <string-array name="key_and_gesture_shortcut_action">
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_back_key</item>
+        <item>key_combination_power_home</item>
+        <item>key_combination_power_menu</item>
+        <item>key_combination_power_back</item>
+        <item>key_none</item>
+    </string-array>
     <string-array name="keyguard_notification_status_entries">
         <item>スリープを解除しない</item>
         <item>スリープ解除</item>
@@ -941,6 +979,43 @@
         <item>5分後</item>
         <item>しない</item>
     </string-array>
+    <array name="long_press">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="long_press_timeout_selector_list_titles">
         <item>短め</item>
         <item>中</item>
@@ -1014,6 +1089,14 @@
         <item>"デバイスをアンインストール： fusermount -u /media/mtp
 注：Ubuntu 8.04 環境下のみ"</item>
     </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
+    </string-array>
     <string-array name="msd_pc_system_retry_xp">
         <item>@string/msd_install_retry_connect</item>
         <item>Mi PC Suiteを再インストール</item>
@@ -1023,11 +1106,20 @@
         <item>SPN</item>
         <item>IMSI</item>
         <item>GID</item>
+        <item>ICCID</item>
     </string-array>
     <string-array name="network_speed_slow_summary">
         <item>トラフィックが多すぎるためネットワークの速度が遅くなっています</item>
         <item>信号強度が弱いためネットワークの速度が遅くなっています</item>
         <item>移動中…</item>
+    </string-array>
+    <string-array name="nfc_payment_favor">
+        <item>常時</item>
+        <item>別の決済アプリが起動されている場合を除く</item>
+    </string-array>
+    <string-array name="nfc_payment_favor_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <string-array name="notch_battery_indicator_style_entries">
         <item>グラフィック</item>
@@ -1118,6 +1210,97 @@
         <item>シングルマイクノイズ抑制</item>
         <item>デュアルマイクノイズ抑制</item>
     </string-array>
+    <array name="power_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_double_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_long_press">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
     <string-array name="power_mode_entries">
         <item>パフォーマンス</item>
         <item>バランス</item>
@@ -1129,7 +1312,7 @@
         <item>ブラウザー</item>
         <item>カメラ</item>
         <item>ギャラリー</item>
-        <item>ミュージック</item>
+        <item>音楽</item>
         <item>メール</item>
         <item>ビデオの再生</item>
     </string-array>
@@ -1241,6 +1424,11 @@
         <item>彩度調整</item>
         <item>標準</item>
     </string-array>
+    <string-array name="screen_resolution_format">
+        <item>@string/screen_resolution_ultrahigh_format</item>
+        <item>@string/screen_resolution_high_format</item>
+        <item>@string/screen_resolution_normal_format</item>
+    </string-array>
     <string-array name="screen_resolution_text">
         <item>2K</item>
         <item>1080p</item>
@@ -1271,25 +1459,25 @@
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>オフ</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>オフ</item>
-        <item>ログバッファ当たり64KB</item>
-        <item>ログバッファ当たり256KB</item>
-        <item>ログバッファ当たり1MB</item>
-        <item>ログバッファ当たり4MB</item>
-        <item>ログバッファ当たり16MB</item>
+        <item>ログバッファ当たり64K</item>
+        <item>ログバッファ当たり256K</item>
+        <item>ログバッファ当たり1M</item>
+        <item>ログバッファ当たり4M</item>
+        <item>8M per log buffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>オフ</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
-        <item>4 MB</item>
-        <item>16 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>オフ</item>
@@ -1307,6 +1495,10 @@
         <item>オフ</item>
         <item>非矩形のクリップ領域を青で描く</item>
         <item>テスト描画コマンドを緑でハイライト表示する</item>
+    </string-array>
+    <string-array name="silent_entries">
+        <item>@string/standard</item>
+        <item>@string/total</item>
     </string-array>
     <string-array name="silent_mode_duration_text">
         <item>常時</item>
@@ -1334,15 +1526,51 @@
         <item>1</item>
         <item>0</item>
     </string-array>
+    <string-array name="switch_to_user_zero_when_docked_timeout_entries">
+        <item>なし</item>
+        <item>1 分後</item>
+        <item>5 分後</item>
+    </string-array>
     <string-array name="tabs_taptic_detail">
         <item>クリスプ</item>
         <item>ベース</item>
         <item>ポップ</item>
     </string-array>
+    <string-array name="tare_modifiers_subfactors">
+        <item>充電</item>
+        <item>Doze</item>
+        <item>省電力モード</item>
+        <item>プロセスの状態</item>
+    </string-array>
+    <array name="three_drop">
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop02</item>
+        <item>@drawable/threedrop03</item>
+        <item>@drawable/threedrop04</item>
+        <item>@drawable/threedrop05</item>
+        <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="time_format_entries">
         <item>12時間制 午後1:00</item>
         <item>24時間制 13:00</item>
-        <item>自動（システム言語に基づく）</item>
+        <item>自動 (システム言語に基づく)</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>アメリカ</item>
@@ -1473,6 +1701,10 @@
         <item>事前共有キー付きの IKEv2/IPSec VPN</item>
         <item>証明書付きの IKEv2/IPSec VPN</item>
     </string-array>
+    <string-array name="wapi_psk_type">
+        <item>@string/wapi_psk_type_ascii</item>
+        <item>@string/wapi_psk_type_hex</item>
+    </string-array>
     <string-array name="wfd_status">
         <item>セッションを開始しています…</item>
         <item>セッションが開始されました</item>
@@ -1491,6 +1723,14 @@
         <item>グラフィック</item>
         <item>パーセンテージ（アイコン内）</item>
         <item>パーセンテージ（通知シェード内のアイコン横）</item>
+    </string-array>
+    <string-array name="wifi_ap_band_config_2G_5G">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_hidden_ssid_config">
+        <item>@string/wifi_ap_ssid_off</item>
+        <item>@string/wifi_ap_ssid_on</item>
     </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>

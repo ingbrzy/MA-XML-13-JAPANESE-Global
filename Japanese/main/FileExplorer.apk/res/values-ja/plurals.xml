@@ -42,6 +42,9 @@
     <plurals name="days_ago">
         <item quantity="other">%1$d日前</item>
     </plurals>
+    <plurals name="delete_cloud_files">
+        <item quantity="other">すべてのデバイスとクラウドから%1$d個のファイルを削除しますか？Mi Driveのファイルは、最近削除したアイテムから復元可能です。</item>
+    </plurals>
     <plurals name="delete_files">
         <item quantity="other">%1$d個のファイルを削除しますか？</item>
     </plurals>
@@ -101,6 +104,15 @@
     </plurals>
     <plurals name="more_gems">
         <item quantity="other">あと&lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font>個の宝石を集めると、ラッキードローに参加できます。</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_fail">
+        <item quantity="other">%1$s個のファイルを同期できませんでした</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_success">
+        <item quantity="other">"%1$s個のファイルを同期済み | "</item>
+    </plurals>
+    <plurals name="notification_title_syncing_with_count_no_network">
+        <item quantity="other">ネットワーク接続を待機しています。残りのファイルは%1$sです。</item>
     </plurals>
     <plurals name="numSelectedFile">
         <item quantity="other">%1$d個を選択済み</item>

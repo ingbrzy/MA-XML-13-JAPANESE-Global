@@ -27,6 +27,9 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
+    <plurals name="category_limit_notify_content">
+        <item quantity="other">今日の\"%1$s\"はあと%2$d分です</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
@@ -57,8 +60,17 @@
     <plurals name="steady_on_screen_notification_summary">
         <item quantity="other">中断することなく%d分間デバイスを使用しました</item>
     </plurals>
+    <plurals name="steady_on_screen_rest_time">
+        <item quantity="other">%d分間休憩</item>
+    </plurals>
     <plurals name="steady_on_screen_time_pick">
         <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="steady_on_screen_tip_title">
+        <item quantity="other">すでにこのデバイスを%d分間使用しています</item>
+    </plurals>
+    <plurals name="tip_most_unavailable_period">
+        <item quantity="other">最大で%d回の休憩を追加できます</item>
     </plurals>
     <plurals name="trend_from_last_several_day_equal">
         <item quantity="other">今日のスクリーンタイムは%d日間の平均と同じ</item>

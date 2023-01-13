@@ -98,6 +98,9 @@
         <item quantity="other">%d 秒巻き戻し</item>
         <item quantity="one">%d 秒巻き戻し</item>
     </plurals>
+    <plurals name="feed_play_times">
+        <item quantity="other">%s回視聴</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">無料ダウンロード残り%d回</item>
     </plurals>

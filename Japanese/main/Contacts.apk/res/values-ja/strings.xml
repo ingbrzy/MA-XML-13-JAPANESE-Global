@@ -87,6 +87,7 @@
     <string name="call_disambig_title">番号を選択</string>
     <string name="call_fax_home">自宅ファクスに発信</string>
     <string name="call_fax_work">勤務先ファクスに発信</string>
+    <string name="call_feature_vilte">ViLTE</string>
     <string name="call_feature_volte">VoLTE</string>
     <string name="call_feature_vowifi">VoWiFi</string>
     <string name="call_home">自宅に発信</string>
@@ -505,6 +506,7 @@
     <string name="friday">金曜日</string>
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">名前</string>
     <string name="gallery">ギャラリー</string>
     <string name="ghostData_company">会社</string>
@@ -638,6 +640,7 @@
     <string name="menu_sync_remove">同期グループを削除</string>
     <string name="midnight">真夜中</string>
     <string name="miprofile_account_type">連絡先カード</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">プロフィールを編集</string>
     <string name="miprofile_name">マイ プロフィール</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -761,6 +764,10 @@
     <string name="not_set">未設定</string>
     <string name="notification_click_detail">タップして詳細を表示</string>
     <string name="notification_micloudsync_delete_contact">Xiaomi Cloudが連絡先の一部を削除しようとしています</string>
+    <string name="notification_missedCallTitle">不在着信</string>
+    <string name="notification_missedCall_call_back">折り返す</string>
+    <string name="notification_missedCall_message">SMSを送信</string>
+    <string name="notification_missedCallsTitle">不在着信</string>
     <string name="open_contact">連絡先を表示</string>
     <string name="open_dial_pad_description">ダイヤルパッドを開く</string>
     <string name="option_delete_contact">削除</string>
@@ -794,6 +801,7 @@
     <string name="permission_retry_dialog_msg_pad">このアプリでSIMカードを使用し、連絡先を管理するためには、このアプリによる連絡先へのアクセスと編集、およびデバイス情報へのアクセスを許可してください。</string>
     <string name="permission_retry_setting">設定</string>
     <string name="phoneLabelsGroup">電話</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">番号が長すぎます</string>
     <string name="phone_primary">主要</string>
     <string name="photoPickerNotFoundText">デバイスには利用可能な写真はありません</string>
@@ -1039,6 +1047,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">グループメンバーがいません</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">会社</string>
     <string name="smart_group_company_unavailable">会社情報がありません</string>
     <string name="smart_group_frequency_1">過去1か月以内</string>
@@ -1080,6 +1089,7 @@
     <string name="starred_contacts">お気に入り</string>
     <string name="status_available">チャット可能</string>
     <string name="status_away">退席中</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">取り込み中</string>
     <string name="strequentList">お気に入り</string>
     <string name="success_message_import_from_account">連絡先がインポートされました</string>

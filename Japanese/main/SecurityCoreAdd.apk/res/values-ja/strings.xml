@@ -43,6 +43,7 @@
     <string name="air_space_exit">スペースからでる</string>
     <string name="air_space_setting">スペースの設定</string>
     <string name="airspace_users_full">これ以上ワークスペースを作成できません</string>
+    <string name="alwaysUsePrompt">この選択を記憶</string>
     <string name="am">午前</string>
     <string name="appData">インストールしたアプリ</string>
     <string name="app_name">セキュリティコアコンポーネント</string>
@@ -75,7 +76,7 @@
     <string name="close_second_space_success">セカンド・スペースを削除しました</string>
     <string name="closed">オフ</string>
     <string name="complete_setting">終了</string>
-    <string name="complete_setting_sub_title">後で戻って設定を調整することもできます。</string>
+    <string name="complete_setting_sub_title">後から戻って設定を調整することも可能です。</string>
     <string name="complete_setting_title">すべての設定が完了しました！</string>
     <string name="confirm">OK</string>
     <string name="confirmClose">オフにする</string>
@@ -236,10 +237,10 @@
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -264,8 +265,7 @@
     <string name="green_guard_title3">アプリを管理</string>
     <string name="greenguard_child_des">友達や家族のデバイスを管理する</string>
     <string name="greenguard_child_des_title">QRコードをスキャンしてデバイスを追加</string>
-    <string name="greenguard_functional_description">"デバイスをリモートで管理し、位置情報を表示し、
-インストールされているアプリを制御し、使用を制限する"</string>
+    <string name="greenguard_functional_description">デバイスの遠隔管理、位置情報の表示、インストールされたアプリの制御</string>
     <string name="greenguard_install_cancle">今はしない</string>
     <string name="greenguard_install_confirm">インストール</string>
     <string name="greenguard_install_message">ファミリーガードはシステムアプリです。インストールにネットワークは必要ありません。</string>
@@ -437,7 +437,7 @@
     <string name="removeSuccess">正常に削除されました</string>
     <string name="remove_button">削除</string>
     <string name="remove_button_time">削除 (%d秒)</string>
-    <string name="remove_second_space_msg">セカンド・スペースを削除すると、すべてのセカンド・スペースのアプリデータが失われます。今すぐセカンド・スペースを削除しますか？</string>
+    <string name="remove_second_space_msg">セカンド・スペースを削除すると、セカンド・スペースのアプリデータがすべて失われます。今すぐセカンド・スペースを削除しますか？</string>
     <string name="removingSpace">削除中…</string>
     <string name="repeat_scanner_fingerprint">もう一度追加</string>
     <string name="reset_passwd_success">パスワードは正常にリセットされました</string>
@@ -692,6 +692,7 @@
     <string name="xspace_guide_description">"アカウントごとに
 アプリを使用できます"</string>
     <string name="xspace_guide_title">デュアルアプリを試す</string>
+    <string name="xspace_head">デュアルアプリ</string>
     <string name="xspace_header">デュアルアプリ</string>
     <string name="xspace_instagram_title">Instagram</string>
     <string name="xspace_install_complete">&lt;font>デュアルアプリが正常に作成されました。&lt;/font>&lt;font color=#0D84FF>今すぐ開きます&lt;/font>。</string>
@@ -707,6 +708,7 @@
     <string name="xspace_notification_error">デュアルWeChatにサインインしてからもう一度お試しください</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">デュアルアプリのアカウントを削除</string>
+    <string name="xspace_resolver_activity_title">アプリを選択</string>
     <string name="xspace_setting_label">デュアルアプリ設定</string>
     <string name="xspace_settins">設定</string>
     <string name="xspace_start">作成</string>

@@ -43,6 +43,10 @@
         <item quantity="other">%s 件のコントロールを追加しました。</item>
         <item quantity="one">%s 件のコントロールを追加しました。</item>
     </plurals>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="other">%s 個のアプリが実行中です</item>
+        <item quantity="one">%s 個のアプリが実行中です</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
@@ -113,22 +117,6 @@
         <item quantity="other">SIM PUK コードが無効です。入力できるのはあと %d 回です。この回数を超えると SIM は完全に使用できなくなります。</item>
         <item quantity="one">SIM PUK コードが無効です。入力できるのはあと %d 回です。この回数を超えると SIM は完全に使用できなくなります。</item>
     </plurals>
-    <plurals name="kg_prompt_reason_time_password">
-        <item quantity="other">デバイスのロックが %d 時間、解除されていません。パスワードを確認してください。</item>
-        <item quantity="one">デバイスのロックが %d 時間、解除されていません。パスワードを確認してください。</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pattern">
-        <item quantity="other">デバイスのロックが %d 時間、解除されていません。パターンを確認してください。</item>
-        <item quantity="one">デバイスのロックが %d 時間、解除されていません。パターンを確認してください。</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pin">
-        <item quantity="other">デバイスのロックが %d 時間、解除されていません。PIN を確認してください。</item>
-        <item quantity="one">デバイスのロックが %d 時間、解除されていません。PIN を確認してください。</item>
-    </plurals>
-    <plurals name="kg_too_many_failed_attempts_countdown">
-        <item quantity="other">%d 秒後にもう一度お試しください。</item>
-        <item quantity="one">1 秒後にもう一度お試しください。</item>
-    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">たった今</item>
     </plurals>
@@ -170,9 +158,5 @@
     <plurals name="user_limit_reached_message">
         <item quantity="other">最大 %d 人のユーザーを追加できます。</item>
         <item quantity="one">作成できるユーザーは 1 人のみです。</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d 台のデバイスが接続されています</item>
-        <item quantity="one">%1$d 台のデバイスが接続されています</item>
     </plurals>
 </resources>

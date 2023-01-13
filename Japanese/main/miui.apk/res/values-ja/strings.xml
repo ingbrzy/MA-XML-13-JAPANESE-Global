@@ -129,7 +129,7 @@
     <string name="com_xiaomi_jr">Mi ファイナンス</string>
     <string name="com_xiaomi_scanner">スキャナー</string>
     <string name="com_xiaomi_shop">Mi ストア</string>
-    <string name="com_xiaomi_vipaccount">Mi コミュニティ</string>
+    <string name="com_xiaomi_vipaccount">Xiaomi Community</string>
     <string name="com_xiaomi_youpin">Youpin</string>
     <string name="confirm_description">確認</string>
     <string name="country_name_ac">AC</string>
@@ -384,6 +384,7 @@
     <string name="earthly_branches_you">酉</string>
     <string name="earthly_branches_zi">子</string>
     <string name="email">メールアドレス</string>
+    <string name="empty" />
     <string name="eras_ad">AD</string>
     <string name="eras_bc">BC</string>
     <string name="error_forbidden">Mi アカウントの問題により、同期がオフになりました。</string>
@@ -537,6 +538,7 @@
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="solar_term_autumn_begins">Autumn Begins</string>
     <string name="solar_term_autumn_equinox">Autumn Equinox</string>

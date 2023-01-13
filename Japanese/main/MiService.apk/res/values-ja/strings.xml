@@ -32,6 +32,7 @@
     <string name="am">午前</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
     <string name="copy">コピー</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -105,6 +106,7 @@
     <string name="icon_remove_description_content">\"トラブル時の対処や報告\"はシステムアプリです。ホーム画面のショートカットを削除した後も、設定から引き続き使用できます。</string>
     <string name="icon_remove_description_title">ホーム画面から\"トラブル時の対処や報告\"を削除しますか？</string>
     <string name="mi_service_app_name">トラブル時の対処や報告</string>
+    <string name="mi_service_back">戻る</string>
     <string name="midnight">真夜中</string>
     <string name="miservice_channel_update_notification_info">\"トラブル時の対処や報告\"がデータオンラインをリクエスト中…</string>
     <string name="miservice_notification_boot_content">MIUIの機能の詳細</string>
@@ -114,7 +116,7 @@
     <string name="miservice_notification_open_feedback_title">\"トラブル時の対処や報告\"の紹介</string>
     <string name="miservice_notification_scan_content">スキャナーを使用して単語やフレーズを翻訳する</string>
     <string name="miservice_notification_scan_title">すぐに翻訳</string>
-    <string name="miui_feedback_answer_detail_community">Mi コミュニティで質問に対する答えを見つけることができます</string>
+    <string name="miui_feedback_answer_detail_community">Xiaomi Communityで質問に対する答えを見つけることができます</string>
     <string name="miui_feedback_answer_detail_feedback_resolved">はい</string>
     <string name="miui_feedback_answer_detail_feedback_result">フィードバックありがとうございました！</string>
     <string name="miui_feedback_answer_detail_feedback_title">この情報は役に立ちましたか？</string>
@@ -183,7 +185,6 @@
     <string name="miui_feedback_edit_toast_module_required">項目を選択</string>
     <string name="miui_feedback_edit_toast_more_desc_required">説明を長くする必要があります</string>
     <string name="miui_feedback_edit_toast_problem_class_required">カテゴリーを選択してください</string>
-    <string name="miui_feedback_edit_toast_screenshot_too_large">100MBを超える画像またはビデオはアップロードできません</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">アプリ名を入力してください</string>
     <string name="miui_feedback_main_answer_title">この質問には答えがあります</string>
     <string name="miui_feedback_main_customer_service_onfo_for_jp">"フリーダイヤル：0120-300-521
@@ -206,15 +207,6 @@ Email：service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_title">対処とトラブル報告</string>
     <string name="miui_feedback_main_withdraw">撤回</string>
     <string name="miui_feedback_main_withdraw_consent_hint">続けると、%1$sのプライバシーポリシーへの同意を撤回することになります。既に収集され保持されている個人情報は、別段の要求がない限り、適用される法令に基づいて特定の期間内に削除されます。%2$sは、必要な個人情報の収集に基づいてサービスを提供しているため、同意を撤回した場合は%3$sのサービスを受けることを拒否したとみなされます。今すぐ同意を撤回しますか？</string>
-    <string name="miui_guide_accessibility_image_desc">画像</string>
-    <string name="miui_guide_clear_db_service">\"トラブル時の対処や報告\"が言語キャッシュを消去中…</string>
-    <string name="miui_guide_footer_desc">スタートガイドは、デバイスとMIUIについてご利用者に理解していただくために作成されています。ガイド内の画像とビデオは参照用に作成されたものであり、実際の製品とは異なる場合があります。このガイドで説明されている機能は、デバイスモデル、MIUIバージョン、および使用環境によって異なることがあります。</string>
-    <string name="miui_guide_item_complete">完了済み</string>
-    <string name="miui_guide_item_new">新</string>
-    <string name="miui_guide_item_progress">完了 %1$d/%2$d</string>
-    <string name="miui_guide_menu_privacy">プライバシーポリシー</string>
-    <string name="miui_guide_top_bar_sub_title">MIUIでできることについて理解する</string>
-    <string name="miui_guide_top_bar_title">スタートガイド</string>
     <string name="miui_main_back">戻る</string>
     <string name="miui_main_bottom_bar_feedback">フィードバック</string>
     <string name="miui_main_bottom_bar_guide">スタートガイド</string>
@@ -223,7 +215,11 @@ Email：service.jp@xiaomi.com"</string>
     <string name="miui_main_control_center_desc">または、[設定] > [通知とコントロールセンター] で古いバージョンに切り替えます</string>
     <string name="miui_main_control_center_open">新しいコントロールセンター</string>
     <string name="miui_main_control_center_title">スワイプして通知シェードとコントロールセンターを切り替えます</string>
-    <string name="miui_main_mirror_tab_desc1">自動的に選択</string>
+    <string name="miui_main_icon_callback">ホーム画面ショートカット</string>
+    <string name="miui_main_icon_callback_create">作成</string>
+    <string name="miui_main_icon_callback_desc">今すぐホーム画面ショートカットを作成しますか？</string>
+    <string name="miui_main_icon_callback_nocreate">キャンセル</string>
+    <string name="miui_main_mirror_tab_desc1">自動接続</string>
     <string name="miui_main_mirror_tab_desc2">大画面で画像を表示</string>
     <string name="miui_main_mirror_tab_desc3">簡単にファイルを共有</string>
     <string name="miui_main_mirror_title">パソコンとの連携</string>
@@ -326,7 +322,7 @@ Email：service.jp@xiaomi.com"</string>
     <string name="permission_china_version_msg">&lt;Data>\"トラブル時の対処や報告\"の使用を開始する前に、&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読んで同意する必要があります。このアプリが正常に動作するには、インターネットへの接続も必要です。&lt;/Data></string>
     <string name="permission_complete">完了</string>
     <string name="permission_contacts_info">アカウント情報にアクセス</string>
-    <string name="permission_contacts_introduce">Mi アカウントを使用してサインインするため</string>
+    <string name="permission_contacts_introduce">Xiaomi アカウントを使用してサインインするため</string>
     <string name="permission_device_info">デバイス情報にアクセス</string>
     <string name="permission_device_introduce">限定保証期間を決定するため</string>
     <string name="permission_exit">終了</string>

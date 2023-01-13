@@ -65,6 +65,7 @@
     <string name="australian_magpie">カササギフエガラス</string>
     <string name="authorization_btn_text">開始</string>
     <string name="authorization_tips">アクセス許可が必要です</string>
+    <string name="avalible_per_day">セッション時間</string>
     <string name="baboon_info">The olive baboon lives in groups with developed social ranking depending on the dominance of each individual.</string>
     <string name="back">戻る</string>
     <string name="bear_info">Bears are the largest land carnivores. They live in cold regions and are known for their keen sense of smell.</string>
@@ -114,6 +115,9 @@
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">カピバラは半水生草食性げっ歯類で、一度に最大5分間水中で息を止めることができます。</string>
+    <string name="category_limit_notify_title">スクリーンタイムアラート</string>
+    <string name="category_list_expand">もっと見る</string>
+    <string name="category_list_packup">非表示</string>
     <string name="category_other">その他</string>
     <string name="chacma_baboon">Chacma baboon</string>
     <string name="cheetah">Cheetah</string>
@@ -125,11 +129,14 @@
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="click_to_save">Tap \"Done\" to set a general ringtone.</string>
     <string name="close">閉じる</string>
+    <string name="closed_high_refresh_options">高リフレッシュレートを使用しないアプリ</string>
     <string name="color_gamut">色域</string>
     <string name="common_brushtail">Brushtail possum</string>
     <string name="common_ostrich">Ostrich</string>
+    <string name="compulsor_tip">ホーム画面</string>
     <string name="contact_description">ホーム画面のショートカットをタップして通話を発信する</string>
     <string name="contact_title">連絡先のショートカット</string>
+    <string name="continue_time">セッション時間</string>
     <string name="contrast_ratio">コントラスト</string>
     <string name="control_center_title">今日のスクリーンタイム</string>
     <string name="control_center_title_new">今日の使用</string>
@@ -141,6 +148,8 @@
     <string name="created_successfully">正常に作成されました</string>
     <string name="crowned_hornbill">Crowned hornbill</string>
     <string name="cu_confirm">設定</string>
+    <string name="customize_high_refresh_summary">この機能は、最大%dHzのリフレッシュレートをサポートします。デバイスの設定に基づいて、適切なリフレッシュ レートが自動的に選択されます。</string>
+    <string name="customize_high_refresh_title">高リフレッシュレートを使用するアプリ</string>
     <string name="customize_radio_btn_summary">選択したリフレッシュレートを優先する</string>
     <string name="customize_radio_btn_title">カスタム</string>
     <string name="dall_sheep">Dall sheep</string>
@@ -164,6 +173,8 @@
     <string name="desktop_widget_not_support">"セカンド・スペースでは
 スクリーンタイムの統計情報を取得できません"</string>
     <string name="desktop_widget_screen_use_time">スクリーンタイム</string>
+    <string name="device_limit_enable">オン</string>
+    <string name="device_limit_un_enable">オフ</string>
     <string name="display_description">大きなアイコン、大きなテキスト、視覚的な混乱が少ない</string>
     <string name="display_title">拡大表示</string>
     <string name="dynamic_ringtone_desc">"We've explored different ecosystems and recreated their distinct sounds. Start exploring the sounds of nature with us!"</string>
@@ -294,7 +305,11 @@
     <string name="focus_mode_timer_pick_dialog_summary" formatted="false">%dから%d分</string>
     <string name="focus_mode_timer_pick_dialog_title">期間を入力してください</string>
     <string name="focus_time_exception_tip">システム時刻が変更されたようです。集中モードをオフにしました。</string>
+    <string name="follow_apps_settings">アプリの設定に基づく</string>
     <string name="follow_sim1">SIM 1の設定を適用</string>
+    <string name="force_rest">セッション休憩を使用</string>
+    <string name="force_rest_summary">セッションが制限に達した場合、強制的に休憩を取る</string>
+    <string name="force_rest_time">休憩時間</string>
     <string name="fps_high">高</string>
     <string name="fps_nature_summary">最大リフレッシュレートにより、すべてが鮮明に表示されます</string>
     <string name="fps_nature_title">最大</string>
@@ -327,6 +342,16 @@
     <string name="green_peafowl">マクジャク</string>
     <string name="green_warbler_finch">ムシクイフィンチ</string>
     <string name="grey_headed_flying_fox">ハイガシラオオコウモリ</string>
+    <string name="guard_item_app_summary">リモートでアプリをアンインストール</string>
+    <string name="guard_item_app_title">アプリを管理</string>
+    <string name="guard_item_browser_summary">アプリとコンテンツへのアクセスを制御する</string>
+    <string name="guard_item_browser_title">制限</string>
+    <string name="guard_item_call_summary">特定の連絡先からの通話を許可する</string>
+    <string name="guard_item_call_title">通信</string>
+    <string name="guard_item_eye_protect_summary">姿勢をモニタリング</string>
+    <string name="guard_item_eye_protect_title">視力保護</string>
+    <string name="guard_range_from">開始</string>
+    <string name="guard_range_to">終了</string>
     <string name="harp_seal">Harp seal</string>
     <string name="harpy_eagle">Harpy eagle</string>
     <string name="has_applied">Applied</string>
@@ -334,11 +359,14 @@
     <string name="helmeted_guineafowl">Guineafowl</string>
     <string name="high_fps_description">高いリフレッシュレート。高消費電力。</string>
     <string name="high_fps_tip_footer">リフレッシュレートを高くすると、よりスムーズな視聴が可能になりますが、その分消費電力も大きくなります。</string>
+    <string name="high_refresh_options_title">対応アプリ</string>
     <string name="hippopotamus">Hippo</string>
+    <string name="holiday_limit">休日</string>
     <string name="hsv_space_color">HSV色空間</string>
     <string name="hsv_space_color_hue">色相</string>
     <string name="hsv_space_color_saturation">彩度</string>
     <string name="hsv_space_color_value">明度</string>
+    <string name="in_forbidden_period">現在、使用が制限されています</string>
     <string name="intelligent_radio_btn_summary">シナリオに応じて動的にリフレッシュレートを調整し、パフォーマンスと電力消費のバランスをとる</string>
     <string name="intelligent_radio_btn_title">デフォルト (推奨)</string>
     <string name="intelligent_recognition_item_summary">配達やタクシーからの電話には、指定された着信音を使用します。この機能は、%sがデフォルトの着信音として設定されている場合に動作します。</string>
@@ -379,6 +407,7 @@
     <string name="less_than_one">&lt; %d</string>
     <string name="lion">Lion</string>
     <string name="lion_info">Lions are fierce and powerful predators. They live in groups and have a strong sense of territory.</string>
+    <string name="loading_error">アイテムを読み込めませんでした</string>
     <string name="lock_summary">個人情報を保護する</string>
     <string name="long_tai1ed_iaeger">Long-tailed jaeger</string>
     <string name="low_flicker_mode">低照度</string>
@@ -478,6 +507,8 @@
     <string name="nature_mix_summary">Create a custom mix</string>
     <string name="nazca_booby">ナスカカツオドリ</string>
     <string name="network_error">ネットワークエラーが発生しました。もう一度お試しください。</string>
+    <string name="new_customize_high_refresh_title">高リフレッシュレート</string>
+    <string name="next_day">"(翌日) "</string>
     <string name="night">夜</string>
     <string name="nine_banded_armadillo">Armadillo</string>
     <string name="no_matching">このリンクを開くアプリが見つかりませんでした</string>
@@ -493,6 +524,7 @@
     <string name="notification_sound">通知音</string>
     <string name="ocelot">Ocelot</string>
     <string name="olive_baboon">Olive baboon</string>
+    <string name="opened_high_refresh_options">高リフレッシュレートを使用するアプリ</string>
     <string name="orange_winged_amazon">Orange-winged amazon</string>
     <string name="orca">Killer whale</string>
     <string name="ostrich_info">ダチョウは、生きている陸上動物の中で最大の卵を産むアフリカの大きな飛べない鳥です。</string>
@@ -558,6 +590,7 @@
     <string name="sea_otter">Sea otter</string>
     <string name="seal_info">Seals are marine mammals that can move quickly in deep waters, feeding on fish and shrimps.</string>
     <string name="search_app_name">アプリを検索</string>
+    <string name="search_app_tips">アプリを検索</string>
     <string name="search_empty">アプリが見つかりません</string>
     <string name="search_menu_title">検索</string>
     <string name="send">送信</string>
@@ -569,6 +602,13 @@
     <string name="silver_pheasant">ハッカン</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
+    <string name="size_byte">B</string>
+    <string name="size_giga_byte">GB</string>
+    <string name="size_kilo_byte">KB</string>
+    <string name="size_mega_byte">MB</string>
+    <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
+    <string name="size_tera_byte">TB</string>
     <string name="skywalker_hoolock_gibbon">スカイウォーカー・フーロックテナガザル</string>
     <string name="small_ground_finch">コガラパゴスフィンチ</string>
     <string name="sms_delivered_sound_title">配信済みメッセージ</string>
@@ -589,6 +629,8 @@
     <string name="steady_on_screen_notification_title">スマートフォンを置いて少し休憩しましょう</string>
     <string name="steady_on_screen_notification_title_pad">デバイスを置いて少し休憩しましょう</string>
     <string name="steady_on_screen_notify">中断のない使用について通知する</string>
+    <string name="steady_on_screen_notify_new">休憩を取る</string>
+    <string name="steady_on_screen_ntf_msg">すべての機能は、%1$s後に再び利用可能になります</string>
     <string name="steady_on_screen_setting">中断のないセッションの時間制限</string>
     <string name="steady_on_screen_summary">中断のないセッションの時間制限</string>
     <string name="stop_app_timer">スクリーンタイムをオフにする</string>
@@ -649,6 +691,12 @@
     <string name="thursday">木曜日</string>
     <string name="thursday_short">木</string>
     <string name="thursday_shortest">木</string>
+    <string name="time_over_back_home">ホーム画面</string>
+    <string name="time_over_delayed_use">無視</string>
+    <string name="time_over_not_delayed_use">了解</string>
+    <string name="time_over_today">"今日はもう残り時間
+がありません"</string>
+    <string name="time_over_today_use">"今日のセッション: "</string>
     <string name="time_picker_dialog_title">時刻を設定</string>
     <string name="time_picker_label_hour">時</string>
     <string name="time_picker_label_minute">分</string>
@@ -677,6 +725,7 @@
     <string name="tuesday_shortest">火</string>
     <string name="two_toed_sloths">Two-toed sloth</string>
     <string name="two_toed_sloths_info">Two-toed sloths can easily travel from tree to tree in the canopies of the rainforests.</string>
+    <string name="unavailable_per_day">休憩</string>
     <string name="unlock_times_per_day">"1日の平均: "</string>
     <string name="unlock_times_per_hour">"1時間ごとのロック解除: "</string>
     <string name="usage_agree">同意</string>
@@ -712,8 +761,10 @@
     <string name="usage_device_limit_app_prolong_time3">60分追加</string>
     <string name="usage_device_limit_app_prolong_time4">今日は制限しない</string>
     <string name="usage_device_limit_app_prolong_time5">時間を1回延長</string>
+    <string name="usage_device_limit_forbidden_period">%1$s〜%2$sは使用が制限されています</string>
     <string name="usage_device_limit_notifation_summary_start">%1$s後に制限に達します</string>
     <string name="usage_device_limit_notifation_title">今日の残り時間</string>
+    <string name="usage_device_limit_start_forbidden_period">%1$s〜%2$sは使用が制限されます (残り%3$s)</string>
     <string name="usage_device_limit_time_over">今日の制限に達しました (%1$s)</string>
     <string name="usage_exit">終了</string>
     <string name="usage_focus_focus_premission_main_summary">このアプリは、集中モードの使用状況統計を記録するために、アカウント情報にアクセスする必要があります。</string>
@@ -745,6 +796,8 @@
     <string name="usage_home_premission_second_summary_double_link_prefix">当社は、関連する法律、規制、およびプライバシーポリシーに従ってご利用者の個人情報を保護します。上記の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合は、このアプリを使用することはできません。承認の撤回は、[スクリーンタイム] > [設定] > [スクリーンタイムをオフにする] で行うことができます。</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>このアプリを使用する前に、&lt;a href='%1s'>利用規約&lt;/a>と&lt;a href='%2s'>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;/Data>"</string>
     <string name="usage_home_premission_second_summary_new">当社は、関連する法律、規制、およびプライバシーポリシーに従ってご利用者の個人情報を保護します。上記の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合は、このアプリを使用することはできません。承認の撤回は、[スクリーンタイム] > [設定] > [スクリーンタイムをオフにする] で行うことができます。プライバシーに関してさらにご質問がある場合は、privacy@xiaomi.com までご連絡ください。</string>
+    <string name="usage_new_category_limit_summary">このカテゴリーに含まれるすべてのアプリの1日の使用時間制限を設定する</string>
+    <string name="usage_new_category_limit_title">アプリカテゴリーの使用を制限</string>
     <string name="usage_new_home_app_limit_summary">このアプリの1日のスクリーンタイム制限を設定する</string>
     <string name="usage_new_home_app_limit_title">スクリーンタイムを制限</string>
     <string name="usage_new_home_average">"平均 "</string>
@@ -969,6 +1022,7 @@
     <string name="willow_grouse_info">カラフトライチョウはその生涯のほとんどの期間において草食性であり、主に亜高山帯や亜寒帯に生息しています。</string>
     <string name="wolf">狼</string>
     <string name="wombat">Wombat</string>
+    <string name="workday_limit">平日</string>
     <string name="yellow_necked_spurfowl">ハゲノドシャコ</string>
     <string name="yellow_throated_marten">キエリテン</string>
     <string name="yesterday">昨日</string>

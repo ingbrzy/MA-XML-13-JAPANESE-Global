@@ -28,8 +28,6 @@
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
     <string name="access_sd_fail">SDカードにアクセスできませんでした。</string>
-    <string name="accessibility_8k_off">8Kはオフです</string>
-    <string name="accessibility_8k_on">8Kはオンです</string>
     <string name="accessibility_add">追加</string>
     <string name="accessibility_ai_identify">認識</string>
     <string name="accessibility_ai_scene_off">AI カメラはオフです</string>
@@ -37,6 +35,7 @@
     <string name="accessibility_ai_watermark_panel_on">AI ウォーターマークパネル</string>
     <string name="accessibility_ambilight_panel_on">長時間露光パネルを開く</string>
     <string name="accessibility_back_preview_status">リアカメラのプレビュー</string>
+    <string name="accessibility_beauty_compare">ビューティ効果ありとなしの画像を表示</string>
     <string name="accessibility_beauty_function_button">簡単補正</string>
     <string name="accessibility_beauty_function_panel_on">簡単補正パネル</string>
     <string name="accessibility_beauty_panel_closed">美顔メニューは非表示です</string>
@@ -59,11 +58,9 @@
     <string name="accessibility_camera_switch_capture_recording">写真モードとビデオモードを切り替える</string>
     <string name="accessibility_camera_ultra_wide_bokeh_off">全身モードはオフです</string>
     <string name="accessibility_camera_ultra_wide_bokeh_on">全身モードはオンです</string>
-    <string name="accessibility_camera_video_960fps_120">120FPS</string>
-    <string name="accessibility_camera_video_960fps_240">240FPS</string>
-    <string name="accessibility_camera_video_960fps_960">960FPS</string>
-    <string name="accessibility_camera_video_fps_120">120FPS</string>
-    <string name="accessibility_camera_video_fps_30">30FPS</string>
+    <string name="accessibility_camera_video_960fps_120">%dFPS</string>
+    <string name="accessibility_camera_video_960fps_240">%dFPS</string>
+    <string name="accessibility_camera_video_960fps_960">%dFPS</string>
     <string name="accessibility_camera_video_slow_motion_fps">%dFPS</string>
     <string name="accessibility_closed">オフ</string>
     <string name="accessibility_color">色</string>
@@ -329,13 +326,12 @@
     <string name="audio_focus_exit_button_text">オーディオフォーカスをオフにする</string>
     <string name="audio_map_summary_tip">左右のチャンネルの音量をリアルタイムでモニタリングし、スライダーで音量を調整します</string>
     <string name="auto_hibernation_enter_tip">画面をオフにしようとしています…</string>
-    <string name="autozoom_click_hint">被写体をタップすると、被写体が動いている間でもピントを合わせ続けます。3m以上離れると最も効果的です。</string>
+    <string name="autozoom_click_hint">被写体をタップすると、移動中でもピントが合います。%dm以上離れて撮影すると効果的です。</string>
     <string name="autozoom_disabled_hint">動いている被写体の追跡を停止しました</string>
     <string name="autozoom_hint">動いている被写体を追跡</string>
     <string name="auxiliary_close_status">追加の効果はオフです</string>
     <string name="auxiliary_exposure_feedback_status">露出検証はオンです</string>
     <string name="auxiliary_focus_peak_status">フォーカスピーキングはオンです</string>
-    <string name="back_bokeh_use_hint">被写体との距離を1.5メートル以内に保つと最も効果的です</string>
     <string name="background">背景</string>
     <string name="beauty_body">スタイル</string>
     <string name="beauty_body_body">スレンダー</string>
@@ -353,6 +349,7 @@
     <string name="beauty_fragment_tab_name_beauty">ビューティ</string>
     <string name="beauty_fragment_tab_name_makeup">高度</string>
     <string name="beauty_fragment_tab_name_makeups">メイク</string>
+    <string name="beauty_fx_makeup_cv">レタッチ</string>
     <string name="beauty_lens">大口径</string>
     <string name="beauty_lens_1">人</string>
     <string name="beauty_lens_1_description">プロ並みのボケ味を実現し、写真を魅力的なポートレートに仕上げることができます。</string>
@@ -366,15 +363,25 @@
     <string name="beauty_lens_none">ぼかし</string>
     <string name="beauty_lens_use_hint">絞りを大きくして背景をぼかし、手前にあるものを際立たせます。</string>
     <string name="beauty_makeups_bluefemale">霜</string>
+    <string name="beauty_makeups_danyan">ヌード</string>
     <string name="beauty_makeups_gentleman">シルバー</string>
     <string name="beauty_makeups_nude">ヌード</string>
     <string name="beauty_makeups_pinkfemale">花びら</string>
+    <string name="beauty_makeups_qianjin">赤褐色</string>
+    <string name="beauty_makeups_ruanmei">ティーン</string>
     <string name="beauty_makeups_solid">輪郭</string>
+    <string name="beauty_makeups_subeffect_filter">フィルター</string>
+    <string name="beauty_makeups_subeffect_makeup">メイク</string>
     <string name="beauty_makeups_toughman">ブロンズ</string>
+    <string name="beauty_makeups_xiazhi">下まぶたのアイシャドウ</string>
+    <string name="beauty_makeups_yanku">アイスクイーン</string>
+    <string name="beauty_makeups_yuanqi">フレッシュ</string>
     <string name="beauty_mo_fe">ナチュラル</string>
     <string name="beauty_mo_ma">クラシック</string>
     <string name="beauty_mo_or">オリジナル</string>
+    <string name="beauty_mo_pr_cv">質感</string>
     <string name="beauty_mode_reset_toast">改造効果を正常に消去しました</string>
+    <string name="beauty_mutex_toast_tip">まずメイク効果を&lt;a href=>オフ&lt;/a>にしてください</string>
     <string name="beauty_ne">オリジナル</string>
     <string name="beauty_no_t">ビューティはオフです</string>
     <string name="beauty_origin_skincolor">オリジナル</string>
@@ -390,6 +397,7 @@
     <string name="beauty_skincolor_wheat">小麦</string>
     <string name="beauty_skincolor_white">アイボリー</string>
     <string name="beauty_sm_or">肌</string>
+    <string name="beauty_sm_texture_cv">美肌</string>
     <string name="beauty_tab_name_live_beauty">美顔</string>
     <string name="beauty_tab_name_live_filter">フィルター</string>
     <string name="bokeh_use_hint">奥行き効果</string>
@@ -397,8 +405,11 @@
     <string name="button_fisheye_camera_title">フィッシュアイ</string>
     <string name="button_front_camera_title">セルフィーを撮影</string>
     <string name="button_normal_video_title">ビデオを録画</string>
-    <string name="camcorder_tip_8k_max_video_duration">8Kは最大で6分間録画できます</string>
+    <string name="camcorder_tip_8k_max_video_duration">8Kでは最大%1$d分間の録画が可能です</string>
     <string name="camcorder_tip_current_max_video_duration">現在の解像度では最大%d分のビデオの録画が可能です</string>
+    <string name="camcorder_tip_isp_super_night_video_max_video_duration">最大%d分間の録画が可能です</string>
+    <string name="camcorder_tip_super_night_video_1080P_max_video_duration">1080P最长可录制%d分钟</string>
+    <string name="camcorder_tip_super_night_video_4k_max_video_duration">4Kでは最大%d分間の録画が可能です</string>
     <string name="camera_disabled">カメラが無効になっています</string>
     <string name="camera_error_title">カメラエラー</string>
     <string name="camera_fastmotion_title">タイムラプスビデオ</string>
@@ -411,6 +422,7 @@
     <string name="camera_newcta_message">"カメラへようこそ！このアプリでは、写真やビデオを撮影することができます。 "</string>
     <string name="camera_newcta_other_message">アプリの使用中に追加のサービスを提供するため、位置情報にアクセスする許可が必要になる場合があります。</string>
     <string name="camera_newcta_storage_message">写真とビデオを保存・表示するため</string>
+    <string name="camera_newcta_storage_message_1">画像、ビデオ、ファイルを保存および表示するため</string>
     <string name="camera_setting">カメラ</string>
     <string name="camera_settings_category_development">実験的な機能</string>
     <string name="camera_settings_label">カメラ</string>
@@ -458,6 +470,7 @@
     <string name="clone_video_mode">ビデオ</string>
     <string name="close">閉じる</string>
     <string name="close_back_flash_toast">発熱によりフラッシュをオフにしました</string>
+    <string name="close_flash_toast">バッテリー残量が少ないため、フラッシュを使用できません</string>
     <string name="close_front_flash_toast">デバイスが発熱しています。現在、フラッシュを使用できません。</string>
     <string name="close_night_algo_toast_low_power">デバイスを充電して、露出を設定できるようにしてください</string>
     <string name="close_night_algo_toast_thermal">露出設定ができるようにデバイスを冷やしてください</string>
@@ -486,6 +499,7 @@
     <string name="color_effect_entry_new_5">カルメン</string>
     <string name="color_effect_entry_new_5_describe">ブラウン系のトーンとミディアムコントラストが、自然光の中で撮影された屋外シーンに温かみのある雰囲気を醸し出します。</string>
     <string name="color_effect_entry_new_bbp_describe">高いコントラストと低い彩度の組み合わせは、ほとんどのシーンで映画のような雰囲気になります。</string>
+    <string name="color_effect_entry_noraml_cv">Leica 標準</string>
     <string name="color_effect_entry_orange">ライム</string>
     <string name="color_effect_entry_orange_describe">暖色系と冷色系のコントラストが強いクラシックなシネマティックカラーです。カラフルな都市や自然環境に適しています。</string>
     <string name="color_effect_entry_quiet">平穏</string>
@@ -543,6 +557,7 @@
     <string name="cta_perm_voice">マイクの使用</string>
     <string name="cta_perm_voice_desc">ビデオ撮影中に録音するため</string>
     <string name="cta_user_tips">&lt;Data>ユーザーとしての権利と当社によるデータの取り扱い方法を完全に理解するために、当社の&lt;a href =%1$s>利用規約&lt;/a>と&lt;a href =%2$s>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;/Data></string>
+    <string name="custom_content_unavailable_alert">入力したテキストは使用できません。他のものを試してみてください。</string>
     <string name="custom_sound_art">レトロ</string>
     <string name="custom_sound_default">デフォルト</string>
     <string name="custom_sound_modern">モダン</string>
@@ -554,13 +569,25 @@
     <string name="custom_tint_color_select">色をカスタマイズ</string>
     <string name="custom_tint_color_sky_blue">青</string>
     <string name="custom_tint_color_sky_cyan">シアン</string>
-    <string name="custom_watermark_contains_senstive_words">透かしに制限された文字（%1$s）が含まれています</string>
-    <string name="custom_watermark_tips">このテキストは透かしの二行目に表示されます。これには最大で18半角英字または14全角文字を含めることができます。</string>
     <string name="custom_watermark_tips_gen2">全角%1$d文字または半角英字%2$d文字以内にしてください。</string>
     <string name="custom_watermark_too_many_words">入力したテキストが長すぎます</string>
     <string name="custom_watermark_words">設定した透かしを入れる</string>
     <string name="custom_watermark_words_input_hint">テキストを入力してください</string>
     <string name="custom_watermark_words_save_success">正常に保存されました</string>
+    <string name="cv_lens_35mm">%dmm</string>
+    <string name="cv_lens_50mm">%dmm</string>
+    <string name="cv_lens_90mm">%dmm</string>
+    <string name="cv_lens_black_white">黒と白</string>
+    <string name="cv_lens_msg">Proレンズで美しい写真を撮る</string>
+    <string name="cv_lens_rotary_focus">渦巻きボケ</string>
+    <string name="cv_lens_soft_focus">ソフトフォーカス</string>
+    <string name="cv_lens_title">Proレンズ</string>
+    <string name="cvtype_btn_select">\"%1$s\"を使用</string>
+    <string name="cvtype_hint_title">スタイルを選択</string>
+    <string name="cvtype_item_btn_title1">Leica オーセンティック</string>
+    <string name="cvtype_item_btn_title2">Leica バイブラント</string>
+    <string name="cvtype_item_title1">自然でリアル</string>
+    <string name="cvtype_item_title2">フレッシュで躍動的</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -577,7 +604,6 @@
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_reject">拒否</string>
     <string name="dialog_button_scan">デバイスを検索</string>
-    <string name="dialog_google_lens_option_0">Google レンズ（推奨）</string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_ok_time">OK (%d秒)</string>
     <string name="dialog_privacy_watermark_button_cancel">キャンセル</string>
@@ -631,7 +657,6 @@
     <string name="dual_camera_lens_covered_toast">レンズが覆われています。</string>
     <string name="dual_camera_lowlight_toast">暗すぎるようです。</string>
     <string name="dual_camera_too_close_toast">カメラが被写体に近すぎます。</string>
-    <string name="dual_camera_use_hint">被写体との距離は2メートル以内にしてください。</string>
     <string name="dual_video_record_merged">複合</string>
     <string name="dual_video_record_remote">デュアルフォン撮影</string>
     <string name="dual_video_record_standalone">別々</string>
@@ -647,6 +672,7 @@
     <string name="dual_video_user_guide_standalone_content_new">同時に撮影したビデオを2つのファイルに分けて保存することもできます。</string>
     <string name="early_morning">早朝</string>
     <string name="edit_blusher">チーク</string>
+    <string name="edit_cheekbone">頬骨</string>
     <string name="edit_chin">あご</string>
     <string name="edit_color_skin">肌の色</string>
     <string name="edit_eye_large">大きな目</string>
@@ -654,11 +680,14 @@
     <string name="edit_face_ruddy">チーク</string>
     <string name="edit_face_slender">小顔</string>
     <string name="edit_hairline">髪の毛のライン</string>
+    <string name="edit_head_narrow">頭のサイズ</string>
+    <string name="edit_jaw">下あご</string>
     <string name="edit_jelly_lips">リップグロス</string>
     <string name="edit_lips">唇</string>
     <string name="edit_makeup">メイク</string>
     <string name="edit_neck">首</string>
     <string name="edit_nose">鼻</string>
+    <string name="edit_nose_tip">鼻先</string>
     <string name="edit_pupil_line">アイライン</string>
     <string name="edit_risorius">笑筋</string>
     <string name="edit_skin_smooth">美肌</string>
@@ -666,7 +695,10 @@
     <string name="edit_slim_nose">鼻</string>
     <string name="edit_smile">笑顔</string>
     <string name="edit_solid">輪郭</string>
+    <string name="edit_temple">こめかみ</string>
+    <string name="edit_touch_up">メイク</string>
     <string name="emoticon">ステッカーパック</string>
+    <string name="empty" />
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="error_fail_to_start_audio_capture">音声キャプチャを起動できませんでした</string>
@@ -687,18 +719,6 @@
     <string name="face_analyze_info_female">女</string>
     <string name="face_analyze_info_male">男</string>
     <string name="face_beauty_advanced">プロ</string>
-    <string name="face_beauty_age_alias_female_0_7">女 0-7</string>
-    <string name="face_beauty_age_alias_female_18_30">女 18-30</string>
-    <string name="face_beauty_age_alias_female_31_44">女 31-44</string>
-    <string name="face_beauty_age_alias_female_45_60">女 45-60</string>
-    <string name="face_beauty_age_alias_female_60_m">女 60+</string>
-    <string name="face_beauty_age_alias_female_8_17">女 8-17</string>
-    <string name="face_beauty_age_alias_male_0_7">男 0-7</string>
-    <string name="face_beauty_age_alias_male_18_30">男 18-30</string>
-    <string name="face_beauty_age_alias_male_31_44">男 31-44</string>
-    <string name="face_beauty_age_alias_male_45_60">男 45-60</string>
-    <string name="face_beauty_age_alias_male_60_m">男 60+</string>
-    <string name="face_beauty_age_alias_male_8_17">男 8-17</string>
     <string name="face_beauty_close">オフ</string>
     <string name="face_beauty_intelligent_level_0">オフ</string>
     <string name="face_beauty_intelligent_level_1">低</string>
@@ -720,6 +740,7 @@
     <string name="film_video_c">タイムフリーズ</string>
     <string name="film_video_d">ナイトタイムラプス</string>
     <string name="film_video_e">パラレルワールド</string>
+    <string name="film_video_f">時間を遡る</string>
     <string name="film_video_tip">三脚を使用してください</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -764,10 +785,10 @@
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">W, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -782,6 +803,7 @@
     <string name="front_camera_hint_text_place">"デバイスを回転させると
 セルフィーをより簡単に撮影できます"</string>
     <string name="front_camera_hint_text_rotate">デバイスを回転させてください</string>
+    <string name="guide_pop_window_msg_cv_lens">タップしてProレンズを試す</string>
     <string name="hand_gesture_open_tip">カメラに手のひらを見せてタイマーを開始する</string>
     <string name="hand_gesture_tip">手のひらシャッター</string>
     <string name="hibernate_hint">画面をタップしてカメラを起動</string>
@@ -884,6 +906,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="location_permission_not_ask_again">設定でカメラに位置情報へのアクセスを許可してください。</string>
     <string name="location_permission_not_ask_again_go_to_settings">許可</string>
     <string name="log_format">LOG</string>
+    <string name="low_battery_to_save_video">デバイスのバッテリーが少なくなっています。デバイスがシャットダウンする前に録画を停止し、ビデオを保存してください。</string>
     <string name="lpl_dialog_item_name_burst">長押しでバースト撮影</string>
     <string name="lpl_dialog_item_name_record">長押しでビデオを録画</string>
     <string name="lpl_dialog_title">シャッターの機能を選択</string>
@@ -902,7 +925,6 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="lunch_storge_permission_not_ask_again">この機能を使用するには、このアプリにストレージへのアクセスを許可してください。</string>
     <string name="lying_direct_hint">現在の向き</string>
     <string name="macro_mode">マクロ</string>
-    <string name="macro_mode_tip">被写体をレンズから10cm以内の距離に置いてください</string>
     <string name="macro_mode_use_hint_text_body">"マクロモードを使用して小さな被写体
 を写真上で大きく見せます"</string>
     <string name="macro_mode_use_hint_text_title">マクロ</string>
@@ -1027,6 +1049,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="mimoji_tab_cartoon">漫画</string>
     <string name="mimoji_tab_human">人</string>
     <string name="mimoji_tips">タップで写真を撮影します。長押しでビデオを録画します。</string>
+    <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
@@ -1073,6 +1096,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="module_name_multi_camera">マルチカメラ</string>
     <string name="module_name_new_slow_motion">スローモーション</string>
     <string name="module_name_panorama">パノラマ</string>
+    <string name="module_name_pixel">ウルトラ HD</string>
     <string name="module_name_pixel_108m">108MP</string>
     <string name="module_name_pixel_48m">48MP</string>
     <string name="module_name_pixel_50m">50MP</string>
@@ -1084,6 +1108,12 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="module_name_super_moon">スーパームーン</string>
     <string name="module_name_video">ビデオ</string>
     <string name="module_name_vlog">Vlog</string>
+    <string name="moiton_detection_960_fps_video_tip" formatted="false">%1dfpsのビデオの長さは最大%2d秒です</string>
+    <string name="moiton_detection_tip">モーション検知中… デバイスを安定させてください。</string>
+    <string name="moiton_detection_video_3840fps_3840">%dFPS</string>
+    <string name="moiton_detection_video_electric_quantity_tip">この機能を使用するには、デバイスを充電する必要があります</string>
+    <string name="moiton_detection_video_temperature_stop_tip">デバイスの温度が高くなっています。%d秒後に録画が停止されます。</string>
+    <string name="moiton_detection_video_temperature_tip">この機能を使用するには、デバイスを冷却する必要があります</string>
     <string name="moive_frame">ムービーフレーム</string>
     <string name="monday">月曜日</string>
     <string name="monday_short">月</string>
@@ -1142,6 +1172,8 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="network_connection_prerequisites_china">Turn on Bluetooth and WLAN in Control center to be able to use Dual phone recording.</string>
     <string name="network_connection_rejected">拒否されました</string>
     <string name="network_connection_timed_out">接続がタイムアウトしました</string>
+    <string name="new_bie_dialog_cancel">機能の説明を閉じる</string>
+    <string name="new_bie_dialog_desc">機能の説明</string>
     <string name="newbie_privacy_watermark_msg">透かしを使用して、ドキュメントを不正コピーから保護します</string>
     <string name="newbie_privacy_watermark_title">ドキュメントを保護する</string>
     <string name="night">夜</string>
@@ -1200,7 +1232,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="parameter_peak_raw_description">撮影時にセンサーで記録されたすべての画像データを取り込む画像形式です。非圧縮データでは、後処理のオプションが多くなります。</string>
     <string name="parameter_peak_raw_title">RAW形式</string>
     <string name="parameter_videos_title">ムービー効果</string>
-    <string name="parameter_wb_description">ホワイトバランスプリセット（白熱、日光、蛍光、曇り）に加えて、ホワイトバランスを2000〜8000ケルビンの範囲内のカスタム値に設定することもできます。</string>
+    <string name="parameter_wb_description">ホワイトバランスのプリセット (白熱灯、日光、蛍光灯、曇天) のほか、%1$d～%2$dケルビンの範囲でカスタム値を設定することも可能です。</string>
     <string name="parameter_wb_title">ホワイトバランス</string>
     <string name="parameter_zoom_slider_description">ズームスライダーを横方向にドラッグすると、ロングショットからクローズアップまでスムーズに構図を変更できます。</string>
     <string name="parameter_zoom_slider_title">ズーム</string>
@@ -1209,6 +1241,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pic_flaw_blink_more">フレーム内の誰かが目を閉じていたようです</string>
     <string name="pic_flaw_blink_one">フレーム内の人が目を閉じていたようです</string>
     <string name="pic_flaw_cover">レンズの一部が覆われているようです</string>
+    <string name="pixel_mode_capture_hint">環境が明るいことを確認してください</string>
     <string name="pm">午後</string>
     <string name="popup_tip_3d_beauty_intro_text">3Dビューティ</string>
     <string name="popup_tips_near_range_mode">カラーフォーカス</string>
@@ -1238,7 +1271,6 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="portrait_bokeh_first_tips">"ポートレートモードを使用すると
 写真の背景をぼかすことができます"</string>
     <string name="portrait_bokeh_text">ポートレートモード</string>
-    <string name="portrait_bokeh_tips">被写体を1.5m以内に置いてください</string>
     <string name="portrait_india_effect_entry_memory">思い出</string>
     <string name="portrait_india_effect_entry_mono">モノ</string>
     <string name="portrait_india_effect_entry_pink">ピンク</string>
@@ -1253,12 +1285,10 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="portrait_mode_depth_effect_success_hint">奥行き効果</string>
     <string name="portrait_mode_lowlight_hint">明るさが足りません</string>
     <string name="portrait_mode_too_close_hint">もう少し被写体から離れてください</string>
-    <string name="portrait_mode_too_far_hint">被写体を2m以内に置いてください</string>
     <string name="portrait_mode_use_hint">"ポートレートモードは背景をぼかし
 手前の人物を際立たせます。"</string>
     <string name="portrait_mode_use_hint_for_bokeh">"ポートレートモードをお試しください。
 背景をぼかして、被写体を鮮明に写し出します。"</string>
-    <string name="pref_960_watermark_title">960FPS 透かし</string>
     <string name="pref_a_c_f">ソノグラフ</string>
     <string name="pref_advance_settings">追加設定</string>
     <string name="pref_ai_detect">AI 検出</string>
@@ -1269,6 +1299,10 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_audio_focus_title">オーディオフォーカス</string>
     <string name="pref_auto_boot">自動起動</string>
     <string name="pref_auto_boot_summary">自動起動を許可することで、カメラの応答性を向上させることができます。自動起動の許可は、アプリの詳細で管理できます。</string>
+    <string name="pref_beauty_me_mp_switch_desc">男女混合の集合写真では男性用のメイクアップ効果を適用する</string>
+    <string name="pref_beauty_me_mp_switch_title">男性用のメイクアップ効果を適用</string>
+    <string name="pref_beauty_nvs_wp_desc">肌をなめらかにする効果の利用時にほくろを除去することがでます</string>
+    <string name="pref_beauty_nvs_wp_title">ほくろ除去</string>
     <string name="pref_burst_shoot_title">バースト撮影</string>
     <string name="pref_camcorder_settings">ビデオ</string>
     <string name="pref_camcorder_settings_category">カメラ設定</string>
@@ -1295,6 +1329,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_camera_auxiliary_close">オフ</string>
     <string name="pref_camera_auxiliary_exposure_feedback">露出検証</string>
     <string name="pref_camera_auxiliary_focus_peak">フォーカスピーキング</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">高</string>
     <string name="pref_camera_beautify_entry_low">低</string>
     <string name="pref_camera_beautify_entry_normal">中</string>
@@ -1375,10 +1410,8 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_camera_hdr_entry_off">オフ</string>
     <string name="pref_camera_heic_image_format_description">高効率画像ファイル形式の写真は、使用するストレージ容量は少なくなりますが、一部のアプリではサポートされていません</string>
     <string name="pref_camera_heic_image_format_description2">高効率画像ファイル形式は、ストレージ容量を節約できますが、一部のサードパーティ製アプリではサポートされていません。HEIFでは、ダイナミックショットや透かしの除去はできません。</string>
+    <string name="pref_camera_heic_image_format_description_global">高効率画像ファイル形式は、ストレージ容量を節約しますが、一部のサードパーティアプリではサポートされていません。HEIFでは、透かしを削除することはできません。</string>
     <string name="pref_camera_heic_image_format_title">HEIF形式</string>
-    <string name="pref_camera_hfr_entry_2x">60</string>
-    <string name="pref_camera_hfr_entry_3x">90</string>
-    <string name="pref_camera_hfr_entry_4x">120</string>
     <string name="pref_camera_hfr_entry_off">オフ</string>
     <string name="pref_camera_high_quality_preferred_description">スマートアルゴリズムを使用して画質を向上させます。この機能がオンの場合、撮像速度が低下することがあります。夜景モードは、低照度時に自動的にオンになります。</string>
     <string name="pref_camera_high_quality_preferred_title">画質を向上</string>
@@ -1389,15 +1422,13 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_camera_jpegquality_entry_high">高</string>
     <string name="pref_camera_jpegquality_entry_low">低</string>
     <string name="pref_camera_jpegquality_entry_normal">標準</string>
+    <string name="pref_camera_jpegquality_entry_super">超高</string>
     <string name="pref_camera_jpegquality_title">画質</string>
     <string name="pref_camera_long_press_shutter_feature_title">シャッターボタンを長押し</string>
-    <string name="pref_camera_long_press_viewfinder_title">ファインダー設定</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_burst">バースト撮影</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_focus">フォーカス</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_record">ビデオを録画</string>
     <string name="pref_camera_long_pressing_shutter_title">シャッターボタンを長押しし、AE/AF/AWBをロックする</string>
-    <string name="pref_camera_long_pressing_viewfinder_entry_google_lens">Google レンズ</string>
-    <string name="pref_camera_long_pressing_viewfinder_entry_lock_ae_af">AE/AF ロック</string>
     <string name="pref_camera_lying_summary">デバイスが地面と平行になっているときに、現在の向きを通知する</string>
     <string name="pref_camera_lying_title">向きについて通知</string>
     <string name="pref_camera_magic_mirror_title">マジックミラー</string>
@@ -1419,7 +1450,6 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_camera_peak_entry_off">オフ</string>
     <string name="pref_camera_peak_entry_on">オン</string>
     <string name="pref_camera_peak_title">フォーカスピーキング</string>
-    <string name="pref_camera_picturesize_entry_standard">標準 4:3</string>
     <string name="pref_camera_picturesize_title_simple_mode">カメラフレーム</string>
     <string name="pref_camera_portrait_mode_entry_off">ポートレートモードはオフです</string>
     <string name="pref_camera_portrait_mode_entry_on">ポートレートモードはオンです</string>
@@ -1478,6 +1508,8 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_camera_square_mode_title">正方形</string>
     <string name="pref_camera_stereo_mode_title">フォーカス調整</string>
     <string name="pref_camera_super_resolution_title">超解像をオンにする</string>
+    <string name="pref_camera_suspend_shutter_button_summary">シャッターボタンを上にドラッグすると、フローティングシャッターが追加されます</string>
+    <string name="pref_camera_suspend_shutter_button_title">追加シャッター</string>
     <string name="pref_camera_tap_shoot_summary">プレビュー画面をタップして写真を撮る</string>
     <string name="pref_camera_tap_shoot_title">タップして写真を撮る</string>
     <string name="pref_camera_tilt_shift_entry_circle">円形</string>
@@ -1500,25 +1532,22 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_camera_video_ai_scene_title">AI カメラ</string>
     <string name="pref_camera_video_bokeh_off">ビデオボケはオフです</string>
     <string name="pref_camera_video_bokeh_on">ビデオボケ</string>
-    <string name="pref_camera_video_duration_entry_10">10分</string>
     <string name="pref_camera_video_duration_entry_120">制限なし</string>
-    <string name="pref_camera_video_duration_entry_30">30分</string>
-    <string name="pref_camera_video_duration_entry_mms">30秒 (MMS)</string>
     <string name="pref_camera_video_tag">ビデオのタグ付けを許可</string>
     <string name="pref_camera_video_tag_description">ビデオの撮影中に \"タグ\" をタップすると、再生中にタグ付けされた位置に戻ることができます</string>
     <string name="pref_camera_volumekey_function_entry_shutter">シャッター</string>
     <string name="pref_camera_volumekey_function_entry_timer">シャッターカウントダウン</string>
-    <string name="pref_camera_volumekey_function_entry_timer_new">Timer (%ds)</string>
+    <string name="pref_camera_volumekey_function_entry_timer_new">タイマー (%d秒)</string>
     <string name="pref_camera_volumekey_function_entry_volume">音量</string>
     <string name="pref_camera_volumekey_function_entry_zoom">ズーム</string>
     <string name="pref_camera_volumekey_function_title">音量ボタン機能</string>
     <string name="pref_camera_watermark_title">写真に日時を入れる</string>
     <string name="pref_camera_whitebalance_entry_auto">自動</string>
-    <string name="pref_camera_whitebalance_entry_cloudy">曇り</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">曇天</string>
     <string name="pref_camera_whitebalance_entry_daylight">日光</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">蛍光灯</string>
     <string name="pref_camera_whitebalance_entry_incandescent">白熱灯</string>
-    <string name="pref_camera_whitebalance_entry_manual">マニュアル</string>
+    <string name="pref_camera_whitebalance_entry_manual">手動</string>
     <string name="pref_camera_whitebalance_entry_measure">測定</string>
     <string name="pref_camera_whitebalance_title">WB</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">低光量</string>
@@ -1541,6 +1570,8 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_custom_tint_title">色彩</string>
     <string name="pref_customization_style">カスタムスタイル</string>
     <string name="pref_customization_title">カスタマイズ</string>
+    <string name="pref_cv_watermark_summary">プレビューは参照用にのみ提供されています。Leicaの透かしは、写真モードとポートレートモードで撮影した写真に表示されます。</string>
+    <string name="pref_cv_watermark_title">Leica 透かし</string>
     <string name="pref_document_mode">ドキュメント</string>
     <string name="pref_dual_camera_video">デュアルビデオ</string>
     <string name="pref_e_c_t_j">オリジナル音声</string>
@@ -1548,6 +1579,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_e_p_s_n">マイク付きBluetoothイヤホン接続時に外部マイクで音声を録音する</string>
     <string name="pref_face_beauty_title">ビューティ</string>
     <string name="pref_fingerprint_capture_title">指紋シャッター</string>
+    <string name="pref_focus_view_bg_tip">AE/AFがロックされました</string>
     <string name="pref_front_denoise_summary">フロントカメラの背後で発生するノイズを低減する</string>
     <string name="pref_front_denoise_title">セルフィーノイズフィルター</string>
     <string name="pref_front_mirror_entry_auto">顔が検出されたとき</string>
@@ -1556,12 +1588,8 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_front_mirror_label_auto">自動</string>
     <string name="pref_front_mirror_title">ミラーフロントカメラ</string>
     <string name="pref_google_lens">Google レンズ</string>
-    <string name="pref_google_lens_summary">カメラを連絡先、URL、QRコードに向けると、利用可能なオプションが表示されます</string>
-    <string name="pref_google_lens_title">レンズの提案</string>
     <string name="pref_groupshot_with_primitive_title">元の写真も保存する</string>
     <string name="pref_hdr10_hdr10plus_video_mode_description">HDR10+/HDR10で高解像度のビデオを撮影し、色やダイナミックレンジを最適化します。撮影したビデオは、HDR10+/HDR10対応デバイスでのみ再生できます。</string>
-    <string name="pref_hdr10_video_mode_description">4Kおよび8Kビデオの色とコントラストを自動的に最適化します。最適化されたビデオは、HDR10対応デバイスでのみ再生できます。</string>
-    <string name="pref_hdr10plus_video_mode_description">4Kおよび8Kビデオの色を最適化し、コントラストを調整します。この機能は、HDR10+ 対応デバイスでのみ機能します。</string>
     <string name="pref_hybrid_video_mode_description">HLG技術を使用し、高解像度で記録された映像の色やダイナミックレンジを向上させる</string>
     <string name="pref_i_n_r_b">スマートノイズリダクション</string>
     <string name="pref_k_h">ライブインイヤーモニター</string>
@@ -1573,13 +1601,12 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_menu_ultra_pixel_photography">%s ウルトラHD</string>
     <string name="pref_module_settings">モード</string>
     <string name="pref_more_mode_style_title">カメラモード</string>
+    <string name="pref_motioon_detection">モーション検知</string>
     <string name="pref_multi_camera_dual_video_front">フロントカメラ</string>
     <string name="pref_multi_camera_dual_video_remote">デュアルフォン撮影</string>
     <string name="pref_n_s_a">オーディオ設定</string>
     <string name="pref_n_s_o_l">オン</string>
     <string name="pref_n_s_o_m">オフ</string>
-    <string name="pref_new_slow_motion_video_quality_240_720only">240fpsは720p録画にのみ対応しています</string>
-    <string name="pref_new_slow_motion_video_quality_960_720only">960fpsで録画できるのは720pのビデオだけです。</string>
     <string name="pref_new_slow_motion_video_quality_entry_1080p">フルHD 1080p</string>
     <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
     <string name="pref_p_d_e">プロ機能</string>
@@ -1593,6 +1620,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_privacy_watermark_edit">透かし文字</string>
     <string name="pref_privacy_watermark_edit_clear_history">履歴を消去</string>
     <string name="pref_privacy_watermark_edit_history">履歴</string>
+    <string name="pref_privacy_watermark_edit_title">透かしを編集</string>
     <string name="pref_privacy_watermark_entry">保護用透かし</string>
     <string name="pref_privacy_watermark_switch">透かしスイッチを表示</string>
     <string name="pref_qc_focus_position_title">F</string>
@@ -1622,6 +1650,9 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_smart_guide_title">スマート提案</string>
     <string name="pref_super_night_se_summary">低照度環境を検出して自動的に画質を向上させる</string>
     <string name="pref_super_night_se_title">自動夜景モード</string>
+    <string name="pref_true_colour_video_mode_description">Dolby Visionでビデオを撮影すると、リアルなディテール、見事な色彩、印象的なコントラストを表現できます（この機能は一部のサードパーティアプリと互換性がない場合があります）</string>
+    <string name="pref_true_colour_video_mode_introduction">圧倒的な視覚体験、リアルなディテール、印象的なコントラスト</string>
+    <string name="pref_true_colour_video_mode_title">Dolby Vision</string>
     <string name="pref_userdefine_watermark_title">設定した透かしを入れる</string>
     <string name="pref_video_ai_audio_effect_comparation_3d">3D</string>
     <string name="pref_video_ai_audio_effect_comparation_3d_i">3Dサウンド</string>
@@ -1641,15 +1672,13 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_video_focusmode_entry_continuous">CAF</string>
     <string name="pref_video_focusmode_title">フォーカスモード</string>
     <string name="pref_video_hfr_title">フレームレート</string>
-    <string name="pref_video_quality_entry_1080p">フルHD 1080p、30fps</string>
-    <string name="pref_video_quality_entry_1080p_60fps">フルHD 1080p、60fps</string>
-    <string name="pref_video_quality_entry_480p">SD 480p、30fps</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K、30fps</string>
-    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K、60fps</string>
-    <string name="pref_video_quality_entry_720p">HD 720p、30fps</string>
-    <string name="pref_video_quality_entry_720p_60fps">HD 720p、60fps</string>
-    <string name="pref_video_quality_entry_8k_24fps_uhd">UHD 8K、24fps</string>
-    <string name="pref_video_quality_entry_8kuhd">UHD 8K、30fps</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080p、%dfps</string>
+    <string name="pref_video_quality_entry_1080p_24fps">フルHD、1080p、1秒あたり24フレーム</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080p、%dfps</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K、%dfps</string>
+    <string name="pref_video_quality_entry_4kuhd_24fps">ウルトラHD、4K、1秒あたり24フレーム</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K、%dfps</string>
+    <string name="pref_video_quality_entry_720p">HD 720p、%dfps</string>
     <string name="pref_video_quality_hfr_title">フレームレートと画質</string>
     <string name="pref_video_quality_title">ビデオの画質</string>
     <string name="pref_video_speed_entry_fast">高速</string>
@@ -1658,19 +1687,19 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="pref_video_speed_fast_title">タイムラプス</string>
     <string name="pref_video_speed_slow_title">スローモーション</string>
     <string name="pref_video_subtitle">字幕</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_10">10倍 (0.3秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_120">120倍 (4秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_150">150倍 (5秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_1800">1800倍 (60秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_2">2倍 (0.06秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_240">240倍 (8秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_30">30倍 (1秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_300">300倍 (10秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_4">4倍 (0.12秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_450">450倍 (15秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_60">60倍 (2秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_90">90倍 (3秒間隔)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_900">900倍 (30秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_10">10倍 (%.1f秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_120">120倍 (%d秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_150">150倍 (%d秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_1800">1800倍 (%d秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2">2倍 (%.2f秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_240">240倍 (%d秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_30">30倍 (%d秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_300">300倍 (%d秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_4">4倍 (%.2f秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_450">450倍 (%d秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_60">60倍 (%d秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_90">90倍 (%d秒間隔)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_900">900倍 (%d秒間隔)</string>
     <string name="pref_video_time_lapse_frame_interval_title">タイムラプスの間隔</string>
     <string name="pref_watermark_off">オフ</string>
     <string name="pref_watermark_on">オン</string>
@@ -1692,6 +1721,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="process_tips_1">ビデオが保存されるまで、デバイスを折りたたまないでください</string>
     <string name="process_tips_2">ビデオが保存されるまで、デバイスを広げないでください</string>
     <string name="professional_shortcut_short">プロ</string>
+    <string name="qvga_shelter_tip_text">"Don't cover the lense"</string>
     <string name="recommend_macro_mode">マクロモードをお試しください</string>
     <string name="recommend_portrait">ポートレートモードをお試しください</string>
     <string name="recommend_soft_light_tip">フラッシュをオンにしてください</string>
@@ -1762,12 +1792,13 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="snap_confirmed">置き換える</string>
     <string name="spaceIsLow_content_external_storage_priority">SDカードの空き容量が不足しています</string>
     <string name="spaceIsLow_content_primary_storage_priority">USBストレージの空き容量が不足しています</string>
-    <string name="speech_shutter_open_tip">\"拍照\" または \"茄子\" と言って写真を撮る</string>
+    <string name="speech_shutter_open_tip">\"Cheese!\"と言うと写真を撮ることができます</string>
     <string name="speech_shutter_tip">音声シャッター</string>
     <string name="start_capture">OK</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sticker_tab1">かわいい</string>
     <string name="sticker_tab2">面白い</string>
+    <string name="stop_save_low_battery">保存 (%d秒)</string>
     <string name="subtitle_network_exception_tips">ネットワークに接続できませんでした。現在、書き起こしできません。</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
@@ -1875,11 +1906,11 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="toast_start_audio_capture">音を出して写真を撮る</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>
+    <string name="too_low_battery">バッテリーが残りわずかです</string>
     <string name="tuesday">火曜日</string>
     <string name="tuesday_short">火</string>
     <string name="tuesday_shortest">火</string>
     <string name="ubi_focus_capture_fail">撮影できませんでした</string>
-    <string name="ubifocus_capture_warning_message">近距離 (レンズから1メートル以内) と遠距離の両方に被写体が写っていると、より良い仕上がりになります</string>
     <string name="ultra_ai_pixel_photography_close_tip">AI %s ウルトラHDはオフです</string>
     <string name="ultra_ai_pixel_photography_open_tip">AI %s ウルトラHD</string>
     <string name="ultra_pixel_100mp">100MP</string>
@@ -1892,9 +1923,6 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="ultra_pixel_photography_open_tip">%s ウルトラHDはオンです</string>
     <string name="ultra_pixel_portrait_hint">低光量ポートレート</string>
     <string name="ultra_pixel_zoom_no_support_tip">%s ウルトラHDモードではズームは機能しません</string>
-    <string name="ultra_tele_use_hint_text_body">"50Xズームを使用して遠くの被写体を
-より詳細にキャプチャする"</string>
-    <string name="ultra_tele_use_hint_text_title">50Xズーム</string>
     <string name="ultra_wide_bokeh_close_tip">全身モードはオフです</string>
     <string name="ultra_wide_bokeh_open_tip">全身モード</string>
     <string name="ultra_wide_close_tip">超広角モードはオフです</string>
@@ -1910,7 +1938,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="unknow_error">不明なエラー</string>
     <string name="unsupported_microphones_3d_record_tips">3Dサウンドは外部マイクをサポートしていません</string>
     <string name="unsupported_microphones_audio_zoom_tips">オーディオズームは外部マイクをサポートしていません</string>
-    <string name="update_loading">%1$d%% ダウンロード済み</string>
+    <string name="update_loading">ダウンロード済み %1$s</string>
     <string name="update_start">%1$sをアップデート</string>
     <string name="user_agree">同意</string>
     <string name="user_define_watermark_cancel">キャンセル</string>
@@ -1961,6 +1989,7 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="video_effect_entry_summer_day">夏</string>
     <string name="video_effect_entry_summer_day_describe">低コントラストと明るいトーンは、肌の色調を維持する必要がある場合に威力を発揮します。日差しの強い屋外のシーンに適しています。</string>
     <string name="video_effect_entry_wind_sing">そよ風</string>
+    <string name="video_low_battery_tip_content">バッテリー残量が少ないため、フレームレートを低下させました</string>
     <string name="video_overheat_tip_content">デバイスの温度が高すぎるようです。ビデオの解像度を下げて撮影してみてください。</string>
     <string name="video_reach_size_limit">サイズの上限に達しました。</string>
     <string name="video_shortcut_short">ビデオ</string>
@@ -1968,9 +1997,14 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
     <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">プライバシーポリシーを表示</string>
+    <string name="vlog_pro_cancel_reset_record_hint" />
+    <string name="vlog_pro_change_video_name_hint" />
+    <string name="vlog_pro_first_into_vlog_dumy_hint" />
+    <string name="vlog_pro_reset_record_hint" />
     <string name="vv_duartion_hint">%1$s | セグメント %2$d | %3$s秒</string>
     <string name="vv_hint">Vlogは横向きモードでのみ撮影できます</string>
     <string name="vv_stability_hint">デバイスを安定させてください</string>
+    <string name="vv_stability_newTip">アイテムを保存中…</string>
     <string name="vv_start">Vlogを撮影</string>
     <string name="vv_use_hint_text_body">"Vlogモードでは外出先
 でビデオを録画および編集できます"</string>
@@ -1993,5 +2027,14 @@ A4用紙にワイヤレスでコピーを印刷します。"</string>
     <string name="wideselfie_rotate_to_front">デバイスを前方に傾ける</string>
     <string name="wideselfie_rotate_to_left_slowly">デバイスを左に回転させる</string>
     <string name="wideselfie_rotate_to_right_slowly">デバイスを右に回転させる</string>
+    <string name="widget_camera_filter_description">4種類のLeica フィルター</string>
+    <string name="widget_camera_filter_talk_back">Leica フィルター</string>
+    <string name="widget_camera_label">Leica フィルター</string>
+    <string name="widget_camera_lens_35mm_description">三十五ミリメートル</string>
+    <string name="widget_camera_lens_50mm_description">五十ミリメートル</string>
+    <string name="widget_camera_lens_90mm_description">九十ミリメートル</string>
+    <string name="widget_camera_lens_description">焦点距離を試す</string>
+    <string name="widget_camera_lens_none_description">ポートレート用の五十ミリレンズ</string>
+    <string name="widget_camera_lens_talk_back">Proレンズ</string>
     <string name="yesterday">昨日</string>
 </resources>

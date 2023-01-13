@@ -36,9 +36,7 @@
     <string name="admin_has_ability_to_monitor_device">"IT 管理者は、このデバイスに関連付けられた設定、コーポレート アクセス、アプリ、権限、データの監視、管理を行えます。これには、デバイスの位置情報、通話履歴、連絡先の検索履歴など、ネットワーク アクティビティも含まれます。
 
 組織のプライバシー ポリシーなど、詳しくは IT 管理者にお問い合わせください。"</string>
-    <string name="admin_has_ability_to_monitor_profile">"IT 管理者は、このプロフィールに関連付けられた設定、コーポレート アクセス、アプリ、権限、データの監視、管理を行えます。これには、デバイスの位置情報、通話履歴、連絡先の検索履歴など、ネットワーク アクティビティも含まれます。
-
-組織のプライバシー ポリシーなど、詳しくは IT 管理者にお問い合わせください。"</string>
+    <string name="admin_has_ability_to_monitor_profile">IT 管理者は、このプロファイルに関連付けられた設定、コーポレート アクセス、アプリ、権限、データ、ネットワーク アクティビティと、通話履歴、連絡先の検索履歴を監視および管理できます。組織のプライバシー ポリシーなど、詳しくは IT 管理者にお問い合わせください。</string>
     <string name="app_label">仕事用の設定</string>
     <string name="back">戻る</string>
     <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
@@ -55,18 +53,6 @@
     <string name="cant_replace_or_remove_work_profile">仕事用プロファイルを変更または削除できません</string>
     <string name="cant_set_up_device">デバイスをセットアップできません</string>
     <string name="cant_set_up_profile">プロファイルをセットアップできません</string>
-    <string name="car_ui_alert_dialog_default_button">閉じる</string>
-    <string name="car_ui_preference_switch_off">OFF</string>
-    <string name="car_ui_preference_switch_on">ON</string>
-    <string name="car_ui_restricted_while_driving">この機能は運転中は利用できません</string>
-    <string name="car_ui_scrollbar_page_down_button">下にスクロール</string>
-    <string name="car_ui_scrollbar_page_up_button">上にスクロール</string>
-    <string name="car_ui_scrolling_limited_message">運転中のスクロール操作は制限されています</string>
-    <string name="car_ui_toolbar_default_search_hint">検索…</string>
-    <string name="car_ui_toolbar_menu_item_overflow_title">オーバーフロー</string>
-    <string name="car_ui_toolbar_menu_item_search_title">検索</string>
-    <string name="car_ui_toolbar_menu_item_settings_title">設定</string>
-    <string name="car_ui_toolbar_nav_icon_content_description">戻る</string>
     <string name="change_device_launcher">デバイスランチャーを変更してください</string>
     <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
@@ -86,7 +72,6 @@
     <string name="cope_provisioning_step_2_header">個人用と仕事用のアプリは別々に保存、表示されます</string>
     <string name="cope_provisioning_step_3_header">IT 管理者は、このデバイスを管理して特定のアプリをブロックできます</string>
     <string name="cope_provisioning_summary">仕事用アプリは仕事用プロファイルに保存され、IT 管理者によって管理されています。個人用と仕事用のアプリは別々に保存、表示されます。IT 管理者はこのデバイスを管理し、特定のアプリをブロックすることができます。</string>
-    <string name="copy">コピー</string>
     <string name="copying_certs">CA証明書をセットアップしています</string>
     <string name="couldnt_set_up_device">デバイスをセットアップできませんでした。詳しくは、IT 管理者にお問い合わせください。</string>
     <string name="default_managed_profile_name">仕事用プロファイル</string>
@@ -113,9 +98,11 @@
     <string name="error_icon_content_description">エラー</string>
     <string name="error_installation_failed">管理アプリをインストールできませんでした</string>
     <string name="error_package_invalid">管理アプリを使用できません。このアプリはコンポーネントがないか、破損しています。詳しくは、IT 管理者にお問い合わせください。</string>
+    <string name="error_role_holder_download_install_failed">しばらくしてからもう一度試すか、IT 管理者にお問い合わせください</string>
+    <string name="error_role_holder_hash_mismatch">デバイスをセットアップできません。「無効なチェックサム」エラーについて、IT 管理者にお問い合わせください。</string>
+    <string name="error_role_holder_package_invalid">デバイスをセットアップできません。「コンポーネントの欠落または破損」エラーについて、IT 管理者にお問い合わせください。</string>
     <string name="error_wifi">Wi-Fi に接続できませんでした</string>
     <string name="expand">展開</string>
-    <string name="expand_button_title">詳細設定</string>
     <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
     <string name="financed_device_screen_header">このデバイスは %s から提供されています</string>
     <string name="financed_make_payments_subheader_description">%1$s によってインストールされる %2$s アプリで、このデバイスのお支払いを行えます。</string>
@@ -177,6 +164,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -205,14 +193,12 @@
     <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
     <string name="navigation_button_description">上へ移動</string>
     <string name="next">次へ</string>
-    <string name="not_set">未設定</string>
     <string name="ok_setup">OK</string>
     <string name="one_place_for_work_apps">仕事用アプリを 1 か所に</string>
     <string name="opening_paragraph_delete_profile">仕事用プロファイルはすでに存在します。次のアプリで管理されています。</string>
     <string name="organization_admin">IT 管理者</string>
     <string name="password_toggle_content_description">パスワードを表示</string>
     <string name="pick_launcher">OK</string>
-    <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="profile_benefits_description">仕事用プロファイルを使用すると、仕事用データと個人データを区別できます</string>
     <string name="profile_owner_cancel_cancel">いいえ</string>
     <string name="profile_owner_cancel_message">セットアップを中止しますか？</string>
@@ -232,6 +218,7 @@
     <string name="section_content">%1$s セクションのコンテンツ: %2$s</string>
     <string name="section_heading">%1$s セクションの見出し</string>
     <string name="set_up_your_device">デバイスを設定してください</string>
+    <string name="setting_up">セットアップしています…</string>
     <string name="setting_up_workspace">仕事用プロファイルを設定中…</string>
     <string name="setup_device">デバイスのセットアップ</string>
     <string name="setup_device_encryption">デバイスのセットアップ: 暗号化</string>
@@ -247,7 +234,6 @@
     <string name="something_went_wrong">エラーが発生しました</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_setup_reset_device_question">デバイスのセットアップとリセットの停止</string>
-    <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sure_you_want_to_delete_profile">続行すると、このプロファイルのアプリとデータはすべて削除されます。</string>
     <string name="take_a_few_minutes">この処理には数分かかることがあります</string>
     <string name="terms">利用規約</string>
@@ -258,8 +244,6 @@
     <string name="url_error">このリンクを表示できません。</string>
     <string name="user_consent_msg">同意します</string>
     <string name="user_setup_incomplete">ユーザー設定が完了していません</string>
-    <string name="v7_preference_off">OFF</string>
-    <string name="v7_preference_on">ON</string>
     <string name="view_terms">規約を表示</string>
     <string name="work_profile_cant_be_added_contact_admin">このデバイスには仕事用プロファイルを追加できません。ご不明な点がある場合は、IT 管理者にお問い合わせください。</string>
     <string name="work_profile_description">仕事用アプリはこのプロファイルに保存され、組織によって保護されます</string>

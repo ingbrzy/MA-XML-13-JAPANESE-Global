@@ -63,6 +63,10 @@
     <string name="account_user_phone">予備の電話番号</string>
     <string name="account_user_region">地域</string>
     <string name="action_add_phone">電話番号を追加</string>
+    <string name="action_setting_ab_playing">ループ中…</string>
+    <string name="action_setting_ab_reset">リセット</string>
+    <string name="action_setting_ab_set_end">終了点を設定</string>
+    <string name="action_setting_ab_set_start">開始点を設定</string>
     <string name="action_update_phone">電話番号を変更</string>
     <string name="actionbar_button_up_description">戻る</string>
     <string name="activate_email_notice">24時間以内にアカウントをアクティブ化してください</string>
@@ -135,6 +139,7 @@
     <string name="cast_forward">早送り</string>
     <string name="cast_forward_10">10 秒早送り</string>
     <string name="cast_forward_30">30 秒早送り</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">ライブ</string>
     <string name="cast_mute">ミュート</string>
     <string name="cast_notification_connected_message">%1$s に接続しました</string>
@@ -180,6 +185,7 @@
     <string name="cloud_online_player">プレーヤー</string>
     <string name="cloud_online_switch">パーソナライズされたおすすめ</string>
     <string name="cloud_online_switch_open_time">パーソナライズされたコンテンツのおすすめを表示</string>
+    <string name="cmp_tier_privacy_policy">サードパーティのプライバシーポリシー</string>
     <string name="collect_diagnosis_log">ログを収集</string>
     <string name="columbus_ad_flag_text">広告</string>
     <string name="columbus_skip_ad">スキップ</string>
@@ -268,8 +274,11 @@ ID:%s
     <string name="dialog_clearn_title">履歴を消去</string>
     <string name="dialog_confirm">OK</string>
     <string name="dialog_delete_bookmarks_content">今すぐブックマークを削除しますか？</string>
+    <string name="dialog_disagree_continue">続ける</string>
+    <string name="dialog_disagree_info">Mi ビデオのプライバシーポリシーに同意しない場合は、当社のオンラインサービスを利用できず、デバイスに保存されているビデオのみ視聴できます。続けてもよろしいですか？</string>
     <string name="dialog_disagree_privacychange_info">プライバシーポリシーに同意しない場合、Mi ビデオのオンラインストリーミングサービスを使用することはできません。戻る場合は \"キャンセル\" をタップし、続ける場合は \"同意しない\" をタップしてMi ビデオをローカルプレーヤーとしてのみ使用します。</string>
     <string name="dialog_disagree_privacychange_title">同意しませんか？</string>
+    <string name="dialog_disagree_title">プライバシーポリシー</string>
     <string name="dialog_edit_bookmarks">ブックマークを編集</string>
     <string name="dialog_edit_hint_bookmarks_name">ブックマーク名</string>
     <string name="dialog_edit_hint_bookmarks_url">URL</string>
@@ -329,7 +338,6 @@ ID:%s
     <string name="download_paused">一時停止中</string>
     <string name="download_pending">保留中…</string>
     <string name="download_power_off_tips">この機能は現在利用できません</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_retry">再試行</string>
     <string name="download_unable_tip">このアイテムをダウンロードできません</string>
     <string name="download_video">ビデオをダウンロード中</string>
@@ -346,23 +354,39 @@ ID:%s
     <string name="evening">夕方</string>
     <string name="exceed_binded_phone_times_notice">この電話番号は既に別のMi アカウントに関連付けられています。</string>
     <string name="exit">終了</string>
+    <string name="exo_controls_cc_disabled_description">字幕の有効化</string>
+    <string name="exo_controls_cc_enabled_description">字幕の無効化</string>
     <string name="exo_controls_fastforward_description">早送り</string>
-    <string name="exo_controls_fullscreen_description">全画面モード</string>
-    <string name="exo_controls_next_description">次のトラック</string>
+    <string name="exo_controls_fullscreen_enter_description">全画面表示に変更</string>
+    <string name="exo_controls_fullscreen_exit_description">全画面表示を終了</string>
+    <string name="exo_controls_hide">プレーヤーのコントロールを非表示にする</string>
+    <string name="exo_controls_next_description">次へ</string>
+    <string name="exo_controls_overflow_hide_description">その他の設定の非表示</string>
+    <string name="exo_controls_overflow_show_description">その他の設定の表示</string>
     <string name="exo_controls_pause_description">一時停止</string>
     <string name="exo_controls_play_description">再生</string>
-    <string name="exo_controls_previous_description">前のトラック</string>
+    <string name="exo_controls_playback_speed">速度</string>
+    <string name="exo_controls_playback_speed_normal">標準</string>
+    <string name="exo_controls_previous_description">前へ</string>
     <string name="exo_controls_repeat_all_description">全曲をリピート</string>
     <string name="exo_controls_repeat_off_description">リピートなし</string>
     <string name="exo_controls_repeat_one_description">1 曲をリピート</string>
     <string name="exo_controls_rewind_description">巻き戻し</string>
-    <string name="exo_controls_shuffle_description">シャッフル</string>
+    <string name="exo_controls_seek_bar_description">再生中</string>
+    <string name="exo_controls_settings_description">設定</string>
+    <string name="exo_controls_show">プレーヤーのコントロールを表示する</string>
+    <string name="exo_controls_shuffle_off_description">シャッフル OFF</string>
+    <string name="exo_controls_shuffle_on_description">シャッフル ON</string>
     <string name="exo_controls_stop_description">停止</string>
+    <string name="exo_controls_vr_description">VR モード</string>
     <string name="exo_download_completed">ダウンロードが完了しました</string>
     <string name="exo_download_description">ダウンロード</string>
     <string name="exo_download_downloading">ダウンロードしています</string>
     <string name="exo_download_failed">ダウンロードに失敗しました</string>
     <string name="exo_download_notification_channel_name">ダウンロード</string>
+    <string name="exo_download_paused">ダウンロード一時停止</string>
+    <string name="exo_download_paused_for_network">ダウンロード停止: ネットワーク接続中</string>
+    <string name="exo_download_paused_for_wifi">ダウンロード停止: Wi-Fi 接続中</string>
     <string name="exo_download_removing">ダウンロードを削除しています</string>
     <string name="exo_item_list">%1$s、%2$s</string>
     <string name="exo_media_action_repeat_all_description">全曲をリピート</string>
@@ -371,10 +395,14 @@ ID:%s
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">モノラル</string>
     <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">代替</string>
+    <string name="exo_track_role_closed_captions">字幕</string>
+    <string name="exo_track_role_commentary">解説</string>
+    <string name="exo_track_role_supplementary">補足</string>
     <string name="exo_track_selection_auto">自動</string>
     <string name="exo_track_selection_none">なし</string>
     <string name="exo_track_selection_title_audio">音声</string>
-    <string name="exo_track_selection_title_text">SMS</string>
+    <string name="exo_track_selection_title_text">文字</string>
     <string name="exo_track_selection_title_video">動画</string>
     <string name="exo_track_stereo">ステレオ</string>
     <string name="exo_track_surround">サラウンド サウンド</string>
@@ -390,6 +418,7 @@ ID:%s
     <string name="fallback_menu_item_copy_link">リンクをコピー</string>
     <string name="fallback_menu_item_open_in_browser">ブラウザで開く</string>
     <string name="fallback_menu_item_share_link">リンクの共有</string>
+    <string name="fast_channel_popular">人気のチャンネル</string>
     <string name="favor_movie">映画</string>
     <string name="favor_online_video">ビデオ</string>
     <string name="favor_playlist">プレイリスト</string>
@@ -399,6 +428,18 @@ ID:%s
     <string name="favorite_fail">お気に入りに追加できませんでした。もう一度お試しください。</string>
     <string name="favorite_success">お気に入りに正常に追加されました</string>
     <string name="fcm_push_title">人気のビデオ</string>
+    <string name="fcmpts_dialog_continue">視聴</string>
+    <string name="fcmpts_dialog_not_interested">今はしない</string>
+    <string name="fcmpts_dialog_two" formatted="false">もう%d本動画を%d秒以上視聴すると、Mi ストアクーポンを獲得できます</string>
+    <string name="fcmpts_popup_final">正常に受け取りました！タップして報酬を引き換えます。</string>
+    <string name="fcmpts_popup_final_redeem">引き換える</string>
+    <string name="fcmpts_popup_four" formatted="false">正常に受け取りました！もう%d本動画を%d秒間視聴すると、Mi ストアクーポンを獲得できます。</string>
+    <string name="fcmpts_popup_one" formatted="false">今日%d本の動画を視聴すると、%dポイント分のMi ストアクーポンを獲得できます</string>
+    <string name="fcmpts_popup_one_cts">視聴</string>
+    <string name="fcmpts_popup_three" formatted="false">%d秒間視聴しました。%dポイントを獲得しました！</string>
+    <string name="fcmpts_popup_three_claim">受け取る</string>
+    <string name="fcmpts_popup_three_login_claim">サインイン</string>
+    <string name="fcmpts_popup_two" formatted="false">この動画を%d秒間視聴すると%dポイントを獲得できます</string>
     <string name="feedback">フィードバック</string>
     <string name="feedback_activity_title">フィードバック</string>
     <string name="feedback_contact_empty">連絡先情報を入力してください</string>
@@ -1029,6 +1070,7 @@ ID:%s
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -1112,6 +1154,7 @@ ID:%s
     <string name="online_play_start_ready_loading_tip_kb">読み込み中 %.2f KB/s</string>
     <string name="online_play_start_ready_loading_tip_mb">読み込み中 %.2f MB/s</string>
     <string name="online_play_title">URLを入力</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">最近のサブスクリプション</string>
     <string name="order_recently_updated">最近のアップデート</string>
     <string name="out_of_memory_background_playback_is_suspended">メモリ不足によりバックグラウンド再生を一時停止しました</string>
@@ -1463,6 +1506,7 @@ ID:%s
     <string name="plus_shortcut_existed">このショートカットは既に存在します</string>
     <string name="plus_sort_title">並び替え</string>
     <string name="plus_sort_type_default">デフォルト</string>
+    <string name="plus_sort_type_duration">長さ</string>
     <string name="plus_sort_type_name">名前</string>
     <string name="plus_sort_type_size">サイズ</string>
     <string name="plus_sort_type_time">時間</string>
@@ -1508,6 +1552,7 @@ ID:%s
     <string name="recommend_online_switch">オンラインのおすすめ</string>
     <string name="recommend_online_tips">オンにしてオンラインビデオのおすすめを受信する</string>
     <string name="recommend_page_replay">再生</string>
+    <string name="recommend_slide_to_more">スワイプしてもっと見る</string>
     <string name="recommend_switch_alert">このセクションを削除するには、Mi ビデオの設定で変更してください</string>
     <string name="recommend_to_you">あなたにおすすめ</string>
     <string name="reload_sub_title">タップしてもう一度お試しください。</string>
@@ -1609,6 +1654,7 @@ ID:%s
     <string name="sns_sign_in">その他のサインイン方法</string>
     <string name="source">"ソース: "</string>
     <string name="start_download_tip">キューに追加されました。プロフィール > ダウンロード で進行状況を確認できます。</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SDカード</string>
     <string name="storage_internal_sdcard">内部ストレージ</string>
     <string name="submit">送信</string>
@@ -1741,12 +1787,14 @@ ID:%s
     <string name="tip_subscribe_guide_hint_a">Googleで登録したクリエイターを表示する</string>
     <string name="tip_subscribe_guide_hint_b">登録しているYouTube チャンネルの更新を広告なしで視聴できます</string>
     <string name="tip_tap_download_button">%d. \"ダウンロード\"をタップします</string>
+    <string name="title_ab_loop">A-B ループ</string>
     <string name="title_bookmarks">ブックマーク</string>
     <string name="title_continue_to_borwser">ブラウザーで開く</string>
     <string name="title_download_setting">ダウンロード設定</string>
     <string name="title_history">履歴</string>
     <string name="title_mangotv_history_sub" formatted="false">%s (第%d話)</string>
     <string name="title_mangotv_subtitle_language">字幕の言語</string>
+    <string name="title_more_wonderful_smallvideo">その他のショートビデオ</string>
     <string name="title_publisher">クリエイター</string>
     <string name="title_select_directory">フォルダーを選択</string>
     <string name="title_selected">選択済み</string>
@@ -1879,6 +1927,11 @@ ID:%s
     <string name="welcome_tip_into_mivideo">始める</string>
     <string name="welcome_tip_skip">スキップ</string>
     <string name="welcome_tip_title">Mi ビデオへようこそ</string>
+    <string name="widget_add_dialog_button_add">追加</string>
+    <string name="widget_add_dialog_button_cancel">キャンセル</string>
+    <string name="widget_add_dialog_desc_local">このウィジェットを使用すれば、デバイスに保存されている音声ファイルやビデオファイルを、ホーム画面からワンタップで再生できます。今すぐ追加しますか？</string>
+    <string name="widget_add_dialog_desc_online">このウィジェットを使用すれば、ホーム画面からワンタップで今日の人気ビデオを視聴できます。今すぐ追加しますか？</string>
+    <string name="widget_add_dialog_title">ウィジェットを追加</string>
     <string name="widget_local_video">ローカルビデオ</string>
     <string name="widget_local_video_click">タップすると、デバイスに保存されているビデオを視聴します</string>
     <string name="widget_more_channel">その他のチャンネル</string>

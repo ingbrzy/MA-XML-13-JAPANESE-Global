@@ -16,10 +16,6 @@
         <item>牡羊座</item>
         <item>3/21 - 4/19</item>
     </string-array>
-    <string-array name="bundesliga">
-        <item>2</item>
-        <item>ブンデスリーガ</item>
-    </string-array>
     <string-array name="cancer_info">
         <item>cancer</item>
         <item>蟹座</item>
@@ -37,39 +33,6 @@
     <string-array name="date_calculate_spinner">
         <item>何日後</item>
         <item>何日前</item>
-    </string-array>
-    <string-array name="dates">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-        <item>21</item>
-        <item>22</item>
-        <item>23</item>
-        <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>27</item>
-        <item>28</item>
-        <item>29</item>
-        <item>30</item>
-        <item>31</item>
     </string-array>
     <string-array name="default_reminder_labels">
         <item>イベント時</item>
@@ -106,10 +69,6 @@
         <item>ズー・アルカアダ</item>
         <item>ズー・アルヒッジャ</item>
     </string-array>
-    <string-array name="la_liga">
-        <item>3</item>
-        <item>ラ・リーガ</item>
-    </string-array>
     <string-array name="leo_info">
         <item>leo</item>
         <item>獅子座</item>
@@ -119,10 +78,6 @@
         <item>libra</item>
         <item>天秤座</item>
         <item>9/23 - 10/23</item>
-    </string-array>
-    <string-array name="ligue_1">
-        <item>5</item>
-        <item>リーグ・アン</item>
     </string-array>
     <string-array name="panchang_weeks">
         <item>日曜日</item>
@@ -291,10 +246,6 @@
         <item>蠍座</item>
         <item>10/24 - 11/22</item>
     </string-array>
-    <string-array name="serie_a">
-        <item>1</item>
-        <item>セリエA</item>
-    </string-array>
     <string-array name="taurus_info">
         <item>taurus</item>
         <item>牡牛座</item>
@@ -387,13 +338,6 @@
         <item>オークランド</item>
         <item>フィジー</item>
         <item>トンガ</item>
-    </string-array>
-    <string-array name="travel_reminder_minutes_labels">
-        <item>3時間前</item>
-        <item>4時間前</item>
-        <item>5時間前</item>
-        <item>6時間前</item>
-        <item>1日前</item>
     </string-array>
     <string-array name="vikrami_samvat_month_names">
         <item>チャイトラ</item>

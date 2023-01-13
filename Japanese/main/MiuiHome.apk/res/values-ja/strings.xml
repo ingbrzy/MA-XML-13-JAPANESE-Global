@@ -301,6 +301,7 @@
     <string name="dual_app">デュアルアプリ</string>
     <string name="early_morning">早朝</string>
     <string name="edit">編集</string>
+    <string name="edit_folder">フォルダーを編集</string>
     <string name="edit_folder_title">フォルダー名を編集</string>
     <string name="edit_mode_dual_app">デュアルアプリを作成</string>
     <string name="edit_mode_group">グループ</string>
@@ -387,9 +388,16 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="fold_pair_install_shortcut_launcher_success">正常に作成されました</string>
     <string name="fold_pair_install_shortcut_long_click">長押しするとホーム画面に追加できます</string>
     <string name="fold_pair_installed_shortcut_launcher">このショートカットは既に存在します</string>
     <string name="folder_name">フォルダー</string>
+    <string name="folder_picker_big_2x2_9_text">XXL</string>
+    <string name="folder_picker_big_text">拡大</string>
+    <string name="folder_picker_default_text">標準</string>
+    <string name="folder_picker_options_tab_text">サイズ</string>
+    <string name="folder_picker_sliding_button_tab_text">ハイライトしたアプリを提案</string>
+    <string name="folder_picker_tab_text">フォルダー</string>
     <string name="frame_load_failed">フレームを読み込めません</string>
     <string name="free_style_apps_title">アプリを選択</string>
     <string name="free_style_drawer_title">すべてのアプリ</string>
@@ -469,6 +477,7 @@
     <string name="icon_style">スタイル</string>
     <string name="image_too_small_message">元の画像が小さすぎます。</string>
     <string name="install">インストール</string>
+    <string name="intelligent_exposed_button_summary_text">アプリの使用状況に基づいたスマートな提案機能により、拡大されたフォルダー内でアプリをハイライトします</string>
     <string name="invalid_contact_shortcut">無効な連絡先</string>
     <string name="is_setting_wallpaper_message">壁紙を設定中…</string>
     <string name="is_system_wallpaper_message">システムリソースは削除できません</string>
@@ -554,6 +563,7 @@
     <string name="minus_one_screen">アプリ保管庫</string>
     <string name="miui_screen_config_title">ホーム画面の設定</string>
     <string name="miui_widget_menu_replace_text">切り替える</string>
+    <string name="miui_widget_toast_for_not_support_by_pa">アプリ保管庫はこのサイズのウィジェットをサポートしていません</string>
     <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
@@ -580,6 +590,8 @@
     <string name="monday">月曜日</string>
     <string name="monday_short">月</string>
     <string name="monday_shortest">月</string>
+    <string name="monochrome_summary">対応アイコンの背景色を変更する</string>
+    <string name="monochrome_title">背景の色</string>
     <string name="month_april">4月</string>
     <string name="month_april_short">4月</string>
     <string name="month_april_shortest">4月</string>
@@ -624,6 +636,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -795,6 +808,8 @@
     <string name="quick_search_guide_quick_search">クイック検索</string>
     <string name="quick_search_guide_title">デフォルトモードを選択</string>
     <string name="recent_apps">最近</string>
+    <string name="recent_menu_item_add_pair">この画面分割の組み合わせのホーム画面ショートカットを作成できます</string>
+    <string name="recent_menu_item_add_pair_first_toast">この画面分割の組み合わせのホーム画面ショートカットを作成できます</string>
     <string name="recent_menu_item_info">情報</string>
     <string name="recent_menu_item_lock">ロック</string>
     <string name="recent_menu_item_multi_window">分割</string>
@@ -901,6 +916,7 @@
     <string name="sort_by_not_defined">自動並べ替え</string>
     <string name="start_activity_failed">ランチャーを起動できません</string>
     <string name="starting_preset_app">起動中…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%2$s中%1$s利用可能</string>
     <string name="status_bar_recent_memory_info2" />
@@ -983,6 +999,8 @@
     <string name="title_select_shortcut">ショートカットを選択</string>
     <string name="toast_drag_to_assistant_reject">アプリ保管庫を初期化中…</string>
     <string name="toast_screen_icons_misplaced">他のソースから復元されました。一部のアイコンが正しく配置されていない場合があります。</string>
+    <string name="toast_split_app_unsupported">このアプリは画面分割をサポートしていません</string>
+    <string name="toast_split_select_app">アプリをタップして画面分割を使用</string>
     <string name="today">今日</string>
     <string name="toggle_select_title">トグルを選択</string>
     <string name="toggle_title">トグル</string>
@@ -1033,8 +1051,12 @@
     <string name="widget_global_search">検索</string>
     <string name="widget_quick_function">クイック機能</string>
     <string name="widgets_preview_title">ウィジェットを追加</string>
+    <string name="work_mode_off_detailed_text">仕事用アプリでは、通知の送信、バッテリーの使用、位置情報の取得が無効になっています</string>
     <string name="work_mode_off_label">通知はオフになっており、アプリは現在利用できません</string>
+    <string name="work_mode_off_text">仕事用アプリは一時停止しています</string>
     <string name="work_mode_on_label">所属組織により管理されています</string>
+    <string name="work_mode_toggle_off">仕事用アプリをオフにする</string>
+    <string name="work_mode_toggle_on">仕事用アプリをオンにする</string>
     <string name="work_profile_first_content">個人データは仕事用アプリから分離され隠されています</string>
     <string name="work_profile_got_button">了解</string>
     <string name="work_profile_next_button">次へ</string>

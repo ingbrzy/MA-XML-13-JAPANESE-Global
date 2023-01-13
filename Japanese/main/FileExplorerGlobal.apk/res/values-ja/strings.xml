@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">ホームへ移動</string>
-    <string name="abc_action_bar_up_description">上へ移動</string>
+    <string name="abc_action_bar_home_description">ホームに戻る</string>
+    <string name="abc_action_bar_up_description">前に戻る</string>
     <string name="abc_action_menu_overflow_description">その他のオプション</string>
     <string name="abc_action_mode_done">完了</string>
     <string name="abc_activity_chooser_view_see_all">すべて表示</string>
@@ -131,9 +131,11 @@
     <string name="confirm_know">OK</string>
     <string name="connection_error">接続できませんでした</string>
     <string name="connection_lost">切断済み</string>
+    <string name="copy">コピー</string>
     <string name="copy_failed">コピーできませんでした</string>
     <string name="copy_to">コピー先…</string>
     <string name="copy_to_internal_storage_first">まず、アイテムを内部ストレージにコピーしてください。</string>
+    <string name="copy_toast_msg">リンクをクリップボードにコピーしました</string>
     <string name="dark_mode">ダークモード</string>
     <string name="dark_mode_notice_message">ダークテーマが利用可能になりました！</string>
     <string name="decompress_cancel">キャンセル</string>
@@ -172,6 +174,7 @@
     <string name="display_name">名前を表示</string>
     <string name="domain">ドメイン</string>
     <string name="download_success">正常にダウンロードされました</string>
+    <string name="drag_not_support_with_dir">フォルダーのドラッグや送信はできません</string>
     <string name="empty_by_forbid_access">このフォルダーの内容は、Androidの制限により、ここでは表示できません。</string>
     <string name="enable_documentsui">まず、設定 > インストールしたアプリ に移動して%sをオンにしてください</string>
     <string name="enable_sd_card">SDカードが破損しているか切断されています</string>
@@ -194,12 +197,16 @@
     <string name="error_invalid_path">間違ったパス</string>
     <string name="error_not_support">サポートされていません</string>
     <string name="error_open_file_failed_no_app_found">このファイルを開くアプリが見つかりませんでした。</string>
+    <string name="expand_button_title">詳細設定</string>
     <string name="explicit">明示</string>
     <string name="extended_storage_file_can_not_open">ファイルを開けません。ファイルを内部ストレージにコピーしてください。</string>
     <string name="extract">解凍</string>
     <string name="fail_to_create_folder_unknown">不明なエラーによりフォルダーを作成できませんでした。</string>
     <string name="failed_not_access_sd_card">まず、SDカードへのアクセスを許可してください</string>
     <string name="failed_obtain_permissions">アクセス許可を取得できませんでした</string>
+    <string name="fallback_menu_item_copy_link">リンクをコピー</string>
+    <string name="fallback_menu_item_open_in_browser">ブラウザで開く</string>
+    <string name="fallback_menu_item_share_link">リンクの共有</string>
     <string name="favorite_notice_message">"フォルダーをお気に入りに追加できるようになりました。
 フォルダーを長押しし、\"その他\"をタップして追加します。"</string>
     <string name="favorite_photo">写真</string>
@@ -209,7 +216,7 @@
     <string name="feedback_desc">発生した問題について説明してください</string>
     <string name="feedback_send_email_body_extra_info">以下の情報を削除しないでください。この情報は問題の特定に使用されます。</string>
     <string name="feeling_ok">普通</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="file_info_canread">読み取り可: </string>
     <string name="file_info_canwrite">書き込み可: </string>
     <string name="file_info_ishidden">非表示: </string>
@@ -309,6 +316,7 @@
     <string name="not_connect">接続できません</string>
     <string name="not_connect_user">接続できません：%1$sと%2$s</string>
     <string name="not_installed_documentsui">DocumentsUIがインストールされていません</string>
+    <string name="not_set">未設定</string>
     <string name="not_support_documentui">このデバイスではDocumentUIはサポートされていません</string>
     <string name="not_very_dissatisfied">不満</string>
     <string name="notif_server_starting">FTPサーバーを起動しています…</string>
@@ -391,6 +399,7 @@
     <string name="port">ポート</string>
     <string name="port_range">ポート番号は1024–65535の間でなければなりません</string>
     <string name="possible_permissions">任意のアクセス許可</string>
+    <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="privacy_accept">同意して続ける</string>
     <string name="privacy_cancel"><u>同意しない</u></string>
     <string name="privacy_desc">ファイルマネージャーへようこそ！基本的な機能の他に、このアプリは以下のサービスを提供しています。</string>
@@ -499,6 +508,7 @@
     <string name="storage_usb">USBストレージ</string>
     <string name="storage_warning">外部ストレージを使用できません</string>
     <string name="str_clean">クリーンアップ</string>
+    <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="switch_to_grid_mode">グリッド表示に切り替える</string>
     <string name="switch_to_list_mode">リスト表示に切り替える</string>
     <string name="tab_common_app">アプリとフォルダー</string>
@@ -534,6 +544,8 @@
     <string name="user_notice_privacy_policy">プライバシーポリシー</string>
     <string name="user_notice_term_of_service">利用規約</string>
     <string name="utf8_summary">システムFTP 既定のエンコード</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
     <string name="version_name">バージョン</string>
     <string name="very_dissatisfied">非常に不満</string>
     <string name="view_by_document">ファイルで表示</string>

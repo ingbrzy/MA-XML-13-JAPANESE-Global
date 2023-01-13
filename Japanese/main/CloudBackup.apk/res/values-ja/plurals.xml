@@ -27,6 +27,9 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
+    <plurals name="backup_action_long_time_not_backup_content">
+        <item quantity="other">ここ%s週間、アイテムのバックアップを行なっていないようです。重要なものを失わないようにバックアップを作成してください。</item>
+    </plurals>
     <plurals name="cloud_backup_detail_manage_summary">
         <item quantity="other">%1$s個のバックアップ (%2$s)</item>
     </plurals>
@@ -54,13 +57,13 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
-    <plurals name="restore_app_order_installed">
-        <item quantity="other">このデバイスの%d個のアプリ</item>
+    <plurals name="session_starting_app_count_backup_text">
+        <item quantity="other">%d個のアプリをバックアップしました</item>
     </plurals>
-    <plurals name="restore_app_order_normal">
-        <item quantity="other">通常の優先度：%d個のアプリ</item>
+    <plurals name="session_starting_app_count_restore_text">
+        <item quantity="other">%d個のアプリを復元しました</item>
     </plurals>
-    <plurals name="restore_app_order_prior">
-        <item quantity="other">高い優先度：%d個のアプリ</item>
+    <plurals name="session_time_remain">
+        <item quantity="other">残り約%s分</item>
     </plurals>
 </resources>

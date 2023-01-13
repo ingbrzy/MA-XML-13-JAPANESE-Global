@@ -28,7 +28,7 @@
         <item quantity="other">%d分前</item>
     </plurals>
     <plurals name="controls_number_of_favorites">
-        <item quantity="other">%s個のコントロールを追加しました。</item>
+        <item quantity="other">%s controls added.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>

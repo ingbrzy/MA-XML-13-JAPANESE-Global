@@ -4,4 +4,69 @@
         <item>男性</item>
         <item>女性</item>
     </string-array>
+    <string-array name="customer_service">
+        <item>@string/customer_service_apply</item>
+        <item>@string/customer_service_complain</item>
+        <item>@string/customer_service_station</item>
+    </string-array>
+    <string-array name="net_diag_err_link_quality">
+        <item>Wi-Fi接続が不安定です。ワイヤレスバンドを切り替えるか、ルーターを再起動してください。</item>
+        <item>ネットワークにアクセスできません。Wi-Fiに再接続するか、ルーターを再起動してください。</item>
+    </string-array>
+    <string-array name="net_diag_err_link_quality_china">
+        <item>Poor WLAN connection. Switch wireless bands or reboot the router.</item>
+        <item>"Can't access network. Reconnect to WLAN or reboot the router."</item>
+    </string-array>
+    <string-array name="net_diag_err_network_connectivity">
+        <item>ネットワークアクセスには認証が必要です</item>
+        <item>ネットワークアクセスが制限されています。このデバイスの時刻を調整し、ルーターのネットワーク設定を確認してください。</item>
+        <item>ネットワークエラーです。HTTPプロキシの設定を確認してください。</item>
+        <item>ネットワークエラーです。ルーターがインターネットにアクセスできるかどうか確認してください。</item>
+        <item>ネットワークに接続できません。Wi-Fiに再接続するか、ルーターを再起動してください。</item>
+    </string-array>
+    <string-array name="net_diag_err_network_connectivity_china">
+        <item>ネットワークアクセスには認証が必要です</item>
+        <item>ネットワークアクセスが制限されています。このデバイスの時刻を調整し、ルーターのネットワーク設定を確認してください。</item>
+        <item>ネットワークエラーです。HTTPプロキシの設定を確認してください。</item>
+        <item>ネットワークエラーです。ルーターがインターネットにアクセスできるかどうか確認してください。</item>
+        <item>"Can't connect to the network. Reconnect to WLAN or reboot the router."</item>
+    </string-array>
+    <string-array name="net_diag_err_network_dns">
+        <item>DNSサーバーエラーです。ルーターのDNS構成を確認してください。</item>
+        <item>DNSサーバーから大きな遅延が発生しています。ルーターのDNS構成を確認してください。</item>
+        <item>ゲートウェイにアクセスできません。Wi-Fiに再接続するか、ルーターを再起動してください。</item>
+    </string-array>
+    <string-array name="net_diag_err_network_dns_china">
+        <item>DNSサーバーエラーです。ルーターのDNS構成を確認してください。</item>
+        <item>DNSサーバーから大きな遅延が発生しています。ルーターのDNS構成を確認してください。</item>
+        <item>"Can't access gateway. Reconnect to WLAN or reboot the router."</item>
+    </string-array>
+    <string-array name="net_diag_err_network_latency">
+        <item>ローカルネットワークの大幅な遅延が発生しています。ルーターを再起動するか、別のネットワークに接続してください。</item>
+        <item>インターネットの大幅な遅延が発生しています。通信事業者のネットワーク設定を確認するか、別のネットワークに接続してください。</item>
+    </string-array>
+    <string-array name="net_diag_err_network_parameters">
+        <item>静的IPからDHCPに切り替える</item>
+    </string-array>
+    <string-array name="net_diag_err_network_protocol">
+        <item>ネットワークプロトコルエラーです。Wi-Fiに再接続するか、デバイスを再起動してください。</item>
+    </string-array>
+    <string-array name="net_diag_err_network_protocol_china">
+        <item>Network protocol error. Reconnect to WLAN or reboot the device.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_rssi">
+        <item>Wi-Fiの電波が届きやすい場所に移動してください</item>
+    </string-array>
+    <string-array name="net_diag_err_network_rssi_china">
+        <item>Move to an area with better WLAN coverage</item>
+    </string-array>
+    <string-array name="net_diag_err_network_topology">
+        <item>ルーターのDHCP設定と有線接続を確認してください</item>
+    </string-array>
+    <string-array name="reproductivity">
+        <item>@string/feedback_reproductivity_everytime</item>
+        <item>@string/feedback_reproductivity_often</item>
+        <item>@string/feedback_reproductivity_occasionally</item>
+        <item>@string/feedback_reproductivity_once</item>
+    </string-array>
 </resources>

@@ -237,6 +237,7 @@
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="privacy_settings">プライバシー</string>
     <string name="quit_recording">スクリーンレコーダーを終了</string>
+    <string name="record_time_too_short">録画時間が短すぎます</string>
     <string name="recording_failure">録画できませんでした。やり直してください。</string>
     <string name="recording_max_size">ビデオファイルがサイズの上限に達したため、録画は停止して保存されました。まだ録画を完了していない場合は、中断したところから再開してください。</string>
     <string name="recording_without_mic">マイクがビジー状態のため、現在録音できません。</string>

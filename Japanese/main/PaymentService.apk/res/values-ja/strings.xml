@@ -27,8 +27,9 @@
     <string name="abc_shareactionprovider_share_with">共有</string>
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
-    <string name="account_bind_secure_email_title">予備のメールアドレスを追加</string>
-    <string name="account_bind_secure_phone_title">予備の電話番号を追加</string>
+    <string name="access_denied_info">試行回数が多すぎます。1、2分待ってからもう一度お試しください。</string>
+    <string name="account_bind_secure_email_title">復旧用のメールアドレスを追加</string>
+    <string name="account_bind_secure_phone_title">復旧用の電話番号を追加</string>
     <string name="account_crop_user_avatar">写真をトリミング</string>
     <string name="account_empty_user_name">Mi アカウントのユーザー名を入力してください</string>
     <string name="account_error_all_space_user_name">ユーザー名に空白文字のみを含めることはできません</string>
@@ -50,13 +51,13 @@
     <string name="account_user_base_info">基本情報</string>
     <string name="account_user_birthday">誕生日</string>
     <string name="account_user_details">個人情報</string>
-    <string name="account_user_email">予備のメールアドレス</string>
+    <string name="account_user_email">復旧用のメールアドレス</string>
     <string name="account_user_gender">性別</string>
     <string name="account_user_id">Mi アカウントID</string>
     <string name="account_user_name">ニックネーム</string>
     <string name="account_user_name_dialog_title">ユーザー名を入力</string>
     <string name="account_user_other_info">詳細</string>
-    <string name="account_user_phone">予備の電話番号</string>
+    <string name="account_user_phone">復旧用の電話番号</string>
     <string name="account_user_region">地域</string>
     <string name="action_add_phone">電話番号を追加</string>
     <string name="action_update_phone">電話番号を変更</string>
@@ -67,6 +68,7 @@
     <string name="afternoon">午後</string>
     <string name="am">午前</string>
     <string name="auth_fail_warning">セッションが期限切れです。もう一度サインインしてください。</string>
+    <string name="back">戻る</string>
     <string name="bind_sign_in_title">Mi アカウントを追加</string>
     <string name="change_activate_email">メールアドレスを変更</string>
     <string name="change_password">パスワードを変更</string>
@@ -74,11 +76,12 @@
     <string name="choose_to_signup">いいえ、アカウントを新規作成します</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
+    <string name="close_country_code_content_description">国番号を削除</string>
     <string name="collect_diagnosis_log">ログを収集</string>
     <string name="confirm_activate_email">認証済み</string>
     <string name="confirm_bundled_phone_dialog_title">関連付けられている電話番号を確認</string>
     <string name="confirm_new_pwd">新しいパスワードを確認</string>
-    <string name="confirm_unbundled_phone_dialog_message">この電話番号は、%1$sでMi アカウント %2$s に関連付けられました。続けると、Mi アカウント %3$s に関連付けられなくなります。続けますか？</string>
+    <string name="confirm_unbundled_phone_dialog_message">この電話番号は、%1$sにMi アカウント %2$s と関連付けられました。この操作を続けると、Mi アカウント %3$s との関連付けが解除されます。続けますか？</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -88,6 +91,9 @@
     <string name="diagnosis_log_sent_format">"正常にログを送信しました。
 ID:%s
 このコードを管理者に送信してください。"</string>
+    <string name="doing_login">サインインしています…</string>
+    <string name="doing_query_account">アカウント情報を確認中…</string>
+    <string name="doing_register">アカウントを作成中…</string>
     <string name="early_morning">早朝</string>
     <string name="empty" />
     <string name="eras_ad">西暦</string>
@@ -96,6 +102,7 @@ ID:%s
     <string name="error_invalid_bind_address">入力したメールアドレスは無効です。</string>
     <string name="evening">夕方</string>
     <string name="exceed_binded_phone_times_notice">この電話番号は既に別のMi アカウントに関連付けられています。</string>
+    <string name="facebook_login_btn_content_description">Facebookでサインイン</string>
     <string name="failed_dup_secure_phone_number">この電話番号は既に別のMi アカウントに関連付けられています</string>
     <string name="find_psw">パスワードを忘れた場合</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -156,16 +163,25 @@ ID:%s
     <string name="friday_shortest">金</string>
     <string name="get_back_pwd">パスワードをリセットしています</string>
     <string name="get_ph_ticket">コードを取得</string>
-    <string name="get_phone_bind_exceed_limit">1つの電話番号に最大3つのMi アカウントを関連付けることができます。新しいアカウントを追加できません。</string>
+    <string name="get_phone_bind_exceed_limit">1つの電話番号には最大3つのMi アカウントを関連付けることができます。これ以上アカウントを追加できません。</string>
     <string name="get_phone_verifycode_exceed_limit">この番号に送信された認証コードが多すぎます。 24時間待ってからもう一度お試しください。</string>
+    <string name="google_login_btn_content_description">Googleでサインイン</string>
     <string name="goto_sign_up">アカウントを作成</string>
+    <string name="header_help">ヘルプ</string>
+    <string name="i_know">了解</string>
     <string name="identity">識別</string>
     <string name="inconsistent_pwd">パスワードが一致しません</string>
     <string name="input_email_address_notice">このメールアドレスを使用してアカウントを認証します</string>
+    <string name="input_length_exceeds_limit">入力したテキストが長すぎます</string>
     <string name="input_new_pwd">新しいパスワードを入力してください</string>
     <string name="isornot_your_mi_account">これはあなたのMi アカウントですか？</string>
     <string name="just_a_second">お待ちください…</string>
     <string name="loading">お待ちください…</string>
+    <string name="login_by_local_phone_long_text">今すぐサインイン</string>
+    <string name="login_by_local_phone_short_text">サインイン</string>
+    <string name="login_other">別のMi アカウント</string>
+    <string name="login_register_by_local_phone_long_text">アカウントを作成</string>
+    <string name="login_with_sns">その他のサインイン方法</string>
     <string name="logout_account">サインアウト</string>
     <string name="midnight">真夜中</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
@@ -231,12 +247,15 @@ ID:%s
     <string name="month_september_shortest">9月</string>
     <string name="more">その他</string>
     <string name="morning">午前</string>
+    <string name="network_error_info">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="network_timeout_info">ネットワークに接続できませんでした。もう一度お試しください。</string>
     <string name="nick_name">ニックネーム</string>
     <string name="night">夜</string>
     <string name="no_account">サインインしていません</string>
     <string name="no_phone">電話番号がありません</string>
     <string name="noon">正午</string>
     <string name="ok">OK</string>
+    <string name="open_settings">設定</string>
     <string name="passport_access_denied">アクセスは拒否されました</string>
     <string name="passport_account_label">Mi アカウント</string>
     <string name="passport_account_name">"アカウント: %1$s "</string>
@@ -244,6 +263,7 @@ ID:%s
     <string name="passport_area_code_title">地域コード</string>
     <string name="passport_bad_authentication">ユーザー名またはパスワードが無効です</string>
     <string name="passport_barcode_add_account_prompt">アカウントを追加するには、サインイン後にQRコードを追加してください。</string>
+    <string name="passport_can_not_receive_verification_code">認証コードを受信できませんか？</string>
     <string name="passport_captcha_title">CAPTCHA</string>
     <string name="passport_checking_account">パスワードを確認中…</string>
     <string name="passport_close">閉じる</string>
@@ -283,6 +303,8 @@ ID:%s
     <string name="passport_login_failed">サインインできませんでした</string>
     <string name="passport_next">次へ</string>
     <string name="passport_next_step">次へ</string>
+    <string name="passport_oauth_actionbar_title">Mi アカウント</string>
+    <string name="passport_oauth_sucess_tip">承認された成功</string>
     <string name="passport_password_req_notice">パスワードは8〜16文字で、数字、文字、特殊記号のうち少なくとも2つを組み合わせてください（例：123abc@#、123abc、abc@#）。</string>
     <string name="passport_querying_phone_info">アカウント情報をリクエスト中…</string>
     <string name="passport_quick_login_dialog_step2_title">2段階認証</string>
@@ -332,15 +354,29 @@ ID:%s
     <string name="phone_number">電話番号</string>
     <string name="photoPickerNotFoundText">利用可能な写真はありません。</string>
     <string name="pm">午後</string>
+    <string name="progressbar_title">セキュリティの問題を確認中…</string>
+    <string name="protocal_dialog_cancel">キャンセル</string>
+    <string name="protocal_dialog_confirm">同意</string>
+    <string name="protocal_dialog_title">注意</string>
     <string name="psw_hint">パスワード</string>
     <string name="psw_sign_in">パスワードを使用してサインイン</string>
+    <string name="qq_login_btn_content_description">QQでサインイン</string>
+    <string name="register_by_local_phone_long_text">アカウントを作成</string>
+    <string name="register_by_local_phone_short_text">アカウントを作成</string>
+    <string name="request_agree">許可</string>
+    <string name="request_camera_permission_message">当社は、ご利用者の個人情報を関係法令に基づき保護します。このアプリが正常に動作するには、以下の権限が必要です。&lt;br>&lt;br>&lt;b>カメラの使用（プロフィール写真を設定するため）&lt;/b>&lt;br>&lt;br>上記権限を付与することに同意しない場合、このアプリの一部機能を使用できなくなります。ただし、このアプリの基本的な機能は引き続き使用できます。設定でいつでもアクセス許可を制限したり、承認を撤回したりすることができます。</string>
+    <string name="request_cancel">キャンセル</string>
+    <string name="request_error_invalid_token">認証できませんでした</string>
+    <string name="request_error_network">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="request_error_unknown">システムエラーが発生しました。戻ってもう一度やり直してください。</string>
+    <string name="request_gallery_permission_message">ギャラリーへのアクセスを許可する：&lt;br />プロフィール写真を設定するため</string>
     <string name="resend_active_email">再送信</string>
     <string name="resend_email_reach_limit_message">リクエストした認証メールの数が多すぎます。認証メールが受信トレイの迷惑メールフォルダーにないことを確認してください。</string>
     <string name="resend_email_reach_limit_title">試行回数が多すぎます</string>
     <string name="resend_email_success">正常に送信されました</string>
     <string name="restart_action">やり直し</string>
     <string name="restart_phone_bind_message">SMSの受信には時間がかかる場合があります。やり直しますか？</string>
-    <string name="restart_phone_bind_title">予備の電話番号を変更</string>
+    <string name="restart_phone_bind_title">復旧用の電話番号を変更</string>
     <string name="same_new_and_old_pwd">現在のパスワードと同じにすることはできません</string>
     <string name="saturday">土曜日</string>
     <string name="saturday_short">土</string>
@@ -355,13 +391,16 @@ ID:%s
     <string name="sign_in">サインインしています</string>
     <string name="sign_in_progress">サインインしています…</string>
     <string name="sign_in_title">Mi アカウントでサインイン</string>
+    <string name="skip_query_account">スキップ</string>
     <string name="sms_send_success">正常に送信されました</string>
     <string name="sns_access_token_expired_warning">セッションの期限が切れました。もう一度サインインしてこのアカウントに再接続してください。</string>
     <string name="sns_bind_limit">試行回数が多すぎます。他の方法でサインインしてください。</string>
     <string name="sns_sign_in">その他のサインイン方法</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
+    <string name="system_error_info">システムはビジー状態です。1、2分待ってからもう一度お試しください。</string>
     <string name="temporary_not_available">この機能はまだ利用できません</string>
     <string name="the_anniversary_of_lifting_martial_law">戒厳令解除記念日</string>
     <string name="the_anti_aggression_day">反侵略の日</string>
@@ -417,16 +456,30 @@ ID:%s
     <string name="tuesday">火曜日</string>
     <string name="tuesday_short">火</string>
     <string name="tuesday_shortest">火</string>
-    <string name="update_email_address_dialog_message">予備のメールアドレスをアップデートする前に、本人確認を行う必要があります。</string>
-    <string name="update_email_address_dialog_title">予備のメールアドレスをアップデート</string>
+    <string name="unknown_error_info">不明なエラー</string>
+    <string name="update_email_address_dialog_message">復旧用のメールアドレスをアップデートする前に、本人確認を行う必要があります。</string>
+    <string name="update_email_address_dialog_title">復旧用のメールアドレスをアップデート</string>
     <string name="update_phone_notice">セキュリティ設定を変更</string>
     <string name="upload_error_log">ログをアップロード</string>
+    <string name="user_agreement_hint_3rd_app">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、およびMi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Mi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>チャイナ・モバイル認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Mi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>eSurfingアカウント認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Mi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>チャイナ・ユニコム認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="user_agreement_hint_default">&lt;Data>Mi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="user_agreement_hint_first_login">初めて電話番号を使用する場合は、自動的にアカウントが作成されます。</string>
+    <string name="user_agreement_hint_with_mobile">&lt;Data>Mi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>チャイナ・モバイル認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="user_agreement_hint_with_telecom">&lt;Data>Mi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>eSurfingアカウント認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="user_agreement_hint_with_unicom">&lt;Data>Mi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>チャイナ・ユニコム認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="user_agreement_protocal_dialog_hint_default">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、およびMi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;/Data></string>
     <string name="user_avatar_update_title">プロフィール写真を変更</string>
     <string name="user_avatar_uploading">お待ちください…</string>
     <string name="user_id_hint">メールアドレス/電話番号/Mi アカウントID</string>
+    <string name="user_name_phone_number">電話番号</string>
     <string name="v_code_title">認証コードを入力してください</string>
     <string name="wednesday">水曜日</string>
     <string name="wednesday_short">水</string>
     <string name="wednesday_shortest">水</string>
+    <string name="weibo_login_btn_content_description">Weiboでサインイン</string>
+    <string name="weixin_login_btn_content_description">WeChatでサインイン</string>
     <string name="yesterday">昨日</string>
 </resources>

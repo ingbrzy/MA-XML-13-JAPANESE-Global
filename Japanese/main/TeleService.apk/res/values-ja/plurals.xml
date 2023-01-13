@@ -27,20 +27,6 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
-    <plurals name="alert_dialog_exit_ecm">
-        <item quantity="other">スマートフォンはあと%s分間、緊急通報待機モードです。このモードではデータ通信を行うアプリは使用できません。今すぐこのモードを終了しますか？</item>
-        <item quantity="one">スマートフォンはあと%s分間、緊急通報待機モードです。このモードではデータ通信を行うアプリは使用できません。今すぐこのモードを終了しますか？</item>
-    </plurals>
-    <plurals name="alert_dialog_exit_ecm_without_data_restriction_hint">
-        <item quantity="other">"スマートフォンが %s 分間にわたって緊急通報待機モードになります。
-今すぐ終了してもよろしいですか？"</item>
-        <item quantity="one">"スマートフォンが %s 分間にわたって緊急通報待機モードになります。
-今すぐ終了してもよろしいですか？"</item>
-    </plurals>
-    <plurals name="alert_dialog_not_avaialble_in_ecm">
-        <item quantity="other">選択した操作は緊急通報待機モードでは実行できません。スマートフォンはあと%s分間このモードです。今すぐこのモードを終了しますか？</item>
-        <item quantity="one">選択した操作は緊急通報待機モードでは実行できません。スマートフォンはあと%s分間このモードです。今すぐこのモードを終了しますか？</item>
-    </plurals>
     <plurals name="auto_answer_summary_delay">
         <item quantity="other">遅延：%d秒</item>
     </plurals>
@@ -80,19 +66,11 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d個を選択済み</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d 件の新しい通知</item>
-        <item quantity="one">%d 件の新しい通知</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
     <plurals name="pin_attempts">
         <item quantity="other">"
 残り%d回入力できます。"</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d 台のデバイスが接続されています</item>
-        <item quantity="one">%1$d 台のデバイスが接続されています</item>
     </plurals>
 </resources>

@@ -7,7 +7,6 @@
 ご自分でバックアップをリクエストしていない場合は、この操作の続行を許可しないでください。"</string>
     <string name="backup_confirm_title">フルバックアップ</string>
     <string name="backup_enc_password_optional">フルバックアップのデータを暗号化する場合は、以下にパスワードを入力してください:</string>
-    <string name="backup_enc_password_required">デバイスは暗号化されているため、バックアップを暗号化する必要があります。下にパスワードを入力してください。</string>
     <string name="backup_enc_password_text">フルバックアップデータの暗号化に使用するパスワードを入力してください。空白のままにした場合、現在のバックアップ用のパスワードが使用されます:</string>
     <string name="current_password_text">以下に現在のバックアップ用のパスワードを入力してください:</string>
     <string name="deny_backup_button_label">バックアップしない</string>

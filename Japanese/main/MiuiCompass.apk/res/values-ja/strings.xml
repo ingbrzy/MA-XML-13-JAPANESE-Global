@@ -47,6 +47,7 @@
     <string name="calibrate_failed">高度の調整に失敗しました</string>
     <string name="calibrate_failed_no_location">調整できません</string>
     <string name="calibrate_failed_timeout">サーバーに接続できません</string>
+    <string name="calibrate_new_tip">デバイスを大きく傾けて、円に沿ってボールを転がしてください</string>
     <string name="calibrate_rotate_again">もう一度お試しください</string>
     <string name="calibrate_success">調整されました</string>
     <string name="calibrate_tip">デバイスを傾けて、円に沿ってボールを回転させます</string>
@@ -228,7 +229,7 @@
     <string name="morning">午前</string>
     <string name="new_cta_app_purpose">方向と座標の表示</string>
     <string name="new_cta_v2_app_purpose">方角、座標、気圧、現在の高度の表示</string>
-    <string name="new_permission_camera_desc">調整のため</string>
+    <string name="new_permission_camera_desc">ライブプレビューを表示するため</string>
     <string name="new_permission_location_desc">座標を表示するため</string>
     <string name="night">夜</string>
     <string name="noon">正午</string>

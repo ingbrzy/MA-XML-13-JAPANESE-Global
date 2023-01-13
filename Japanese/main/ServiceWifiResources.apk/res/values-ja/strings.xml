@@ -15,6 +15,44 @@
     <string name="wifi_available_title_connected">Wi-Fi ネットワークに接続しました</string>
     <string name="wifi_available_title_connecting">Wi-Fi ネットワークに接続中</string>
     <string name="wifi_available_title_failed_to_connect">Wi‑Fi ネットワークに接続できませんでした</string>
+    <string name="wifi_ca_cert_dialog_abort_text">いいえ、接続しません</string>
+    <string name="wifi_ca_cert_dialog_continue_text">はい、接続します</string>
+    <string name="wifi_ca_cert_dialog_message_contact_text">"連絡先:
+%1$s
+
+"</string>
+    <string name="wifi_ca_cert_dialog_message_hint">"以下の情報が正しい場合にのみ、このネットワークの接続を許可します。
+
+"</string>
+    <string name="wifi_ca_cert_dialog_message_issuer_name_text">"発行者の名前:
+%1$s
+
+"</string>
+    <string name="wifi_ca_cert_dialog_message_organization_text">"組織:
+%1$s
+
+"</string>
+    <string name="wifi_ca_cert_dialog_message_server_name_text">"サーバー名:
+%1$s
+
+"</string>
+    <string name="wifi_ca_cert_dialog_message_signature_name_text">"署名:
+%1$s
+
+"</string>
+    <string name="wifi_ca_cert_dialog_preT_abort_text">接続しない</string>
+    <string name="wifi_ca_cert_dialog_preT_continue_text">接続する</string>
+    <string name="wifi_ca_cert_dialog_preT_message_hint">ネットワーク %1$s に証明書がありません。</string>
+    <string name="wifi_ca_cert_dialog_preT_message_link">証明書を追加する方法</string>
+    <string name="wifi_ca_cert_dialog_preT_title">このネットワークを確認できません</string>
+    <string name="wifi_ca_cert_dialog_title">このネットワークは信頼できますか？</string>
+    <string name="wifi_ca_cert_failed_to_install_ca_cert">証明書をインストールできませんでした。</string>
+    <string name="wifi_ca_cert_notification_message">接続する前に %1$s のネットワークの詳細を確認してください。タップして続行します。</string>
+    <string name="wifi_ca_cert_notification_preT_abort_text">接続しない</string>
+    <string name="wifi_ca_cert_notification_preT_continue_text">接続する</string>
+    <string name="wifi_ca_cert_notification_preT_message">ネットワーク %1$s に証明書がありません。タップして、証明書を追加する方法を参照してください。</string>
+    <string name="wifi_ca_cert_notification_preT_title">このネットワークを確認できません</string>
+    <string name="wifi_ca_cert_notification_title">ネットワークの確認が必要です</string>
     <string name="wifi_cannot_connect_with_randomized_mac_message">タップしてプライバシー設定を変更し、もう一度お試しください</string>
     <string name="wifi_cannot_connect_with_randomized_mac_title">%1$s に接続できません</string>
     <string name="wifi_connect_alert_message">アプリ%1$sがWi-Fiネットワーク%2$sへの接続を希望しています</string>
@@ -28,6 +66,9 @@
     <string name="wifi_disable_mac_randomization_dialog_network_not_found">ネットワークが見つかりません</string>
     <string name="wifi_disable_mac_randomization_dialog_success">設定を更新しました。もう一度接続してみてください。</string>
     <string name="wifi_disable_mac_randomization_dialog_title">プライバシー設定を変更しますか？</string>
+    <string name="wifi_eap_error_message_code_16384">%1$s : EAP 認証エラー 16384</string>
+    <string name="wifi_eap_error_message_code_16385">%1$s : EAP 認証エラー 16385</string>
+    <string name="wifi_eap_error_message_code_32756">%1$s : EAP 認証エラー 32756</string>
     <string name="wifi_eap_error_message_code_32760">%1$s: EAP 認証エラー 32760</string>
     <string name="wifi_eap_error_message_code_32761">%1$s: EAP 認証エラー 32761</string>
     <string name="wifi_eap_error_message_code_32762">%1$s: EAP 認証エラー 32762</string>
@@ -35,6 +76,17 @@
     <string name="wifi_eap_error_message_code_32764">%1$s: EAP 認証エラー 32764</string>
     <string name="wifi_eap_error_message_code_32765">%1$s: EAP 認証エラー 32765</string>
     <string name="wifi_eap_error_message_code_32766">%1$s: EAP 認証エラー 32766</string>
+    <string name="wifi_eap_error_message_code_32767">%1$s : EAP 認証エラー 32767</string>
+    <string name="wifi_eap_error_message_unknown_error_code">%1$s : EAP 認証エラー、エラーコード不明</string>
+    <string name="wifi_enable_request_dialog_message">クイック設定で Wi‑Fi を OFF にできます</string>
+    <string name="wifi_enable_request_dialog_negative_button">許可しない</string>
+    <string name="wifi_enable_request_dialog_positive_button">許可</string>
+    <string name="wifi_enable_request_dialog_title">Wi‑Fi を ON にすることを %1$s に許可しますか？</string>
+    <string name="wifi_interface_priority_approve">許可</string>
+    <string name="wifi_interface_priority_message">このために %3$s で問題が発生することがあります。</string>
+    <string name="wifi_interface_priority_message_plural">次のアプリに問題が発生する可能性があります。%3$s。</string>
+    <string name="wifi_interface_priority_reject">許可しない</string>
+    <string name="wifi_interface_priority_title">%1$s がネットワーク リソースの使用を求めています</string>
     <string name="wifi_p2p_enter_pin_message">必要なPINを入力してください:</string>
     <string name="wifi_p2p_frequency_conflict_message">モバイル デバイスが%1$sに接続されている間は一時的にWi-Fi接続が解除されます。</string>
     <string name="wifi_p2p_from_message">From:</string>
@@ -58,6 +110,9 @@
     <string name="wifi_suggestion_imsi_privacy_exemption_confirmation_title">接続を確認しますか？</string>
     <string name="wifi_suggestion_imsi_privacy_title">%s のWi-Fi に接続しますか？</string>
     <string name="wifi_suggestion_title">Wi‑Fi ネットワーク候補を許可しますか？</string>
+    <string name="wifi_tofu_invalid_cert_chain_message">サーバー証明書チェーンが無効です。</string>
+    <string name="wifi_tofu_invalid_cert_chain_ok_text">OK</string>
+    <string name="wifi_tofu_invalid_cert_chain_title">%1$s に接続できません</string>
     <string name="wifi_wakeup_enabled_content">保存済みネットワーク「%1$s」の近くにいます</string>
     <string name="wifi_wakeup_enabled_title">Wi‑Fi が自動的に ON になりました</string>
     <string name="wifi_wakeup_onboarding_action_disable">再度オンにしない</string>

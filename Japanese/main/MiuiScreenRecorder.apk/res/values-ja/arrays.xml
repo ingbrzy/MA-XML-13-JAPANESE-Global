@@ -37,6 +37,12 @@
         <item>マイク</item>
         <item>システムサウンド</item>
     </string-array>
+    <string-array name="screenrecorder_settings_sound_native">
+        <item>なし</item>
+        <item>マイク</item>
+        <item>システム</item>
+        <item>両方</item>
+    </string-array>
     <string-array name="screenrecorder_settings_storage_location">
         <item>内部ストレージ</item>
         <item>外部ストレージ</item>

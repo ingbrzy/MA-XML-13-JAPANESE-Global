@@ -33,11 +33,25 @@
     <plurals name="dialog_app_rating_choose_star">
         <item quantity="other">星%sつを選択済み</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d 秒早送り</item>
+        <item quantity="one">%d 秒早送り</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d 秒巻き戻し</item>
+        <item quantity="one">%d 秒巻き戻し</item>
+    </plurals>
+    <plurals name="fcmpts_dialog_one">
+        <item quantity="other">動画をあと%s秒間視聴してポイントを獲得し、報酬を引き換えましょう</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">%1$d秒後にホームページに戻ります…</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
+    </plurals>
+    <plurals name="hint_local_guide_views">
+        <item quantity="other">%s回再生</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">1時間後</item>
@@ -146,6 +160,9 @@
         <item quantity="other">%d 件の新しい通知</item>
         <item quantity="one">%d 件の新しい通知</item>
     </plurals>
+    <plurals name="music_playlist_title_count">
+        <item quantity="other">%d曲</item>
+    </plurals>
     <plurals name="new_incentive_toast_share_success">
         <item quantity="other">正常に共有されました。%dポイントを獲得しました。ポイントセンターで受け取ってください。</item>
     </plurals>
@@ -208,6 +225,9 @@
     </plurals>
     <plurals name="toast_bookmark_max_size">
         <item quantity="other">ブックマークは%d件まで追加できます</item>
+    </plurals>
+    <plurals name="v_confirm_hide_videos_new">
+        <item quantity="other">選択した%d個のファイルを非表示にしますか？</item>
     </plurals>
     <plurals name="video_like_text">
         <item quantity="other">%s件のいいね！</item>

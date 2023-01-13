@@ -146,13 +146,21 @@
     <string name="am">午前</string>
     <string name="app_cache">キャッシュ</string>
     <string name="app_library_category_entertainment">エンターテインメント</string>
+    <string name="app_library_category_financial_management">ファイナンス</string>
     <string name="app_library_category_games">ゲーム</string>
+    <string name="app_library_category_health_and_exercise">健康</string>
+    <string name="app_library_category_individualization">パーソナライゼーション</string>
     <string name="app_library_category_information">メディア</string>
     <string name="app_library_category_lifestyle">ライフスタイル</string>
+    <string name="app_library_category_originality">クリエイティビティ</string>
     <string name="app_library_category_others">その他</string>
     <string name="app_library_category_productivity">生産性</string>
+    <string name="app_library_category_reading_and_information">ニュース</string>
+    <string name="app_library_category_shopping_and_food">ショッピング</string>
     <string name="app_library_category_social">ソーシャル</string>
+    <string name="app_library_category_travel">旅行</string>
     <string name="app_library_category_utility">ツール</string>
+    <string name="app_library_category_work_and_efficiency">生産性</string>
     <string name="app_library_title">アプリ</string>
     <string name="app_name_bluetooth">Bluetooth</string>
     <string name="app_name_camera">カメラ</string>
@@ -171,6 +179,7 @@
     <string name="app_update_install">アップデートをインストールする準備ができました。</string>
     <string name="application">アプリ</string>
     <string name="application_name">ブラウザー</string>
+    <string name="application_upgrade">アップデート</string>
     <string name="aqi_quality_index_break">計測範囲外</string>
     <string name="aqi_quality_index_dangerous">重度の汚染</string>
     <string name="aqi_quality_index_good">優</string>
@@ -202,6 +211,7 @@
     <string name="bookmark_btn_select_all">すべて選択</string>
     <string name="bookmark_btn_select_none">すべての選択を解除</string>
     <string name="bookmark_cannot_save_url">このURLはブックマークできません。</string>
+    <string name="bookmark_file_privacy_nightmode_moved_here">機能のショートカットと閲覧モードはここにあります</string>
     <string name="bookmark_folder_needs_title">グループ名を入力</string>
     <string name="bookmark_group_lable">グループ</string>
     <string name="bookmark_needs_title">ブックマークには名前が必要です</string>
@@ -296,9 +306,12 @@
     <string name="choose_to_signin">はい</string>
     <string name="choose_to_signup">いいえ、アカウントを新規作成します</string>
     <string name="choosertitle_sharevia">共有方法</string>
+    <string name="clean_cache">キャッシュを消去</string>
     <string name="clear">消去</string>
     <string name="clear_history">履歴を消去</string>
     <string name="clear_most_visited">最近の履歴</string>
+    <string name="clear_result_page_more_content">さらに発見</string>
+    <string name="clear_result_page_show_more">もっと表示</string>
     <string name="clear_search_history">履歴を消去</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="cleared_garbage">%dMBのゴミを消去しました</string>
@@ -317,6 +330,7 @@
     <string name="close_all_tab_alert_title">すべてのタブを閉じる</string>
     <string name="close_cant_recommand">この機能をオフにすると、パーソナライズされたコンテンツサービスは提供されません。</string>
     <string name="close_cloud_tab_tip">%sのクラウ​​ドタブを閉じますか？</string>
+    <string name="close_desktop">デスクトップ版をオフにしました</string>
     <string name="cloud_loading_tips">プルダウンして同期</string>
     <string name="cloud_no_new_data_toast">すべて最新の状態です</string>
     <string name="cloud_sync_closed_toast">同期がオフのためアップデートできません</string>
@@ -415,6 +429,7 @@
     <string name="contextmenu_webpage_snapshot">ページを保存</string>
     <string name="continue_reading">続きを読む</string>
     <string name="copy">コピー</string>
+    <string name="copy_toast_msg">リンクをクリップボードにコピーしました</string>
     <string name="copy_url">URLをコピー</string>
     <string name="core_functions_of_browser">主要な機能に簡単にアクセス</string>
     <string name="could_not_load_data">データを読み込めませんでした、更新してから再度お試しください</string>
@@ -473,6 +488,7 @@ ID:%s
     <string name="display__quick_entry_of_search">通知シェードに機能のショートカットを表示</string>
     <string name="doc_viewer_label">リーダー (Mi ブラウザー)</string>
     <string name="doc_viewer_open_out_file_prompt">外部ソースから受信したファイルを開いて表示するには、このアプリはまずファイルのコピーを作成する必要があります。続けますか？</string>
+    <string name="doc_viewer_user_guide_profile">ここに閲覧していたアイテムを表示</string>
     <string name="document_download_background_btn">バックグラウンドでダウンロード</string>
     <string name="document_download_cancel_btn">キャンセル</string>
     <string name="document_download_failed">ダウンロードできませんでした</string>
@@ -646,17 +662,16 @@ ID:%s
     <string name="exo_controls_pause_description">一時停止</string>
     <string name="exo_controls_play_description">再生</string>
     <string name="exo_controls_playback_speed">速度</string>
-    <string name="exo_controls_playback_speed_normal">標準</string>
     <string name="exo_controls_previous_description">前へ</string>
-    <string name="exo_controls_repeat_all_description">全曲をリピート</string>
-    <string name="exo_controls_repeat_off_description">リピートなし</string>
-    <string name="exo_controls_repeat_one_description">1 曲をリピート</string>
+    <string name="exo_controls_repeat_all_description">現在: 全曲リピート。モードを切り替えます。</string>
+    <string name="exo_controls_repeat_off_description">現在: リピートなし。モードを切り替えます。</string>
+    <string name="exo_controls_repeat_one_description">現在: 1 曲リピート。モードを切り替えます。</string>
     <string name="exo_controls_rewind_description">巻き戻し</string>
     <string name="exo_controls_seek_bar_description">再生中</string>
     <string name="exo_controls_settings_description">設定</string>
     <string name="exo_controls_show">プレーヤーのコントロールを表示する</string>
-    <string name="exo_controls_shuffle_off_description">シャッフル OFF</string>
-    <string name="exo_controls_shuffle_on_description">シャッフル ON</string>
+    <string name="exo_controls_shuffle_off_description">シャッフル モードを有効にする</string>
+    <string name="exo_controls_shuffle_on_description">シャッフル モードを無効にする</string>
     <string name="exo_controls_stop_description">停止</string>
     <string name="exo_controls_vr_description">VR モード</string>
     <string name="exo_download_completed">ダウンロードが完了しました</string>
@@ -664,6 +679,9 @@ ID:%s
     <string name="exo_download_downloading">ダウンロードしています</string>
     <string name="exo_download_failed">ダウンロードに失敗しました</string>
     <string name="exo_download_notification_channel_name">ダウンロード</string>
+    <string name="exo_download_paused">ダウンロード一時停止</string>
+    <string name="exo_download_paused_for_network">ダウンロード停止: ネットワーク接続中</string>
+    <string name="exo_download_paused_for_wifi">ダウンロード停止: Wi-Fi 接続中</string>
     <string name="exo_download_removing">ダウンロードを削除しています</string>
     <string name="exo_item_list">%1$s、%2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
@@ -687,11 +705,13 @@ ID:%s
     <string name="experience_improve">ユーザーエクスペリエンスプログラム</string>
     <string name="external_app_restricted_access_error">Mi ブラウザーはこのアイテムにアクセスできません。</string>
     <string name="failed_dup_secure_phone_number">この電話番号は既に別のMi アカウントに関連付けられています</string>
+    <string name="fallback_menu_item_copy_link">リンクをコピー</string>
+    <string name="fallback_menu_item_open_in_browser">ブラウザで開く</string>
+    <string name="fallback_menu_item_share_link">リンクの共有</string>
     <string name="fast_search_title">クイック検索</string>
     <string name="fast_than">%1$s%%のユーザーを超えています</string>
     <string name="fb_login_tips">サインインしてFacebookからビデオをダウンロードする</string>
     <string name="fb_register_btn">アカウントを作成</string>
-    <string name="fcm_fallback_notification_channel_label">その他</string>
     <string name="featured_this_week">今週の特集</string>
     <string name="feedback_bad">いいえ</string>
     <string name="feedback_general">普通</string>
@@ -724,6 +744,7 @@ ID:%s
     <string name="file_picker">パスを選択</string>
     <string name="filename_empty_alert_message">ファイル名を入力してください</string>
     <string name="filename_illegal_alert_message">無効な文字はファイル名から削除されました</string>
+    <string name="files_stored_in_the_phone">このデバイスに保存されているファイル</string>
     <string name="find_garbage">%dMBのゴミが見つかりました</string>
     <string name="find_new_version">新しいアップデートが利用可能です</string>
     <string name="find_on_page_cancel">キャンセル</string>
@@ -801,6 +822,7 @@ ID:%s
     <string name="friday">金曜日</string>
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
+    <string name="game_center">ゲーム</string>
     <string name="game_center_recommend_play">プレイ</string>
     <string name="game_center_recommend_title">あなたへのおすすめ</string>
     <string name="game_play">プレイ</string>
@@ -870,6 +892,10 @@ ID:%s
     <string name="homepage_setting">スタートページ設定</string>
     <string name="homepage_top_card_menu">トップ</string>
     <string name="hot_games">人気</string>
+    <string name="hot_news_notify_summary">トップニュースをプッシュ通知でお知らせ</string>
+    <string name="hot_news_notify_tips_light">ニュース通知は&lt;font color=\"#0D84FF\">設定&lt;/font>でオフにできます</string>
+    <string name="hot_news_notify_title">ニュース通知</string>
+    <string name="hour_minute">%1$s%2$s</string>
     <string name="i_know">停止</string>
     <string name="identity">識別</string>
     <string name="if_cancel">この操作をキャンセルしますか？</string>
@@ -952,6 +978,8 @@ ID:%s
     <string name="loading_tips">プルダウンして更新</string>
     <string name="local_apps">ローカルアプリ</string>
     <string name="local_bookmarks">Mi</string>
+    <string name="local_file">ローカルファイル</string>
+    <string name="local_video_player_label">ビデオプレーヤー (Mi ブラウザー)</string>
     <string name="location_permission_name">位置情報へのアクセス</string>
     <string name="lockpattern_continue_button_text">次へ</string>
     <string name="lockpattern_need_to_confirm">ロック解除パターンを確認</string>
@@ -980,6 +1008,7 @@ ID:%s
     <string name="media_error_video_not_exist">ビデオは存在しません</string>
     <string name="memory_clear_nothing_result">消去できるキャッシュはありません</string>
     <string name="memory_clear_result">%1$sが消去されました</string>
+    <string name="memory_management">ストレージを管理</string>
     <string name="memory_usage">メモリ</string>
     <string name="menu_addtodesk">ホーム画面に追加</string>
     <string name="menu_exit_nightmode">終了</string>
@@ -1079,6 +1108,7 @@ ID:%s
     <string name="month_september_short">9月</string>
     <string name="month_september_shortest">9月</string>
     <string name="more">その他</string>
+    <string name="more_convenient_features_and_content">ブラウザーが提供する新しいツールとコンテンツをご覧ください。</string>
     <string name="more_description">メニュー</string>
     <string name="more_info">もっと詳しく知る</string>
     <string name="more_option">その他のオプション</string>
@@ -1265,6 +1295,7 @@ ID:%s
     <string name="my_account">マイ アカウント</string>
     <string name="my_cahnnel">マイ チャンネル</string>
     <string name="my_channel">マイ チャンネル</string>
+    <string name="my_prize_entry">マイ 報酬</string>
     <string name="name_empty">名前を入力する必要があります。</string>
     <string name="nav_bottom_bar_back">戻る</string>
     <string name="nav_bottom_bar_close_all">すべて閉じる</string>
@@ -1318,6 +1349,7 @@ ID:%s
     <string name="no_network">ネットワーク接続を確認して、もう一度お試しください。</string>
     <string name="no_phone">電話番号がありません</string>
     <string name="no_recent_files">最近のファイルはありません</string>
+    <string name="no_scalable_applications">すべてのアプリは最新の状態です</string>
     <string name="no_space_alert_cancel">後で</string>
     <string name="no_space_alert_clean">容量を解放</string>
     <string name="no_space_alert_text">ストレージ容量が足りません</string>
@@ -1349,6 +1381,7 @@ ID:%s
     <string name="novel_continue_read_popup">読む</string>
     <string name="novel_tab_popup">ここには最新の書籍が表示されます</string>
     <string name="novel_tab_popup_ok">OK</string>
+    <string name="occupy">%s 使用済み</string>
     <string name="offline_notification_text">タップすると広告を表示します</string>
     <string name="offline_notification_title">オフライン時に保存した広告を表示します</string>
     <string name="offline_opt_in_confirm">OK</string>
@@ -1359,6 +1392,7 @@ ID:%s
     <string name="ok">OК</string>
     <string name="one_prefect_author">クリエイター</string>
     <string name="open_app_confirm_message">このページが%sを開くことを許可しますか？</string>
+    <string name="open_desktop">デスクトップ版に切り替えました</string>
     <string name="open_google_gaid">この機能を利用するには、[設定] > [Google] > [広告] で広告のパーソナライズをオプトアウトしていないことを確認する必要があります。</string>
     <string name="open_personalized_services">この機能を使用するには、パーソナライズされたサービスをオンにしてください。</string>
     <string name="open_private_folder">指を離して隠しフォルダーを表示する</string>
@@ -1371,6 +1405,7 @@ ID:%s
     <string name="operation_rename">名前の変更</string>
     <string name="operation_rename_message">新しい名前を入力してください</string>
     <string name="operation_send">送信</string>
+    <string name="opr_activity_title">シーズンを観戦して報酬を獲得</string>
     <string name="other_channel">タップしてもっとチャンネルを追加する</string>
     <string name="page_info">ページ情報</string>
     <string name="page_info_address">アドレス：</string>
@@ -1537,6 +1572,7 @@ ID:%s
     <string name="popular_game_video">Popular Game Video</string>
     <string name="popup_window_attempt">このサイトがポップアップウィンドウを開くことを許可しますか？</string>
     <string name="positive_confirm_message">オフにする</string>
+    <string name="power_saving_settings">バッテリーセーバー</string>
     <string name="pref_accessibility">アクセシビリティ</string>
     <string name="pref_accessibility_title">アクセシビリティ</string>
     <string name="pref_adblock_summary">この機能がオンの場合、ページの読み込みが遅くなる可能性があります</string>
@@ -1750,6 +1786,7 @@ ID:%s
     <string name="pwa_hint_added_success">正常に追加されました</string>
     <string name="qr_code_title">QRコード</string>
     <string name="qr_description">QRコードをスキャン</string>
+    <string name="quick_access_to_common_functions">お気に入りの機能に素早くアクセス</string>
     <string name="quick_search_and_access_to_functions">クイックサーチで、よく使う機能に簡単にアクセスできます。</string>
     <string name="quicklink_bookmark_save">保存先</string>
     <string name="quicklink_cannot_save_url">このURLは追加できません。</string>
@@ -1767,6 +1804,9 @@ ID:%s
     <string name="quicklinks_most_visited">スタートページに追加</string>
     <string name="quicklinks_most_visited_subtitle">最近アクセスしたサイトを新しいタブに表示する</string>
     <string name="quicklinks_most_visited_title">スタートページに追加</string>
+    <string name="reading__business_recommend_at_end_more">もっと表示</string>
+    <string name="reading__business_recommend_at_end_other_docs">こちらもあわせてどうぞ</string>
+    <string name="reading__business_recommend_at_end_title">おすすめのコンテンツ</string>
     <string name="reading__cancel">キャンセル</string>
     <string name="reading__menu_open_with_another_app">別のアプリで開く</string>
     <string name="reading__menu_play">スライドショー</string>
@@ -1774,6 +1814,7 @@ ID:%s
     <string name="reading__menu_search">検索</string>
     <string name="reading__menu_share">共有</string>
     <string name="reading__menu_thumbnail">ページのサムネイル</string>
+    <string name="reading__reading_end">終了</string>
     <string name="reading__reading_first_page">最初のページです</string>
     <string name="reading__reading_last_page">最後のページです</string>
     <string name="reading__search_cancel">キャンセル</string>
@@ -1892,6 +1933,9 @@ ID:%s
     <string name="search_bar_hint_content">アプリとコンテンツを検索する</string>
     <string name="search_bing">Bing</string>
     <string name="search_button_text">移動</string>
+    <string name="search_card_online_rec_app">アプリマーケット</string>
+    <string name="search_card_online_rec_app_install">インストール</string>
+    <string name="search_card_online_rec_app_open">開く</string>
     <string name="search_dianping">Cate</string>
     <string name="search_easou">Easou</string>
     <string name="search_empty_view_hint">何も見つかりませんでした</string>
@@ -1966,6 +2010,8 @@ ID:%s
     <string name="setting_searchable_content">検索可能なアイテム</string>
     <string name="setting_sms_content">SMSの内容</string>
     <string name="setting_swipe_up">ホーム画面で上にスワイプ</string>
+    <string name="settings_search_online_apps">アプリマーケット</string>
+    <string name="settings_search_online_apps_desc">アプリマーケットのコンテンツ</string>
     <string name="share_image_text">これをシェアします！ @MIUI</string>
     <string name="share_page_text">これをシェアします: %1$s @MIUI| %2$s</string>
     <string name="share_slide_video_text">これをシェアします：%1$s</string>
@@ -2002,6 +2048,11 @@ ID:%s
     <string name="speed_test_no_network">ネットワークに接続できませんでした。ネットワーク設定を確認して、もう一度お試しください。</string>
     <string name="speed_test_ping">遅延</string>
     <string name="speed_test_upload">アップロード</string>
+    <string name="sport_card_match_week">第%d週</string>
+    <string name="sports_card_match_season">シーズン</string>
+    <string name="sports_card_match_status_1">今後</string>
+    <string name="sports_card_match_status_2">実施中</string>
+    <string name="sports_card_match_status_3">終了</string>
     <string name="ssl_bad_clock_date_settings">日付を設定</string>
     <string name="ssl_bad_clock_warning" formatted="false">デバイスの日付と時刻（%s2）が正しくないため、%s1へのプライベート接続が確立できません。</string>
     <string name="ssl_bad_expired_warning">このチャンネルは %1$s によって提供されています。しかし、お使いのデバイス (%2$s) で設定された日時では、%1$s との安全な接続を確立することができません。まだこのチャンネルを利用したい場合は、正しい日時を設定するか、\"続ける\"をタップしてください。</string>
@@ -2118,6 +2169,7 @@ ID:%s
     <string name="the_united_nations_day">国連の日</string>
     <string name="the_valentines_day">バレンタインデー</string>
     <string name="the_water_lantern_festival">下元節</string>
+    <string name="third_image_viewer_label">画像ビューア (Mi ブラウザー)</string>
     <string name="thursday">木曜日</string>
     <string name="thursday_short">木</string>
     <string name="thursday_shortest">木</string>
@@ -2150,6 +2202,11 @@ ID:%s
     <string name="translation_query_error_network">翻訳できませんでした。ネットワーク設定を確認して、もう一度お試しください。</string>
     <string name="translation_result_empty">翻訳できませんでした。もう一度お試しください。</string>
     <string name="translation_to">翻訳言語</string>
+    <string name="trash_cleaner_unit_b">B</string>
+    <string name="trash_cleaner_unit_gb">GB</string>
+    <string name="trash_cleaner_unit_kb">KB</string>
+    <string name="trash_cleaner_unit_mb">MB</string>
+    <string name="trash_cleaner_unit_tb">TB</string>
     <string name="trending_apps_more">もっと見る</string>
     <string name="tuesday">火曜日</string>
     <string name="tuesday_short">火</string>
@@ -2168,6 +2225,7 @@ ID:%s
     <string name="update_no_network_toast">ネットワークに接続できません</string>
     <string name="update_now">今すぐアップデート</string>
     <string name="update_phone_notice">セキュリティ設定を変更</string>
+    <string name="upgrade">アップデート</string>
     <string name="upload_error_log">ログをアップロード</string>
     <string name="upload_usage_statistics">オンにすると、シークレットモードがオンのときに使用統計情報を当社に共有します</string>
     <string name="uploads_disabled">ファイルのアップロードは制限されています</string>
@@ -2356,10 +2414,13 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_tag_desc">過去に閲覧したページのサムネイルを表示する</string>
     <string name="web_tag_tips">ここをタップしてページを再表示</string>
     <string name="web_tag_title">ウェブページのサムネイル</string>
+    <string name="web_tools_moved_here">ツールはここに移動しました</string>
     <string name="web_video_accelerate">速度</string>
+    <string name="web_video_default_time">%1$s :%2$s</string>
     <string name="web_video_download">ダウンロード</string>
     <string name="web_video_download_no_access">アイテムのダウンロードにはアクセス許可が必要です</string>
     <string name="web_video_enable_long_click_toast">%d倍速で再生中</string>
+    <string name="web_video_float_drag_msg">ドラッグしてサイズを調整</string>
     <string name="web_video_list_more">その他</string>
     <string name="web_video_list_playing">再生中</string>
     <string name="web_video_list_replay">リプレイ</string>

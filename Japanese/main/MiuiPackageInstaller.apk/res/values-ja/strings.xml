@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">共有</string>
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
+    <string name="access_denied_info">試行回数が多すぎます。1、2分待ってからもう一度お試しください。</string>
     <string name="actionbar_button_up_description">戻る</string>
     <string name="afternoon">午後</string>
     <string name="am">午前</string>
@@ -190,6 +191,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -216,12 +218,15 @@
     <string name="mtrl_picker_toggle_to_day_selection">タップすると、日の選択に切り替わります</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
     <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
+    <string name="network_error_info">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="network_timeout_info">ネットワークに接続できませんでした。もう一度お試しください。</string>
     <string name="night">夜</string>
     <string name="noon">正午</string>
     <string name="not_set">未設定</string>
     <string name="password_toggle_content_description">パスワードを表示</string>
     <string name="pm">午後</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
+    <string name="progressbar_title">セキュリティの問題を確認中…</string>
     <string name="saturday">土曜日</string>
     <string name="saturday_short">土</string>
     <string name="saturday_shortest">土</string>
@@ -239,6 +244,7 @@
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
+    <string name="system_error_info">システムはビジー状態です。1、2分待ってからもう一度お試しください。</string>
     <string name="the_anniversary_of_lifting_martial_law">戒厳令解除記念日</string>
     <string name="the_anti_aggression_day">反侵略の日</string>
     <string name="the_arbor_day">植樹節</string>
@@ -290,6 +296,7 @@
     <string name="tuesday">火曜日</string>
     <string name="tuesday_short">火</string>
     <string name="tuesday_shortest">火</string>
+    <string name="unknown_error_info">不明なエラー</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="wednesday">水曜日</string>

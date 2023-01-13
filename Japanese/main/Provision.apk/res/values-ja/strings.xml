@@ -30,7 +30,9 @@
     <string name="access_non_personal_data">ご利用者が、お使いのデバイスからの非個人データへのアクセスおよび使用に対する同意を撤回した場合、壁紙カルーセルのサービスは停止され、収集されたデータは適用される法令で定められた期間内に削除されます。</string>
     <string name="accessibility_enabled">アクセシビリティは有効になりました。</string>
     <string name="actionbar_button_up_description">戻る</string>
-    <string name="address_dialing_introduction">You can use this app to make calls, view call history, and manage contacts.</string>
+    <string name="activate_esim_tips">アクティブ化できませんでした。もう一度お試しください。</string>
+    <string name="activating_esim_tips">アクティブ化中…</string>
+    <string name="address_dialing_introduction">このアプリを使用して、電話をかけたり、通話履歴を表示したり、連絡先を管理したりできます。</string>
     <string name="afternoon">午後</string>
     <string name="agree">同意</string>
     <string name="agree_and_next">同意</string>
@@ -47,22 +49,32 @@
     <string name="ai_button_single_press">押す</string>
     <string name="ai_button_single_press_desc">AI ボタンを押してMi AI ショートカットを表示する</string>
     <string name="ai_button_title">AI ボタン</string>
-    <string name="album_introduction">You can use this app to manage, edit, and beautify photos and videos.</string>
+    <string name="album_introduction">このアプリを使用すると写真やビデオを管理、編集、補正することができます。</string>
     <string name="am">午前</string>
     <string name="app_name">準備</string>
-    <string name="application_package_introduction">Package installer is used for installing third-party apps, including pre-installation scanning and post-installation app recommendation services.</string>
+    <string name="application_package_introduction">パッケージインストーラーは、サードパーティ製アプリのインストールを行うもので、インストール前のスキャンとインストール後のアプリおすすめサービスなども提供します。</string>
     <string name="application_permissions">アプリのアクセス許可</string>
     <string name="back">戻る</string>
     <string name="backup_introduction">このアプリを使用して、デバイス上のアイテムをバックアップおよび復元できます。</string>
+    <string name="bluetooth_introduction">Bluetoothは、システムによりワイヤレス通信に使用されています。Bluetoothが正常に動作するには、以下のアクセス許可が必要です。</string>
+    <string name="bluetooth_usage_desc">初期設定により、このデバイスの基本的な環境設定を行うことができます。デバイスを正常に設定するために、Bluetoothシステムサービスは以下の権限を使用します。</string>
     <string name="boot_video_replay">もう一度再生</string>
     <string name="boot_video_skip">スキップ</string>
     <string name="calculator_introduction">このアプリは、計算、単位と通貨の変換、住宅ローンの返済の見積もりに使用できます。</string>
-    <string name="camera_application_introduction">You can use this app to take photos and videos.</string>
+    <string name="camera_application_introduction">このアプリを使用して写真やビデオを撮影することができます。</string>
     <string name="camera_introduction">カメラを使用して、写真やビデオを撮影できます。</string>
+    <string name="carousel_cookies_content"><Data>壁紙カルーセルの画像やストーリーをタップすると、その完全版がブラウザーで表示されます。そして、信頼できる第三者コンテンツプロバイダーが、ご利用者の関心に合わせて追加のコンテンツや広告をおすすめできるようになります。この機能をアクティブ化することに同意すると、この&lt;a href=\"%1$s\">Cookie ポリシー&lt;/a>に記載されているように、ブラウザーにCookieが配置されます。Cookieの使用を拒否すると、壁紙カルーセルは引き続き機能しますが、そのコンテンツとおすすめがご利用者に関連しなくなる可能性があります。この設定は、[設定] からいつでも変更できます。</Data></string>
+    <string name="carousel_cookies_subtitle">Cookieを使用すると、ロック画面の使用体験をパーソナライズできます。</string>
+    <string name="carousel_cookies_title">パーソナライズされたコンテンツとCookie</string>
+    <string name="carousel_privacy"><Data>壁紙カルーセルの利用を開始する前に、当社の信頼できる第三者サービスプロバイダーの&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>と&lt;a href=\"%2$s\">利用規約&lt;/a>を読んで同意してください。</Data></string>
+    <string name="carousel_setting">ロック画面を設定</string>
+    <string name="carousel_setting_sub">壁紙カルーセルは、デバイスのロックを解除するたびに新鮮なストーリーを表示します</string>
+    <string name="carrier_introduction_china">"In order to provide you with better services, processes running on your device (including SystemHelper, RegService, and Carrier Services) may periodically send the information related to your device and SIM card (including IMEI, IMSI, MSISDN, MEID, ICCID, MAC address, MIUI version, Android version, device model, and basic hardware specifications), as well as approximate location information (including region, coordinates, area identifier, and base station ID) to the carrier via WLAN, mobile data network, or free SMS. The carrier promises to analyze relevant information only to improve the quality of services or to provide customized services or technologies, and won't disclose relevant information to third parties in any form that identifies you personally. The specific carrier statement shall prevail. Consult your carrier regarding the cost of using this service."</string>
+    <string name="check_box_label"><Data>"By turning on this feature, you're agreeing to &lt;a href=%1$s>Xiaomi Interconnectivity Services Privacy Policy&lt;/a >."</Data></string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="clock_introduction">このアプリでは、時刻の表示に加え、タイマー、世界時計、ストップウォッチの使用やアラームの設定などができます。</string>
     <string name="close">閉じる</string>
-    <string name="close_location_service_setting">設定 > 追加設定 > プライバシー に移動して位置情報アクセスをオフにするか、セキュリティで個々のアプリの権限を制御することを選択できます。</string>
+    <string name="close_location_service_setting">[設定] > [プライバシー保護] > [管理] で位置情報へのアクセスをオフにするか、セキュリティアプリで各アプリのアクセス許可を制限できます。</string>
     <string name="cm_terms_content">提供するサービスを改善するために、ご利用の通信事業者はWi-Fiネットワークまたはモバイルデータ接続を使用して、個人データおよび本デバイスに関する情報をサーバーにアップロードすることがあります。この情報は、サービスの品質を向上させ、よりパーソナライズされたコンテンツを提供するために、統計目的でのみ使用されます。この情報は個人を特定するために使用されることはなく、第三者に開示されることもありません。</string>
     <string name="cm_terms_title">モバイルネットワークオペレータ契約</string>
     <string name="compass_introduction">このアプリは方角だけでなく、座標、気圧、高度の表示にも使用できます。</string>
@@ -92,32 +104,34 @@
     <string name="disagree">キャンセル</string>
     <string name="disagreement_abnormal_running">以上の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合、このアプリを使用することはできません。そうした場合、このアプリを使用しないか、設定で権限を制限することを選択できます。</string>
     <string name="disagreement_abnormal_running_fast_pairing">上記の権限を付与することに同意しない場合、このアプリを使用することができません。その場合は、設定でアクセス許可を制限するか、この機能をオフにすることを選択できます。</string>
-    <string name="disagreement_application_not_working_properly">"If you don't agree to grant these permissions, you won't be able to use this app."</string>
+    <string name="disagreement_application_not_working_properly">これらのアクセス許可の付与に同意しない場合は、このアプリを使用することができません。</string>
     <string name="disagreement_donnot_use_application">以上の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合、このアプリを使用することはできません。そうした場合、このアプリを使用しないことを選択できます。</string>
     <string name="disagreement_donnot_use_product">以上の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合、この製品を使用することはできません。そうした場合、この製品を使用しないことを選択できます。</string>
     <string name="disagreement_donnot_use_service">以上の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合、このサービスを利用することはできません。そうした場合、このサービスを利用しないことを選択できます。</string>
     <string name="disagreement_exit_app">以上の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合、このアプリを使用することはできません。そうした場合、サインアウトするか、設定で権限を制限することを選択できます。</string>
-    <string name="disagreement_fast_pairing_abnormal">"If you don't agree to grant these permissions, you won't be able to use this app. You can turn this service on or off at any time in Settings > Bluetooth > Additional settings > Mi Link."</string>
+    <string name="disagreement_fast_pairing_abnormal">これらのアクセス許可の付与に同意しない場合、このアプリを使用できなくなります。 [設定] > [Bluetooth] > [追加設定] > [Mi リンク] でいつでもこのサービスをオンまたはオフにできます。</string>
     <string name="disagreement_function">以上の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合、この機能を使用することはできません。そうした場合、この機能を使用しないことを選択できます。</string>
     <string name="disagreement_location_service">以上の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合、このサービスを利用することはできません。</string>
-    <string name="disagreement_location_service_abnormal">"If you don't agree to grant these permissions, you won't be able to use location services. You can turn location services on or off at any time in Settings > Privacy protection."</string>
-    <string name="disagreement_mi_account_abnormal">"If you don't agree to grant these permissions, you won't be able to use Mi Account services. You can turn Mi Account services on or off at any time in Settings > Mi Account."</string>
-    <string name="disagreement_service_not_working_properly">"If you don't agree to grant these permissions, you won't be able to use this app."</string>
-    <string name="disagreement_terminate_miuidaemon">"We will use the permissions only when you start transferring data from your device when its screen is damaged. If you don't agree to grant these permissions, you won't be able to use this app."</string>
+    <string name="disagreement_location_service_abnormal">これらのアクセス許可の付与に同意しない場合、位置情報サービスを使用できなくなります。 [設定] > [プライバシー保護] でいつでも位置情報サービスをオンまたはオフにできます。</string>
+    <string name="disagreement_mi_account_abnormal">これらのアクセス許可の付与に同意しない場合、Mi アカウントサービスを使用できなくなります。 [設定] > [Mi アカウント] でいつでもMi アカウントサービスをオンまたはオフにできます。</string>
+    <string name="disagreement_service_not_working_properly">これらのアクセス許可の付与に同意しない場合は、このアプリを使用することができません。</string>
+    <string name="disagreement_terminate_bluetooth">これらの許可を付与しない場合は、Bluetoothを使用することができません。Bluetoothのオンとオフの切り替えやBluetoothデバイスの追加は、設定で行うことができます。</string>
+    <string name="disagreement_terminate_miuidaemon">画面が破損し、ユーザーがデバイスからデータの転送を開始する場合にのみ、アクセス許可が使用されます。これらのアクセス許可の付与に同意しない場合は、このアプリを使用することができなくなります。</string>
     <string name="disagreement_terminate_service">以上の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合、このアプリを使用することはできません。そうした場合、アインインストール/サインアウトするか、設定で権限を制限することを選択できます。</string>
-    <string name="download_introduction">Downloads is an app provided by Xunlei used for downloads and managing downloaded content (including App store content, videos, system updates, themes, and browser content) for users of Xiaomi devices.</string>
+    <string name="download_introduction">ダウンロードはXunleiが提供するアプリで、Xiaomi デバイスのユーザーに向けて、ダウンロード機能の提供やダウンロードしたコンテンツ（アプリストアのコンテンツ、ビデオ、システムアップデート、テーマ、ブラウザーのコンテンツなど）の管理を行います。</string>
     <string name="early_morning">早朝</string>
     <string name="empty" />
     <string name="enable_accessibility_canceled">アクセシビリティはキャンセルされました。</string>
     <string name="enable_accessibility_dialog_message">2本の指で10秒以上画面を押すことでTalkBackをオンにしました。TalkBackは視覚障害を持つ人々に音声フィードバックを提供します。誤ってオンにしてしまった場合は、キャンセルボタンをタップしてから、画面をダブルタップしてください。</string>
     <string name="enable_accessibility_dialog_negative_btn">キャンセル</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>
+    <string name="enable_or_disable_bluetooth">Bluetoothのオンとオフの切り替え</string>
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="evening">夕方</string>
     <string name="expand_button_title">詳細設定</string>
-    <string name="fast_application_introduction">Quick apps service framework is a basic service framework that supports quick apps distribution and operation.</string>
-    <string name="fast_pairing_introduction">Mi Link uses MIUI Bluetooth capabilities to let you quickly connect to nearby Bluetooth devices.</string>
+    <string name="fast_application_introduction">クイックアプリサービスフレームワークは、クイックアプリの配信・運用をサポートする基本的なサービスフレームワークです。</string>
+    <string name="fast_pairing_introduction">Mi リンクは、MIUIのBluetooth機能を利用して、付近にあるBluetoothデバイスに素早く接続することができます。</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d日</string>
@@ -172,8 +186,8 @@
     <string name="fmt_weekday_timezone">W z</string>
     <string name="font_hint_large">デフォルトの文字サイズ</string>
     <string name="font_hint_normal">文字サイズを大きくする</string>
-    <string name="framework_introduction">Mi サービスフレームワークでは、Mi アカウント、Mi プッシュ、Mi 統計、MIUI BIを使用できます。</string>
-    <string name="framwork_base_service">これらのサービスを提供するには、Mi サービスフレームワーク（Mi アカウント、Mi プッシュ、Mi 統計、MIUI BI）がインターネットに接続し、位置情報、電話番号、IMEI、IMSIにアクセスし、かつデバイスにプッシュ通知の受信を許可する必要があります</string>
+    <string name="framework_introduction">Mi サービスフレームワークでは、Mi アカウント、Mi プッシュ、Analytics、MIUI BIを使用できます。</string>
+    <string name="framwork_base_service">これらのサービスを提供するために、Mi サービスフレームワーク (Mi アカウント、Mi プッシュ、Analytics、MIUI BI) はインターネットに接続し、位置情報、電話番号、IMEI、IMSIにアクセスし、デバイスがプッシュ通知を受信できるようにする必要があります。</string>
     <string name="friday">金曜日</string>
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
@@ -184,12 +198,45 @@
     <string name="home_settings_title">デフォルトのランチャーを選択</string>
     <string name="ime_privacy_policy">選択したキーボードのプライバシーポリシー</string>
     <string name="ime_privacy_policy_no_network">ネットワーク接続がありません。このキーボードのプライバシーポリシーを%sでご覧ください。</string>
-    <string name="ims_introduction">IMS service provides basic communication capabilities and is used for high-definition audio and video calls.</string>
+    <string name="ims_introduction">IMSサービスは、基本的な通信機能を提供し、高品質な音声通話やビデオ通話に使用されます。</string>
     <string name="input_method_category">メッセージやメモなどを書くために使用するデフォルトのキーボードを選択してください。後で他のサードパーティ製のキーボードをインストールすることもできます。</string>
     <string name="input_method_setting">キーボードを選択</string>
     <string name="install_preinstall_app">アプリを読み込んでいます…</string>
-    <string name="interconnection_communication_introduction">Xiaomi Internet Communication Services lets you discover, connect, and communicate with other Xiaomi devices.</string>
+    <string name="interconnection_communication_introduction">Xiaomiインターネット通信サービスでは、他のXiaomiデバイスを検出、接続、通信することができます。</string>
+    <string name="interconnection_service_summary">"Xiaomi Interconnectivity Services allow your devices to interact with each other wirelessly. These services include Mi Smart Hub, Mi Smart Play, MIUI+ Beta, Mi Share, and casting.
+To be able to work normally, these service need to connect to the internet and require the following permissions:
+\u0009\u0009Mi Smart Hub:
+\u0009\u0009Turn Wi-Fi on and off
+\u0009\u0009For transferring items over Wi-Fi
+\u0009\u0009Record audio
+\u0009\u0009For transferring audio playback to connected devices during casting or screen mirroring
+\u0009\u0009Access storage
+\u0009\u0009For transferring and receiving files wirelessly
+\u0009\u0009Mi Share:
+\u0009\u0009Access and save files and photos on your device
+\u0009\u0009For transferring and receiving files wirelessly
+\u0009\u0009Access location
+\u0009\u0009For transferring items to nearby devices over Wi-Fi and Bluetooth
+\u0009\u0009Turn Bluetooth on and off
+\u0009\u0009For finding devices nearby
+\u0009\u0009Turn Wi-Fi on and off
+\u0009\u0009For finding devices nearby and transferring files wirelessly
+\u0009\u0009Connect to nearby devices
+\u0009\u0009For finding devices nearby and connecting to them
+\u0009\u0009Casting:
+\u0009\u0009Turn Bluetooth on and off
+\u0009\u0009For finding devices nearby
+\u0009\u0009Turn Wi-Fi on and off
+\u0009\u0009For finding devices nearby
+\u0009\u0009Access location
+\u0009\u0009For getting the info about nearby devices
+\u0009\u0009Record audio
+\u0009\u0009For transferring audio playback to connected during casting
+If you don't agree to grant such permissions, you won't be able to use Xiaomi Interconnectivity Services.
+Features are subject to change. Some of the features above may not be available on all device models or for all system versions. Refer to the MIUI website (www.miui.com) to check compatibility."</string>
+    <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">画面ロックを設定しないと、デバイスを紛失した場合に他の人がデバイスを使用したり、データにアクセスしたりするのを防ぐことができません。スキップしてもよろしいですか？</string>
+    <string name="item_facerecognition">顔認証</string>
     <string name="item_fingerprint">指紋</string>
     <string name="item_lock_screen_password">画面ロックのみ</string>
     <string name="item_lock_screen_password_only">画面ロック</string>
@@ -203,15 +250,17 @@
     <string name="locale_picker_title">地域を選択</string>
     <string name="location_U">U+ GPSnWPS</string>
     <string name="location_content">法律に基づき、携帯電話事業者は、緊急救助機関（消防と警察）の要請に応じて、セキュリティと緊急救援目的でモバイルデバイスの位置情報を取得できます。</string>
-    <string name="location_introduction">Location services provides a variety of location-based services based on your location information.</string>
+    <string name="location_introduction">位置情報サービスは、位置情報に基づいてさまざまな位置情報サービスを提供します。</string>
+    <string name="location_introduction_qcom">Location services use positioning for providing location-specific services. When location services are used by your device, QCC module will connect to the network to speed up the positioning process.</string>
     <string name="location_location">緊急救助機関が要請する際は、あなたの現在地を取得することができます</string>
     <string name="lockscreen_introduction">壁紙カルーセルを使用すると、ロック画面に毎日新しい画像が配信されます。</string>
-    <string name="message_introduction">You can use this app to send and receive SMS.</string>
-    <string name="mi_account_introduction">Mi Account lets you register, sign in to, and manage system accounts.</string>
+    <string name="message_introduction">このアプリを使用してSMSを送受信することができます。</string>
+    <string name="mi_account_introduction">Mi アカウントでは、システムアカウントの登録、サインイン、および管理を行うことができます。</string>
     <string name="midnight">真夜中</string>
     <string name="mint_keyboard_oobe_checkbox">Mint キーボード プライバシーポリシーを読んで同意しました</string>
     <string name="mint_keyboard_oobe_terms">Mint キーボード プライバシーポリシー</string>
     <string name="miui_privacy_policy_no_network">インターネットに接続していません。%sでプライバシーポリシーをご覧ください。</string>
+    <string name="miui_provision">初期設定</string>
     <string name="miui_terms_no_network">インターネットに接続していません。利用規約は%sでご確認ください。</string>
     <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
@@ -286,6 +335,7 @@
     <string name="msim_setting_default_data">データSIM</string>
     <string name="msim_setting_default_voice">通話のデフォルトSIM</string>
     <string name="multisim_settings_category">SIMカード設定</string>
+    <string name="multisim_settings_sb_title">%d枚のSIMカードが検出されました</string>
     <string name="multisim_settings_title">2枚のSIMカードを検出しました</string>
     <string name="navigation_picker_gesture_guide">ジェスチャーガイド</string>
     <string name="navigation_picker_radio_text_full_screen">フルスクリーンジェスチャー</string>
@@ -296,7 +346,7 @@
     <string name="noon">正午</string>
     <string name="not_set">未設定</string>
     <string name="note_introduction">このアプリでは、メモの作成、表示、編集ができます。</string>
-    <string name="other_settings">追加設定</string>
+    <string name="other_settings">基本設定</string>
     <string name="other_settings_ad_dialog_agree">オンにする</string>
     <string name="other_settings_ad_dialog_content">パーソナライズド広告のおすすめがオフの場合でも、機能がオンの場合と同じ量の広告が表示されます。ただし、広告はあなたの個人的な好みに基づかなくなるため、関連性のある広告は表示されなくなります。</string>
     <string name="other_settings_ad_dialog_content_for_global">パーソナライズド広告のおすすめがオフの場合でも、MIUIシステムアプリには、この機能がオンのときと同じ量の広告が表示されます。ただし、Xiaomiやサードパーティプラットフォームからの広告は、個人的な好みに基づかないため関連性がなくなります。</string>
@@ -306,13 +356,19 @@
     <string name="other_settings_ad_enable_summary">興味に基づいて広告をパーソナライズする</string>
     <string name="other_settings_auto_update">自動システムアップデート</string>
     <string name="other_settings_auto_update_summary">MIUIは、アップデートのダウンロードとインストールに最適なタイミングを選択します。変更を適用するためにデバイスが自動的に再起動されます。</string>
+    <string name="other_settings_auto_update_summary_v1">アップデートのダウンロードとインストールに最適な時間をMIUIが選択できるようにします。変更を適用するためにデバイスが自動的に再起動されます。</string>
     <string name="other_settings_enhanced_lockscreen">壁紙カルーセル</string>
     <string name="other_settings_enhanced_lockscreen_for_india">Glance for Mi</string>
     <string name="other_settings_enhanced_lockscreen_privacy_index">プライバシーポリシー</string>
     <string name="other_settings_enhanced_lockscreen_summary">キュレートされた画像やストーリーを毎日ロック画面に配信します。%1$sと%2$s</string>
     <string name="other_settings_enhanced_lockscreen_summary_index">エンドユーザー使用許諾契約</string>
+    <string name="other_settings_get_apps">アプリを自動アップデート</string>
+    <string name="other_settings_get_apps_summary">"GetAppsでシステムアプリやサードパーティパートナーアプリをアップデートすると、常に最新機能を利用できるようになります。
+自動アップデートは、[GetApps] > [設定] > [自動アップデート] でオフにできます。"</string>
     <string name="other_settings_location">位置</string>
     <string name="other_settings_location_summary">位置情報に基づいたサービスを提供するために、アプリやウェブサイトが位置情報にアクセスすることを許可する</string>
+    <string name="other_settings_quality_service">MIUI Daemonの権限</string>
+    <string name="other_settings_quality_service_summary">MIUI Daemonは、システムの安定性とパフォーマンスを向上させるために使用されます。このサービスを正常に動作させるためには、デバイスのストレージにアクセスし、アイテムを保存するための権限が必要です。</string>
     <string name="other_settings_upload_debug_log_detail">"診断データやデバイスとアプリの使用状況データをXiaomiに自動送信することで、MIUIデバイスの使用体験向上に協力します。これらのデータは、バッテリー駆動時間、MIUIシステムとアプリの安定性などの改善に役立ちます。
 送信されるデータには、お使いのデバイスとその使用方法に関する一般的な情報が含まれます (例：バッテリー残量、システムとアプリのアクティビティやエラー)。これらのデータは、MIUIデバイスの改善のために使用されます。
 この機能をオフにしても、デバイスはシステムのアップデートやセキュリティなどの重要なサービスに必要な情報を送信することができます。
@@ -323,106 +379,109 @@
     <string name="other_settings_user_experience_summary">使用状況の統計や分析結果を提供して、製品やサービスの改善に協力する</string>
     <string name="other_settings_user_experience_summary_index">詳細を表示</string>
     <string name="permission_MIUIDaemon_introduction">MIUI Daemonを使用すると、デバイスの画面が破損した場合にデバイスからデータを転送することができます。</string>
-    <string name="permission_access_calendar">Access calendar</string>
-    <string name="permission_access_calendar_fast_application_summary">For allowing quick apps to access the calendar;</string>
-    <string name="permission_account">デバイスのアカウントにアクセス:</string>
+    <string name="permission_access_calendar">カレンダーへのアクセス</string>
+    <string name="permission_access_calendar_fast_application_summary">クイックアプリにカレンダーへのアクセスを許可するため;</string>
+    <string name="permission_account">デバイスのアカウントへのアクセス</string>
     <string name="permission_account_introduction">Mi アカウントでサインインするため</string>
     <string name="permission_application_package_introduction">インストールパッケージを解析およびスキャンするためにストレージにアクセスするため</string>
     <string name="permission_backup">ストレージへのアクセス</string>
     <string name="permission_backup_introduction">デバイス上のバックアップにアクセスして保存するため</string>
-    <string name="permission_call_records">通話履歴にアクセス:</string>
+    <string name="permission_call_records">通話履歴へのアクセス</string>
+    <string name="permission_call_records_describe_bluetooth_summary">このデバイスに接続されている他の互換性のあるデバイスが通話履歴にアクセスできるようにするために使用されます。これは、他のデバイス経由で通話履歴の使用を積極的に要求した場合にのみ発生します。システムによりBluetoothで共有された通話履歴や連絡先は、ローカルにキャッシュされ、ご利用者の許可を得たデバイスにのみ共有されます。</string>
     <string name="permission_call_records_introduction">ブロックしたアイテムを表示するために通話履歴にアクセスするため</string>
-    <string name="permission_call_state_introduction">電話ステータスへのアクセス、通話の録音、着信通話中の録音の一時停止のため</string>
+    <string name="permission_call_state_introduction">電話ステータスへのアクセス、通話の録音、着信時の録音の一時停止のため</string>
     <string name="permission_clock_info_introduction">アラームデータを保存するため</string>
-    <string name="permission_contact">連絡先にアクセス:</string>
-    <string name="permission_contact_describe">Access contacts</string>
-    <string name="permission_contact_describe_MIUIDaemon_summary">For verifying your identity.</string>
-    <string name="permission_contact_describe_desktop_summary">For using the Home screen emergency contact feature in Lite mode and displaying conversation notifications;</string>
-    <string name="permission_contact_describe_message_summary">For displaying the corresponding contact information of SMS and MMS.</string>
+    <string name="permission_contact">連絡先へのアクセス</string>
+    <string name="permission_contact_describe">連絡先へのアクセス</string>
+    <string name="permission_contact_describe_MIUIDaemon_summary">本人確認を行うため。</string>
+    <string name="permission_contact_describe_bluetooth_summary">このデバイスに接続されている他の互換性のあるデバイスが連絡先にアクセスできるようにするために使用されます。これは、Bluetoothをオンにした場合、またはBluetoothがオンのときに連絡先を編集した場合にのみ発生します。</string>
+    <string name="permission_contact_describe_desktop_summary">シンプルモードでホーム画面の緊急連絡先機能を使用し、会話通知を表示するため;</string>
+    <string name="permission_contact_describe_message_summary">SMSやMMSに対応する連絡先の情報を表示するため。</string>
     <string name="permission_contact_introduction">ブロックリスト機能を提供し、緊急連絡先に通話を発信するため</string>
-    <string name="permission_device">Access device info</string>
-    <string name="permission_device_desktop_summary">For accessing device information (e.g. carrier name);</string>
-    <string name="permission_device_fast_pairing_summary">For accessing device status and communicating it to wearable devices;</string>
-    <string name="permission_device_message_summary">For sending and receiving SMS and MMS;</string>
-    <string name="permission_device_mi_account_summary">For ensuring the security of the sign-in environment.</string>
+    <string name="permission_device">デバイス情報へのアクセス</string>
+    <string name="permission_device_desktop_summary">デバイス情報（通信事業者名など）にアクセスするため;</string>
+    <string name="permission_device_fast_pairing_summary">デバイスのステータスにアクセスしてウェアラブルデバイスに通信するため。</string>
+    <string name="permission_device_message_summary">SMSやSMSを送受信するため;</string>
+    <string name="permission_device_mi_account_summary">サインイン環境のセキュリティを確保するため。</string>
     <string name="permission_different_device_introduction">異ななるデバイスに関連付けられたサービスを識別するため</string>
     <string name="permission_different_info_introduction">異なるデバイスを識別するため</string>
-    <string name="permission_direct_call">通話を発信:</string>
+    <string name="permission_direct_call">通話の発信</string>
     <string name="permission_direct_call_introduction">アイテムをブロックリストに追加するため</string>
     <string name="permission_download_introduction">ダウンロードしたアイテムをキャッシュし、デバイスに保存するため</string>
-    <string name="permission_fast_pairing">To be able to find devices nearby, Mi Link needs to connect to the internet and requires the following permissions:</string>
+    <string name="permission_enable_disable_bluetooth_summary">接続やデータ転送のために付近にあるデバイスを見つけるため</string>
+    <string name="permission_fast_pairing">付近にあるデバイスを探すために、Mi リンクはインターネットに接続する必要があり、以下のアクセス許可が必要です。</string>
     <string name="permission_imei_service">IMEIにアクセスして、デバイスに関連付けられたサービスを提供するため</string>
     <string name="permission_interaction_introduction">デバイスに写真とビデオを保存するため</string>
     <string name="permission_location">位置情報にアクセス:</string>
-    <string name="permission_location_describe">Access location</string>
-    <string name="permission_location_describe_desktop_summary">For accessing Wi-Fi network names;</string>
-    <string name="permission_location_describe_fast_application_summary">For allowing quick apps to access your location;</string>
-    <string name="permission_location_describe_fast_pairing_summary">For displaying the available low power consuming Bluetooth devices;</string>
-    <string name="permission_location_describe_interconnection_communication_summary">For accessing your location to provide discovery and connection services using Bluetooth or Wi-Fi;</string>
-    <string name="permission_location_describe_location_summary">For accessing your exact location to provide a variety of location-based services.</string>
+    <string name="permission_location_describe">位置情報へのアクセス</string>
+    <string name="permission_location_describe_desktop_summary">Wi-Fiネットワーク名にアクセスするため;</string>
+    <string name="permission_location_describe_fast_application_summary">クイックアプリに位置情報へのアクセスを許可するため;</string>
+    <string name="permission_location_describe_fast_pairing_summary">利用可能な低消費電力のBluetoothデバイスを表示するため;</string>
+    <string name="permission_location_describe_interconnection_communication_summary">BluetoothまたはWi-Fiを使用して検出および接続サービスを提供するために位置情報にアクセスするため;</string>
+    <string name="permission_location_describe_location_summary">正確な位置情報にアクセスして様々な位置情報に基づくサービスを提供するため。</string>
     <string name="permission_location_introduction">位置情報サービスを提供するため</string>
     <string name="permission_log_introduction">ログを保存するため</string>
     <string name="permission_login_introduction">システムアカウントにサインインして管理するため</string>
-    <string name="permission_make_a_call">Make calls</string>
-    <string name="permission_make_a_call_fast_application_summary">For allowing quick apps to make calls;</string>
+    <string name="permission_make_a_call">通話の発信</string>
+    <string name="permission_make_a_call_fast_application_summary">クイックアプリでの通話の発信を可能にするため;</string>
     <string name="permission_message_introduction">ブロックした連絡先にメッセージを送信するため</string>
     <string name="permission_phone_imei_device">デバイスを識別するためにIMEIにアクセスするため</string>
     <string name="permission_phone_network">ダウンロード可能なアイテムを最適化および調整するためにネットワークタイプにアクセスするため</string>
-    <string name="permission_phone_service">電話番号、IMEI、およびIMSIにアクセス:</string>
+    <string name="permission_phone_service">電話番号、IMEI、IMSIへのアクセス</string>
     <string name="permission_photo_introduction">画像をギャラリーに保存し、ステータスを公開するため</string>
     <string name="permission_photo_video">写真の撮影とビデオの録画:</string>
     <string name="permission_photo_video_introduction">写真の撮影、ビデオの録画、フラッシュの使用のため</string>
     <string name="permission_picture_introduction">写真とビデオを保存、編集、同期するため</string>
-    <string name="permission_read_app_list">Access the list of apps installed on this device</string>
-    <string name="permission_read_application_list_summary">For updating downloaded apps and confirming app information used by the package installer.</string>
-    <string name="permission_read_call_records">通話履歴を編集:</string>
+    <string name="permission_read_app_list">このデバイスにインストールされているアプリのリストへのアクセス</string>
+    <string name="permission_read_application_list_summary">ダウンロードしたアプリのアップデートや、パッケージインストーラーで使用するアプリ情報の確認を行うため;</string>
+    <string name="permission_read_call_records">通話履歴の編集</string>
     <string name="permission_read_call_records_introduction">通話履歴にアイテムを追加し、ブロックした通話を削除するため</string>
     <string name="permission_read_contacts">連絡先へのアクセス</string>
     <string name="permission_read_contacts_introduction">For verifying your identity</string>
-    <string name="permission_read_device_store">Access device storage</string>
-    <string name="permission_read_device_store_summary">For accessing downloaded source files and source configuration files;</string>
+    <string name="permission_read_device_store">デバイスストレージへのアクセス</string>
+    <string name="permission_read_device_store_summary">ダウンロードしたソースファイルとソース構成ファイルにアクセスするため;</string>
     <string name="permission_read_message">テキストメッセージへのアクセス</string>
     <string name="permission_read_message_introduction">For verifying the ownership of your device</string>
     <string name="permission_read_note_introduction">メモや添付ファイルにアクセスするため</string>
-    <string name="permission_read_send_message">Send and receive SMS</string>
-    <string name="permission_read_send_message_fast_application_summary">For allowing quick apps to send and receive SMS;</string>
-    <string name="permission_read_send_message_sim_activation_summary">For sending and receiving activation SMS;</string>
-    <string name="permission_read_send_message_summary">For receiving, viewing, and sending SMS;</string>
-    <string name="permission_read_send_multimedia_message">Send and receive MMS</string>
-    <string name="permission_read_send_multimedia_message_summary">For receiving, viewing, and sending MMS;</string>
-    <string name="permission_read_write_call_log">Access and edit call history</string>
-    <string name="permission_read_write_call_log_summary">For showing and editing call history.</string>
-    <string name="permission_read_write_contacts">Access and edit contacts</string>
-    <string name="permission_read_write_contacts_fast_application_summary">For allowing quick apps to access and edit contacts;</string>
-    <string name="permission_read_write_contacts_summary">For viewing and managing contacts;</string>
-    <string name="permission_read_write_device_store">For accessing and saving items to device storage;</string>
-    <string name="permission_read_write_device_store_album_summary">For storing, displaying, editing, syncing, and downloading your photos and videos.</string>
-    <string name="permission_read_write_device_store_application_package_summary">For parsing and scanning installation packages.</string>
-    <string name="permission_read_write_device_store_camera_summary">For saving files to your device after taking photos or videos.</string>
-    <string name="permission_read_write_device_store_download_summary">For caching, accessing, and managing downloaded content.</string>
-    <string name="permission_read_write_device_store_fast_application_summary">For allowing quick apps to access, cache, and edit files;</string>
-    <string name="permission_read_write_file">デバイス上のファイルと写真へのアクセスと保存:</string>
+    <string name="permission_read_send_message">SMSの送受信</string>
+    <string name="permission_read_send_message_fast_application_summary">クイックアプリでのSMSの送受信を可能にするため;</string>
+    <string name="permission_read_send_message_sim_activation_summary">アクティブ化用SMSを送受信するため</string>
+    <string name="permission_read_send_message_summary">SMSの受信、閲覧、送信のため;</string>
+    <string name="permission_read_send_multimedia_message">MMSの送受信</string>
+    <string name="permission_read_send_multimedia_message_summary">MMSの受信、閲覧、送信のため;</string>
+    <string name="permission_read_write_call_log">通話履歴へのアクセスと編集</string>
+    <string name="permission_read_write_call_log_summary">通話履歴の表示と編集を行うため。</string>
+    <string name="permission_read_write_contacts">連絡先へのアクセスと編集</string>
+    <string name="permission_read_write_contacts_fast_application_summary">クイックアプリに連絡先へのアクセスと編集を許可するため;</string>
+    <string name="permission_read_write_contacts_summary">連絡先の作成と編集のため;</string>
+    <string name="permission_read_write_device_store">ストレージへのアクセスとアイテムの保存</string>
+    <string name="permission_read_write_device_store_album_summary">写真やビデオを保存、表示、編集、同期、ダウンロードするため。</string>
+    <string name="permission_read_write_device_store_application_package_summary">インストールパッケージの解析とスキャンを行うため。</string>
+    <string name="permission_read_write_device_store_camera_summary">写真やビデオを撮影した後にファイルをデバイスに保存するため。</string>
+    <string name="permission_read_write_device_store_download_summary">ダウンロードしたコンテンツをキャッシュ、アクセス、管理するため。</string>
+    <string name="permission_read_write_device_store_fast_application_summary">クイックアプリによるファイルへのアクセス、キャッシュ、編集を可能にするため;</string>
+    <string name="permission_read_write_file">デバイス上のファイルと写真へのアクセスと保存</string>
     <string name="permission_read_write_file_introduction">デバイス上のアイテムへのアクセス、保存、およびキャッシュのため</string>
-    <string name="permission_read_write_phone_store">For accessing and saving items to device storage;</string>
-    <string name="permission_read_write_phone_store_summary">For accessing and saving Home screen items;</string>
+    <string name="permission_read_write_phone_store">デバイスストレージへのアクセスとアイテムの保存のため;</string>
+    <string name="permission_read_write_phone_store_summary">ホーム画面のアイテムにアクセスして保存するため;</string>
     <string name="permission_recorder_file_introduction">オーディオ録音にアクセスして保存するため</string>
     <string name="permission_recording">通話とオーディオを録音:</string>
     <string name="permission_recording_introduction">ビデオの録画中にオーディオを録音するため</string>
     <string name="permission_screen_shoot_introduction">画面録画にアクセスして保存するため</string>
     <string name="permission_send_message">SMSを送信</string>
-    <string name="permission_use_camera">Access camera</string>
-    <string name="permission_use_camera_camera_summary">For taking photos, recording videos, and using flash;</string>
-    <string name="permission_use_camera_desktop_summary">For determining whether to support the flashlight feature;</string>
-    <string name="permission_use_camera_fast_application_summary">For allowing quick apps to access the camera;</string>
-    <string name="permission_use_camera_ims_summary">For making video calls.</string>
-    <string name="permission_use_microphone">Access microphone</string>
-    <string name="permission_use_microphone_camera_summary">For recording audio while recording video;</string>
-    <string name="permission_use_microphone_desktop_summary">For showing recording status.</string>
-    <string name="permission_use_microphone_fast_application_summary">For allowing quick apps to access the microphone;</string>
+    <string name="permission_use_camera">カメラへのアクセス</string>
+    <string name="permission_use_camera_camera_summary">写真やビデオの撮影やフラッシュの使用のため;</string>
+    <string name="permission_use_camera_desktop_summary">懐中電灯機能をサポートしているかどうかを判断するため;</string>
+    <string name="permission_use_camera_fast_application_summary">クイックアプリにカメラへのアクセスを許可するため;</string>
+    <string name="permission_use_camera_ims_summary">ビデオ通話機能のため。</string>
+    <string name="permission_use_microphone">マイクへのアクセス</string>
+    <string name="permission_use_microphone_camera_summary">ビデオ撮影中に録音するため;</string>
+    <string name="permission_use_microphone_desktop_summary">録音の状態を表示するため。</string>
+    <string name="permission_use_microphone_fast_application_summary">クイックアプリにマイクへのアクセスを許可するため;</string>
     <string name="permission_user_record_introduction">オーディオを録音するため</string>
     <string name="permission_virusscan_introduction">ウイルススキャンを実行し、デバイスを最適化するため</string>
-    <string name="permission_write_device_store">Save items to device storage</string>
-    <string name="permission_write_device_store_summary">For caching downloaded source configuration files.</string>
+    <string name="permission_write_device_store">デバイスストレージへのアイテムの保存</string>
+    <string name="permission_write_device_store_summary">ダウンロードしたソースの構成ファイルをキャッシュするため。</string>
     <string name="permission_xunlei_introduction">Xunleiサービスを提供するためにシステムアカウントにサインインして管理するため</string>
     <string name="pm">午後</string>
     <string name="poco_agree_terms_other">（POCO Launcher プライバシーポリシーおよび利用規約を含む）</string>
@@ -436,7 +495,7 @@
     <string name="privacy_content_one">壁紙カルーセルのおすすめ機能は、信頼できるサードパーティのコンテンツプロバイダーであるTaboolaによって提供されています。このコンテンツを提供するために、Taboolaは、システム言語やブラウザーの種類など、ご利用者のデバイスから非個人的なデータにアクセスして保存する必要があります。Taboolaが収集したデータをどのように使用するかについては、Taboolaの&lt;a href =%1$s>プライバシーポリシー&lt;/a>および&lt;a href =%2$s>利用規約&lt;/a>をご確認ください。これらの文書に記載されている条件を読み、同意した上で続行してください。同意しない場合、壁紙カルーセルのサービスは停止されます。</string>
     <string name="privacy_policy">プライバシーポリシー</string>
     <string name="privacy_provision_more">プライバシー保護について詳しくはこちら</string>
-    <string name="privacy_provision_summary">プライバシーの保護は、当社の製品設計の基盤となる理念です</string>
+    <string name="privacy_provision_summary">プライバシー保護への取り組みは、製品の設計にも反映されています</string>
     <string name="privacy_provision_text">Xiaomiは、ご利用者のプライバシーを尊重し、保護することをお約束します。当社は、情報セキュリティの分野における研究開発を優先し、ご利用者のデータを保護するための方法、慣行、技術的ソリューションの改善に継続的に取り組んでいます。また、プライバシーを全面的に保護するために、最新の成果をパートナーと共有しています。</string>
     <string name="privacy_provision_title">プライバシー</string>
     <string name="privacy_refuse">同意しない</string>
@@ -449,12 +508,12 @@
     <string name="provision_skip_underline">スキップ</string>
     <string name="recorder_introduction">このアプリを使用してオーディオを録音し、録音をクラウドにバックアップできます。</string>
     <string name="refuse_cookie">クッキーを拒否する</string>
-    <string name="require_authority_list_statement">To be able to work normally, this service requires the following permissions:</string>
+    <string name="require_authority_list_statement">このサービスが正常に動作するためには、以下のアクセス許可が必要です。</string>
     <string name="require_authority_statement">基本サービスを提供するには、個人情報の収集が必要であり、ご利用者は次の権限を付与する必要があります。</string>
     <string name="require_miuidaemon_authority_statement">当社がこのサービスを提供するには個人情報の収集が必要であり、ご利用者は以下のアクセス許可を付与する必要があります。</string>
-    <string name="require_network_and_authority_statement">To be able to work normally, this service needs to connect to the internet and requires the following permissions:</string>
-    <string name="require_network_authority_statement">To be able to work normally, this service needs to connect to the internet and requires the following permissions:</string>
-    <string name="require_network_authority_statement_dual">To be able to work normally, this service needs to connect to the internet and requires the following permissions:</string>
+    <string name="require_network_and_authority_statement">このサービスが正常に動作するためには、インターネットに接続する必要があり、以下のアクセス許可が必要です。</string>
+    <string name="require_network_authority_statement">このサービスが正常に動作するためには、インターネットに接続する必要があり、以下のアクセス許可が必要です。</string>
+    <string name="require_network_authority_statement_dual">このサービスが正常に動作するためには、インターネットに接続する必要があり、以下のアクセス許可が必要です。</string>
     <string name="saturday">土曜日</string>
     <string name="saturday_short">土</string>
     <string name="saturday_shortest">土</string>
@@ -464,16 +523,17 @@
     <string name="security_mobile_account_introduction">システムアカウントにサインインして管理するため</string>
     <string name="send">送信</string>
     <string name="service_agreement">使用条件を読んで、これらに同意しました。</string>
-    <string name="service_company_adjust_content">Xunlei Network Services User Agreement</string>
-    <string name="service_fast_pairing_policy"><Data>Read and agree to the &lt;a href=%1$s>Mi Link Privacy Policy&lt;/a > before you continue.</Data></string>
-    <string name="service_interconnection_communication">Xiaomi Internet Communication Services</string>
-    <string name="service_location_share_policy"><Data>Read and agree to the &lt;a href=%1$s>Location Services Privacy Statement&lt;/a > before you continue.</Data></string>
+    <string name="service_company_adjust_content">Xunlei ネットワークサービス利用規約</string>
+    <string name="service_fast_pairing_policy">&lt;Data>続ける前に、&lt;a href=%1$s>Mi リンク プライバシーポリシー&lt;/a >を読んで同意してください。&lt;/Data></string>
+    <string name="service_interconnection_communication">Xiaomi インターネット通信サービス</string>
+    <string name="service_location_share_policy">&lt;Data>続ける前に、&lt;a href=%1$s>位置情報サービスのプライバシーに関する声明&lt;/a >を読んで同意してください。&lt;/Data></string>
     <string name="service_mi_account">Mi アカウント</string>
     <string name="service_name_MIUIDaemon">MIUI Daemon</string>
-    <string name="service_name_address_dialing">Contacts and Phone</string>
+    <string name="service_name_address_dialing">連絡先と電話</string>
     <string name="service_name_album">ギャラリー</string>
     <string name="service_name_application_package">パッケージインストーラー</string>
     <string name="service_name_backup">バックアップ</string>
+    <string name="service_name_bluetooth">Bluetooth</string>
     <string name="service_name_calculator">電卓</string>
     <string name="service_name_camera">カメラ</string>
     <string name="service_name_carrier">キャリアサービスに関する声明</string>
@@ -485,33 +545,38 @@
     <string name="service_name_fast_pairing">Mi リンク</string>
     <string name="service_name_game">ゲームプラグイン</string>
     <string name="service_name_google_service">Google サービスに関する声明</string>
-    <string name="service_name_ims">IMS service</string>
-    <string name="service_name_location">Location services</string>
+    <string name="service_name_ims">IMSサービス</string>
+    <string name="service_name_location">位置情報サービス</string>
     <string name="service_name_lockscreen">壁紙カルーセル</string>
-    <string name="service_name_message">Messaging</string>
+    <string name="service_name_message">メッセージ</string>
     <string name="service_name_note">メモ</string>
     <string name="service_name_recorder">レコーダー</string>
     <string name="service_name_screen_recording">スクリーンレコーダー</string>
     <string name="service_name_security">セキュリティ</string>
     <string name="service_name_service_framework">Mi サービスフレームワーク</string>
-    <string name="service_name_systemdesktop">Home screen service plug-in</string>
+    <string name="service_name_systemdesktop">ホーム画面サービスプラグイン</string>
     <string name="service_policy">&lt;Data>&lt;a href=%1$s>プライバシーポリシー&lt;/a >を読んで同意してください。&lt;/Data></string>
-    <string name="service_policy_adjust_content">Xunlei Privacy Policy</string>
-    <string name="service_policy_download"><Data>Read and agree to the &lt;a href=%1$s>Xunlei Privacy Policy&lt;/a > and &lt;a href=%1$s>Xunlei Network Services User Agreement&lt;/a > before you continue.</Data></string>
+    <string name="service_policy_adjust_content">Xunlei プライバシーポリシー</string>
+    <string name="service_policy_download">&lt;Data>続ける前に、&lt;a href=%1$s>Xunlei プライバシーポリシー&lt;/a >と&lt;a href=%1$s>Xunlei ネットワークサービス利用規約&lt;/a >を読んで同意してください。&lt;/Data></string>
     <string name="service_privacy_index">プライバシーポリシー</string>
-    <string name="service_security_over_r">&lt;Data>セキュリティアプリを利用する前に、&lt;a href=%1$s>プライバシーポリシー&lt;/a >を読んで同意してください。&lt;br/>&lt;br/>Android 11の基準により、対応するアプリの実行が停止してから5秒以内に1回限りの許可が取り消されます。この短い時間の間にアプリを開くと、その時点で権限が取り消されます。&lt;/Data></string>
-    <string name="service_sim_activation">SIM card activation</string>
+    <string name="service_security_over_r">&lt;Data>&lt;a href=%1$s>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;br/>&lt;br/>Android &lt;xliff:g id=version_number example=11>%2$d&lt;/xliff:g>の基準に従い、1回限りの許可は対応するアプリの実行が停止してから一定時間（&lt;xliff:g example=5 seconds id=short>%3$s&lt;/xliff:g>程度）で取り消されます。この短い時間の間にアプリを開くと、その時点で許可が取り消されます。&lt;/Data></string>
+    <string name="service_sim_activation">SIMカードのアクティブ化</string>
     <string name="servicestate_title">基本サービスに関する声明</string>
     <string name="setting_locale">地域を設定中…</string>
     <string name="shut_down">シャットダウン</string>
-    <string name="sim_activation_introduction">The SIM card activation service verifies the information of the currently inserted SIM card to make sure that MIUI services can work normally. These services include Find device, Mi Message, creating Mi Accounts using phone numbers, and syncing messages and call history.</string>
+    <string name="sim_activation_introduction">SIMカードのアクティブ化サービスは、現在挿入されているSIMカードの情報を確認して、MIUIサービスが正常に機能することを確認します。 これらのサービスには、\"デバイスを探す\"、Mi メッセージ、電話番号を使用したMi アカウントの作成、メッセージと通話履歴の同期が含まれます。</string>
     <string name="sim_card_detecting">SIMカードを確認中…</string>
     <string name="sim_card_detecting_check">SIMカードが見つかりませんでした。SIMカードが正しく挿入されていること、残高に十分な資金があることを確認してください。</string>
     <string name="sim_card_detecting_confirm_turn_on_network">モバイルデータネットワークへの接続を許可しますか？許可すると、挿入したSIMカードはモバイルデータネットワークに接続するために使用されます。</string>
     <string name="sim_card_detecting_title">SIMカードを確認中…</string>
     <string name="sim_card_detection">SIMカードを挿入してください</string>
     <string name="sim_card_detection_info">SIMカードの挿入方法は、端末に付属の説明書をお読みください。</string>
+    <string name="sim_card_detection_info_sb">"SIMカードを挿入して続けてください。SIMカードがない状態でアカウントを作成すると、\"デバイスを探す\"や同期関連の機能が十分に利用できません。このデバイスはeSIMに対応しています。 "</string>
+    <string name="sim_card_detection_info_sb_esim">タップしてeSIMをアクティブ化します。</string>
     <string name="sim_card_detection_mobile_not_available">SIMカードがネットワークに接続できませんでした</string>
+    <string name="sim_card_detection_sb_esim">eSIMをアクティブ化</string>
+    <string name="sim_card_detection_sb_nonactivated">アクティブ化されていません</string>
+    <string name="sim_card_do_not_select_dial_card">Select SIM card when dialing</string>
     <string name="sim_dectection_next">続ける</string>
     <string name="sim_redetection">もう一度確認</string>
     <string name="sim_scard_detecting_check_mobile_not_available">SIMカードが有効なキャリアネットワークに接続できませんでした。残高に十分な資金があることを確認し、もう一度接続してみてください。</string>
@@ -528,7 +593,7 @@
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
     <string name="system_navigation_mode">システムナビゲーションモード</string>
-    <string name="systemdesktop_introduction">The Home screen service plug-in provides you with basic features such as Home screen, system UI, and screenshots.</string>
+    <string name="systemdesktop_introduction">ホーム画面サービスプラグインでは、ホーム画面、システムUI、スクリーンショットなどの基本的な機能を提供します。</string>
     <string name="term_condition_detail">魅力的な画像やエキサイティングなストーリーを毎日ロック画面にお届けします。この機能は、ご利用者の同意なしに個人データをパーソナライズのために使用することはありません。この機能を使用する前に、サードパーティコンテンツプロバイダーの&lt;a href =%1$s>プライバシーポリシー&lt;/a>と&lt;a href =%2$s>利用規約&lt;/a>を読み、同意してください。</string>
     <string name="terms_of_label_period">。</string>
     <string name="terms_of_label_separator">、</string>
@@ -547,6 +612,7 @@
     <string name="terms_of_use_label_game">ゲーム</string>
     <string name="terms_of_use_label_home">Home screen</string>
     <string name="terms_of_use_label_htmlViewer">HTMLビューア</string>
+    <string name="terms_of_use_label_htmlviewer">HTML Viewer</string>
     <string name="terms_of_use_label_info_assistant">Mi リンク</string>
     <string name="terms_of_use_label_joyose">Joyose</string>
     <string name="terms_of_use_label_landscape">横向き表示</string>
@@ -568,7 +634,7 @@
     <string name="terms_of_use_label_systemhelper">自己登録サービス</string>
     <string name="terms_of_use_label_translation">翻訳サービス</string>
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
-    <string name="terms_of_use_label_updater">アップデーター</string>
+    <string name="terms_of_use_label_updater">システムアップデートサービス (オンラインでアップデートを確認し、新しいバージョンを通知します)</string>
     <string name="terms_of_use_label_use_location_and_network_global">MIUIを使用する前に、利用規約とプライバシーポリシーを読んで同意する必要があります。当社は、関連する法律、規制、およびプライバシーポリシーに従って個人情報を保護します。デバイスがアクティブ化されると、次のサービスがネットワークに接続して位置情報にアクセスします。</string>
     <string name="terms_of_use_label_use_network_china">MIUIを使用する前に、利用規約とプライバシーポリシーを読んで同意する必要があります。当社は、関連する法律、規制、およびプライバシーポリシーに従って個人情報を保護します。 デバイスがアクティブ化されると、次のサービスがネットワークに接続します。</string>
     <string name="terms_of_use_label_wallpaper">壁紙</string>
@@ -633,7 +699,7 @@
     <string name="time_picker_dialog_title">時刻を設定</string>
     <string name="time_picker_label_hour">時</string>
     <string name="time_picker_label_minute">分</string>
-    <string name="title_fingerprint">パスワードを設定</string>
+    <string name="title_fingerprint">画面ロックを設定</string>
     <string name="title_set_fingerprint">画面ロック</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>
@@ -663,6 +729,8 @@
     <string name="wednesday_shortest">水</string>
     <string name="welcome">ようこそ</string>
     <string name="withdraw_consent">同意を撤回した場合、壁紙カルーセルのサービスは停止されます。</string>
+    <string name="xunlei_company_related">http://sl-m-ssl.xunlei.com/h5/page/protocol/network/%s</string>
+    <string name="xunlei_privacy_related">http://sl-m-ssl.xunlei.com/h5/page/protocol/%s/?theme=light</string>
     <string name="yesterday">昨日</string>
     <string name="zone_picker_title">タイムゾーンを選択</string>
 </resources>

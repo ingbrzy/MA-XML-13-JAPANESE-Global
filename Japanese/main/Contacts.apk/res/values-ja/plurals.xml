@@ -126,6 +126,9 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d個を選択済み</item>
     </plurals>
+    <plurals name="notification_missedCallsMsg">
+        <item quantity="other">%d件の不在着信</item>
+    </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d個を選択済み</item>
     </plurals>

@@ -129,6 +129,9 @@
     <plurals name="bt_usable_device_title">
         <item quantity="other">%d個の利用可能なデバイス</item>
     </plurals>
+    <plurals name="clean_time">
+        <item quantity="other">%d秒</item>
+    </plurals>
     <plurals name="color_game_led_freq_entries">
         <item quantity="other">%d秒ごと</item>
     </plurals>
@@ -279,6 +282,9 @@
         <item quantity="other">有効な信頼エージェント: %d 件</item>
         <item quantity="one">有効な信頼エージェント: 1 件</item>
     </plurals>
+    <plurals name="max_number_of_processes">
+        <item quantity="other">最大で%dつのプロセス</item>
+    </plurals>
     <plurals name="memory_usage_apps_summary">
         <item quantity="other">過去%2$sに%1$d個のアプリがメモリを使用しました</item>
         <item quantity="one">過去%2$sに1個のアプリがメモリを使用しました</item>
@@ -336,8 +342,8 @@
         <item quantity="other">%d分前</item>
     </plurals>
     <plurals name="number_of_device_admins">
-        <item quantity="other">有効なアプリ: %d 個</item>
-        <item quantity="one">有効なアプリ: %d 個</item>
+        <item quantity="other">実行中のアプリ: %d 個</item>
+        <item quantity="one">実行中のアプリ: %d 個</item>
     </plurals>
     <plurals name="number_of_urls">
         <item quantity="other">URL: %d 件</item>
@@ -427,22 +433,6 @@
         <item quantity="other">証明書の信頼または削除</item>
         <item quantity="one">証明書の信頼または削除</item>
     </plurals>
-    <plurals name="ssl_ca_cert_info_message">
-        <item quantity="other">"%s が、あなたの仕事用プロファイルに認証局をインストールしました。これにより、仕事のネットワーク アクティビティ（メール、アプリ、保護されたウェブサイトなど）が監視される場合があります。
-
-これらの証明書について詳しくはドメインの管理者までお問い合わせください。"</item>
-        <item quantity="one">"%s が、あなたの仕事用プロファイルに認証局をインストールしました。これにより、仕事のネットワーク アクティビティ（メール、アプリ、保護されたウェブサイトなど）が監視される場合があります。
-
-この証明書について詳しくはドメインの管理者までお問い合わせください。"</item>
-    </plurals>
-    <plurals name="ssl_ca_cert_info_message_device_owner">
-        <item quantity="other">"%s が、お使いのデバイスに認証局をインストールしました。これにより、お使いのデバイスのネットワーク アクティビティ（メール、アプリ、保護されたウェブサイトなど）が監視される場合があります。
-
-これらの証明書について詳しくはドメインの管理者までお問い合わせください。"</item>
-        <item quantity="one">"%s が、お使いのデバイスに認証局をインストールしました。これにより、お使いのデバイスのネットワーク アクティビティ（メール、アプリ、保護されたウェブサイトなど）が監視される場合があります。
-
-この証明書について詳しくはドメインの管理者までお問い合わせください。"</item>
-    </plurals>
     <plurals name="ssl_ca_cert_settings_button">
         <item quantity="other">証明書を確認</item>
         <item quantity="one">証明書を確認</item>
@@ -452,6 +442,21 @@
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
         <item quantity="other">%d個のアプリが通知を表示できます</item>
+    </plurals>
+    <plurals name="string_after_int_minute">
+        <item quantity="other">%d分後</item>
+    </plurals>
+    <plurals name="string_bits_per_sample">
+        <item quantity="other">%d ビット/サンプル</item>
+    </plurals>
+    <plurals name="string_int_hour">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="string_int_minute">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="string_int_second">
+        <item quantity="other">%d秒</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary">
         <item quantity="other">他 %1$d 件の候補</item>
@@ -476,10 +481,10 @@
         <item quantity="other">ロック解除%d回</item>
     </plurals>
     <plurals name="usage_state_device_explain_week">
-        <item quantity="other">ロック解除%d回</item>
+        <item quantity="other">%d回ロックを解除しました</item>
     </plurals>
     <plurals name="usage_state_device_noti_explain_today">
-        <item quantity="other">受信した通知%d件</item>
+        <item quantity="other">%d件の通知を受信しました</item>
     </plurals>
     <plurals name="usage_state_device_noti_explain_week">
         <item quantity="other">受信した通知%d件</item>
@@ -518,10 +523,10 @@
         <item quantity="other">平日：%d分</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_hour">
-        <item quantity="other">時間</item>
+        <item quantity="other">" 時間"</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_min">
-        <item quantity="other">分</item>
+        <item quantity="other">" 分"</item>
     </plurals>
     <plurals name="virus_scan_app_find_risk">
         <item quantity="other">%d件のリスクが見つかりました</item>

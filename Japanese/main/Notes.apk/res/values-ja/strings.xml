@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
     <string name="access_denied_info">試行回数が多すぎます。1、2分待ってからもう一度お試しください。</string>
+    <string name="access_photos_and_videos">写真とビデオへのアクセス</string>
     <string name="action_collapse">非表示</string>
     <string name="action_expand">さらに表示</string>
     <string name="action_folder_description">フォルダーを表示</string>
@@ -41,7 +42,7 @@
     <string name="actionbar_button_up_description">戻る</string>
     <string name="actionbar_close_description">閉じる</string>
     <string name="actionbar_home_description">戻る</string>
-    <string name="add_account_desc">メモをMi アカウントと同期しますか？</string>
+    <string name="add_account_desc">メモをXiaomi アカウントと同期しますか？</string>
     <string name="afternoon">午後</string>
     <string name="alarm_bar_title">リマインダー</string>
     <string name="alert_action_edit_anyway">編集を続ける</string>
@@ -61,6 +62,9 @@
     <string name="app_name">メモ</string>
     <string name="app_notification_info">メモはバックグラウンドで実行されています</string>
     <string name="app_widget">メモ</string>
+    <string name="app_widget_name_create_note">メモを作成</string>
+    <string name="app_widget_name_create_todo">タスクを作成</string>
+    <string name="app_widget_name_fast_entry">ショートカット</string>
     <string name="app_widget_name_new">メモ</string>
     <string name="application_icon">アプリアイコン</string>
     <string name="audio_btn_mode_meeting">会議</string>
@@ -193,7 +197,7 @@
     <string name="empty_folder_import_notes">メモをインポート</string>
     <string name="empty_folder_no_notes">ここにメモはありません</string>
     <string name="enable_sync">同期</string>
-    <string name="enable_sync_desc">メモをMi アカウント (%1$s) と同期しますか？</string>
+    <string name="enable_sync_desc">メモをXiaomi アカウント (%1$s) と同期しますか？</string>
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="error_contact_not_exist">連絡先が存在しません</string>
@@ -498,6 +502,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -532,6 +537,7 @@
     <string name="new_audio_create_guide_tip">長押しして音声メモを作成</string>
     <string name="new_audio_create_talkback_des">テキストメモを作成するにはタップします。音声メモを作成するには長押しします。録音を停止するにはボタンを離し、キャンセルするには上にスライドします。</string>
     <string name="new_data_empty_note">ここにアイテムはまだありません</string>
+    <string name="new_lite_audio_create_talkback_des">タップしてメモを作成</string>
     <string name="night">夜</string>
     <string name="no_network">ネットワークに接続できません</string>
     <string name="noon">正午</string>
@@ -563,6 +569,7 @@
     <string name="note_write_hint">書き始める</string>
     <string name="notealert_enter">メモを開く</string>
     <string name="notealert_ok">無視</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">メモはシステムアプリです。アンインストールすると、このアプリは使用できなくなります。</string>
     <string name="notes_description_title">メモをアンインストールしますか？</string>
     <string name="notification_content_add_todo_from_other_app">新しいタスクを追加しました。タップして表示します。</string>
@@ -623,6 +630,8 @@
     <string name="permission_microphone_desc">音声メモを録音するため</string>
     <string name="permission_network_for_cloud_desc">メモをクラウドと同期するには、インターネットに接続する必要があります。アイテムの同期にはモバイルデータが使用される場合があります。今すぐ接続しますか？</string>
     <string name="permission_phone_state_desc">通話中の音声メモの録音を停止するため</string>
+    <string name="permission_photos_desc">メモに画像を追加するため</string>
+    <string name="permission_photos_desc_pad">メモに画像を追加するため</string>
     <string name="permission_read_contact_desc">通話中に作成したメモと連絡先を関連付ける</string>
     <string name="permission_storage_desc">メモを画像として保存するため</string>
     <string name="permission_storage_desc_new_v12">メモに画像を追加したり、メモを画像として保存したりするため</string>
@@ -725,6 +734,7 @@
     <string name="search_setting_description">メモ内のテキストを検索する</string>
     <string name="select_account_prompt">メモを同期する</string>
     <string name="send">送信</string>
+    <string name="send_notifications_for_reminder">リマインダーを送信するため</string>
     <string name="set_alarm_description">アラームを設定</string>
     <string name="setting_big_screen_layout_columns">サイドバー</string>
     <string name="setting_big_screen_layout_flat">タイル</string>
@@ -868,6 +878,7 @@
 メモにSDカードの内容を読み取ることを許可してください。"</string>
     <string name="toast_refuse_to_use_phone_state">"電話のアクセス許可が制限されています。
 メモに電話のステータスとIDの読み取りを許可してください。"</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt">メモに画像を追加するには、このアプリによる写真へのアクセスを許可してください</string>
     <string name="toast_refuse_to_use_record_audio">"マイクのアクセス許可が制限されています。
 メモにオーディオの録音を許可してください。"</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">メモに画像を追加できるようにするには、メモアプリがストレージにアクセスすることを許可してください</string>
@@ -974,6 +985,9 @@
     <string name="wednesday">水曜日</string>
     <string name="wednesday_short">水</string>
     <string name="wednesday_shortest">水</string>
+    <string name="widget_all_notes_name">すべてのメモ</string>
+    <string name="widget_all_todo_name">すべてのタスク</string>
+    <string name="widget_click_check">タップして表示</string>
     <string name="widget_content_loading">お待ちください…</string>
     <string name="widget_create_select_size">サイズを選択</string>
     <string name="widget_empty_content">タップしてメモを選択</string>
@@ -990,5 +1004,7 @@
     <string name="widget_size_item_super_big">特大</string>
     <string name="widget_size_not_support">このデバイスでは、特大のウィジェットはサポートされていません</string>
     <string name="widget_take_notes_title">メモ</string>
+    <string name="widget_total_notes">%1$d</string>
+    <string name="widget_total_todo">%1$d</string>
     <string name="yesterday">昨日</string>
 </resources>
