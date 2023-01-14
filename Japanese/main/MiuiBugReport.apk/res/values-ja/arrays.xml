@@ -4,11 +4,6 @@
         <item>男性</item>
         <item>女性</item>
     </string-array>
-    <string-array name="customer_service">
-        <item>@string/customer_service_apply</item>
-        <item>@string/customer_service_complain</item>
-        <item>@string/customer_service_station</item>
-    </string-array>
     <string-array name="net_diag_err_link_quality">
         <item>Wi-Fi接続が不安定です。ワイヤレスバンドを切り替えるか、ルーターを再起動してください。</item>
         <item>ネットワークにアクセスできません。Wi-Fiに再接続するか、ルーターを再起動してください。</item>
@@ -62,11 +57,5 @@
     </string-array>
     <string-array name="net_diag_err_network_topology">
         <item>ルーターのDHCP設定と有線接続を確認してください</item>
-    </string-array>
-    <string-array name="reproductivity">
-        <item>@string/feedback_reproductivity_everytime</item>
-        <item>@string/feedback_reproductivity_often</item>
-        <item>@string/feedback_reproductivity_occasionally</item>
-        <item>@string/feedback_reproductivity_once</item>
     </string-array>
 </resources>

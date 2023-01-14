@@ -196,7 +196,6 @@
     <string name="b_contacts_remove_tips">このアドレスをブロックリストから削除しますか？</string>
     <string name="back">戻る</string>
     <string name="bcc">Bcc</string>
-    <string name="bcc_heading">"Bcc: "</string>
     <string name="blank_feedback_toast">フィードバックを入力する必要があります</string>
     <string name="body_forward_email_text">[Forward]</string>
     <string name="body_hint">本文を入力してください</string>
@@ -207,7 +206,6 @@
     <string name="cancel">キャンセル</string>
     <string name="cancel_action">キャンセル</string>
     <string name="cc">Cc</string>
-    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="certificate_add_failed">\"%s\" 証明書を追加できませんでした</string>
@@ -231,7 +229,6 @@
     <string name="click_to_reload">画面をタップして更新してください。</string>
     <string name="close">閉じる</string>
     <string name="collapse_recipient_details">受信者の詳細を折りたたむ</string>
-    <string name="colon">:</string>
     <string name="compose">メールを作成</string>
     <string name="compose_event">招待</string>
     <string name="compose_paste_address_oob">文字が多すぎます</string>
@@ -472,7 +469,6 @@
     <string name="installation_failed">インストールできませんでした。</string>
     <string name="installing_module">モジュールをインストールしています:</string>
     <string name="kilobytes">%s KB</string>
-    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="load_from_remote">サーバー上のメールボックスを検索</string>
     <string name="load_more">もっと読み込む</string>
     <string name="loading_conversation">読み込み中…</string>
@@ -873,7 +869,6 @@
     <string name="size_tera_byte">TB</string>
     <string name="smtp_password_error">送信メールサーバーのパスワードが正しくありません</string>
     <string name="sort_attachment">並べ替え</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">すべて選択</string>
     <string name="str_select_none">すべての選択を解除</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>

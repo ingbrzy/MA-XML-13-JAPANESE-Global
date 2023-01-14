@@ -1446,7 +1446,6 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="monitoring_description_personal_profile_named_vpn">個人用アプリは %1$sを介してインターネットに接続しています。メールや閲覧データなど、ネットワーク アクティビティは、VPN プロバイダに公開されます。</string>
     <string name="monitoring_description_two_named_vpns">このデバイスは %1$sと %2$sを介してインターネットに接続しています。メールや閲覧データなど、ネットワーク アクティビティは、IT 管理者に公開されます。</string>
     <string name="monitoring_description_vpn_settings">VPN 設定を開く</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s がこのデバイスに関連するデータにアクセスし、アプリを管理し、デバイスの設定を変更できる可能性があります。
 
 ご不明な点がある場合は、%2$s にお問い合わせください。"</string>
@@ -1525,7 +1524,6 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -1555,7 +1553,6 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="music_controls_no_title">タイトルなし</string>
     <string name="nav_bar">ナビゲーション バー</string>
     <string name="nav_bar_layout">レイアウト</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s さんが画像を送信しました</string>
     <string name="new_notification_text_content_description">%1$s さんからのメッセージ: %2$s</string>
     <string name="new_status_content_description">%1$s さんの近況: %2$s</string>
@@ -1761,7 +1758,6 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="private_dns_mode_provider">プライベート DNS プロバイダのホスト名</string>
     <string name="private_dns_mode_provider_failure">接続できませんでした</string>
     <string name="private_dns_mode_provider_hostname_hint">DNS プロバイダのホスト名を入力</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">接続エラーです。デバイスを OFF にしてから ON に戻してください</string>
     <string name="profile_info_settings_title">プロファイル情報</string>
     <string name="qr_code_scanner_title">QR コードのスキャン</string>
@@ -2101,8 +2097,6 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="status_bar_clock_date_time_format_12">M月d日 (E) a h:mm</string>
     <string name="status_bar_clock_date_weekday_format">M月d日 EEEE</string>
     <string name="status_bar_clock_date_weekday_format_12">M月d日 EEEE</string>
-    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
-    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"M月d日
 EEEE"</string>
     <string name="status_bar_date_format_12">"M月d日
