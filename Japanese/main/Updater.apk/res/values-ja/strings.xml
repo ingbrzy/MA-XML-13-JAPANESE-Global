@@ -17,7 +17,6 @@
     <string name="channel_service">Updater Background Service</string>
     <string name="channel_update">新しいバージョンが利用可能</string>
     <string name="check_new_version">更新を確認</string>
-    <string name="chengelog">%1$s</string>
     <string name="dialog_3g_desc">ダウンロードにモバイルデータを使用すると、通信量を大幅に消費します。よろしいですか?</string>
     <string name="dialog_3g_title">警告!</string>
     <string name="dialog_ab">お使いのデバイスは "シームレス システム アップデート" をサポートしています。TWRP でプロンプトが表示されたら、忘れずに "Slot A" を選択してください。</string>
@@ -54,7 +53,6 @@
     <string name="menu_title_pick_rom_file">更新パッケージを選択</string>
     <string name="menu_title_recovery">リカバリモードで再起動</string>
     <string name="menu_title_show_notifications">通知を表示</string>
-    <string name="message">%1$s</string>
     <string name="message_checkbox">Xiaomi.eu チームからの今後のメッセージを非表示</string>
     <string name="message_checkbox_device">再度表示しない</string>
     <string name="message_title">NOTE!</string>
@@ -83,7 +81,6 @@
     <string name="share_desc">Your MIUI version has been updated to %1$s, check latest changelog at: %2$s</string>
     <string name="share_title">Share with</string>
     <string name="stable">安定版</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="version">Currently installed:</string>
     <string name="weekly">ベータ版</string>
     <string name="wifi_recommended">No WiFi connection to start download safely!</string>
