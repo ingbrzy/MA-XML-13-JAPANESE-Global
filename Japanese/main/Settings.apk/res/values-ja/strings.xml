@@ -157,7 +157,7 @@
     <string name="accessibility_display_daltonizer_preference_subtitle">色補正は、次の場合に役立ちます:&lt;br/>&lt;ol>&lt;li> 色をより正確に見たい&lt;/li>&lt;li> 集中力を高めるために特定の色を消したい&lt;/li>&lt;/ol></string>
     <string name="accessibility_display_daltonizer_preference_title">色補正</string>
     <string name="accessibility_display_inversion_preference_intro_text">色反転機能を利用すると、明るい画面が暗くなり、暗い画面が明るくなります。</string>
-    <string name="accessibility_display_inversion_preference_subtitle">&lt;b>注意点&lt;/b>&lt;br/> &lt;ol> &lt;li> メディアや画像の色が変わります&lt;/li> &lt;li> 色反転機能はすべてのアプリでご利用いただけます&lt;/li> &lt;li> 背景を暗くするには、ダークモードを使うこともできます&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_inversion_preference_subtitle">&lt;b>注意点&lt;/b>&lt;br/> &lt;ol> &lt;li> メディアや画像の色が変わります&lt;/li> &lt;li> 色反転機能はすべてのアプリでご利用いただけます&lt;/li> &lt;li> 背景を暗くするには、ダークモードを使うこともできます&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_inversion_preference_title">色反転</string>
     <string name="accessibility_display_inversion_shortcut_title">色反転のショートカット</string>
     <string name="accessibility_display_inversion_switch_title">色反転を使用</string>
@@ -2783,9 +2783,6 @@ Googleアカウントなど、アカウントによっては、スマートフ�
     <string name="device_cpu4_info">クアッドコア</string>
     <string name="device_cpu6_info">ヘキサコア</string>
     <string name="device_cpu8_info">オクタコア</string>
-    <string name="device_description_battery">バッテリー容量</string>
-    <string name="device_description_resolution">解像度</string>
-    <string name="device_description_screen">画面サイズ</string>
     <string name="device_details_title">デバイスの詳細</string>
     <string name="device_display_layout_title">特別な機能</string>
     <string name="device_edit_title">デバイス名の変更</string>
@@ -3095,10 +3092,6 @@ Googleアカウントなど、アカウントによっては、スマートフ�
     <string name="dsds_activation_failure_title">SIM を有効にできません</string>
     <string name="dsds_notification_after_suw_text">有効な SIM を選択するか、2 つの SIM を同時に使用します</string>
     <string name="dsds_notification_after_suw_title">他の SIM をセットアップする</string>
-    <string name="dsu_is_running">DSUが実行中です</string>
-    <string name="dsu_loader_description">Dynamic System Update Imageを読み込む</string>
-    <string name="dsu_loader_loading">読み込み中…</string>
-    <string name="dsu_loader_title">DSU Loader</string>
     <string name="dtmf_tone_enable_title">ダイヤルパッド操作音</string>
     <string name="dual_cdma_sim_warning_notification_channel_title">SIM の組み合わせ</string>
     <string name="dual_cdma_sim_warning_notification_summary">%1$s を使用すると、機能が制限されることがあります。タップして詳細をご確認ください。</string>
@@ -3375,7 +3368,6 @@ Googleアカウントなど、アカウントによっては、スマートフ�
     <string name="experimental_preference">（試験運用）</string>
     <string name="expert_detail_content_description">詳細を表示</string>
     <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
-    <string name="extended_power_menu">拡張された電源メニュー</string>
     <string name="exterior">色彩</string>
     <string name="external_code_size_label">USBストレージアプリ</string>
     <string name="external_data_size_label">USBストレージデータ</string>
@@ -4590,7 +4582,7 @@ Xiaomi Cloudを開き、そこからアイテムを復元します。"</string>
     <string name="launching_pho">デバイス情報を開いています…</string>
     <string name="launching_rep">報告中…</string>
     <string name="layout_exhuge_font_take_effect_tips">XXLの文字サイズは、電話、メッセージ、および連絡先でのみ機能します</string>
-    <string name="layout_exhuge_font_tips">その他のオプションは %1$sで利用可能です</string>
+    <string name="layout_exhuge_font_tips">その他のオプションは %1$sで利用可能です</string>
     <string name="layout_exhuge_font_tips_reg">アクセシビリティ > 表示サイズ</string>
     <string name="layout_size_exhuge">XXL</string>
     <string name="layout_size_exhuge_text">XXL</string>
@@ -4620,7 +4612,6 @@ Xiaomi Cloudを開き、そこからアイテムを復元します。"</string>
     <string name="legacy_control_center_title">古いバージョン</string>
     <string name="legacy_navigation_summary">戻る、ホームへの移動、アプリの切り替えを画面下部のボタンで行います。</string>
     <string name="legacy_navigation_title">3 ボタン ナビゲーション</string>
-    <string name="legacy_power_menu">古い電源メニュー</string>
     <string name="legal_information">法的情報</string>
     <string name="legal_workday">法定就業日</string>
     <string name="legal_workday_invalidate">月〜金 (祝日の情報が期限切れです)</string>
@@ -6261,7 +6252,7 @@ PINを設定してください。
     <string name="notifications_redacted">ロック画面にプライベートな内容を表示しない</string>
     <string name="notifications_sent_never">なし</string>
     <string name="notifications_silenced">マナーモード</string>
-    <string name="notifications_summary_divider"> / </string>
+    <string name="notifications_summary_divider"> / </string>
     <string name="notifications_title">通知</string>
     <string name="now">今すぐ再起動</string>
     <string name="nr_advanced_calling_summary">音声通話に 5G を使用する</string>
@@ -6982,7 +6973,7 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
     <string name="reduce_bright_colors_intensity_start_label">暗い</string>
     <string name="reduce_bright_colors_persist_preference_title">デバイスの再起動後も維持する</string>
     <string name="reduce_bright_colors_preference_intro_text">画面を暗くして表示を見やすくします</string>
-    <string name="reduce_bright_colors_preference_subtitle">「さらに輝度を下げる」機能は次のような場合に便利です。&lt;ol> &lt;li> デフォルトの最低限の明るさでも、スマートフォンの画面が明るすぎる&lt;/li> &lt;li> 夜の時間帯や就寝前の照明を消した部屋など、暗い場所でスマートフォンを使用している&lt;/li> &lt;/ol></string>
+    <string name="reduce_bright_colors_preference_subtitle">「さらに輝度を下げる」機能は次のような場合に便利です。&lt;ol> &lt;li> デフォルトの最低限の明るさでも、スマートフォンの画面が明るすぎる&lt;/li> &lt;li> 夜の時間帯や就寝前の照明を消した部屋など、暗い場所でスマートフォンを使用している&lt;/li> &lt;/ol></string>
     <string name="reduce_bright_colors_preference_summary">スマートフォンで設定できる最低限の明るさよりも画面を暗くします</string>
     <string name="reduce_bright_colors_preference_title">さらに輝度を下げる</string>
     <string name="reduce_bright_colors_shortcut_title">さらに輝度を下げる機能のショートカット</string>
@@ -7308,8 +7299,8 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
 3. 画面上部のアプリアイコンをタップし、[固定] をタップします"</string>
     <string name="screen_pinning_dialog_message">"アプリが固定されている場合: 
 
-•\u0009 個人データにアクセスされる可能性があります（連絡先、メールの内容など） 
-•\u0009 固定されたアプリが他のアプリを開く可能性があります 
+•\u0009 個人データにアクセスされる可能性があります（連絡先、メールの内容など） 
+•\u0009 固定されたアプリが他のアプリを開く可能性があります 
 
 アプリ固定機能は、相手を信頼できる場合にのみ使用してください。
 "</string>
@@ -9663,9 +9654,6 @@ PIN を削除すると、デバイスに保存されている指紋モデルも�
     <string name="uwb_settings_title">超広帯域無線（UWB）</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
-    <string name="var_font_switch_dialog_summary">変更を適用するには、デバイスを再起動してください。</string>
-    <string name="var_font_switch_dialog_title">デバイスを再起動</string>
-    <string name="var_font_switch_title">バリアブルフォントを使用</string>
     <string name="verify_apps_over_usb_summary">インストールしたアプリに有害な動作がないかをADB/ADT経由で確認します。</string>
     <string name="verify_apps_over_usb_title">USB経由でアプリを認証</string>
     <string name="version_text">バージョン%1$s</string>
