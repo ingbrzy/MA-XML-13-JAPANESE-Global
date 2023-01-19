@@ -289,6 +289,7 @@
     <string name="deleted_system_applications">アンインストールしたシステムアプリ</string>
     <string name="deselect_all">すべての選択を解除</string>
     <string name="disable_wallpaper_scroll">サイドスクロールをオフにする</string>
+    <string name="double_tap_to_lock_title">ダブルタップで画面をロック</string>
     <string name="download_action">ダウンロード</string>
     <string name="drag_icon_to_homescreen_guide">アプリアイコンを長押ししてドラッグすると、ホーム画面にショートカットを追加できます</string>
     <string name="drag_multiple_item_name" />
@@ -461,6 +462,7 @@
     <string name="guide_permission_title">アクセス許可が必要です</string>
     <string name="guide_privacy_dialog_title">サービス利用規約</string>
     <string name="guide_tips_editing_mode">長押ししてウィジェットを選択</string>
+    <string name="hide_apps_title">アプリのアイコンを隠す</string>
     <string name="home_gesture_content_center">コンテンツセンター</string>
     <string name="home_gesture_global_search">検索</string>
     <string name="home_gesture_no_action">なし</string>
@@ -490,9 +492,11 @@
     <string name="launcher_not_exist">エラーが発生しました。ホーム画面に戻り、もう一度やり直してください。</string>
     <string name="launcher_pull_down_title">ホーム画面で下にスワイプ</string>
     <string name="launcher_search">ホーム画面検索</string>
+    <string name="launcher_search_bar_provider_title">検索バーのプロバイダー</string>
     <string name="launcher_search_bar_title">ホーム画面の検索バー</string>
     <string name="launcher_search_bar_value_disable">オフ</string>
     <string name="launcher_search_bar_value_enable">オン</string>
+    <string name="launcher_slide_up_search_provider_title">上にスワイプした時のプロバイダー</string>
     <string name="launcher_slide_up_title">ホーム画面で上にスワイプ</string>
     <string name="launcher_sliding_up_gesture">ホーム画面で上にスワイプして検索を開く</string>
     <string name="launcher_title">ホーム画面と最近のタスク</string>
