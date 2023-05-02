@@ -391,7 +391,6 @@
     <string name="file_size">サイズ：</string>
     <string name="file_title">名前：</string>
     <string name="file_width_height">サイズ:</string>
-    <string name="flatshow_page_no">%1$d</string>
     <string name="flight">フライト</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -1208,7 +1207,6 @@ Mi メッセージをアクティブ化するには、SMSメッセージの発�
     <string name="send_signature_confirm_dialog_title">メッセージを送る</string>
     <string name="send_sms">メッセージを送る</string>
     <string name="send_to">To:</string>
-    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">%1s: へ送信しました</string>
     <string name="sent_label">"送信日時: "</string>
     <string name="service_abandon_alert">注意</string>
