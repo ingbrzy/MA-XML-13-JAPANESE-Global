@@ -33,12 +33,6 @@
     <plurals name="announce_for_unread">
         <item quantity="other">%1$sから%2$s件の未読</item>
     </plurals>
-    <plurals name="delete_wallpapers_message">
-        <item quantity="other">%1$d枚の壁紙を削除しますか？</item>
-    </plurals>
-    <plurals name="editing_mode_title">
-        <item quantity="other">%1$d個を選択済み</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
@@ -68,7 +62,7 @@
         <item quantity="other">%d分前</item>
     </plurals>
     <plurals name="remove_dialog_title_multi_format">
-        <item quantity="other">%1$d個のアプリをホーム画面から削除しますか？</item>
+        <item quantity="other">ホーム画面から%1$d個のアイテムを削除しますか？</item>
     </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
         <item quantity="other">%1$dページ、%2$d個のアプリ</item>

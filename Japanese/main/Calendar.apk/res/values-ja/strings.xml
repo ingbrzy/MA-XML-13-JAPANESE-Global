@@ -48,10 +48,11 @@
     <string name="add_holiday_desc">ここに休日を追加する</string>
     <string name="add_holiday_title">休日を追加</string>
     <string name="additional_cal_dialog_title">カレンダーを選択</string>
-    <string name="additional_cal_pref_title">追加カレンダー</string>
+    <string name="additional_cal_pref_title">追加のカレンダー</string>
     <string name="additional_calendar_note">追加のカレンダーの中には、利用できないものや、不定の要因によって異なるものがあります</string>
     <string name="afternoon">午後</string>
     <string name="agenda_month_empty_hint">今日のイベントはありません</string>
+    <string name="agenda_not_today_empty_hint">まだイベントはありません。タップして作成してください。</string>
     <string name="agenda_tomorrow">明日、%1$s</string>
     <string name="agenda_view">イベント</string>
     <string name="alarm_label">解除</string>
@@ -182,6 +183,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">中国暦</string>
+    <string name="date_time_fmt" formatted="false">%s %s</string>
     <string name="date_time_picker_dialog_title">日付と時刻を設定</string>
     <string name="date_today">" (今日)"</string>
     <string name="date_view">日付</string>
@@ -194,6 +196,8 @@
     <string name="delete_this_event_title">このイベントを削除しますか？</string>
     <string name="description_calendar">システムアプリ/カレンダー</string>
     <string name="description_calendar_edit_event">システムアプリ/カレンダー/アジェンダ</string>
+    <string name="description_calendar_huangli" />
+    <string name="description_calendar_subscribe_group" />
     <string name="directory_searching_fmt">%sを検索中…</string>
     <string name="discard_label">キャンセル</string>
     <string name="display_to_calendar">カレンダーで表示</string>
@@ -270,6 +274,7 @@
     <string name="event_info_when">いつ</string>
     <string name="event_info_where">どこで</string>
     <string name="event_reminder_allday_day_zero">当日の%2$s</string>
+    <string name="event_reminder_custom">カスタム</string>
     <string name="event_reminder_value_zero">イベントの前</string>
     <string name="event_title">タイトル</string>
     <string name="event_view">イベントを表示</string>
@@ -389,6 +394,7 @@
     <string name="holidays_title">休日</string>
     <string name="horoscope">星占い</string>
     <string name="horoscope_card_title">今日の星占い</string>
+    <string name="horoscope_partner" />
     <string name="horoscope_select_activity_label">星座を選択</string>
     <string name="hour_1">%d時間</string>
     <string name="image_processing">画像はまだ準備ができていません</string>
@@ -422,6 +428,8 @@
     <string name="long_holiday_week_off">週休</string>
     <string name="long_month_date_format">yyyy年M月d日</string>
     <string name="lunar_date">陰暦</string>
+    <string name="lunar_day" />
+    <string name="lunar_to_solar" />
     <string name="manage_holidays">休日を管理</string>
     <string name="manage_title">管理</string>
     <string name="mark_end">生理終了</string>
@@ -579,7 +587,7 @@
     <string name="no_visiable_calendar_title">アカウントを追加</string>
     <string name="none">なし</string>
     <string name="noon">正午</string>
-    <string name="not_more_than_three_weekday">最大で3日まで選択できます</string>
+    <string name="not_more_than_three_weekday">最大%d日まで選択可能です</string>
     <string name="not_set">未設定</string>
     <string name="notes_hint">タップしてタスクを追加</string>
     <string name="notes_reminders_channel">メモのリマインダー</string>
@@ -594,6 +602,10 @@
     <string name="notes_weekly">毎週</string>
     <string name="notification_channel_description" />
     <string name="notification_channel_name">カレンダーのリマインダー</string>
+    <string name="notification_open_setting_button_exit">今はしない</string>
+    <string name="notification_open_setting_button_ok">許可</string>
+    <string name="notification_open_setting_message">カレンダーに通知の送信を許可しない限り、イベントに関する通知を受信できません。</string>
+    <string name="notification_open_setting_title">カレンダー通知を許可しますか？</string>
     <string name="numbers">%d</string>
     <string name="pack_up">收起</string>
     <string name="panchang_amanta">アマンタ</string>
@@ -621,6 +633,7 @@
     <string name="panchang_yog">Yog</string>
     <string name="partner_compatibility">パートナーの互換性</string>
     <string name="path_calendar_settings">システムアプリ/カレンダー/設定</string>
+    <string name="permission_denial">この機能を使用するには、アクセス許可を付与してください</string>
     <string name="permission_description">アクセス許可の詳細</string>
     <string name="picker_day">選択した日：%1$d。縦にスワイプして選択します。</string>
     <string name="picker_month">選択した月：%1$d。縦にスワイプして選択します。</string>
@@ -634,7 +647,6 @@
     <string name="pref_title_no_remind">リマインダーはありません</string>
     <string name="pref_title_notification_remind">通知リマインダー</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
-    <string name="preferences_additional_cal_default">0</string>
     <string name="preferences_alarms_category_title">アラームリマインダー</string>
     <string name="preferences_alarms_sound">サウンド</string>
     <string name="preferences_alarms_vibrateWhen">バイブレーション</string>
@@ -653,9 +665,9 @@
     <string name="preferences_title">カレンダー</string>
     <string name="preferences_use_home_tz_descrip">旅行時に、カレンダーやイベントの時間を居住地のタイムゾーンで表示する</string>
     <string name="preferences_use_home_tz_title">居住地のタイムゾーンを使用する</string>
-    <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_week_start_day_dialog">週の始まり</string>
     <string name="preferences_week_start_day_title">週の始まり</string>
+    <string name="premission_description_notice">イベントや祝日に関する通知を送信するため</string>
     <string name="privacy_and_permissions">プライバシーとアクセス許可</string>
     <string name="privacy_card_description">すべての機能にアクセスするには、プライバシーポリシーに同意してください。</string>
     <string name="privacy_policy_dialog_agree">同意</string>
@@ -681,6 +693,8 @@
     <string name="remind_title_menstruation_start">生理開始日にリマインド</string>
     <string name="remind_title_record">記録をリマインド</string>
     <string name="repeat_activity_label">繰り返し</string>
+    <string name="repeat_alarm_close_title">これは繰り返しのイベントです。アラームリマインダーをオフにしますか？</string>
+    <string name="repeat_alarm_open_title">これは繰り返しのイベントです。アラームリマインダーを設定しますか？</string>
     <string name="repeat_custom_activity_label">カスタム</string>
     <string name="repeat_custom_prompt_daily">毎 %1$s</string>
     <string name="repeat_custom_prompt_sentence">イベントは%1$sに繰り返されます。</string>
@@ -702,6 +716,7 @@
     <string name="repeat_label_frequency">頻度</string>
     <string name="repeat_label_interval">毎</string>
     <string name="repeat_label_week">週</string>
+    <string name="repeat_lunar_yearly" />
     <string name="repeat_month_day_splitter">" "</string>
     <string name="repeat_week_info">" %1$s %2$s"</string>
     <string name="repeats_label">繰り返し</string>
@@ -722,7 +737,9 @@
     <string name="saving_event">イベントが保存されました</string>
     <string name="saving_event_with_guest">アップデートを送信中…</string>
     <string name="search_calendar_edit_event">会議;リマインダー;アジェンダ</string>
+    <string name="search_calendar_huangli" />
     <string name="search_calendar_settings">カレンダー;アジェンダ;リマインダー</string>
+    <string name="search_calendar_subscribe_group" />
     <string name="search_events">イベントを検索</string>
     <string name="search_history">検索履歴</string>
     <string name="search_menu_title">検索</string>
@@ -740,7 +757,7 @@
     <string name="setting_about_summary">バージョン:</string>
     <string name="setting_accounts">カレンダーアカウント</string>
     <string name="setting_change_language">カレンダーの言語を選択</string>
-    <string name="setting_desc_import_todo">メモからスケジュールされたタスクをインポート</string>
+    <string name="setting_desc_import_todo">メモから時間設定付きのタスクをインポート</string>
     <string name="setting_features_title">機能設定</string>
     <string name="setting_holiday_display_desc">祝日カードはホームページの日程の下にあります</string>
     <string name="setting_holiday_reminder">祝日リマインダー</string>
@@ -777,6 +794,10 @@
     <string name="size_tera_byte">TB</string>
     <string name="skip">スキップ</string>
     <string name="small_week_date_format">yyyy/MM/dd (EEE)</string>
+    <string name="solar_lunar_convert_date" />
+    <string name="solar_lunar_convert_description" />
+    <string name="solar_lunar_convert_tab" />
+    <string name="solar_to_lunar" />
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">特別なイベント</string>
     <string name="start_date_calculate">計算</string>

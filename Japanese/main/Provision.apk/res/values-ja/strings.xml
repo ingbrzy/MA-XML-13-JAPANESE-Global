@@ -79,6 +79,8 @@
     <string name="cm_terms_title">モバイルネットワークオペレータ契約</string>
     <string name="compass_introduction">このアプリは方角だけでなく、座標、気圧、高度の表示にも使用できます。</string>
     <string name="congratulation_label">エキサイティングな体験の準備が整いました！</string>
+    <string name="congratulation_pre_label">お待ちください…</string>
+    <string name="congratulation_pre_title">システムを準備中…</string>
     <string name="congratulation_swipe">上にスワイプしてシステムに入る</string>
     <string name="congratulation_title">設定完了</string>
     <string name="content_description_complete">完了</string>
@@ -259,6 +261,7 @@ Features are subject to change. Some of the features above may not be available 
     <string name="midnight">真夜中</string>
     <string name="mint_keyboard_oobe_checkbox">Mint キーボード プライバシーポリシーを読んで同意しました</string>
     <string name="mint_keyboard_oobe_terms">Mint キーボード プライバシーポリシー</string>
+    <string name="miui14_start_up_slogan">Ready. Steady. Live.</string>
     <string name="miui_privacy_policy_no_network">インターネットに接続していません。%sでプライバシーポリシーをご覧ください。</string>
     <string name="miui_provision">初期設定</string>
     <string name="miui_terms_no_network">インターネットに接続していません。利用規約は%sでご確認ください。</string>

@@ -2,9 +2,9 @@
 <resources>
     <string-array name="additional_cal_dialog_labels">
         <item>なし</item>
-        <item>ヒジュラ暦</item>
-        <item>シャカ暦</item>
-        <item>ヴィクラマ暦</item>
+        <item>イスラム暦</item>
+        <item>インド国定暦</item>
+        <item>ヴィクラム暦</item>
     </string-array>
     <string-array name="aquarius_info">
         <item>aquarius</item>
@@ -29,6 +29,10 @@
     <string-array name="change_response_labels">
         <item>このイベントのみ</item>
         <item>シリーズのすべてのイベント</item>
+    </string-array>
+    <string-array name="close_alarm_repeating_labels">
+        <item>1回のみオフ</item>
+        <item>常にオフ</item>
     </string-array>
     <string-array name="date_calculate_spinner">
         <item>何日後</item>
@@ -78,6 +82,10 @@
         <item>libra</item>
         <item>天秤座</item>
         <item>9/23 - 10/23</item>
+    </string-array>
+    <string-array name="open_alarm_repeating_labels">
+        <item>1回のみオン</item>
+        <item>常にオン</item>
     </string-array>
     <string-array name="panchang_weeks">
         <item>日曜日</item>

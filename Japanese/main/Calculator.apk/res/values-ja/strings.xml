@@ -42,7 +42,7 @@
     <string name="app_name">電卓</string>
     <string name="app_notification_info">電卓がバックグラウンドで実行されています</string>
     <string name="base_rate">基準金利</string>
-    <string name="bmi_error_text">このBMIは正しくないようです。入力した身長と体重が正しいことを確認してください。</string>
+    <string name="bmi_error_text">有効なパラメータを入力してください</string>
     <string name="bmi_label_information">情報</string>
     <string name="bmi_label_normal">普通</string>
     <string name="bmi_label_overweight">過体重</string>
@@ -220,6 +220,7 @@
     <string name="global_search_key_word_figure">大字</string>
     <string name="golbal_search_calculator_setting">電卓;電卓の設定;設定</string>
     <string name="golbal_search_path_calculator_setting">システムアプリ/電卓/設定</string>
+    <string name="gst_initial_value">%d</string>
     <string name="gst_percentage">%s</string>
     <string name="height_prompt">身長</string>
     <string name="help_content_desc">ヘルプ</string>
@@ -235,6 +236,7 @@
     <string name="install_scanner_to_continued_use">スキャナーはアンインストールされました。再度インストールしますか？</string>
     <string name="interest_rate_hint">金利を入力してください</string>
     <string name="investment_invalid_duration">投資期間はゼロより大きくなければなりません</string>
+    <string name="investment_loan_result">詳細</string>
     <string name="investment_type_once">1回</string>
     <string name="investment_type_recurring">定期</string>
     <string name="item_page_title_investment">投資計算機</string>
@@ -593,7 +595,6 @@
     <string name="tax_result_real_get">所得 (税引き後)</string>
     <string name="tax_social_insurance">社会保険</string>
     <string name="tax_thershold_foreign">%s (外国人)</string>
-    <string name="tax_thershold_native">%s (中国本土)</string>
     <string name="tax_thershold_native_new">%s (新)</string>
     <string name="tax_thershold_native_new_description">税金は、2018年10月1日から施行される新しい税法に従って計算されます</string>
     <string name="tax_threshold">非課税限度額</string>
@@ -696,6 +697,7 @@
     <string name="unit_data_display_currency_btn">ブータンニュルタム</string>
     <string name="unit_data_display_currency_bwp">ボツワナプーラ</string>
     <string name="unit_data_display_currency_byn">ベラルーシルーブル</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">カナダドル</string>
     <string name="unit_data_display_currency_cdf">コンゴフラン</string>
     <string name="unit_data_display_currency_chf">スイスフラン</string>
@@ -1038,12 +1040,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_calculator_delete_description">電卓はシステムアプリです。アプリをアンインストールすると、複数のコンバーターや追加機能を使用できなくなります。</string>
     <string name="xiaomi_calculator_delete_title">電卓をアンインストールしますか？</string>
     <string name="xiaomi_calculator_remove_icon_description">電卓はシステムアプリです。ホーム画面のショートカットを削除すると、複数のコンバーターや追加機能を使用できなくなります。</string>
     <string name="xiaomi_calculator_remove_icon_title">ホーム画面から\"電卓\"を削除しますか？</string>
     <string name="xiaomi_connect_download_manager_fail">ダウンロードに接続できませんでした。設定 > インストール済みのアプリ でこのアプリに必要な権限がすべて付与されているかを確認してください。</string>
     <string name="xiaomi_external_storage_unavailable">ストレージが利用できません。SDカードを確認してください。</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"バージョン%1$sの概要
 サイズ：%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"バージョン%1$sの概要
