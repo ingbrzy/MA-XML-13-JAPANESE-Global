@@ -130,7 +130,7 @@
     <string name="adb_install_open_error">許可できませんでした、ネットワーク接続を確認してください</string>
     <string name="adb_install_reject_notiy">USB経由での%sのインストールを許可しませんでした</string>
     <string name="adb_install_reject_notiy_desc">開発者向けオプションでUSB経由でのインストールを許可できます</string>
-    <string name="adb_login_xiaomi_account">まず、Xiaomi アカウントにサインインしてください</string>
+    <string name="adb_login_xiaomi_account">まず、Mi アカウントにサインインしてください</string>
     <string name="add_bill_reminder_alarm">通話料金残高の警告を設定</string>
     <string name="add_done">正常に追加しました</string>
     <string name="add_game">ゲームを追加</string>
@@ -559,14 +559,14 @@
     <string name="applock_add_account">追加</string>
     <string name="applock_add_account_ignore">今はしない</string>
     <string name="applock_add_account_ignore_with_seconds">今はしない (%d秒)</string>
-    <string name="applock_add_account_info">Xiaomi アカウントを追加しておくと、パスワードを忘れた場合にリセットできます。</string>
+    <string name="applock_add_account_info">Mi アカウントを追加すると、パスワードを忘れた場合にリセットできます。</string>
     <string name="applock_add_account_setting">アカウントとプライバシー</string>
-    <string name="applock_add_account_tips">Xiaomi アカウントを使用すると、パスワードを忘れた場合でもアプリロックを復元できます。</string>
-    <string name="applock_add_account_title">Xiaomi アカウントを追加</string>
+    <string name="applock_add_account_tips">Mi アカウントを使用すると、パスワードを忘れた場合でもアプリロックを復元できます。</string>
+    <string name="applock_add_account_title">Mi アカウントを追加</string>
     <string name="applock_already_add_account">現在のアカウント：%s</string>
     <string name="applock_app_recommend_lock_title">以下のアプリをロックできます</string>
-    <string name="applock_bind_account_dialog_content">Xiaomi アカウントは、パスワードを忘れた場合にアプリロックを復元できる唯一の方法です。サインインして、Xiaomi アカウントを追加してください。</string>
-    <string name="applock_bind_account_dialog_title">Xiaomi アカウントを追加</string>
+    <string name="applock_bind_account_dialog_content">Mi アカウントは、パスワードを忘れた場合にアプリロックを復元できる唯一の方法です。サインインして、Mi アカウントを追加してください。</string>
+    <string name="applock_bind_account_dialog_title">Mi アカウントを追加</string>
     <string name="applock_bind_account_title">パスワードを忘れた場合</string>
     <string name="applock_close_dialog_summary">アプリロックパスワードは削除されます。今すぐアプリロックをオフにしますか？</string>
     <string name="applock_close_dialog_title">アプリロックをオフにしますか？</string>
@@ -588,7 +588,7 @@
     <string name="applock_guide_tip1_without_face">複数のパスワードタイプが利用可能です。指紋認証またはパスワードの入力で、アプリのロックを解除できます。</string>
     <string name="applock_guide_tip1_without_finger">複数のパスワードタイプが利用可能です。顔認証またはパスワードの入力で、アプリのロックを解除できます。</string>
     <string name="applock_guide_tip1_without_finger_face">複数のパスワードタイプが利用可能です。</string>
-    <string name="applock_guide_tip2">Xiaomi アカウントを追加すると、パスワードをリセットできます。</string>
+    <string name="applock_guide_tip2">Mi アカウントを追加すると、パスワードをリセットできます。</string>
     <string name="applock_guide_tip3">通知の内容を隠すことができます。</string>
     <string name="applock_guide_tip3_global">通知の内容を隠すことができます。</string>
     <string name="applock_guide_title">アプリロックでプライバシーを保護</string>
@@ -600,7 +600,7 @@
     <string name="applock_login_and_add_account">サインインして追加</string>
     <string name="applock_mixtype_hidepwd_icon">非表示</string>
     <string name="applock_mixtype_showpwd_icon">表示</string>
-    <string name="applock_no_account_login">Xiaomi アカウントにサインインしていません</string>
+    <string name="applock_no_account_login">Mi アカウントにサインインしていません</string>
     <string name="applock_not_add_account"><u>今はしない</u></string>
     <string name="applock_not_login_account">サインインしていません</string>
     <string name="applock_numeric_pwd_type_line">パスワードの合計桁数：%1$d。入力済みの桁数：%2$d。</string>
@@ -876,10 +876,10 @@
     <string name="bill_traffic_reminder_instruction_text">携帯電話会社によって提供されるプランの実際の内容は異なる場合があり、請求の遅延が発生する場合があります。ここに表示されている情報は、あくまで参考情報です。</string>
     <string name="bind_xiaomi_account_cancel">キャンセル</string>
     <string name="bind_xiaomi_account_confirm">追加</string>
-    <string name="bind_xiaomi_account_dialog_summery">Xiaomi アカウント %s を追加します。パスワードを忘れた場合、このアカウントを使用してパスワードをリセットできます。サインアウトすると、アカウントは自動的に削除されます。</string>
-    <string name="bind_xiaomi_account_success">Xiaomi アカウントが追加されました</string>
-    <string name="bind_xiaomi_account_summary">Xiaomi アカウントでパスワードをリセットできます</string>
-    <string name="bind_xiaomi_account_title">Xiaomi アカウントを追加</string>
+    <string name="bind_xiaomi_account_dialog_summery">Mi アカウント %s を追加します。パスワードを忘れた場合、このアカウントを使用してパスワードをリセットできます。サインアウトすると、アカウントは自動的に削除されます。</string>
+    <string name="bind_xiaomi_account_success">Mi アカウントが追加されました</string>
+    <string name="bind_xiaomi_account_summary">Mi アカウントを使用してパスワードをリセットする</string>
+    <string name="bind_xiaomi_account_title">Mi アカウントを追加</string>
     <string name="birthday">誕生日</string>
     <string name="bl_no_blacklist">ブロックした番号はありません。</string>
     <string name="bl_no_block_call">ブロックした着信はありません。</string>
@@ -988,6 +988,7 @@
     <string name="card_main_private_space_summary">セカンド・スペースを使用することは、2つのデバイスを持っているようなものです</string>
     <string name="card_main_private_space_title">セカンド・スペース</string>
     <string name="card_main_sectool_title">ツール</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">作成</string>
     <string name="card_main_xspace_summary">任意のアプリのデュアルアカウントを作成する</string>
     <string name="card_main_xspace_title">デュアルアプリ</string>
@@ -1053,7 +1054,7 @@
     <string name="confirmSecondSpacePassword">セカンド・スペースのパスワードを確認</string>
     <string name="confirm_ai_allow_all_permission">すべてのアプリのアクセス許可ステータスを\"自動で決定する\"に変更しますか？</string>
     <string name="confirm_allow_all_permission">すべてのアプリに対しこの機能の使用を許可しますか？</string>
-    <string name="confirm_bind_xiaomi_account_dialog_title">Xiaomi アカウントを追加</string>
+    <string name="confirm_bind_xiaomi_account_dialog_title">Mi アカウントを追加</string>
     <string name="confirm_close">オフにする</string>
     <string name="confirm_fingerprint_msg">指紋を認証してください</string>
     <string name="confirm_leave">今はしない</string>
@@ -1273,6 +1274,7 @@
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="early_morning">早朝</string>
     <string name="edit_phone_num">SIM電話番号を編集</string>
+    <string name="ellipsis">…</string>
     <string name="email">メール</string>
     <string name="empty" />
     <string name="empty_app">アプリはありません</string>
@@ -1308,6 +1310,7 @@
     <string name="exit_dialog_garbage_clean_title">ストレージ容量を解放</string>
     <string name="exit_dialog_homepage_optimise_message">デバイスのパフォーマンススコアは80点未満です。今すぐ最適化しますか？</string>
     <string name="exit_dialog_release_memory_positive_button">閉じる</string>
+    <string name="exit_dialog_release_memory_title">&lt;Data>デバイスを&lt;font color=#0099ff>%d%%&lt;/font>高速化&lt;/Data></string>
     <string name="exit_dialog_release_memory_title_new">&lt;Data>デバイスを&lt;font color=#0099ff>%s&lt;/font>高速化&lt;/Data></string>
     <string name="exit_dialog_release_storage_message">デバイスのストレージの80%以上が使用されています。使用しないアプリをアンインストールして容量を解放することをお勧めします。</string>
     <string name="exit_dialog_release_storage_message_new">デバイスのストレージの%s以上が使用されています。使用しないアプリをアンインストールして容量を解放することをお勧めします。</string>
@@ -1351,7 +1354,9 @@
     <string name="exo_download_paused_for_wifi">ダウンロード停止: Wi-Fi 接続中</string>
     <string name="exo_download_removing">ダウンロードを削除しています</string>
     <string name="exo_item_list">%1$s、%2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">モノラル</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">代替</string>
     <string name="exo_track_role_closed_captions">字幕</string>
     <string name="exo_track_role_commentary">解説</string>
@@ -1908,7 +1913,7 @@
     <string name="gb_voice_changer_recommend">おすすめ</string>
     <string name="gb_voice_changer_renew_dailog">この効果を使用できるようにするには、サブスクリプションを更新してください。</string>
     <string name="gb_voice_changer_robot">ロボット</string>
-    <string name="gb_voice_changer_setting_account_title">Xiaomi アカウント</string>
+    <string name="gb_voice_changer_setting_account_title">Mi アカウント</string>
     <string name="gb_voice_changer_setting_become_vip">登録</string>
     <string name="gb_voice_changer_setting_gender_subtitle">選択した性別に合わせて効果とおすすめを調整する</string>
     <string name="gb_voice_changer_setting_gender_title">性別</string>
@@ -1924,7 +1929,7 @@
     <string name="gb_voice_changer_user_status_expired">サブスクリプションの有効期限が切れました</string>
     <string name="gb_voice_changer_user_status_get_trial_card_dialog">"%d日間の無料トライアルを取得して
 ボイスチェンジャーで遊びましょう！"</string>
-    <string name="gb_voice_changer_user_status_no_login">Xiaomi アカウントにサインインしてください</string>
+    <string name="gb_voice_changer_user_status_no_login">Mi アカウントにサインイン</string>
     <string name="gb_voice_changer_user_status_remain_time">有効期限：%s</string>
     <string name="gb_voice_changer_user_status_renew">更新</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">サブスクリプションの有効期限が切れました。今すぐサブスクリプションを更新して、特典を受け取りましょう！</string>
@@ -2036,10 +2041,10 @@
     <string name="gtb_dialog_btn_close">オフにする</string>
     <string name="gtb_dialog_btn_open">オンにする</string>
     <string name="gtb_dialog_hint_smart_5g">ゲームターボ > 設定 でこの機能のオンとオフを切り替えることができます。</string>
-    <string name="gtb_dialog_privacy_speed_message">Xunyou ゲームブースターを利用しようとしています。このサービスでは、メンバーシップ期間を記録するために、Xiaomi アカウントIDを収集します。</string>
+    <string name="gtb_dialog_privacy_speed_message">Xunyou ゲームブースターを利用しようとしています。このサービスでは、メンバーシップ期間を記録するために、Mi アカウントIDを収集します。</string>
     <string name="gtb_dialog_privacy_speed_tips">&lt;Data>Xunyou ゲームブースターの&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>を読んで同意しました。&lt;/Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou ゲームブースター</string>
-    <string name="gtb_dialog_privacy_voice_message">"You're about to use Xunyou Game Voice Changer. This service will collect your Xiaomi Account ID to record your membership duration."</string>
+    <string name="gtb_dialog_privacy_voice_message">Xunyou ゲームボイスチェンジャーを利用しようとしています。このサービスでは、メンバーシップ期間を記録するためにMi アカウントIDを収集します。</string>
     <string name="gtb_dialog_privacy_voice_tips">&lt;Data>Xunyou ゲームボイスチェンジャーの&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>を読んで同意しました。&lt;/Data></string>
     <string name="gtb_dialog_privacy_voice_title">Xunyou ゲームボイスチェンジャー</string>
     <string name="gtb_dialog_summary_smart_5g">ゲームターボが5Gネットワークを検出すると、デバイスを利用可能な最良のネットワークに接続して、ネットワークの遅延を軽減します。今すぐこの機能をオンにしますか？</string>
@@ -2363,6 +2368,8 @@
     <string name="memory_check_content">%s解放しました</string>
     <string name="memory_clean_memory_size_tip">キャッシュ</string>
     <string name="memory_clean_no_need_clean">すべて良好です</string>
+    <string name="memory_clean_no_need_clean_1" formatted="false">"%sを解放しました。
+デバイスは%d%%高速化されました。"</string>
     <string name="memory_clean_no_need_clean_1_new" formatted="false">"%sを解放しました。
 デバイスは%s高速化されました。"</string>
     <string name="memory_clear_unused">キャッシュ (%s) を消去</string>
@@ -2387,6 +2394,7 @@
     <string name="menu_item_notification_antispam_text_avail">ブロックリスト</string>
     <string name="menu_item_notification_antispam_text_normal">ブロックリスト</string>
     <string name="menu_item_notification_garbage_text">%s</string>
+    <string name="menu_item_notification_optimize_text">%d%% 使用済み</string>
     <string name="menu_item_notification_optimize_text_new">%s使用</string>
     <string name="menu_item_notification_power_text">バッテリーの最適化</string>
     <string name="menu_item_notification_title">通知シェードにメニューを表示</string>
@@ -2414,6 +2422,7 @@
     <string name="menu_summary_networkassistants_3">十分なデータが残っています</string>
     <string name="menu_summary_networkassistants_4">データは残っていません</string>
     <string name="menu_summary_optimize_manage">メモリを消去</string>
+    <string name="menu_summary_optimize_manage_1">デバイスを%d%%高速化する</string>
     <string name="menu_summary_optimize_manage_1_new">デバイスを%s高速化する</string>
     <string name="menu_summary_power_manager">バッテリーを節約し、デバイスを使用できる時間を長くします</string>
     <string name="menu_summary_power_manager_1">バッテリーが完全に充電されました</string>
@@ -2429,6 +2438,7 @@
     <string name="menu_text_license_manager">アクセス許可</string>
     <string name="menu_text_networkassistants">データ使用量</string>
     <string name="menu_text_networkassistants_danger">%s以上</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">残り%s</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2437,6 +2447,7 @@
     <string name="menu_text_optimize_manage">スピードブースト</string>
     <string name="menu_text_optimize_manage_1">スピードブースト</string>
     <string name="menu_text_power_manager">バッテリー</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">例外から削除</string>
     <string name="menu_white">例外に追加</string>
     <string name="mi_ime_not_used">Xiaomiが認定したキーボードを使用してください</string>
@@ -2541,6 +2552,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -2707,6 +2719,7 @@
     <string name="notification_link_cleaner_3001">WeChatのゴミを消去してデバイスを高速化してください</string>
     <string name="notification_link_cleaner_3002">WeChatのゴミを消去してください</string>
     <string name="notification_link_cleaner_4000">QQのゴミを消去してください</string>
+    <string name="notification_link_optimizemanage_1011">メモリの%d%%が使用されています。今すぐ消去してください。</string>
     <string name="notification_link_optimizemanage_1011_new">メモリの%sが使用されています。今すぐ消去してください。</string>
     <string name="notification_low_battery_need_charge">充電器を接続してください</string>
     <string name="notification_low_battery_open_save_mode">バッテリーセーバーをオンにする</string>
@@ -2723,6 +2736,7 @@
     <string name="notification_masked_subtitle">アプリロックで非表示にすることができます</string>
     <string name="notification_optimize_button_text">消去</string>
     <string name="notification_optimize_message">メモリを消去すると速度が向上します</string>
+    <string name="notification_optimize_title">メモリの%d%%が使用されています</string>
     <string name="notification_optimize_title_new">メモリの%sが使用されています</string>
     <string name="notification_power_consume_issue_summary">高消費電力</string>
     <string name="notification_power_consume_suggest_summary">問題を修正してバッテリーを節約する</string>
@@ -2866,9 +2880,9 @@
     <string name="password_forget_pattern_message_none">アプリはロックされていません。パスワードをリセットできます。</string>
     <string name="password_forget_pattern_reset">リセット</string>
     <string name="password_forget_pattern_title">注意</string>
-    <string name="password_promotion_not_login_xiaomi_account_message">Xiaomi アカウントを追加しておくと、パスワードを忘れた場合にリセットできます。</string>
+    <string name="password_promotion_not_login_xiaomi_account_message">Mi アカウントを追加すると、パスワードを忘れた場合にリセットできます。</string>
     <string name="password_promotion_postbutton_text">追加</string>
-    <string name="password_promotion_title">Xiaomi アカウントを追加</string>
+    <string name="password_promotion_title">Mi アカウントを追加</string>
     <string name="password_toggle_content_description">パスワードを表示</string>
     <string name="password_type">パスワードを変更</string>
     <string name="password_type_underline"><u>パスワードを変更</u></string>
@@ -3116,6 +3130,11 @@
     <string name="power_center_dialog_msg_top">バッテリーセーバーがオンのとき、MIUIは以下の最適化を実行します。</string>
     <string name="power_center_hints_scan_danger_result">バッテリーの問題を修正できます</string>
     <string name="power_center_list_item_auto_brightness">画面の明るさを自動的に調整する</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">時間</string>
     <string name="power_center_list_item_close_bluetooth">Bluetoothをオフにする</string>
     <string name="power_center_list_item_deep_save_title">高度な設定</string>
@@ -3401,6 +3420,7 @@
     <string name="pref_normal_traffic_limit">データプランを使い切った場合</string>
     <string name="pref_open_adjust_traffic">通信事業者からの統計情報を使用してデータ使用量を毎日アップデートする</string>
     <string name="pref_operator_not_set">通信事業者が設定されていません</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">データプランを超えて利用した場合</string>
     <string name="pref_package_traffic_settings">データプラン</string>
     <string name="pref_pkg_begin_date">データプランの開始日</string>
@@ -3548,7 +3568,7 @@
     <string name="privacy_pop_record">今日、録音しました</string>
     <string name="privacy_pop_storage">今日、ストレージにアクセスしました</string>
     <string name="privacy_prompt_tc_sms_report_message">データ使用情報をアップデートするために、電話番号と通信事業者の詳細が暗号化され、Xiaomiのサーバーにアップロードされます。</string>
-    <string name="privacy_prompt_traffic_adjust_message">"キャリブレーションを開始すると、MIUIはネットワークに接続し、通信事業者の情報、電話番号、IMEI、Xiaomi アカウントをエンコードし、これらのアイテムをXiaomiのサーバーにアップロードします。これは、通信事業者のキャリブレーションテンプレートを取得し、お住まいの地域でデータを購入することが可能かどうかを知るために行われます。
+    <string name="privacy_prompt_traffic_adjust_message">"キャリブレーションを開始すると、MIUIはネットワークに接続し、通信事業者の情報、電話番号、IMEI、Mi アカウントをエンコードし、これらのアイテムをXiaomiのサーバーにアップロードします。これは、通信事業者のキャリブレーションテンプレートを取得し、お住まいの地域でデータを購入することが可能かどうかを知るために行われます。
 
 キャリブレーション中、MIUIは通信事業者にテキストメッセージを送信し、キャリブレーションテンプレートを取得します。"</string>
     <string name="privacy_prompt_upload">アップロード</string>
@@ -3676,6 +3696,7 @@
     <string name="privacy_using_record">録音中</string>
     <string name="privacyapp_number_masked_text">通知内容を非表示にしたアプリ</string>
     <string name="privacyapp_number_unmasked_text">通知内容を非表示にできるアプリ</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">メディアサーバー</string>
     <string name="process_vpnsdkmanager_label">ゲームターボ</string>
     <string name="promotion">広告</string>
@@ -3745,7 +3766,7 @@
     <string name="report_warning_title">注意</string>
     <string name="required_permissions">必須のアクセス許可</string>
     <string name="required_permissions_desc">このアプリの基本的な機能やサービスを利用できるようにするためには、これらのアクセス許可が必要です。</string>
-    <string name="reset_data_dialog_message">このデバイスは、Xiaomi アカウントに関連付けられていません。パスワードの復元またはリセットができません。重要なアイテムをすべてバックアップし、ファクトリーリセットを実行してください。ファクトリーリセットでは、すべてのデータが完全に削除され、SDカードがフォーマットされます。</string>
+    <string name="reset_data_dialog_message">このデバイスは、Mi アカウントに関連付けられていません。パスワードの復元またはリセットができません。重要なアイテムをすべてバックアップし、ファクトリーリセットを実行してください。ファクトリーリセットでは、すべてのデータが完全に削除され、SDカードがフォーマットされます。</string>
     <string name="reset_data_dialog_ok">ファクトリーリセット</string>
     <string name="reset_data_title">パスワードを復元できません</string>
     <string name="result_autoscan_header">決済の監視</string>
@@ -3816,6 +3837,7 @@
     <string name="scan_open_shut_down_password_title">シャットダウンの確認</string>
     <string name="scan_status_risk">リスクがあります</string>
     <string name="scan_status_safe">安全です</string>
+    <string name="scanning_bar_number">%d%%</string>
     <string name="scanning_bar_number_new">%s</string>
     <string name="screenrecord_not_find">最新バージョンのスクリーンレコーダーをインストールしてからもう一度お試しください。</string>
     <string name="sd_eject">SDカードのマウントを解除</string>
@@ -3859,7 +3881,7 @@
     <string name="set_now">設定</string>
     <string name="set_numeric_password_name">PINを設定する</string>
     <string name="set_package_tips">データプランを確認するため、無料のSMSを通信事業者に送信します。ご提供いただいた情報は、このメッセージを作成するために暗号化され、サーバーにアップロードされます。</string>
-    <string name="set_package_tips_detail">Xiaomiのサーバーにアップロードされる情報には、通信事業者の詳細のほか、電話番号、IMEI、Xiaomi アカウントが含まれます。</string>
+    <string name="set_package_tips_detail">Xiaomiのサーバーにアップロードされる情報には、通信事業者の詳細のほか、電話番号、IMEI、Mi アカウントが含まれます。</string>
     <string name="set_pattern_password_name">パターンを設定してください</string>
     <string name="set_traffic_tips">データプランを設定してモバイルデータの使用量を管理し、追加の通信料金を回避する</string>
     <string name="setting">設定</string>
@@ -4299,7 +4321,7 @@
     <string name="storage_item_doc_name">ドキュメント</string>
     <string name="storage_item_other_name">その他</string>
     <string name="storage_item_picture_name">画像</string>
-    <string name="storage_item_system_data">システムファイル</string>
+    <string name="storage_item_system_data">システム</string>
     <string name="storage_item_system_name">システム</string>
     <string name="storage_item_video_name">ビデオ</string>
     <string name="storage_menu_mount">マウント</string>
@@ -4379,6 +4401,7 @@
     <string name="superpower_dialog_button_ok">OK</string>
     <string name="superpower_dialog_massage">ウルトラバッテリーセーバーは、基本的な機能（通話、SMS、ネットワーク接続など）をできるだけ長く利用できるようにするため、大部分の電力消費機能を制限し、デバイスのパフォーマンスを低下させます。ウルトラバッテリーセーバーをオンにしますか？</string>
     <string name="superpower_dialog_title">ウルトラバッテリーセーバー</string>
+    <string name="superpower_notification_new_title">バッテリー残量が%d%%未満です</string>
     <string name="superpower_notification_new_title_new">バッテリー残量が%s未満です</string>
     <string name="superpower_notification_summary">デバイスを充電するか、ウルトラバッテリーセーバーをオンにしてください</string>
     <string name="superpower_notification_time_12">M月d日 EEEE</string>
@@ -4582,7 +4605,7 @@
     <string name="title_block_calls_from_strangers">重要な電話に出られなかったことがありますか？</string>
     <string name="title_chain_start">チェーン起動を制限する</string>
     <string name="title_cleaner_cloudscan">クラウドのゴミスキャン</string>
-    <string name="title_cloud_account">Xiaomi アカウント</string>
+    <string name="title_cloud_account">Mi アカウント</string>
     <string name="title_cloud_service">Xiaomi Cloud</string>
     <string name="title_cloud_space_almost_full">クラウドストレージがほぼいっぱいで、アイテムが同期されない可能性があります</string>
     <string name="title_cloud_space_full">クラウドはいっぱいです</string>

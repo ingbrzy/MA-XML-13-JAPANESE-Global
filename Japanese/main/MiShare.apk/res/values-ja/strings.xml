@@ -396,7 +396,6 @@ Mi シェアの利用を開始する前に、次の権限を付与し、必要�
     <string name="somepc_send_muchfile_files">%1$sが%2$d個を超えるファイルを送信しています…</string>
     <string name="start_receive_much_files_from_pc">%1$sから%2$d個を超えるファイルを受信しています…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="sub_title_mishare_switch">この機能は、%d分後に自動的にオフになります</string>
     <string name="success_receive_much_file_from_pc">%1$sから%2$d個を超えるファイルを受信しました。タップして表示します。</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
@@ -458,19 +457,15 @@ Mi シェアの利用を開始する前に、次の権限を付与し、必要�
     <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
     <string name="tips_prompt_enable_midrop">Mi シェア</string>
     <string name="to_feedback">報告</string>
-    <string name="toast_auto_close_in_minutes">Mi シェアは%d分後にオフになります</string>
-    <string name="toast_transfering">アイテムを転送しています。後でもう一度お試しください。</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>
     <string name="transfer_intercept_to_remote">送信できませんでした：%1$s</string>
     <string name="transfer_to_pc_summary">Mi NotebookにインストールされているAIoTソフトウェアの最新バージョンは、Mi シェアと互換性があります。MIUI ウェブサイトで、サポートされているノートパソコンモデルのリストを確認できます。ノートパソコンがリストにあり、AIoTがインストールされていない場合は、ノートパソコンのBIOSとネットワークアダプタードライバーをアップデートし、AIoTをダウンロードします。</string>
     <string name="transfer_to_pc_summary_new">&lt;Data>Mi NotebookにインストールされているMIUI+の最新バージョンは、Mi シェアに対応しています。MIUI+のウェブサイト (&lt;a href=%1$s>%2$s&lt;/a>) で、サポートされているノートパソコンのモデルリストを確認できます。お使いのノートパソコンがリストに載っているにもかかわらずMIUI+がインストールされていない場合は、ノートパソコンのBIOSとネットワークアダプターのドライバーをアップデートし、MIUI+をダウンロードしてください。&lt;/Data></string>
     <string name="transfer_to_pc_title">ファイルをパソコンに送信</string>
-    <string name="transfer_to_phone_summary">通知シェードのトグルを使用してMi シェアをオンにします。その後、写真やファイルの共有を開始すると付近のデバイスが表示されます。受信者のデバイスをタップして、共有するアイテムを送信します。</string>
-    <string name="transfer_to_phone_summary_new">コントロールセンターでMi シェアをオンにすると、アイテムの送受信が簡単にできるようになります。オンにした後、自動的にオフになるまでの%d分間、付近のデバイスとアイテムを共有できます。</string>
+    <string name="transfer_to_phone_summary">通知シェードのトグルを使用してMi シェアをオンにします。その後、写真やファイルの共有を開始する際に付近のデバイスを見ることができます。受信者のデバイスをタップして、共有するアイテムを送信します。</string>
     <string name="transfer_to_phone_title">ファイルをスマートフォンに送信</string>
     <string name="transfer_to_summary">通知シェードのトグルを使用してMi シェアをオンにします。その後、写真やファイルの共有を開始すると付近のデバイスが表示されます。受信者のデバイスをタップして、共有するアイテムを送信します。</string>
-    <string name="transfer_to_summary_new">コントロールセンターでMi シェアをオンにすると、アイテムの送受信が簡単にできるようになります。オンにした後、自動的にオフになるまでの%d分間、付近のデバイスとアイテムを共有できます。</string>
     <string name="transfer_to_title">モバイルデバイスにファイルを送信</string>
     <string name="tuesday">火曜日</string>
     <string name="tuesday_short">火</string>

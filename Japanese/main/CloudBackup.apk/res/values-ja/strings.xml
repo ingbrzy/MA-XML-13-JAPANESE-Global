@@ -152,8 +152,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_state_summary_china">デバイスがWLANに接続されていること、電源に接続されていること、ロックされていることが必要です</string>
     <string name="cloud_backup_detail_time">前回のバックアップ: %1$s</string>
     <string name="cloud_backup_detail_title">アイテムをバックアップ</string>
-    <string name="cloud_backup_get_installed_apps_summary">ホーム画面アプリのバックアップと復元のため</string>
-    <string name="cloud_backup_get_installed_apps_title">このデバイスにインストールされているアプリのリストへのアクセス</string>
     <string name="cloud_backup_have_data">Xiaomi Cloudにバックアップを見つけました</string>
     <string name="cloud_backup_in_cancel">キャンセル</string>
     <string name="cloud_backup_in_process">バックアップ中</string>
@@ -172,9 +170,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="confirm_restore_summary">ホーム画面が再起動されます。バックアップしたアプリは自動的にダウンロードされます。</string>
     <string name="confirm_restore_title">復元</string>
     <string name="copy">コピー</string>
-    <string name="cta_dialog_all_purpose">クラウドバックアップへようこそ！このアプリを使用すると、ホーム画面のレイアウト、アプリ、システム設定、WeChatデータをクラウドにバックアップできます。すべての機能を活用するには、必ず最新バージョンを使用してください。</string>
-    <string name="cta_dialog_permission_description_get_installed_apps">アプリのバックアップと復元のため</string>
-    <string name="cta_dialog_permission_description_storage">アイテムのバックアップと復元のため</string>
     <string name="customization"><u>カスタマイズ</u></string>
     <string name="date_format">yyyy/MM/dd HH:mm:ss</string>
     <string name="date_picker_label_day" />
@@ -402,6 +397,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">バックアップのスイッチを切り替える</string>
     <string name="other_device_main_space">ファースト・スペース</string>
     <string name="other_device_second_space">セカンド・スペース</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">PCモードではアイテムを復元できません。PCモードをオフにして、もう一度お試しください。</string>
     <string name="permission_to_use">アクセス許可の詳細</string>
     <string name="pm">午後</string>
