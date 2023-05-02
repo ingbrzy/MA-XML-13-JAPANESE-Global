@@ -19,16 +19,6 @@
         <item>Xiaomi アカウントのパスワードを変更</item>
         <item>パスワードを変更;パスワードをアップデート;Mi アカウント;アカウント;Xiaomi アカウント</item>
     </string-array>
-    <string-array name="settings_search_cloud_space_share">
-        <item>ファミリーストレージ容量</item>
-        <item>ファミリーストレージ容量を表示/オンにする</item>
-        <item>ファミリーストレージ容量;ストレージ共有</item>
-    </string-array>
-    <string-array name="settings_search_family_service">
-        <item>ファミリーサービス</item>
-        <item>ファミリーサービスを表示/オンにする</item>
-        <item>ファミリー;ファミリーサービス;ファミリー共有</item>
-    </string-array>
     <string-array name="settings_search_help_center">
         <item>ヘルプ</item>
         <item>Xiaomi アカウントのヘルプとサポートを利用する</item>

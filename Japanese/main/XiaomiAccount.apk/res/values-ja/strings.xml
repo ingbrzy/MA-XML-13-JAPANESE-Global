@@ -138,11 +138,6 @@
     <string name="cloud_member_vipname_premium">プレミアム</string>
     <string name="cloud_member_vipname_ultra">ウルトラ</string>
     <string name="cloud_service">Xiaomi Cloud</string>
-    <string name="cloud_service_cloud_open">オンにする</string>
-    <string name="cloud_service_space_full">ストレージがいっぱいです</string>
-    <string name="cloud_service_space_not_enough">空き容量が残りわずかです</string>
-    <string name="cloud_service_space_used">使用済み</string>
-    <string name="cloud_service_state_error">読み込めませんでした</string>
     <string name="cloud_service_status_backup_not_open">バックアップはオフです</string>
     <string name="cloud_service_status_cloud_not_open">オフ</string>
     <string name="cloud_service_status_storage_full">ストレージがいっぱいです</string>
@@ -222,8 +217,6 @@
     <string name="diagnosis_log_sent_format">"正常にログを送信しました。
 ID:%s
 このコードを管理者に送信してください。"</string>
-    <string name="dind_device_service_not_open">オフ</string>
-    <string name="dind_device_service_opened">オン</string>
     <string name="download_file">%sをダウンロード中…</string>
     <string name="early_morning">早朝</string>
     <string name="empty" />
@@ -242,7 +235,6 @@ ID:%s
     <string name="facebook_login">Facebookでサインイン</string>
     <string name="failed_dup_secure_phone_number">この電話番号はすでに他のXiaomi アカウントと関連付けられています</string>
     <string name="family_service">ファミリーサービス</string>
-    <string name="family_service_not_open">メンバーを招待</string>
     <string name="family_share">ファミリー共有</string>
     <string name="find_device">デバイスを探す</string>
     <string name="find_device_access_denied">ステータスを取得できず、アクセスが拒否されました</string>
@@ -374,7 +366,6 @@ ID:%s
     <string name="login_with_other">その他のオプション</string>
     <string name="logout_account">サインアウト</string>
     <string name="logout_failed">サインアウトできません</string>
-    <string name="mi_account">マイ アカウント</string>
     <string name="mi_account_identity_title">本人確認</string>
     <string name="mi_finance">マイ ファイナンス</string>
     <string name="mi_finance_info">新しいユーザーへのボーナス</string>
@@ -772,11 +763,6 @@ ID:%s
     <string name="push_notify_dialog_title">アカウント認証</string>
     <string name="pwd_width_phone_number_or_mail_num">パスワードに電話番号、メールアドレス、Xiaomi アカウントIDを含めることはできません</string>
     <string name="qq">QQ</string>
-    <string name="qrcode_login_entry_text">&lt;Data>別のデバイスでサインインしていますか？&lt;a href=>クイックサインイン&lt;/a>を使用しますか？&lt;/Data></string>
-    <string name="qrcode_login_load_refresh">&lt;Data>このQRコードは有効期限が切れています。タップして&lt;a href=>更新&lt;/a>します。&lt;/Data></string>
-    <string name="qrcode_login_load_retry">&lt;Data>読み込めませんでした。&lt;a href=>もう一度お試しください&lt;/a>。&lt;/Data></string>
-    <string name="qrcode_login_message">Xiaomiのスマートフォンやタブレットのスキャナーアプリ、Mi Home、または別の Xiaomi アプリでスキャンしてサインインしてください</string>
-    <string name="qrcode_login_title">スキャンしてサインイン</string>
     <string name="recycle_phone_notification_msg">登録している電話番号は再利用されているようです。タップしてアップデートしてください。</string>
     <string name="recycle_phone_notification_title">Xiaomi アカウントのセキュリティリスク</string>
     <string name="removing_account">サインアウトしています…</string>
@@ -912,8 +898,6 @@ ID:%s
     <string name="two_factor_auth_need_code_summary">接続されている他のMi デバイスにコードが表示されます。このコードを新しいデバイスに入力してサインインしてください。</string>
     <string name="two_factor_auth_summary">新しいデバイスまたは新しい場所でサインインしようとすると、接続されている他のデバイスに通知されます。このようなサインインの試行が許可されているかどうかを確認する必要があります。</string>
     <string name="unbind_sns_description">このアカウントを切断すると、%sアカウント情報を使用してXiaomi アカウントにサインインすることができなくなります。</string>
-    <string name="unit_gb">" GB"</string>
-    <string name="unit_mb">" MB"</string>
     <string name="unknown_error_info">不明なエラー</string>
     <string name="unlock_help_notice">"ヘルプ:
 1. パスワードをお忘れの場合、id.mi.com にアクセスしてパスワードをリセットしてください。
@@ -967,6 +951,5 @@ ID:%s
     <string name="weixin">WeChat</string>
     <string name="weixin_login">WeChatでサインイン</string>
     <string name="xiao_mi_vip">Mi VIP</string>
-    <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="yesterday">昨日</string>
 </resources>

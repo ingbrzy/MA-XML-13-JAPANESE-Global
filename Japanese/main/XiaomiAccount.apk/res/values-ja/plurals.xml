@@ -30,9 +30,6 @@
     <plurals name="area_code_search_result_size">
         <item quantity="other">検索結果 %d件</item>
     </plurals>
-    <plurals name="family_service_member_count">
-        <item quantity="other">%d人</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
