@@ -74,6 +74,7 @@
     <string name="continue_download">続ける</string>
     <string name="copy">コピー</string>
     <string name="copy_info">クリップボードにコピーされました。友達と共有することができます！</string>
+    <string name="copy_toast_msg">リンクをクリップボードにコピーしました</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -131,8 +132,20 @@
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="evening">夕方</string>
+    <string name="exo_download_completed">ダウンロードが完了しました</string>
+    <string name="exo_download_description">ダウンロード</string>
+    <string name="exo_download_downloading">ダウンロードしています</string>
+    <string name="exo_download_failed">ダウンロードに失敗しました</string>
+    <string name="exo_download_notification_channel_name">ダウンロード</string>
+    <string name="exo_download_paused">ダウンロード一時停止</string>
+    <string name="exo_download_paused_for_network">ダウンロード停止: ネットワーク接続中</string>
+    <string name="exo_download_paused_for_wifi">ダウンロード停止: Wi-Fi 接続中</string>
+    <string name="exo_download_removing">ダウンロードを削除しています</string>
     <string name="expand_button_title">詳細設定</string>
     <string name="extend">もっと見る</string>
+    <string name="fallback_menu_item_copy_link">リンクをコピー</string>
+    <string name="fallback_menu_item_open_in_browser">ブラウザで開く</string>
+    <string name="fallback_menu_item_share_link">リンクの共有</string>
     <string name="file_size">サイズ：</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -190,6 +203,9 @@
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
     <string name="gigabyteShort_per_seconds">GB/秒</string>
+    <string name="icon_create_failure">ショートカットを追加できませんでした</string>
+    <string name="icon_create_success">ショートカットが正常に追加されました</string>
+    <string name="icon_restore">タップしてホーム画面にダウンロードのショートカットを追加します</string>
     <string name="info_download_progress">ダウンロードの進行状況を表示</string>
     <string name="info_flow_show">おすすめのコンテンツを表示</string>
     <string name="insufficient_space">空き容量が足りません</string>
@@ -212,14 +228,14 @@
     <string name="midnight">真夜中</string>
     <string name="missing_title">&lt;不明></string>
     <string name="miuix_access_state_desc">選択済み</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
-    <string name="miuix_appcompat_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
@@ -306,6 +322,7 @@
     <string name="preferences_title">設定</string>
     <string name="privacy_agree_dialog_msg">&lt;Data>ダウンロードアプリへようこそ！このアプリを使用すると、ファイルをダウンロードできます。&lt;BR>ダウンロードアプリは、ダウンロード統計を生成するサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取り扱い方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。&lt;BR>ダウンロードアプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。&lt;BR>ダウンロードアプリ に対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。プライバシーポリシーに同意しない場合、このアプリの一部機能が使用できません。ただし、基本的な機能は引き続きご利用いただけます。&lt;/Data></string>
     <string name="privacy_agree_dialog_title">使用条件</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
     <string name="privacy_revoke_dialog_later">キャンセル</string>
     <string name="privacy_revoke_dialog_msg">このスイッチをオフにすると、ダウンロードアプリに対するプライバシーポリシーへの同意を撤回したことになります。撤回すると、ご利用者の個人情報の収集は中止されます。すでに収集および保持されている個人情報は、適用法で義務付けられている特定の期間内に削除されます。ダウンロードアプリは、ダウンロード統計を生成するサービスを提供するために必要な個人情報を収集する必要があります。プライバシーポリシーへの同意を撤回した場合は、収集した個人情報に基づく上記サービスの提供を拒否したものとみなされます。</string>
     <string name="privacy_revoke_dialog_ok">撤回</string>

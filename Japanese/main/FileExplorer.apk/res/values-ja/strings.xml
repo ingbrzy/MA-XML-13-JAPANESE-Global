@@ -44,6 +44,7 @@
     <string name="agree">同意</string>
     <string name="am">午前</string>
     <string name="app_all_purpose">ファイルマネージャーへようこそ！このアプリでは、デバイスに保存されているファイルを管理することができます。</string>
+    <string name="app_all_purpose_global">ファイルマネージャーへようこそ！このアプリでは、デバイスに保存されているファイルのプレビューや管理を行うことができます。</string>
     <string name="app_all_purpose_pad">ファイルマネージャーへようこそ！このアプリでは、デバイスに保存されているファイルを管理することができます。</string>
     <string name="app_function">デバイス上のファイルを管理する</string>
     <string name="app_name">ファイルマネージャー</string>
@@ -52,7 +53,7 @@
     <string name="app_name_downloadedrom">パッケージ</string>
     <string name="app_name_downloads">ダウンロード</string>
     <string name="app_name_market">アプリストア</string>
-    <string name="app_name_miui">MIUI</string>
+    <string name="app_name_miui">システムリソース</string>
     <string name="app_name_miuimusic">音楽</string>
     <string name="app_name_miuiringtone">着信音</string>
     <string name="app_name_miuiwallpaper">壁紙</string>
@@ -65,6 +66,13 @@
     <string name="by_name">名前</string>
     <string name="by_size">サイズ</string>
     <string name="by_type">種類</string>
+    <string name="call_notification_answer_action">応答</string>
+    <string name="call_notification_answer_video_action">ビデオ</string>
+    <string name="call_notification_decline_action">拒否</string>
+    <string name="call_notification_hang_up_action">通話終了</string>
+    <string name="call_notification_incoming_text">着信</string>
+    <string name="call_notification_ongoing_text">通話中</string>
+    <string name="call_notification_screening_text">着信をスクリーニング中</string>
     <string name="can_not_send_with_too_many">一度にたくさんのアイテムを送信することはできません</string>
     <string name="cancel">キャンセル</string>
     <string name="cancel_error">解除できませんでした。もう一度お試しください。</string>
@@ -145,6 +153,7 @@
     <string name="cloud_transfer_wait_download">ダウンロードを待機中</string>
     <string name="cloud_transfer_wait_network">インターネットを待機中</string>
     <string name="cloud_transfer_wait_upload">アップロードを待機中</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
     <string name="compress_fail">圧縮できませんでした。同じ名前のファイルが既に存在します。</string>
     <string name="compress_fail_unknown">圧縮できませんでした。ストレージがいっぱいであるか、不明なエラーが発生しました。</string>
     <string name="compress_message">圧縮先…</string>
@@ -160,6 +169,7 @@
     <string name="create_folder">作成</string>
     <string name="create_shortcut_success">ショートカットを正常に追加しました</string>
     <string name="cta_function_account_operation">Xiaomi アカウントに簡単にサインインするため</string>
+    <string name="cta_use_sync_midrive_file">ファイルをMi Driveに同期するため</string>
     <string name="data_consume_dialog_message">現在、モバイルデータを使用しています。続けると、%sのデータを使用します。</string>
     <string name="data_consume_dialog_title">モバイルデータを使用しますか？</string>
     <string name="data_consume_dialog_upload_title">モバイルデータを使用してアップロード</string>
@@ -179,6 +189,7 @@
     <string name="decompress_destination_error">この場所にはファイルを解凍できません。</string>
     <string name="decompress_encrypted_rar_not_supported">暗号化されたRARファイルはサポートされていません。</string>
     <string name="decompress_fail">解凍できませんでした。</string>
+    <string name="decompress_fail_contains_special_characters">圧縮できません。圧縮ファイルの名前には特殊文字を含めることはできません。</string>
     <string name="decompress_input_password">パスワードを入力してください</string>
     <string name="decompress_password_error">入力したパスワードが正しくありません。</string>
     <string name="decompress_success">解凍を完了しました</string>
@@ -211,6 +222,9 @@
     <string name="dialog_type_video">ビデオ</string>
     <string name="disk_available">利用可能: </string>
     <string name="disk_total">合計: </string>
+    <string name="display_all_dirs">すべてのフォルダー</string>
+    <string name="display_hide_sys_dirs">隠しシステムフォルダー</string>
+    <string name="display_mode">ディスプレイ</string>
     <string name="display_setting">表示アイテム</string>
     <string name="doc_all">すべて</string>
     <string name="downloading">ダウンロード中</string>
@@ -261,6 +275,7 @@
     <string name="favorite_photo">写真</string>
     <string name="favorite_ringtone">着信音</string>
     <string name="favorite_screen_cap">スクリーンショット</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="file_info_canread">読み取り可: </string>
     <string name="file_info_canwrite">書き込み可: </string>
     <string name="file_info_ishidden">非表示: </string>
@@ -330,10 +345,11 @@
     <string name="friday">金曜日</string>
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
-    <string name="ftp_account_req_notice">ユーザー名とパスワードは%1$d〜%2$d文字 (半角英数字と記号) で設定してください。大文字と小文字は区別されます。</string>
+    <string name="ftp_account_req_notice">ユーザー名とパスワードは%1$d〜%2$d文字で設定してください。大文字と小文字は区別され、特殊文字を含めることはできません。</string>
     <string name="ftp_anonymous_login">匿名サインイン</string>
     <string name="ftp_anonymous_warning_msg">匿名化機能はセキュリティリスクをもたらす可能性があります。この機能を使用してもよろしいですか？</string>
     <string name="ftp_anonymous_warning_title">注意</string>
+    <string name="ftp_invalid_username">ユーザー名には特殊文字を含めることはできません。別の名前を入力してください。</string>
     <string name="ftp_invalid_username_or_password">入力したユーザー名またはパスワードが無効です。</string>
     <string name="ftp_open_port_error">ポートを開けませんでした。ネットワーク接続を確認するか、ポート番号をリセットしてください。</string>
     <string name="ftp_password_hint">パスワード</string>
@@ -341,6 +357,7 @@
     <string name="ftp_transfer_secure">セキュリティ</string>
     <string name="ftp_username_and_passworld">サインイン</string>
     <string name="ftp_username_hint">ユーザー名</string>
+    <string name="func_settings">機能設定</string>
     <string name="function_file_operation">ファイルの表示と編集のため</string>
     <string name="function_set_private">ファイルの閲覧と暗号化のため</string>
     <string name="function_use_imei">IMEIへのアクセスとファイルの暗号化のため</string>
@@ -378,6 +395,7 @@
     <string name="instruction_pre_pad">パソコンからこのデバイス上のファイルを管理</string>
     <string name="instruction_pre_phone">パソコンからこのデバイス上のファイルを管理</string>
     <string name="internal_storage">内部ストレージ</string>
+    <string name="internal_storage_device">デバイス</string>
     <string name="just_now">たった今</string>
     <string name="lack_perm_msg">ファイルマネージャーが正常に動作するには、以下のアクセス許可が必要です：&lt;b>%s&lt;/b></string>
     <string name="lack_perm_title">アクセス許可が必要です</string>
@@ -401,6 +419,7 @@
     <string name="manage_cloud_space">クラウドストレージを管理</string>
     <string name="menu_item_cleanup">クリーンアップ</string>
     <string name="menu_item_ftp">FTP</string>
+    <string name="menu_item_midrop">ファイルを転送</string>
     <string name="menu_item_router">ルーター</string>
     <string name="menu_item_search">検索</string>
     <string name="menu_item_sort">並べ替え</string>
@@ -448,20 +467,23 @@
     <string name="mirror_tip_refresh">更新</string>
     <string name="mirror_tip_show_type">並べ替え</string>
     <string name="miuix_access_state_desc">選択済み</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
-    <string name="miuix_appcompat_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
     <string name="miuix_appcompat_select_all">すべて選択</string>
     <string name="miuix_appcompat_select_all_description">すべて選択</string>
     <string name="miuix_appcompat_select_item">アイテムを選択</string>
+    <string name="miuix_navigator_content_switch_description">サイドバーを表示</string>
+    <string name="miuix_navigator_multiple_choice">選択</string>
+    <string name="miuix_navigator_navigator_switch_description">サイドバーを非表示</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">正常に更新されました</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">更新中…</string>
@@ -521,6 +543,8 @@
     <string name="mtp_device">メディアデバイス (MTP)</string>
     <string name="mtp_label">MTP</string>
     <string name="name_empty">名前を入力してください</string>
+    <string name="navigator_label_all_files">すべてのファイル</string>
+    <string name="navigator_label_external_devices">外部デバイス</string>
     <string name="need_open_content">この機能を使用するには、ファイルマネージャーによる写真とファイルへのアクセスを許可する必要があります。</string>
     <string name="need_open_permission">アクセス許可が必要です</string>
     <string name="need_read_storage_permission">ファイルマネージャーが正常に動作するためには、デバイスのストレージへのアクセス許可が必要です。</string>
@@ -563,6 +587,8 @@
     <string name="operation_compress">圧縮</string>
     <string name="operation_compressing">圧縮中…</string>
     <string name="operation_copy">コピー</string>
+    <string name="operation_copy_clipboard">クリップボードにコピー</string>
+    <string name="operation_copy_local">フォルダーにコピー</string>
     <string name="operation_create_folder">フォルダーを作成</string>
     <string name="operation_create_folder_message">フォルダー名を入力してください</string>
     <string name="operation_create_folder_name_conflict">フォルダーを作成できませんでした。この名前のフォルダーはすでに存在しています。</string>
@@ -573,6 +599,7 @@
     <string name="operation_decompressing">解凍中…</string>
     <string name="operation_del_fav">お気に入りから削除中…</string>
     <string name="operation_delete">削除</string>
+    <string name="operation_delete_confirm_dcim_message_folder">DCIM はギャラリーフォルダーです。このフォルダーを削除すると、フォルダー内のすべてのアイテムもギャラリーから完全に削除されます。このフォルダーを削除してもよろしいですか？</string>
     <string name="operation_delete_confirm_message">削除しますか？</string>
     <string name="operation_delete_confirm_message_folder">"フォルダー内のすべてのコンテンツは削除されます。
 "</string>
@@ -648,11 +675,15 @@
     <string name="permission_account_title_pad">デバイスアカウントへのアクセス</string>
     <string name="permission_denial">ファイルにアクセスできませんでした。設定で、ファイルマネージャーにファイルへのアクセスを許可してください。</string>
     <string name="permission_description">アクセス許可の詳細</string>
+    <string name="permission_group_description_phone">ファイルをプライベートに設定すると、このアプリは識別、保存、ロック解除の目的でデバイスの IMEI を収集します。</string>
+    <string name="permission_group_description_storage_space">ストレージへのアクセスとアイテムの追加</string>
+    <string name="permission_group_name_phone">電話</string>
+    <string name="permission_group_name_storage_space">ストレージ</string>
     <string name="permission_required">ファイルにアクセスできませんでした。設定で、ファイルマネージャーにファイルへのアクセスを許可してください。</string>
     <string name="permission_storage_desc_pad">デバイスに写真とドキュメントを保存するため</string>
     <string name="permission_storage_title">デバイスストレージへのアクセス</string>
     <string name="permission_storage_title_pad">デバイスストレージへのアクセス</string>
-    <string name="phone">内部ストレージ</string>
+    <string name="phone">ストレージ</string>
     <string name="phone_storage">ストレージ</string>
     <string name="phone_storage_apk_title">APK: </string>
     <string name="phone_storage_audio_title">音楽: </string>
@@ -670,6 +701,7 @@
     <string name="pick_folder">フォルダーを選択</string>
     <string name="pm">午後</string>
     <string name="port_range">ポートは1024～65535の間でなければなりません</string>
+    <string name="positive_order">正</string>
     <string name="pre_privacy_recall">同意の撤回</string>
     <string name="pref_permission_allowed">付与済み</string>
     <string name="pref_permission_manage_key_storage">デバイス上の写真とファイルへのアクセス</string>
@@ -677,7 +709,7 @@
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="privacy_policy">プライバシーポリシー</string>
     <string name="privacy_policy_renew">プライバシーポリシーの更新</string>
-    <string name="privacy_policy_renew_content">&lt;Data>ファイルマネージャーの&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>が更新されました。ユーザーとしてのご利用者の権利と当社によるデータの使用方法を完全に理解するため、続ける前に新しいバージョンのプライバシーポリシーを読んで同意してください。&lt;/Data></string>
+    <string name="privacy_policy_renew_content"><Data>ファイルマネージャーの&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>が更新されました。ユーザーとしてのご利用者の権利と当社によるデータの使用方法を完全に理解するため、続ける前に新しいバージョンのプライバシーポリシーを読んで同意してください。</Data></string>
     <string name="privacy_recall_alert_description" formatted="false">同意を撤回するには、Mi Driveからすべてのアイテムを消去してください。以下の手順でアイテムを消去してください。&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. Mi Driveのスタートページでアイテムを長押しすると、 \"すべて選択\" ボタンが表示されます。このボタンで一度に200個までのファイルを選択し、削除できます。&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. その後、最近削除したアイテムを消去してください。</string>
     <string name="privacy_recall_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. アイテムを削除する前に、バックアップを取ることをお勧めします。i.mi.comにアクセスし、Mi Driveをクリックして、アイテムをパソコンにダウンロードしてください。&lt;br />&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. 最近削除したアイテムは、完全に削除すると復元不能ですのでご注意ください。</string>
     <string name="privacy_recall_confirm_button">撤回</string>
@@ -699,6 +731,9 @@
     <string name="qq_title">WeChatドキュメントにアクセスできません</string>
     <string name="query_quota_exception">サーバーエラーが発生しました。数分待ってからもう一度お試しください。</string>
     <string name="query_quota_searching">お待ちください…</string>
+    <string name="recent_file_by_source">ファイルソース</string>
+    <string name="recent_file_sort_by_date">日付</string>
+    <string name="recent_file_sort_type">並べ替え</string>
     <string name="recent_hide_camera_and_screenshots">ギャラリーのアイテムやスクリーンショットを最近のファイルに表示しない</string>
     <string name="recent_hide_cloud_drive_files">最近のタスクにMi Driveファイルを表示しない</string>
     <string name="refresh_success">更新完了</string>
@@ -720,6 +755,7 @@
     <string name="request_timeout">ネットワークリクエストがタイムアウトしました</string>
     <string name="reset_password">パスワードを変更</string>
     <string name="restoring">復元中…</string>
+    <string name="reverse_order">逆</string>
     <string name="rlv_last_refreshing_time">アップデート %1$s</string>
     <string name="rlv_loading_more">お待ちください…</string>
     <string name="rlv_pull_to_refresh">プルダウンして更新</string>
@@ -733,6 +769,7 @@
     <string name="search_app_more">もっと見る</string>
     <string name="search_category">カテゴリー</string>
     <string name="search_category_folder">フォルダー</string>
+    <string name="search_category_type">カテゴリーで検索</string>
     <string name="search_description">デバイス上のすべてのファイルを検索</string>
     <string name="search_empty_view_hint">何も見つかりませんでした</string>
     <string name="search_error_hint">検索</string>
@@ -748,11 +785,13 @@
     <string name="search_more_category">その他</string>
     <string name="search_result">結果</string>
     <string name="search_result_more">もっと見る</string>
+    <string name="search_text_hint">ファイルを検索</string>
     <string name="search_title">検索</string>
     <string name="search_title_hint">検索</string>
     <string name="select_dest_folder">フォルダーを選択</string>
     <string name="select_image">画像</string>
     <string name="select_music">オーディオファイル</string>
+    <string name="select_pdf">PDFを選択</string>
     <string name="select_video">ビデオファイル</string>
     <string name="select_volume">保存場所を選択してください</string>
     <string name="send">送信</string>
@@ -762,6 +801,7 @@
     <string name="set_pattern">パスワードをアップグレードしてください</string>
     <string name="set_pattern_btn">設定</string>
     <string name="set_pattern_msg">パスワードをもう一度設定してください。プライバシー保護パスワードは、写真、メッセージ、メモにも使用されます。</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">%dKB未満</string>
     <string name="size_lv2" formatted="false">%1dKB - %2dMB</string>
     <string name="size_lv3" formatted="false">%1dMB - %2dMB</string>
@@ -774,8 +814,10 @@
     <string name="sort_hint_name">名前で並べ替え</string>
     <string name="sort_hint_time">時間で並べ替え</string>
     <string name="sort_hint_type">種類で並べ替え</string>
+    <string name="sort_mode">並べ替え順序</string>
     <string name="sort_size_asc">小さい順</string>
     <string name="sort_size_desc">大きい順</string>
+    <string name="sort_type">フィルター</string>
     <string name="start_all">すべて表示</string>
     <string name="start_doc">ドキュメント</string>
     <string name="start_phone">ファイル</string>
@@ -863,6 +905,7 @@
     <string name="title_select_volume">フォルダーを選択</string>
     <string name="to_open">設定</string>
     <string name="to_setting">設定</string>
+    <string name="toast_copy_clipboard">クリップボードに追加されました</string>
     <string name="toast_file_not_can_read">この操作を処理するアプリが見つかりませんでした。</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>
@@ -898,7 +941,10 @@
     <string name="v7_preference_on">ON</string>
     <string name="video_data_consume_dialog_confirm">続ける</string>
     <string name="video_data_consume_dialog_title">モバイルデータを使用しますか？</string>
+    <string name="view_mode_grid">グリッド</string>
+    <string name="view_mode_list">リスト</string>
     <string name="view_type">表示</string>
+    <string name="view_type_mode">レイアウト</string>
     <string name="web_sso_login_fail">再度サインインする必要があります</string>
     <string name="web_sso_login_message">サインイン中…</string>
     <string name="webview_reload">再試行</string>

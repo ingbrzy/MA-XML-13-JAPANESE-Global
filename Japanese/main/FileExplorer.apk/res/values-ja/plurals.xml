@@ -4,13 +4,13 @@
         <item quantity="other">1時間前</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1時間前</item>
+        <item quantity="other">%d時間前</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">1時間後</item>
+        <item quantity="other">%d時間後</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">30分後</item>
@@ -124,13 +124,13 @@
         <item quantity="other">%1$s件のコメント</item>
     </plurals>
     <plurals name="original_user_days">
-        <item quantity="other">• &lt;font color=#fc7050>%1$d&lt;/font>日</item>
+        <item quantity="other">" • &lt;font color=#fc7050>%1$d&lt;/font>日"</item>
     </plurals>
     <plurals name="original_user_fans">
-        <item quantity="other">• &lt;font color=#fc7050>%1$s&lt;/font>人のフォロワーを獲得しました！</item>
+        <item quantity="other">" • &lt;font color=#fc7050>%1$s&lt;/font>人のフォロワーを獲得しました！"</item>
     </plurals>
     <plurals name="original_user_play_1">
-        <item quantity="other">• &lt;font color=#fc7050>%1$s&lt;/font>本のビデオをアップロードしました。</item>
+        <item quantity="other">" • &lt;font color=#fc7050>%1$s&lt;/font>本のビデオをアップロードしました。 "</item>
     </plurals>
     <plurals name="original_user_play_2">
         <item quantity="other">&lt;font color=#fc7050>%1$s&lt;/font>人を笑顔にしました！</item>

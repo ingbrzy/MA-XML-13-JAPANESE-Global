@@ -4,13 +4,13 @@
         <item quantity="other">1時間前</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1時間前</item>
+        <item quantity="other">%d時間前</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">1時間後</item>
+        <item quantity="other">%d時間後</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">30分後</item>
@@ -30,23 +30,14 @@
     <plurals name="add_game_notification_title">
         <item quantity="other">%d個のゲームを追加しました</item>
     </plurals>
+    <plurals name="added_apps_count">
+        <item quantity="other">%d個のアプリが追加済み</item>
+    </plurals>
     <plurals name="app_behavior_dashboard_title_desc">
         <item quantity="other">%d個のアプリ</item>
     </plurals>
     <plurals name="app_behavior_dashboard_total_usage_item">
         <item quantity="other">%d個のアプリ</item>
-    </plurals>
-    <plurals name="app_behavior_desc_allow">
-        <item quantity="other">%1$sと%2$sの間に%3$d回許可しました</item>
-    </plurals>
-    <plurals name="app_behavior_desc_allow_minute">
-        <item quantity="other">%1$sに%2$d回許可しました</item>
-    </plurals>
-    <plurals name="app_behavior_desc_deny">
-        <item quantity="other">%1$sと%2$sの間に%3$d回制限しました</item>
-    </plurals>
-    <plurals name="app_behavior_desc_deny_minute">
-        <item quantity="other">%1$sに%2$d回拒否しました</item>
     </plurals>
     <plurals name="app_behavior_desc_duration_usage">
         <item quantity="other">%1$s〜%2$sに%3$d回許可</item>
@@ -57,32 +48,8 @@
     <plurals name="app_behavior_desc_duration_usage_time_end">
         <item quantity="other">%2$sまで%1$d分間使用</item>
     </plurals>
-    <plurals name="app_behavior_desc_virtual">
-        <item quantity="other">%1$sから%2$sの間に空のメッセージを%3$d回返しました</item>
-    </plurals>
-    <plurals name="app_behavior_desc_virtual_minute">
-        <item quantity="other">%1$sに%2$d回空のメッセージを返しました</item>
-    </plurals>
-    <plurals name="app_behavior_notification_audio_more">
-        <item quantity="other">%1$1sを含む%2$d個のアプリが録音しています</item>
-    </plurals>
-    <plurals name="app_behavior_notification_camera_more">
-        <item quantity="other">%1$1sを含む%2$d個のアプリが写真を撮影しています</item>
-    </plurals>
-    <plurals name="app_behavior_notification_location_more">
-        <item quantity="other">%1$1sを含む%2$d個のアプリが位置情報にアクセスしています</item>
-    </plurals>
-    <plurals name="app_behavior_privacy_manager_off">
-        <item quantity="other">%1$d個のアプリによって実行されるセンシティブな操作について通知されません</item>
-    </plurals>
-    <plurals name="app_behavior_privacy_manager_on">
-        <item quantity="other">%1$d個のアプリによって実行されるセンシティブな操作について通知されます</item>
-    </plurals>
-    <plurals name="app_behavior_wakepath_multiple">
-        <item quantity="other">%1$1sが%2$d個のアプリを起動しました</item>
-    </plurals>
-    <plurals name="app_behavior_wakepath_multiple_single">
-        <item quantity="other">このアプリが他の%1$d個のアプリを起動しました</item>
+    <plurals name="app_behavior_record_close_content_text">
+        <item quantity="other">アプリの動作記録はこのデバイスに %d 日間保存されます。この機能をオフにすると、アプリの動作記録がすべて削除されるため、お勧めできません。</item>
     </plurals>
     <plurals name="app_manager_permission_summary_accept">
         <item quantity="other">%d件の権限を許可しました</item>
@@ -95,6 +62,9 @@
     </plurals>
     <plurals name="app_manager_uninstall_notify_summary">
         <item quantity="other">%d個のアプリをアンインストールする</item>
+    </plurals>
+    <plurals name="app_manager_updater_title">
+        <item quantity="other">%d個のアプリをアップデート</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">%d日前に使用</item>
@@ -154,6 +124,12 @@
         <item quantity="other">%d 秒巻き戻し</item>
         <item quantity="one">%d 秒巻き戻し</item>
     </plurals>
+    <plurals name="extreme_mode_runtime_hour">
+        <item quantity="other">%s時間</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_minute">
+        <item quantity="other">%s分</item>
+    </plurals>
     <plurals name="find_applications">
         <item quantity="other">%d個のアプリから検索</item>
     </plurals>
@@ -184,6 +160,12 @@
     <plurals name="game_booster_incoming_call_duration_p2">
         <item quantity="other">%1$s</item>
     </plurals>
+    <plurals name="gamebooster_push_expiring_soon_link_message">
+        <item quantity="other">ゲームターボのメンバーシップの有効期限はあと%d日です。</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_message">
+        <item quantity="other">ゲームターボのメンバーシップの有効期限はあと%d日です。今すぐ更新して、シームレスなゲームをお楽しみください。</item>
+    </plurals>
     <plurals name="gb_ad_people_play">
         <item quantity="other">%1$d人がプレイしています</item>
     </plurals>
@@ -213,6 +195,11 @@
     </plurals>
     <plurals name="gb_toolbox_guide_known">
         <item quantity="other">了解 (%d秒)</item>
+    </plurals>
+    <plurals name="gb_vision_enhance_desc_detail">
+        <item quantity="other">"注：
+· バッテリーセーバーがオンの場合、またはデバイスが発熱している場合は、強化されたビジュアルを利用できません。
+· スマートフレームレートは、ゲームが1秒あたり少なくとも%dフレームを表示するように設定されている場合に最適な結果を示します。"</item>
     </plurals>
     <plurals name="gb_voice_changer_toast_tips_window_bubble">
         <item quantity="other">"今すぐボイスチェンジャーを試して
@@ -258,8 +245,14 @@
     <plurals name="hints_auto_start_disable_title">
         <item quantity="other">%d個のアプリは自動起動を許可されていません</item>
     </plurals>
+    <plurals name="hints_auto_start_disable_title_global">
+        <item quantity="other">%d個のアプリがバックグラウンドでの起動を許可されていません</item>
+    </plurals>
     <plurals name="hints_auto_start_enable_title">
         <item quantity="other">%d個のアプリが自動起動を許可されています</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title_global">
+        <item quantity="other">%d個のアプリがバックグラウンドで起動できます</item>
     </plurals>
     <plurals name="hints_get_root_disable_title">
         <item quantity="other">%d個のアプリはルートアクセスを許可されていません</item>
@@ -359,10 +352,13 @@
         <item quantity="one">%d 件の新しい通知</item>
     </plurals>
     <plurals name="net_booster_expire_notification_tip">
-        <item quantity="other">ネットワークスピードブーストセッションが終了するまで残り%d日です。セッションを更新するとネットワーク速度の問題を避けることができます。</item>
+        <item quantity="other">ネットワークスピードブーストは%d日後に終了します。その後にネットワークの遅延が発生する可能性があります。今すぐ更新しますか？</item>
     </plurals>
     <plurals name="network_restrict_count">
         <item quantity="other">"&lt;font color='#ff0000'>%d:&lt;/font>個のアプリにネットワークアクセスが制限されています"</item>
+    </plurals>
+    <plurals name="not_added_apps_count">
+        <item quantity="other">%d個のアプリが未追加</item>
     </plurals>
     <plurals name="notification_antivirus_title">
         <item quantity="other">%d日以上セキュリティスキャンを実行していません</item>
@@ -415,6 +411,9 @@
     <plurals name="om_running_apps_num">
         <item quantity="other">%d個のアプリ</item>
     </plurals>
+    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
+        <item quantity="other">%1$sを含む%2$d個のアプリが悪意のあるアプリである可能性があります</item>
+    </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="other">+%d</item>
     </plurals>
@@ -426,6 +425,12 @@
     </plurals>
     <plurals name="pc_battery_history_minute">
         <item quantity="other">分</item>
+    </plurals>
+    <plurals name="pc_can_be_optimize_numbers">
+        <item quantity="other">%d個</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title">
+        <item quantity="other">デバイスはバッテリー切れです。%1$d秒後に休止モードを起動します。</item>
     </plurals>
     <plurals name="pc_main_power_center_battery_day">
         <item quantity="other">%s 日</item>
@@ -475,6 +480,12 @@
     <plurals name="power_20s_shutdown">
         <item quantity="other">%d秒後に電源がオフになります</item>
     </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">%s時間</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">%s分</item>
+    </plurals>
     <plurals name="power_center_battery_charge_number">
         <item quantity="other">回</item>
     </plurals>
@@ -495,6 +506,9 @@
     </plurals>
     <plurals name="power_center_battery_minute">
         <item quantity="other">"%d 分 "</item>
+    </plurals>
+    <plurals name="power_center_battery_optimization">
+        <item quantity="other">%d件のシナリオでバッテリー使用量を最適化できます</item>
     </plurals>
     <plurals name="power_center_battery_problem">
         <item quantity="other">%d件のバッテリーの使用に関する問題を修正</item>
@@ -534,6 +548,12 @@
     </plurals>
     <plurals name="power_main_battery_last_minute">
         <item quantity="other">残り%s分</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute_screen_on">
+        <item quantity="other">残りのスクリーンタイム %s分</item>
+    </plurals>
+    <plurals name="power_main_open_last_minute_screen_on">
+        <item quantity="other">オンにするとスクリーンタイムが%s分追加されます</item>
     </plurals>
     <plurals name="power_off_warning_button_ok_time">
         <item quantity="other">了解 (%d秒)</item>
@@ -643,8 +663,14 @@
     <plurals name="st_show_num_number">
         <item quantity="other">%d個の番号</item>
     </plurals>
+    <plurals name="storage_compact_warning">
+        <item quantity="other">%1$d件の権限を編集中</item>
+    </plurals>
     <plurals name="storage_fbo_number_unit">
         <item quantity="other">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>個のフラグメント</item>
+    </plurals>
+    <plurals name="storage_ufs_number">
+        <item quantity="other">&lt;big>&lt;big>%s&lt;/big>&lt;/big> GB</item>
     </plurals>
     <plurals name="summary_app_update">
         <item quantity="other">%d個のアプリのアップデートが利用可能です。</item>
@@ -688,6 +714,9 @@
     </plurals>
     <plurals name="virus_clear_dialog_content">
         <item quantity="other">選択した%d個のアプリを消去しますか？</item>
+    </plurals>
+    <plurals name="wakepath_allow_start_app_count">
+        <item quantity="other">%s個のアプリ</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">危険なアプリ: %d</item>

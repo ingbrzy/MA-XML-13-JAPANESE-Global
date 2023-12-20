@@ -27,6 +27,20 @@
         <item>バランス</item>
         <item>高画質</item>
     </string-array>
+    <string-array name="gb_gpu_custom_fps_gear">
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="gb_gpu_custom_frame_rate_gear">
+        <item>低</item>
+        <item>標準</item>
+        <item>高</item>
+        <item>超高</item>
+        <item>デフォルト</item>
+    </string-array>
     <string-array name="gb_gpu_custom_texture">
         <item>高速</item>
         <item>バランス</item>

@@ -31,6 +31,7 @@
     <string name="add_sound">カスタムプリセットを追加</string>
     <string name="afternoon">午後</string>
     <string name="am">午前</string>
+    <string name="app_disable_description_title">このアプリを無効にしますか？</string>
     <string name="app_name">イヤホン</string>
     <string name="apply_sound">適用</string>
     <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
@@ -64,8 +65,14 @@
     <string name="effect_3dsurround">イマーシブサウンド</string>
     <string name="effect_3dsurround_summary">イヤホンやスピーカーの音の再現性を高める</string>
     <string name="effect_3dsurround_summary_headphone">イヤホンの音の再現性を高める</string>
+    <string name="effect_dolby">Dolby Atmos</string>
+    <string name="effect_misound">Xiaomi サウンド</string>
+    <string name="effect_none">Original</string>
+    <string name="effect_selection">サウンド効果</string>
+    <string name="effect_selection_headset">イヤホンの効果</string>
     <string name="effect_virtual_surround">バーチャルイマーシブサウンド</string>
     <string name="effect_virtual_surround_summary">イヤホンでのオーディオ再生やビデオ再生のために音の深さを豊かにします (この機能は %.1fオーディオが再生されているときは機能しません)</string>
+    <string name="effect_virtual_surround_summary_spk">オーディオやビデオ再生時の音の深みを豊かにする</string>
     <string name="empty" />
     <string name="end_wireless_transmission">停止</string>
     <string name="eq_auto">カスタム</string>
@@ -154,7 +161,7 @@
     <string name="friday">金曜日</string>
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
-    <string name="headset_use_long_time">イヤホンを推奨時間よりも長く装着しているようです。イヤホンを外して、使用を中断してください。</string>
+    <string name="headset_use_long_time">イヤホンを推奨時間よりも長く装着しているようです。イヤホンを外して、一休みしましょう。</string>
     <string name="headset_use_loud_volume">ヘッドホンの音量が長時間大きいままでした。聴覚を保護するために、推奨レベルまで音量を下げました。</string>
     <string name="headset_use_not_support_noise_reduction">現在の環境は非常に騒がしいようです。イヤホンを装着すると、聴力に影響を与える可能性があります。</string>
     <string name="headset_use_prompt">ヘッドホン</string>
@@ -163,7 +170,7 @@
     <string name="headset_volume_prompt">ヘッドホンの音量</string>
     <string name="heard_no">いいえ</string>
     <string name="heard_yes">はい</string>
-    <string name="hearing_assist_bluetooth_headset">Bluetooth イヤホン</string>
+    <string name="hearing_assist_bluetooth_headset">Bluetoothイヤホン</string>
     <string name="hearing_assist_bluetooth_headset_disconnected">未接続</string>
     <string name="hearing_assist_bluetooth_headset_not_supported">サポートされていません</string>
     <string name="hearing_assist_btn_headset_choice">デバイスを選択</string>
@@ -201,14 +208,14 @@
     <string name="midnight">真夜中</string>
     <string name="misound_effect_setting">Mi サウンド</string>
     <string name="miuix_access_state_desc">選択済み</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
-    <string name="miuix_appcompat_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
@@ -270,6 +277,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -373,14 +381,14 @@
     <string name="music_headset_effect_harman_kardon">Harman Kardon</string>
     <string name="music_headset_effect_harman_kardon_summary">認定プロオーディオ</string>
     <string name="music_headset_effect_settings">サウンド効果</string>
-    <string name="music_headset_improve_sound">イヤホンの音を調節</string>
+    <string name="music_headset_improve_sound">イヤホンに音を調整</string>
     <string name="music_headset_is_open">オン</string>
     <string name="music_headset_mode_music">前の曲/次の曲</string>
     <string name="music_headset_mode_settings">ヘッドホンのリモコンボタン</string>
     <string name="music_headset_mode_volume">音量アップ/ダウン</string>
     <string name="music_headset_no_contected">ヘッドホンが検出されません</string>
     <string name="music_headset_not_open">オフ</string>
-    <string name="music_headset_open">イヤホンの音を調節</string>
+    <string name="music_headset_open">イヤホンに音を調整</string>
     <string name="music_headset_optimization">サウンドの最適化</string>
     <string name="music_headset_scenario_intelligent">スマート</string>
     <string name="music_headset_scenario_music">音楽</string>
@@ -417,6 +425,9 @@
     <string name="now_here">今はどうですか？</string>
     <string name="original_sound">元の音を再生</string>
     <string name="password_toggle_content_description">パスワードを表示</string>
+    <string name="permission_go_to_settings">設定</string>
+    <string name="permission_requesr_content">設定で、このアプリが付近のデバイスに接続することを許可してください。</string>
+    <string name="permission_requesr_title">アクセス許可が必要です</string>
     <string name="personal_sound">適用したプリセットで再生</string>
     <string name="pm">午後</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
@@ -457,18 +468,13 @@
     <string name="sound_id_function_description">自分の好みに合わせてイコライザーカーブをパーソナライズ</string>
     <string name="sound_id_function_name">パーソナライズされたサウンド</string>
     <string name="sound_id_headset_status">現在のイヤホン</string>
-    <string name="sound_id_hz_high">"高音
-%dHz"</string>
-    <string name="sound_id_hz_low">"低音
-%dHz"</string>
-    <string name="sound_id_hz_media">"中音
-%dHz"</string>
+    <string name="sound_id_hz"> %d Hz</string>
+    <string name="sound_id_hz_high">高音 %dHz</string>
+    <string name="sound_id_hz_low">低音 %dHz</string>
+    <string name="sound_id_hz_media">中音 %dHz</string>
     <string name="sound_id_music_one_description">軽快 | %d秒</string>
-    <string name="sound_id_music_one_title">Rainy city</string>
     <string name="sound_id_music_three_description">メロディック | %d秒</string>
-    <string name="sound_id_music_three_title">Trace</string>
     <string name="sound_id_music_two_description">リズミカル | %d秒</string>
-    <string name="sound_id_music_two_title">Night fever</string>
     <string name="sound_id_no_effect_msg">パーソナライズされたサウンドを使用しない</string>
     <string name="sound_id_notice_headset_change_msg">別のイヤホンを使用しているようです。テストは停止されました。</string>
     <string name="sound_id_notice_headset_change_msg2">別のイヤホンを使用しているようです。このパーソナライズされたサウンドがこのイヤホンと一致することを確認してください。</string>
@@ -514,6 +520,7 @@
     <string name="sound_transmission_title">ワイヤレスマイク</string>
     <string name="spatial_audio">イマーシブサウンド</string>
     <string name="spatial_audio_summary">イヤホンでの再生時に没入感と空間感を体験できます</string>
+    <string name="spatial_audio_summary_spk">再生時に没入感と空間感を体験できます</string>
     <string name="speaker_scenario_resume">元の効果を復元</string>
     <string name="start_test_sound">テストを開始</string>
     <string name="status_bar_notification_info_overflow">999+</string>

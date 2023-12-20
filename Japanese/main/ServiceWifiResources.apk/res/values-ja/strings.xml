@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accept">同意する</string>
+    <string name="apm_enabled_first_time_message">機内モードでも、デバイスの Wi-Fi は ON のままになります。Wi-Fi を ON にしたくない場合は OFF にしてください。</string>
+    <string name="apm_enabled_first_time_title">Wi-Fi を ON のままにする</string>
     <string name="decline">同意しない</string>
     <string name="dlg_ok">OK</string>
+    <string name="notification_channel_apm_alerts">APM アラート</string>
     <string name="notification_channel_network_alerts">ネットワーク通知</string>
     <string name="notification_channel_network_available">ネットワークを利用できます</string>
     <string name="notification_channel_network_status">ネットワークのステータス</string>
@@ -21,6 +24,10 @@
 %1$s
 
 "</string>
+    <string name="wifi_ca_cert_dialog_message_expiration_text">"証明書の期限切れ:
+%1$s
+
+"</string>
     <string name="wifi_ca_cert_dialog_message_hint">"以下の情報が正しい場合にのみ、このネットワークの接続を許可します。
 
 "</string>
@@ -36,12 +43,12 @@
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_message_signature_name_text">"署名:
+    <string name="wifi_ca_cert_dialog_message_signature_name_text">"SHA-256 フィンガープリント:
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_preT_abort_text">接続しない</string>
-    <string name="wifi_ca_cert_dialog_preT_continue_text">接続する</string>
+    <string name="wifi_ca_cert_dialog_preT_abort_text">切断</string>
+    <string name="wifi_ca_cert_dialog_preT_continue_text">接続を維持する</string>
     <string name="wifi_ca_cert_dialog_preT_message_hint">ネットワーク %1$s に証明書がありません。</string>
     <string name="wifi_ca_cert_dialog_preT_message_link">証明書を追加する方法</string>
     <string name="wifi_ca_cert_dialog_preT_title">このネットワークを確認できません</string>
@@ -82,21 +89,36 @@
     <string name="wifi_enable_request_dialog_negative_button">許可しない</string>
     <string name="wifi_enable_request_dialog_positive_button">許可</string>
     <string name="wifi_enable_request_dialog_title">Wi‑Fi を ON にすることを %1$s に許可しますか？</string>
+    <string name="wifi_enabled_apm_first_time_message">Wi-Fi を ON にしておくと、次に機内モードになったときも ON のままになります</string>
+    <string name="wifi_enabled_apm_first_time_title">機内モードで Wi-Fi を ON</string>
     <string name="wifi_interface_priority_approve">許可</string>
+    <string name="wifi_interface_priority_interface_name_ap">Wi-Fi アクセス ポイント</string>
+    <string name="wifi_interface_priority_interface_name_ap_bridge">Wi-Fi アクセス ポイント</string>
+    <string name="wifi_interface_priority_interface_name_nan">Wi-Fi Aware</string>
+    <string name="wifi_interface_priority_interface_name_p2p">Wi-Fi Direct</string>
+    <string name="wifi_interface_priority_interface_name_sta">STA</string>
     <string name="wifi_interface_priority_message">このために %3$s で問題が発生することがあります。</string>
     <string name="wifi_interface_priority_message_plural">次のアプリに問題が発生する可能性があります。%3$s。</string>
     <string name="wifi_interface_priority_reject">許可しない</string>
     <string name="wifi_interface_priority_title">%1$s がネットワーク リソースの使用を求めています</string>
+    <string name="wifi_network_disabled_by_admin_button">閉じる</string>
+    <string name="wifi_network_disabled_by_admin_message">%1$s は管理者によって無効にされています。</string>
+    <string name="wifi_network_disabled_by_admin_title">使用できないネットワーク</string>
+    <string name="wifi_network_switch_dialog_negative_button">切り替えない</string>
+    <string name="wifi_network_switch_dialog_positive_button">切り替える</string>
+    <string name="wifi_network_switch_dialog_title_bad_internet">%1$s は低品質です。%2$s に切り替えますか？</string>
+    <string name="wifi_network_switch_dialog_title_no_internet">%1$s がインターネットに接続できないようです。%2$s に切り替えますか？</string>
     <string name="wifi_p2p_enter_pin_message">必要なPINを入力してください:</string>
     <string name="wifi_p2p_frequency_conflict_message">モバイル デバイスが%1$sに接続されている間は一時的にWi-Fi接続が解除されます。</string>
-    <string name="wifi_p2p_from_message">From:</string>
+    <string name="wifi_p2p_from_message">送信側:</string>
+    <string name="wifi_p2p_invitation_seconds_remaining">{0,plural, =1{# 秒以内に承諾してください。}other{# 秒以内に承諾してください。}}</string>
     <string name="wifi_p2p_invitation_sent_title">招待状を送信しました</string>
     <string name="wifi_p2p_invitation_to_connect_title">接続への招待</string>
     <string name="wifi_p2p_show_pin_message">PIN:</string>
-    <string name="wifi_p2p_to_message">To:</string>
+    <string name="wifi_p2p_to_message">受信側:</string>
     <string name="wifi_sim_required_message">%1$s に接続するには、%2$s の SIM を挿入します</string>
     <string name="wifi_sim_required_title">Wi-Fi が切断されました</string>
-    <string name="wifi_softap_auto_shutdown_timeout_expired_summary">デバイスは接続されていません。タップすると変更できます。</string>
+    <string name="wifi_softap_auto_shutdown_timeout_expired_summary">デバイスは接続されていません。タップで変更できます。</string>
     <string name="wifi_softap_auto_shutdown_timeout_expired_title">アクセス ポイントが OFF になりました</string>
     <string name="wifi_suggestion_action_allow_app">許可</string>
     <string name="wifi_suggestion_action_allow_imsi_privacy_exemption_carrier">接続</string>

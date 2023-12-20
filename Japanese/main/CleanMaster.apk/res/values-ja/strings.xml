@@ -52,6 +52,7 @@
     <string name="activity_title_uninstall_apps">アプリ</string>
     <string name="activity_title_video">ビデオを削除</string>
     <string name="activity_title_white_list">例外</string>
+    <string name="ad_flag_text">広告</string>
     <string name="ad_install_success_dialog_lunch">開く</string>
     <string name="ad_install_success_dialog_title">%1$sを正常にインストールしました。今すぐ開きますか？</string>
     <string name="afternoon">午後</string>
@@ -239,6 +240,7 @@
     <string name="dc_item_title_wechat_chat">WeChat履歴を消去</string>
     <string name="dc_storage_cleaned">%sを解放しました</string>
     <string name="dc_storage_info">利用可能 %1$s | 合計 %2$s</string>
+    <string name="dc_storage_info_new">%1$s利用可能</string>
     <string name="deep_clean_completed_tips">正常にクリーンアップされました</string>
     <string name="deep_clean_data_path_clean_title">キャッシュをクリア</string>
     <string name="deep_clean_uninstall_completed_tips">正常にアンインストールしました</string>
@@ -302,6 +304,7 @@
     <string name="download">ダウンロード</string>
     <string name="downloading">ダウンロード中</string>
     <string name="early_morning">早朝</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">空です</string>
     <string name="empty_content_no_privacy">空です</string>
     <string name="empty_content_no_similar_image">写真はありません</string>
@@ -462,7 +465,6 @@
     <string name="guide_dc_dialog_negative">キャンセル</string>
     <string name="guide_dc_dialog_positive">OK</string>
     <string name="guide_dc_dialog_title">ストレージが残りわずかです</string>
-    <string name="guide_secure_dialog_message">デバイスの最適化スコアは80点未満です。今すぐ最適化しますか？</string>
     <string name="guide_secure_dialog_message_new">デバイスの最適化スコアが%d点未満です。今すぐ最適化しますか？</string>
     <string name="guide_secure_dialog_negative">キャンセル</string>
     <string name="guide_secure_dialog_positive">最適化</string>
@@ -490,6 +492,7 @@
     <string name="hints_garbage_cleanup_result_safe">ゴミは見つかりませんでした</string>
     <string name="hints_garbage_handle_item_content">%1$d項目、%2$s</string>
     <string name="hints_garbage_handle_item_empty_content">空です</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">使用頻度の低い</string>
     <string name="hints_installed_app_near">最近使用された</string>
     <string name="hints_installed_app_never">未使用</string>
@@ -539,6 +542,7 @@
     <string name="last_check_canceled">前回のスキャンはキャンセルされました</string>
     <string name="load_only_under_wlan">Wi-Fi環境下でのみ読み込む</string>
     <string name="location_not_found">ファイルが見つかりませんでした</string>
+    <string name="lock_device_toast">このデバイスはロックされています。クリーナーを使用するにはロックを解除してください。</string>
     <string name="login_immediately">サインイン</string>
     <string name="long_click_dialog_summary">長押しすると例外に追加します。</string>
     <string name="long_click_dialog_title">通知</string>
@@ -566,14 +570,14 @@
     <string name="menu_view">フォルダーで表示</string>
     <string name="midnight">真夜中</string>
     <string name="miuix_access_state_desc">選択済み</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
-    <string name="miuix_appcompat_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
@@ -638,6 +642,9 @@
     <string name="msg_update_error_code_success">完了</string>
     <string name="msg_update_error_code_unknown_error">サーバーはビジー状態です。数分待ってからもう一度お試しください。</string>
     <string name="name_debuglog_dir">BSPデバッグログ</string>
+    <string name="native_body">本文</string>
+    <string name="native_headline">見出し</string>
+    <string name="native_media_view">メディアビュー</string>
     <string name="nb_clear_set">通知シェードでキャッシュをクリアし、バッテリーとブロックリストの情報を表示する</string>
     <string name="network_not_available">ネットワークに接続できません</string>
     <string name="news_change">変更</string>
@@ -744,12 +751,7 @@
     <string name="pref_title_open_optimizer_cloud_scan">ファイル名をアップロード</string>
     <string name="pref_title_open_optimizer_memory_scan">アプリのメモリをスキャン</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
-    <string name="privacy_app_desc">アカウントとパスワード</string>
-    <string name="privacy_app_desc_message">アカウント、パスワード、メッセージ</string>
-    <string name="privacy_app_desc_search">アカウント、パスワード、検索履歴</string>
-    <string name="privacy_app_desc_setting">アカウント、パスワード、設定</string>
     <string name="privacy_browser_desc">検索されたアイテム</string>
-    <string name="privacy_cache_desc">アカウント、パスワード、履歴、設定など</string>
     <string name="privacy_cache_empty">プライベートデータなし</string>
     <string name="privacy_cache_scaning">確認中…</string>
     <string name="privacy_cache_title">個人情報</string>
@@ -807,6 +809,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="skip_ad">スキップ</string>
     <string name="sponsored">スポンサー</string>
     <string name="start_downloading_app">ダウンロードを開始しています: %1$s</string>
     <string name="start_install">今すぐインストール</string>
@@ -868,9 +871,7 @@
     <string name="time_picker_label_hour">時</string>
     <string name="time_picker_label_minute">分</string>
     <string name="tips_low_storage_dialog_cancel">キャンセル</string>
-    <string name="tips_low_storage_dialog_msg_qq">QQのキャッシュサイズが3GBを超えました。これにより、デバイスの速度が低下する可能性があります。今すぐQQのキャッシュをクリアしますか？</string>
     <string name="tips_low_storage_dialog_msg_qq_new">QQのキャッシュサイズが%dGBに達しました。これにより、デバイスの速度が低下する可能性があります。今すぐQQキャッシュを消去しますか？</string>
-    <string name="tips_low_storage_dialog_msg_storage">ストレージ容量の90%を使用しています。使用しないアプリをアンインストールしてください。</string>
     <string name="tips_low_storage_dialog_msg_storage_new">ストレージ容量の%sを使用しています。使用しないアプリをアンインストールしてください。</string>
     <string name="tips_low_storage_dialog_msg_wechat_new">WeChatのキャッシュサイズが%dGBに達しました。これにより、デバイスの速度が低下する可能性があります。今すぐWeChatキャッシュを消去しますか？</string>
     <string name="tips_low_storage_dialog_ok">クリア</string>
@@ -938,6 +939,7 @@
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="virus_scan">ウイルススキャン</string>
+    <string name="watermark_label_prefix">AdMob -</string>
     <string name="wechat_chat_data_type_cache">WeChatキャッシュ</string>
     <string name="wechat_chat_data_type_cache_desc">これらのファイルはインターネットに接続した後に復元できます。</string>
     <string name="wechat_chat_data_type_chat">チャット履歴</string>

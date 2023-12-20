@@ -4,13 +4,13 @@
         <item quantity="other">1時間前</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1時間前</item>
+        <item quantity="other">%d時間前</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">1時間後</item>
+        <item quantity="other">%d時間後</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">30分後</item>
@@ -26,6 +26,9 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="cloud_storage_full_upgrade_text">
+        <item quantity="other">ストレージが足りません。%d枚の写真を同期できませんでした。</item>
     </plurals>
     <plurals name="dirty_blocklist_count">
         <item quantity="other">%d件のブロックリストエントリー</item>
@@ -81,6 +84,9 @@
     <plurals name="error_screen_pwd_next_retry_time">
         <item quantity="other">%d秒後にもう一度お試しください</item>
     </plurals>
+    <plurals name="gallery_auto_sync_fail_noti_red_title">
+        <item quantity="other">&lt;font color=#F22424>%s個のアイテム&lt;/font>を同期できませんでした</item>
+    </plurals>
     <plurals name="gallery_auto_sync_fail_noti_title">
         <item quantity="other">%s個のアイテムを同期できませんでした</item>
     </plurals>
@@ -116,6 +122,9 @@
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d個を選択済み</item>
+    </plurals>
+    <plurals name="noti_quota_full_title_with_icon_text">
+        <item quantity="other">ストレージがいっぱいです。&lt;font color=#F22424>%d個のアプリ&lt;/font>を同期できませんでした。</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d分前</item>

@@ -49,7 +49,7 @@
     <string name="add_holiday_title">休日を追加</string>
     <string name="additional_cal_dialog_title">カレンダーを選択</string>
     <string name="additional_cal_pref_title">追加のカレンダー</string>
-    <string name="additional_calendar_note">追加のカレンダーの中には、利用できないものや、不定の要因によって異なるものがあります</string>
+    <string name="additional_calendar_note">一部の追加カレンダーは、不確定な要素により利用できない場合や異なる場合があります。</string>
     <string name="afternoon">午後</string>
     <string name="agenda_month_empty_hint">今日のイベントはありません</string>
     <string name="agenda_not_today_empty_hint">まだイベントはありません。タップして作成してください。</string>
@@ -183,6 +183,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">中国暦</string>
+    <string name="date_time_fmt" formatted="false">%s %s</string>
     <string name="date_time_picker_dialog_title">日付と時刻を設定</string>
     <string name="date_today">" (今日)"</string>
     <string name="date_view">日付</string>
@@ -344,6 +345,8 @@
     <string name="full_scorecard">フルスコアカード</string>
     <string name="gadget_no_events">今後のカレンダーイベントはありません</string>
     <string name="gadget_title">カレンダー</string>
+    <string name="glance_card_sub_title">ロック画面にエキサイティングなストーリーを表示</string>
+    <string name="glance_card_title">Glance for Mi</string>
     <string name="global_action_text_card_manager">カレンダーをカスタマイズ</string>
     <string name="global_cricket_no_match">今日はクリケットの試合は予定されていません。他の日をチェックしてください。</string>
     <string name="global_football_final">決勝戦</string>

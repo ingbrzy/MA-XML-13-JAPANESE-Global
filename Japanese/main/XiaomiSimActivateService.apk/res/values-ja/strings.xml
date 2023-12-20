@@ -36,9 +36,9 @@
     <string name="activate_feature_mi_roaming">Mi ローミング</string>
     <string name="activate_feature_mms_sync">メッセージを同期</string>
     <string name="activate_feature_mx">Mi メッセージ</string>
-    <string name="activate_feature_register_xiaomi_account">Mi アカウントの設定</string>
+    <string name="activate_feature_register_xiaomi_account">Xiaomi アカウントの設定</string>
     <string name="activate_feature_remote_assist">リモートアシスタント</string>
-    <string name="activate_feature_verify_mx_token">Mi アカウント認証</string>
+    <string name="activate_feature_verify_mx_token">Xiaomi アカウント認証</string>
     <string name="activate_feature_voip">Mi メッセージ VoIP</string>
     <string name="activate_history_canceled_overview">SIMカードのアクティブ化はキャンセルされました。アクティブ化は\"%1$s\"によりトリガーされました。</string>
     <string name="activate_history_multisim_canceled_overview">SIMカード%2$dのアクティブ化はキャンセルされました。アクティブ化は\"%1$s\"によりトリガーされました。</string>
@@ -47,8 +47,8 @@
     <string name="activate_history_success_overview">SIMカードを正常にアクティブ化しました。アクティブ化は \"%1$s\"によってトリガーされました。</string>
     <string name="activate_history_title">SIMカードのアクティブ化</string>
     <string name="activate_phone_failed_notif_title_sim">SIM %1$dを使用して%2$sをアクティブ化できませんでした</string>
-    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">SIM %dを使用してMi アカウントを正常に作成しました</string>
-    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">SIM %dを使用してMi アカウントを作成できませんでした</string>
+    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">SIM %dを使用してXiaomi アカウントを正常に作成しました</string>
+    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">SIM %dを使用してXiaomi アカウントを作成できませんでした</string>
     <string name="activate_phone_server_failed_notif_title">\"%s\"をアクティブ化できませんでした</string>
     <string name="activate_phone_server_success_notif_title">\"%s\"が正常にアクティブ化されました</string>
     <string name="activate_phone_success_notif_title_sim">SIM %1$dを使用して\"%2$s\"を正常にアクティブ化しました</string>
@@ -60,8 +60,8 @@
     <string name="activate_popup_confirm_failed_receive_sms">再試行</string>
     <string name="activate_popup_confirm_failed_send_sms">もう一度送信する</string>
     <string name="activate_popup_confirm_failed_server">再試行</string>
-    <string name="activate_popup_desc_2_intl_sim_cards_msg_with_charge_hint">\"%2$s\"をアクティブ化するために、&lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g>通の&lt;font color=#0097FF>&lt;b>有料の国際SMS&lt;/b>が送信されます。発生した費用は通信事業者から請求されます。</string>
-    <string name="activate_popup_desc_2_sim_cards_msg_with_charge_hint">\"%2$s\"をアクティブ化するために、&lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g>通の&lt;font color=#0097FF>&lt;b>有料の国内SMS&lt;/b>が送信されます。発生した費用は通信事業者から請求されます。</string>
+    <string name="activate_popup_desc_2_intl_sim_cards_msg_with_charge_hint">\"%2$s\"をアクティブ化するために、&lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g>通の&lt;font color=#0097FF>有料の国際SMS&lt;/font>が送信されます。発生した費用は通信事業者から請求されます。</string>
+    <string name="activate_popup_desc_2_sim_cards_msg_with_charge_hint">\"%2$s\"をアクティブ化するために、&lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g>通の&lt;font color=#0097FF>有料の国内SMS&lt;/font>が送信されます。発生した費用は通信事業者から請求されます。</string>
     <string name="activate_popup_desc_all_gateway_failed_query_info">"電話番号が見つかりません。SIMカードがアクティブになっていることを確認してください。
 新しいSIMカードに関連付けられている電話番号を入力して、 %sを再度アクティブ化してください。"</string>
     <string name="activate_popup_desc_all_gateway_failed_send_sms">"アクティベーションメッセージを送信できませんでした。SIMカードがアクティブ化されていることを確認してください。
@@ -74,21 +74,22 @@
     <string name="activate_popup_desc_failed_receive_sms">入力した電話番号が正しいことと、SIMカードがアクティブ化されていることを確認してください。</string>
     <string name="activate_popup_desc_failed_server">ネットワーク接続を確認して、もう一度お試しください。</string>
     <string name="activate_popup_desc_failed_server_msg">サーバーエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
-    <string name="activate_popup_desc_find_device_postfix_msg">%1$s。\"%3$s\"をアクティブ化するには、SIM %2$dの電話番号を入力してください。このSIMカードを交換すると、アクティブ化用のSMSが再度送信されます。</string>
-    <string name="activate_popup_desc_find_device_postfix_msg_one_sim">%1$s。\"%2$s\"をアクティブ化するには、電話番号を入力してください。このSIMカードを交換すると、アクティブ化用のSMSが再度送信されます。</string>
-    <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">\"%2$s\"をアクティブ化するには、&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>通の&lt;font color=#0097FF>&lt;b>有料の国際SMS&lt;/b>が送信されます。発生した費用は通信事業者から請求されます。</string>
-    <string name="activate_popup_desc_mi_account_user_manual">%1$s&lt;Data>ご不明な点がある場合は、&lt;a href=https://account.xiaomi.com/helpcenter/faq>Mi アカウントユーザーマニュアル&lt;/a>を参照してください。&lt;/Data></string>
-    <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">\"%3$s\"をアクティブ化するために、&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>通の&lt;font color=#0097FF>&lt;b>有料の国内SMS&lt;/b>と&lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>通の&lt;font color=#0097FF>&lt;b>有料の国際SMS&lt;/b>が送信されます。発生した費用は通信事業者から請求されます。</string>
+    <string name="activate_popup_desc_find_device_postfix_msg">%1$s \"%3$s\"をアクティブ化するには、SIM %2$dの電話番号を入力してください。このSIMカードを交換すると、アクティブ化用のSMSが再度送信されます。</string>
+    <string name="activate_popup_desc_find_device_postfix_msg_one_sim">%1$s \"%2$s\"をアクティブ化するには、電話番号を入力してください。このSIMカードを交換すると、アクティブ化用のSMSが再度送信されます。</string>
+    <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">\"%2$s\"をアクティブ化するには、&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>通の&lt;font color=#0097FF>有料の国際SMS&lt;/font>が送信されます。発生した費用は通信事業者から請求されます。</string>
+    <string name="activate_popup_desc_mi_account_user_manual">"%1$s
+&lt;Data>ご不明な点がある場合は、&lt;a href=https://account.xiaomi.com/helpcenter/faq>Xiaomi アカウントユーザーマニュアル&lt;/a>を参照してください。&lt;/Data>"</string>
+    <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">\"%3$s\"をアクティブ化するために、&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>通の&lt;font color=#0097FF>有料の国内SMS&lt;/font>と&lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>通の&lt;font color=#0097FF>有料の国際SMS&lt;/font>が送信されます。発生した費用は通信事業者から請求されます。</string>
     <string name="activate_popup_desc_sim_card_downlink_msg">\"%2$s\"をアクティブ化するには、SIM %1$dの電話番号を入力してください。</string>
     <string name="activate_popup_desc_sim_card_downlink_msg_one_sim">%sをアクティブ化するには、電話番号を入力してください。</string>
     <string name="activate_popup_desc_sim_card_msg_with_charge_hint">\"%2$s\"をアクティブ化するために、&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>通の&lt;font color=#0097FF>有料SMS&lt;/font>が送信されます。発生した費用は通信事業者から請求されます。</string>
-    <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s。\"%3$s\"をアクティブ化するには、SIM %2$dの電話番号を入力してください。技術サポートの一部はWeihuitelが提供しています。詳しくは、Weihuitelのプライバシーポリシーを参照してください。</string>
-    <string name="activate_popup_desc_voip_privacy_prefix_msg_one_sim">%1$s。\"%2$s\"をアクティブ化するには、電話番号を入力してください。技術サポートの一部はWeihuitelが提供しています。詳しくは、Weihuitelのプライバシーポリシーを参照してください。</string>
+    <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s \"%3$s\"をアクティブ化するには、SIM %2$dの電話番号を入力してください。技術サポートの一部はWeihuitelが提供しています。詳しくは、Weihuitelのプライバシーポリシーを参照してください。</string>
+    <string name="activate_popup_desc_voip_privacy_prefix_msg_one_sim">%1$s \"%2$s\"をアクティブ化するには、電話番号を入力してください。技術サポートの一部はWeihuitelが提供しています。詳しくは、Weihuitelのプライバシーポリシーを参照してください。</string>
     <string name="activate_popup_failed_send_sms_desc">アクティブ化用のSMSを送信できませんでした。SIM %dが正しく動作することを確認して、もう一度お試しください。</string>
     <string name="activate_popup_failed_send_sms_desc_one_sim">アクティブ化用のSMSを送信できませんでした。SIMカードが正しく動作することを確認して、もう一度お試しください。</string>
     <string name="activate_progress_status_title">\"%s\"をアクティブ化中…</string>
-    <string name="activate_registered_xiaomi_account_failed_notif_title">Mi アカウントを作成できませんでした</string>
-    <string name="activate_registered_xiaomi_account_success_notif_title">Mi アカウントを正常に作成しました</string>
+    <string name="activate_registered_xiaomi_account_failed_notif_title">Xiaomi アカウントを作成できませんでした</string>
+    <string name="activate_registered_xiaomi_account_success_notif_title">Xiaomi アカウントが正常に作成されました</string>
     <string name="activate_status_desc_acquire_phone_number">電話番号を認証中…</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip">電話番号を認証できませんでした。SIM %dが正常に動作することを確認してから、もう一度お試しください。</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip_one_sim">電話番号を認証できませんでした。SIMカードが正常に動作することを確認して、もう一度お試しください。</string>
@@ -102,8 +103,8 @@
     <string name="activate_status_desc_sending_sms">アクティベーションSMSを送信中…</string>
     <string name="activate_status_desc_wait_for_sms">サーバーからのアクティベーションSMSを待っています…</string>
     <string name="activate_status_title_activating_sim">SIM %1$dを使用して\"%2$s\"をアクティブ化中…</string>
-    <string name="activate_status_title_registering_xiaomi_account">Mi アカウントを作成中…</string>
-    <string name="activate_status_title_registering_xiaomi_account_sim">SIM %dを使用してMi アカウントを作成中…</string>
+    <string name="activate_status_title_registering_xiaomi_account">Xiaomi アカウントを作成中…</string>
+    <string name="activate_status_title_registering_xiaomi_account_sim">SIM %dを使用してXiaomi アカウントを作成中…</string>
     <string name="afternoon">午後</string>
     <string name="am">午前</string>
     <string name="app_name">Xiaomi SIMアクティブ化サービス</string>
@@ -126,7 +127,7 @@
     <string name="error_sim_not_in_service_tip">SIM %dがネットワークに接続できません。SIMカードが正しく動作することを確認して、もう一度お試しください。</string>
     <string name="error_sim_not_in_service_tip_one_sim">ネットワークに接続できません。SIMカードが正しく動作することを確認して、もう一度お試しください。</string>
     <string name="evening">夕方</string>
-    <string name="explain_activate_register_xiaomi_account_title">Mi アカウントを作成</string>
+    <string name="explain_activate_register_xiaomi_account_title">Xiaomi アカウントを作成</string>
     <string name="explain_activate_send_sms_permission_msg">%sをアクティブ化するには、アクティブ化用のSMSを送信する許可が必要です。発生した費用は通信事業者から請求されます。</string>
     <string name="explain_send_sms_permission_button">認証</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -186,14 +187,14 @@
     <string name="friday_shortest">金</string>
     <string name="midnight">真夜中</string>
     <string name="miuix_access_state_desc">選択済み</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
-    <string name="miuix_appcompat_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
@@ -265,7 +266,7 @@
     <string name="sim_activated_failed_msg">サービスをアクティブ化できませんでした。タップしてもう一度お試しください。</string>
     <string name="sim_unactivated_feature_title">\"%s\"はアクティブ化されませんでした</string>
     <string name="sim_unactivated_msg">このサービスはアクティブ化されていません。タップしてもう一度お試しください。</string>
-    <string name="sim_unactivated_register_xiaomi_account_feature_title">Mi アカウントは作成されませんでした</string>
+    <string name="sim_unactivated_register_xiaomi_account_feature_title">Xiaomi アカウントは作成されませんでした</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>

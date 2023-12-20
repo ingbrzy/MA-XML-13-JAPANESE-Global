@@ -4,10 +4,9 @@
         <item>カメラ</item>
         <item>ギャラリー</item>
     </string-array>
-    <string-array name="common_folder_operations">
-        <item>新建</item>
-        <item>重命名</item>
-        <item>删除</item>
+    <string-array name="big_screen_layouts">
+        <item>@string/setting_big_screen_layout_columns</item>
+        <item>@string/setting_big_screen_layout_flat</item>
     </string-array>
     <string-array name="contact_entries">
         <item>名前</item>
@@ -22,20 +21,6 @@
         <item>住所</item>
         <item>メモ</item>
     </string-array>
-    <string-array name="first_guide_contents">
-        <item>メモへようこそ！</item>
-        <item>メモを取る</item>
-        <item>メモでは、テキスト、画像、音声録音を使用できます。スタイルとフォントの豊富なコレクションにより、あなたのシンプルな走り書きが素敵なメモになります。</item>
-        <item>チェックリストやリマインダーは、次の旅行を計画したり、食料品リストを作成したりするための基本的で効果的なツールが必要なときに役立ちます。</item>
-        <item>メモを共有</item>
-        <item>メモでスクロールスクリーンショットを自動的に作成し、それらを友達と共有できます。</item>
-        <item>フォルダーの作成と切り替え</item>
-        <item>下の矢印を押すと、新しいフォルダーを作成するか既存のフォルダーを切り替えます。</item>
-    </string-array>
-    <string-array name="folder_operations">
-        <item>名前の変更</item>
-        <item>削除</item>
-    </string-array>
     <string-array name="font_size_names">
         <item>小</item>
         <item>中</item>
@@ -46,15 +31,8 @@
         <item>作成日順</item>
         <item>変更日順</item>
     </string-array>
-    <string-array name="second_guide_contents">
-        <item>音声メモ</item>
-        <item>ビルトインのテキスト読み上げエンジンを使用してメモを作成し、元の音声の録音をメモに添付します。</item>
-    </string-array>
-    <string-array name="second_guide_contents_pad_or_inter">
-        <item>音声メモ</item>
-        <item>今すぐ音声メモを作成できます。アイコンをタップして音声を録音し、オーディオファイルをメモの中に保存するだけです。</item>
-    </string-array>
-    <string-array name="system_folder_operations">
-        <item>新建</item>
+    <string-array name="setting_phone_note_layout_way">
+        <item>@string/action_mode_switcher_list_description</item>
+        <item>@string/action_mode_switcher_grid_description</item>
     </string-array>
 </resources>

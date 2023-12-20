@@ -76,6 +76,8 @@
     <string name="dialog_miplay_permission_message">キャストに、録音、内部ストレージのファイルへのアクセス、位置情報へのアクセスを許可して、この機能を正常に使用できるようにしてください。続けるには、\"設定\"をタップし、\"アプリの権限\"を選択します。</string>
     <string name="dialog_miplay_permission_positive">設定</string>
     <string name="dialog_miplay_permission_title">アクセス許可が必要です</string>
+    <string name="dialog_nearbydevice_permission_message">キャスト機能を使用するには、このデバイスが付近のデバイスにアクセスすることを許可してください。</string>
+    <string name="dialog_nearbydevice_permission_title">アクセス許可が必要です</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
     <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. モバイルデバイスとテレビの両方を同じWi-Fiネットワークに接続します。&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 一部のテレビモデルでは、この機能はスクリーンミラーリングがオンの場合にのみ使用できます。詳細は &lt;a href=milink://com.milink.service/specification>\"ヘルプ\"&lt;/a> をご覧ください。&lt;/Data></string>
     <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
@@ -348,6 +350,7 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -562,6 +565,7 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="toast_msg_for_multi_window">分割画面ではこの機能を使用できません</string>
     <string name="toast_msg_for_small_window">キャスト中のウィンドウを最小化して、キャストプロセスを中断せずにスマートフォンの他の機能を使用できます。</string>
     <string name="toast_nfc_dont_move">スマートフォンを動かさないでください</string>
+    <string name="toast_nfc_same_wifi">テレビとこのデバイスの両方を同じネットワークに接続してください</string>
     <string name="toast_title_for_small_window">アプリで \"ウィンドウを最小化\" を選択します</string>
     <string name="toast_turn_off_hotspot_before_cast">キャストする前にポータブルホットスポットをオフにしてください</string>
     <string name="today">今日</string>

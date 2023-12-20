@@ -34,6 +34,8 @@
     <string name="actionbar_button_up_description">戻る</string>
     <string name="afternoon">午後</string>
     <string name="am">午前</string>
+    <string name="annotation_open">ツールを表示</string>
+    <string name="annotation_stow">ツールを非表示</string>
     <string name="app_name">スクリーンショット</string>
     <string name="asus">Asus</string>
     <string name="asus_phone">Asus</string>
@@ -59,6 +61,10 @@
     <string name="confirm_cancel_task_files">%1$sへのファイル送信をキャンセルしますか？</string>
     <string name="confirm_cancel_task_images">%1$sへの画像送信をキャンセルしますか？</string>
     <string name="copy">コピー</string>
+    <string name="copy_dialog_confirm">了解</string>
+    <string name="copy_dialog_content">スクリーンショットは自動的にクリップボードに追加され、貼り付けることができます。設定で「クリップボードへのアイテムの追加」を検索すると、この機能をオフにできます。</string>
+    <string name="copy_dialog_title">注意</string>
+    <string name="copy_success_toast">正常にコピーされました</string>
     <string name="cta_agree_desc">このアプリにインターネットへの接続を許可し、上記の必須のアクセス許可を付与してください。</string>
     <string name="cta_btn_agree">同意</string>
     <string name="cta_btn_disagree">同意しない</string>
@@ -167,7 +173,7 @@
     <string name="long_screenshot_error">エラーが発生しました。もう一度お試しください。</string>
     <string name="long_screenshot_guide_text">"タップして
 スクロールスクリーンショットを作成"</string>
-    <string name="long_screenshot_intercepted_error">スクリーンショットを撮影できませんでした。もう一度お試しください。</string>
+    <string name="long_screenshot_intercepted_error">中断が発生しました。スクリーンショットがギャラリーに保存されました。</string>
     <string name="long_screenshot_out_of_memory_error">画像が大きすぎます</string>
     <string name="long_screenshot_processing">処理中…</string>
     <string name="long_screenshot_processing_description_accessibility">処理中</string>
@@ -194,14 +200,14 @@
     <string name="mi_pad_5_pro_5g">Xiaomi Pad 5 Pro 5G</string>
     <string name="midnight">真夜中</string>
     <string name="miuix_access_state_desc">選択済み</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
-    <string name="miuix_appcompat_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
@@ -273,7 +279,7 @@
     <string name="oppo_phone">OPPO</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
     <string name="partial_screenshot_edit">編集</string>
-    <string name="partial_screenshot_failed_to_capture_title">このアプリはスクリーンショットの撮影を許可していません</string>
+    <string name="partial_screenshot_failed_to_capture_title">このページのスクリーンショットは撮影できません</string>
     <string name="partial_screenshot_failed_to_save_title">保存できませんでした。ストレージ容量が足りません。</string>
     <string name="partial_screenshot_insert_failed">保存できませんでした</string>
     <string name="partial_screenshot_repaint">やり直す</string>
@@ -303,6 +309,12 @@
     <string name="photo_save_to_msg">%sに保存されました</string>
     <string name="pm">午後</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
+    <string name="privacy_mosaic_result_done">プライベートな情報は隠されました</string>
+    <string name="privacy_mosaic_result_fail">プライベートな情報を隠せませんでした。もう一度お試しください。</string>
+    <string name="privacy_mosaic_result_none">プライベートな情報は見つかりませんでした</string>
+    <string name="privacy_mosaic_tip">タップしてプライベートな情報を見えないようにします</string>
+    <string name="privacy_mosaic_tip_long">スクロールスクリーンショットはサポートされていません</string>
+    <string name="privacy_mosaic_tip_partial">部分的なスクリーンショットはサポートされていません</string>
     <string name="realme">realme</string>
     <string name="realme_phone">realme</string>
     <string name="redmi_10x">Redmi 10X</string>
@@ -352,12 +364,17 @@
     <string name="screen_editor_btn_save">保存</string>
     <string name="screen_editor_btn_shell_off">デバイスフレームを削除</string>
     <string name="screen_editor_btn_shell_on">デバイスフレームを追加</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">このスクリーンショットを削除しますか？</string>
     <string name="screen_editor_delete_dialog_picture_msg">この画像を今すぐ削除しますか？</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">完了</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
     <string name="screen_editor_shell_disallowed_with_crop">トリミングしたスクリーンショットにはデバイスフレームを追加できません</string>
     <string name="screen_editor_shell_net_error">デバイスフレームをダウンロードするにはネットワークに接続してください</string>
     <string name="screen_editor_shell_res_downloading">デバイスフレームをダウンロード中…</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">キャンセル</string>
     <string name="screen_save_dialog_btn_delete">スクリーンショットを削除</string>
     <string name="screen_save_dialog_btn_save">ギャラリーに保存</string>
@@ -376,6 +393,8 @@
     <string name="screen_talkback_shape">形</string>
     <string name="screen_talkback_small">極小</string>
     <string name="screen_talkback_text">テキスト</string>
+    <string name="screenshot_detected_multiple_template">%1$s を含む複数のアプリがこのスクリーンショットを検出しました</string>
+    <string name="screenshot_detected_template">%1$s がこのスクリーンショットを検出しました</string>
     <string name="screenshot_edit">編集</string>
     <string name="screenshot_failed_in_landscape_mode">横向きモードではスクロールスクリーンショットを作成できません</string>
     <string name="screenshot_feedback_txt">フィードバック</string>
@@ -384,6 +403,9 @@
     <string name="screenshot_save">保存</string>
     <string name="screenshot_send">送信</string>
     <string name="screenshot_thumbnail">スクリーンショットのサムネイル</string>
+    <string name="scroll_annotation">スクロールして注釈を付ける</string>
+    <string name="scroll_annotation_btn_quit">注釈を終了</string>
+    <string name="scroll_annotation_quit_dialog_picture_msg">終了する前に注釈を保存しますか？</string>
     <string name="search_menu_title">検索</string>
     <string name="send">送信</string>
     <string name="send_files_by">ファイルの共有方法：</string>

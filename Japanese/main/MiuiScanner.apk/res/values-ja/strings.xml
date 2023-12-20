@@ -48,6 +48,9 @@
     <string name="back">戻る</string>
     <string name="barcode_into_rectangle">フレーム内にコードを入れてください</string>
     <string name="birthday">誕生日:</string>
+    <string name="btn_add_schedule">イベントを追加</string>
+    <string name="btn_send_email">メールを送信</string>
+    <string name="btn_send_message">SMSを送信</string>
     <string name="camera_error_title">カメラエラー</string>
     <string name="cancel">キャンセル</string>
     <string name="choose_open_code_app">アプリを選択</string>
@@ -60,15 +63,17 @@
     <string name="common_save">保存</string>
     <string name="company">会社名:</string>
     <string name="confirm">OК</string>
-    <string name="connect_wifi">このネットワークに接続</string>
+    <string name="connect_wifi">接続</string>
     <string name="contact_details">QRコード連絡先：</string>
     <string name="continue_access_web_url">ウェブサイトに移動</string>
     <string name="continue_to_website">ウェブサイトに移動</string>
     <string name="copy">コピー</string>
     <string name="copy_text">テキストをコピーする</string>
     <string name="copy_text_success">テキストはコピーされました</string>
+    <string name="copy_web_url">URLをコピー</string>
     <string name="crop_cancel_description">キャンセル</string>
     <string name="crop_done_description">完了</string>
+    <string name="cta_purpose">スキャナーはカメラを使用して、アプリの使用中に撮影した画像を処理する必要があります。スキャナーを使用して個人情報が含まれる物を撮影しないでください。\"同意\"をタップすると、プライバシーポリシーに同意し、スキャナーにインターネットへの接続を許可したことになります。</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -95,6 +100,8 @@
     <string name="drag_barcode_into_frame">フレームをドラッグしてコードに合わせる</string>
     <string name="early_morning">早朝</string>
     <string name="email">メール:</string>
+    <string name="email_message">本文</string>
+    <string name="email_sub">件名</string>
     <string name="empty" />
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
@@ -103,10 +110,11 @@
     <string name="error_get_image">画像を取得できませんでした</string>
     <string name="error_media_storage_failure">写真を保存できませんでした</string>
     <string name="error_permissions">スキャナーには、正常に動作するために必要な権限がありません。続けるには、 設定に移動してアクセス許可を確認してください。</string>
+    <string name="error_permissions_location">このアプリが正常に動作するために、正確な位置情報へのアクセスを許可してください</string>
     <string name="error_permissions_storage">この機能を使用するには、写真へのアクセスを許可してください</string>
     <string name="evening">夕方</string>
     <string name="expand_button_title">詳細設定</string>
-    <string name="feed_search_fail">結果が見つかりません、もう一度試してください</string>
+    <string name="feed_search_fail">該当結果が見つかりませんでした</string>
     <string name="feedback_description_camera_access">スキャナーがカメラに接続できません</string>
     <string name="feedback_description_save_photo">写真またはビデオを保存できませんでした</string>
     <string name="feedback_phone">電話</string>
@@ -171,12 +179,12 @@
     <string name="friday_shortest">金</string>
     <string name="got_it">了解</string>
     <string name="import_contact">連絡先をインポート</string>
-    <string name="impunity_declaration_content">スキャナーはカメラを使用して、アプリを使用している間に撮影した画像を処理する必要があります。スキャナーを使用して個人情報を含む物を撮影しないでください。\"同意\"をタップすることで、 &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">プライバシーポリシー&lt;/a>&lt;/font>に同意し、スキャナーにインターネットへの接続を許可したことになります。</string>
+    <string name="impunity_declaration_content">スキャナーはカメラを使用して、アプリの使用中に撮影した画像を処理する必要があります。スキャナーを使用して個人情報が含まれる物を撮影しないでください。\"同意\"をタップすると、 &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">プライバシーポリシー&lt;/a>&lt;/font>に同意し、スキャナーにインターネットへの接続を許可したことになります。</string>
     <string name="impunity_declaration_negative_text">終了</string>
     <string name="jingdong">JD</string>
     <string name="kuaidi100_data">Powered by Kuaidi 100</string>
     <string name="label_choose_picture">写真を選択</string>
-    <string name="label_flash_light">懐中電灯</string>
+    <string name="label_flash_light">フラッシュ</string>
     <string name="language_entry_chinese_cn">簡体字中国語</string>
     <string name="language_entry_english">英語</string>
     <string name="language_entry_french">フランス語</string>
@@ -185,7 +193,7 @@
     <string name="language_entry_korean">韓国語</string>
     <string name="language_entry_spanish">スペイン語</string>
     <string name="logistics">速達便</string>
-    <string name="low_version_tip">スキャナーを使用するには、MIUIを最新バージョンにアップデートしてください。</string>
+    <string name="low_version_tip">スキャナーを使用するには、最新のシステムバージョンにアップデートしてください。</string>
     <string name="midnight">真夜中</string>
     <string name="mihome_goto_install">インストール</string>
     <string name="mihome_goto_update">アップデート</string>
@@ -198,7 +206,7 @@
     <string name="mipayin_dialog_more">もっと見る</string>
     <string name="mipayin_dialog_title">開く</string>
     <string name="miracast_connect">キャスト</string>
-    <string name="miracast_connect_fail">キャストに失敗しました、もう一度お試しください</string>
+    <string name="miracast_connect_fail">キャストできませんでした。もう一度お試しください。</string>
     <string name="miracast_connecting">キャスト中…</string>
     <string name="miracast_details">QRコードをスキャンしてキャストする</string>
     <string name="miracast_message">%sにキャストしますか？</string>
@@ -282,6 +290,7 @@
     <string name="note">備考:</string>
     <string name="now_state">"現在のステータス: "</string>
     <string name="once">1回のみ</string>
+    <string name="open_web_url">ブラウザーで開く</string>
     <string name="pay_save_this_choose">選択を記憶</string>
     <string name="payment_text">%sで開く</string>
     <string name="phone">電話:</string>
@@ -290,7 +299,7 @@
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="preparing_sd">内部ストレージを準備中…</string>
     <string name="privacy_policy">プライバシーポリシー</string>
-    <string name="qr_code_details">QRコードの詳細：</string>
+    <string name="qr_code_details">テキスト</string>
     <string name="queryNum">注文を確認</string>
     <string name="query_faile">注文のステータスと詳細はまだ同期されていません。注文を手動で確認してください。</string>
     <string name="query_more">詳細情報</string>
@@ -301,6 +310,10 @@
     <string name="saturday_short">土</string>
     <string name="saturday_shortest">土</string>
     <string name="scan_result">結果</string>
+    <string name="schedule_date">日付</string>
+    <string name="schedule_description">説明</string>
+    <string name="schedule_location">場所</string>
+    <string name="schedule_title">タイトル</string>
     <string name="sdk_not_ready">SDKを準備中です。後でもう一度お試しください。</string>
     <string name="search_menu_title">検索</string>
     <string name="secure_access_web_url">ウェブサイトに移動</string>
@@ -323,6 +336,7 @@
     <string name="sunday_shortest">日</string>
     <string name="switch_open">オンにする</string>
     <string name="taobao">Taobao</string>
+    <string name="text_search">検索</string>
     <string name="the_anniversary_of_lifting_martial_law">戒厳令解除記念日</string>
     <string name="the_anti_aggression_day">反侵略の日</string>
     <string name="the_arbor_day">植樹節</string>
@@ -371,7 +385,9 @@
     <string name="time_picker_label_minute">分</string>
     <string name="title">肩書き:</string>
     <string name="to_install_title">このQRコードにより、アンインストールされたアプリにリダイレクトされます。今すぐこのアプリをダウンロードしますか？</string>
+    <string name="to_message">SMSの内容</string>
     <string name="to_pay">支払いを完了</string>
+    <string name="to_person">受信者</string>
     <string name="today">今日</string>
     <string name="toinstall">ダウンロード</string>
     <string name="tomorrow">明日</string>
@@ -392,16 +408,17 @@
     <string name="vender_info_translation_kingsoft">Powered by Kingsoft</string>
     <string name="waybill_num">"注文: "</string>
     <string name="web">ウェブサイト:</string>
-    <string name="website_details">ウェブサイト：</string>
+    <string name="website_details">URL</string>
     <string name="wednesday">水曜日</string>
     <string name="wednesday_short">水</string>
     <string name="wednesday_shortest">水</string>
     <string name="wifi_details">Wi-Fi：</string>
     <string name="wifi_exist_fail">ホットスポット \"%1$s\" は既に存在します。削除してから、再度コードをスキャンして接続してください。</string>
     <string name="wifi_open_fail">Wi-Fiをオンにできません</string>
+    <string name="wifi_password">パスワード</string>
     <string name="wifi_psd_toolong">パスワードが長すぎます。手動でパスワードを入力してください。</string>
     <string name="wifi_pwd">パスワード:</string>
-    <string name="wifi_security">セキュリティ：</string>
-    <string name="wifi_ssid">SSID:</string>
+    <string name="wifi_security">暗号化</string>
+    <string name="wifi_ssid">ネットワーク名</string>
     <string name="yesterday">昨日</string>
 </resources>

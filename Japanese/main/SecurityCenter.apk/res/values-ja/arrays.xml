@@ -40,14 +40,14 @@
     </string-array>
     <string-array name="daily_brand">
         <item>カスタム</item>
-        <item>Mi ファンカード</item>
+        <item>Xiaomi ファンカード</item>
         <item>天神カード</item>
         <item>テンセントキングカード</item>
     </string-array>
     <string-array name="daily_rent_card_brands">
         <item>カスタム</item>
         <item>Mi モバイル</item>
-        <item>Mi ファンカード</item>
+        <item>Xiaomi ファンカード</item>
         <item>天神カード</item>
         <item>Tencentカード</item>
     </string-array>
@@ -89,6 +89,15 @@
         <item>画面のコンテンツをリモートで監視および記録できるようになります。</item>
         <item>デバイスの詳細情報にアクセスすることが可能になります。</item>
     </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>標準</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
     <string-array name="gb_adv_touch_custom_level">
         <item>超低</item>
         <item>低</item>
@@ -96,10 +105,20 @@
         <item>高</item>
         <item>超高</item>
     </string-array>
+    <string-array name="gb_voice_change_gender">
+        <item>@string/gb_voice_changer_gender_man</item>
+        <item>@string/gb_voice_changer_gender_female</item>
+    </string-array>
     <string-array name="input_package_names">
         <item>com.baidu.input_mi</item>
         <item>com.iflytek.inputmethod.miui</item>
         <item>com.sohu.inputmethod.sogou.xiaomi</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
     </string-array>
     <string-array name="lock_mode">
         <item>デバイスロック時</item>
@@ -114,10 +133,20 @@
         <item>重要：複数のシステムアプリが正常に動作しなくなる場合があります。</item>
         <item>テキストのレイアウトやアカウント、コンテンツが正しく表示されない場合があります。</item>
     </string-array>
+    <string-array name="operate_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
     <string-array name="operate_entryValues">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="operate_memory_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
     </string-array>
     <string-array name="operate_memory_entryValues">
         <item>0</item>
@@ -127,6 +156,20 @@
     <string-array name="over_limit_traffic_waring_style">
         <item>警告を表示</item>
         <item>警告を表示してモバイルデータをオフにする</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/power_center_battery_all</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice_new">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/power_center_battery_all</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_fast_charge_entry">
         <item>10%</item>
@@ -178,14 +221,14 @@
         <item>通話料金残高</item>
     </string-array>
     <string-array name="sort_title_new">
-        <item>アプリ名で並べ替え</item>
-        <item>使用頻度で並べ替え</item>
-        <item>ストレージ使用量で並べ替え</item>
-        <item>インストール時間で並べ替え</item>
+        <item>アプリ名で並べ替える</item>
+        <item>最近使用した順に並べ替える</item>
+        <item>ストレージ使用量で並び替える</item>
+        <item>インストール時間で並べ替える</item>
     </string-array>
     <string-array name="sort_type_new">
         <item>アプリ名</item>
-        <item>使用頻度</item>
+        <item>最近使用</item>
         <item>ストレージ使用量</item>
         <item>インストール時間</item>
     </string-array>

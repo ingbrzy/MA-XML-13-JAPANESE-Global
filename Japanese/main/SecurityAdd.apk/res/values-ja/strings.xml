@@ -47,7 +47,7 @@
     <string name="date_time_picker_dialog_title">日付と時刻を設定</string>
     <string name="dialog_market_score_cancel">キャンセル</string>
     <string name="dialog_market_score_dislike">コメント</string>
-    <string name="dialog_market_score_like">星5つ！</string>
+    <string name="dialog_market_score_like">五つ星！</string>
     <string name="dialog_market_score_positive_button">コメント</string>
     <string name="dialog_market_score_submit">送信</string>
     <string name="dialog_market_score_subtitle_step1">星をタップしてこのアプリを評価する</string>
@@ -58,6 +58,7 @@
     <string name="dual_app_title">デュアルアプリ</string>
     <string name="dual_app_words">すべてのアカウントで専用のアプリを使う</string>
     <string name="early_morning">早朝</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="evening">夕方</string>
@@ -87,14 +88,14 @@
     <string name="expand_button_title">詳細設定</string>
     <string name="fastboot_locked_answer_1">Fastbootは、Mi デバイスをフラッシュできる代表的な方法の1つです。デバイスがFastbootモードになっている場合、保存されているすべてのデータに直接アクセスして消去できます。Fastbootをロックすることで、デバイスを紛失した場合でもデータの安全性を確保し、\"デバイスを探す\" 機能の信頼性を保証します。</string>
     <string name="fastboot_locked_answer_2">デバイスを紛失した場合、Fastbootは内部に保存したアイテムの安全を保証します。Fastbootを解除すると、デバイス検索機能を利用して遠隔操作でデバイスをロックしたり、データを消去したりできなくなります。そのため、Fastbootの解除は推奨されません。</string>
-    <string name="fastboot_locked_answer_3">MIUIウェブサイトのロック解除ツールを使用してください。デバイスのロックを解除するには、デバイスがユーザーのものであることを確認する必要があります。そのため、Mi アカウントでサインインし、\"デバイスを探す\"をオンにしてください。</string>
+    <string name="fastboot_locked_answer_3">Xiaomi のロック解除ツールを使用してください。デバイスのロックを解除するには、デバイスがユーザーのものであることを確認する必要があります。そのため、Xiaomi アカウントでサインインし、\"デバイスを探す\"をオンにしてください。</string>
     <string name="fastboot_locked_question_1">なぜFastbootはロックされているのですか？</string>
     <string name="fastboot_locked_question_2">Fastbootのロックを解除すると、どのようなリスクがありますか？</string>
     <string name="fastboot_locked_question_3">リスクについて理解しましたが、やはりロックを解除したいです。どうしたらいいですか？</string>
     <string name="fastboot_status_locked_info">このデバイスではFastbootのロックは解除されていません</string>
     <string name="fastboot_status_locked_summary">ルートアクセスを取得できません</string>
     <string name="fastboot_unlock_web_home">https://unlock.update.miui.com</string>
-    <string name="fastboot_unlock_web_title">ロック解除ツールを入手するにはMIUIのオフィシャルウェブサイトにアクセスしてください。</string>
+    <string name="fastboot_unlock_web_title">ロック解除ツールを入手するには公式ウェブサイトにアクセスしてください。</string>
     <string name="fingerprint_not_remind">今後確認しない</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -170,7 +171,7 @@
     <string name="gb_adv_touch_custom_tip1">スワイプ反応を高くするとこのジェスチャーに対する反応速度が速くなり、低くするとジェスチャーが安定します。</string>
     <string name="gb_adv_touch_custom_tip2">連続タップの感度を高くするとこのジェスチャーに対する反応速度が速くなり、感度を低くするとジェスチャーが安定します。</string>
     <string name="gb_adv_touch_custom_tip3">照準精度が高いと小さなスワイプがより正確になり、照準精度が低いとこのジェスチャーがより安定します。</string>
-    <string name="gb_adv_touch_custom_tip4">タップの安定性を高くするとタップの安定性が増し、タップの安定性を低くすると小さなスワイプの精度が上がります。</string>
+    <string name="gb_adv_touch_custom_tip4">タップの安定性を高くするとタップが安定し、タップの安定性を低くすると小さなスワイプの精度が上がります。</string>
     <string name="gb_adv_touch_custom_title">カスタマイズ</string>
     <string name="gb_adv_touch_mode_pro_tips">* これはプロプレイヤー向けのモードです。一般の方は不便を感じるかもしれません。</string>
     <string name="gb_adv_touch_pro_title">プロモード</string>
@@ -192,7 +193,7 @@
     <string name="gb_advance_settings_screen_hdr_gear2">中</string>
     <string name="gb_advance_settings_screen_hdr_gear3">強</string>
     <string name="gb_advance_settings_screen_hdr_gear4">極度</string>
-    <string name="gb_advance_settings_screen_hdr_summary">ゲームのためにコントラストを上げて細部を強調する</string>
+    <string name="gb_advance_settings_screen_hdr_summary">ゲームのコントラストを上げて細部を強調する</string>
     <string name="gb_advance_settings_touch">タッチコントロール</string>
     <string name="gb_advance_settings_vibration_4d">4Dバイブレーション</string>
     <string name="gb_advance_settings_vibration_4d_summary">ゲームで発砲した時に振動する</string>
@@ -233,17 +234,25 @@
     <string name="gb_gputuner_lod_deviation">ミップマップLODバイアス</string>
     <string name="gb_gputuner_multi_render">マルチスレッドレンダリング</string>
     <string name="gb_not_support_on_device">このアプリは外側の画面では使用できません</string>
+    <string name="gb_pannel_control_frame_rate_dialog_message">この機能を使用するには、設定でディスプレイ解像度を WQHD+ に変更します。</string>
+    <string name="gb_pannel_control_frame_rate_dialog_positive">設定</string>
+    <string name="gb_pannel_control_frame_rate_dialog_title">ディスプレイ解像度を変更</string>
     <string name="gb_pannel_control_mode_balance">バランス</string>
     <string name="gb_pannel_control_mode_custom">カスタム</string>
+    <string name="gb_pannel_control_mode_frame_rate">フレームレート優先</string>
     <string name="gb_pannel_control_mode_high_quality">高品質</string>
     <string name="gb_pannel_control_mode_normal">デフォルト</string>
+    <string name="gb_pannel_control_mode_picture">画質優先</string>
     <string name="gb_pannel_control_mode_power_saving">節電</string>
+    <string name="gb_web_panel_failure_retry">アイテムを読み込めませんでした。もう一度お試しください。</string>
+    <string name="gb_web_panel_game_loading">お待ちください…</string>
+    <string name="gb_web_panel_network_exception">ネットワーク エラーのため、現在ゲームをおすすめできません。ネットワーク設定を確認して、もう一度お試しください。</string>
     <string name="gb_webwindow_schemedialog_accept">開く</string>
     <string name="gb_webwindow_schemedialog_cancel">キャンセル</string>
     <string name="gb_webwindow_schemedialog_title">今すぐゲームを開きますか？</string>
     <string name="gb_weixinpay_can_not_complete">支払いを完了できません。続けるにはインストールしてください。</string>
     <string name="gdpr_msg">&lt;Data>セキュリティの基本機能を使用するには、Xiaomiがご利用者の個人データを収集、処理、使用することに同意する必要があります。これらのデータには、セキュリティ機能の使用方法に関する情報（例えば、モバイルデータの使用状況統計、マルウェアに関する情報、デバイスに関する基本情報など）、および&lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">プライバシーポリシー&lt;/a>で指定されているその他の種類の情報が含まれます。&lt;/Data></string>
-    <string name="gtb_dialog_privacy_speed_message">Xunyou ゲームブースターを利用しようとしています。このサービスでは、メンバーシップ期間を記録するために、Mi アカウントIDを収集します。</string>
+    <string name="gtb_dialog_privacy_speed_message">Xunyou ゲームブースターを利用しようとしています。このサービスでは、メンバーシップ期間を記録するために、Xiaomi アカウントIDを収集します。</string>
     <string name="gtb_dialog_privacy_speed_tips">&lt;Data>Xunyou ゲームブースターの&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>を読んで同意しました。&lt;/Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou ゲームブースター</string>
     <string name="hybrid_provider">提供：%1$s</string>
@@ -256,14 +265,14 @@
     <string name="miuishare_wechat_timeline_title">WeChat モーメンツ</string>
     <string name="miuishare_weibo_title">Weibo</string>
     <string name="miuix_access_state_desc">選択済み</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
-    <string name="miuix_appcompat_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
@@ -322,6 +331,7 @@
     <string name="net_booster_expire_notification">ネットワークスピードブーストのセッションがまもなく終了します</string>
     <string name="net_booster_overdue_notification">ネットワークスピードブーストのセッションがまもなく終了します</string>
     <string name="net_booster_overdue_notification_tip">ネットワークスピードブーストは終了しました。ネットワークの遅延が発生する可能性があります。今すぐ更新しますか？</string>
+    <string name="network_error">ネットワークエラーが発生しました。</string>
     <string name="network_not_available">ネットワークに接続できません</string>
     <string name="night">夜</string>
     <string name="no_network">ネットワークに接続できません</string>
@@ -330,7 +340,20 @@
     <string name="not_set">未設定</string>
     <string name="ok_button">OK</string>
     <string name="open_browser">ブラウザーで開く</string>
+    <string name="page_load_failed">ページを開けません</string>
     <string name="pc_activity_title">バッテリーを最適化</string>
+    <string name="pc_entered_extreme_mode">休止モードがオンになりました</string>
+    <string name="pc_entered_extreme_mode_summary">デバイスがバッテリー切れで、休止モードになっています。アプリはバックグラウンドで実行され、通知は送信されません。</string>
+    <string name="pc_entered_extreme_mode_summary2">デバイスのバッテリーが残りわずかです。休止モードでは、バックグラウンドで動作しているアプリからの通知を受け取りません。</string>
+    <string name="pc_extreme_exit_and_power_off">終了</string>
+    <string name="pc_extreme_mode_bg_toast">休止モードでは、アプリはバックグラウンドで動作し、通知は送信されません</string>
+    <string name="pc_extreme_mode_exit_risk_title">注意</string>
+    <string name="pc_extreme_mode_exit_risk_title_summary">デバイスはバッテリー切れです。休止モードを終了すると、デバイスはオフになります。</string>
+    <string name="pc_extreme_mode_find_charger">できるだけ早くデバイスを充電してください。</string>
+    <string name="pc_extreme_mode_runtime">休止モードは%1$s%2$sの間オンになっています。</string>
+    <string name="pc_extreme_mode_title">休止モード</string>
+    <string name="pc_going_to_exit_extreme_mode">休止モードを終了しています</string>
+    <string name="pc_going_to_exit_extreme_mode_summary">デバイスは充電中です。休止モードはオフになりました。</string>
     <string name="pm">午後</string>
     <string name="pm_lable_name">ルートアクセスについて</string>
     <string name="power_center_battery_duration_screen_on">残りのスクリーンタイム</string>
@@ -339,6 +362,7 @@
     <string name="privacy_declare_dialog_title">サービス利用規約</string>
     <string name="privacy_prompt_traffic_purchase_message">データ購入オプションに関する詳細情報を取得するために、電話番号と通信事業者の詳細は暗号化され、Xiaomiのサーバーにアップロードされます。</string>
     <string name="renew_now">更新</string>
+    <string name="retry_action">再試行</string>
     <string name="saturday">土曜日</string>
     <string name="saturday_short">土</string>
     <string name="saturday_shortest">土</string>
@@ -352,6 +376,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
@@ -369,6 +394,7 @@
     <string name="superpower_date">M月d日 EEEE</string>
     <string name="superpower_dialog_app_select_content">サードパーティーのアプリは通常、システムアプリよりも多くの電力を消費します。追加してもよろしいですか？</string>
     <string name="superpower_dialog_app_select_title">注意</string>
+    <string name="superpower_dialog_button_ok">OК</string>
     <string name="superpower_exit_hint">ウルトラバッテリーセーバーをオフにしています…</string>
     <string name="superpower_incharging">充電中</string>
     <string name="superpower_progress_battery_last">残り%s</string>
@@ -381,7 +407,7 @@
     <string name="superpower_third">サードパーティのアプリ</string>
     <string name="superpower_time">h:mm</string>
     <string name="superpower_time_24">H:mm</string>
-    <string name="superpower_toast_app_select_full">よく使うアプリには6個まで追加できます</string>
+    <string name="superpower_toast_app_select_full_new">よく使用するアプリは%d個まで追加できます</string>
     <string name="the_anniversary_of_lifting_martial_law">戒厳令解除記念日</string>
     <string name="the_anti_aggression_day">反侵略の日</string>
     <string name="the_arbor_day">植樹節</string>

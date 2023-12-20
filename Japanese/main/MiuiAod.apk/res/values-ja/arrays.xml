@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kg_glass_filters">
+        <item>オリジナル</item>
+        <item>ぼかし</item>
+        <item>アシ</item>
+        <item>リブ</item>
+        <item>プリズム</item>
+        <item>グルーブ</item>
+        <item>ウェーブ</item>
+        <item>スクエア</item>
+    </string-array>
+</resources>

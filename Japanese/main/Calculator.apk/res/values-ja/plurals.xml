@@ -4,13 +4,13 @@
         <item quantity="other">1時間前</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1時間前</item>
+        <item quantity="other">%d時間前</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">1時間後</item>
+        <item quantity="other">%d時間後</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">30分後</item>
@@ -27,14 +27,8 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
-    <plurals name="age_label_days">
-        <item quantity="other">%d日</item>
-    </plurals>
-    <plurals name="age_label_months">
-        <item quantity="other">%dか月</item>
-    </plurals>
-    <plurals name="age_label_yrs">
-        <item quantity="other">歳</item>
+    <plurals name="delete_msg">
+        <item quantity="other">今すぐ%d個のアイテムを削除しますか？</item>
     </plurals>
     <plurals name="entries">
         <item quantity="other">%d個のアイテム</item>
@@ -57,9 +51,6 @@
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">たった今</item>
     </plurals>
-    <plurals name="loan_repayment_detail">
-        <item quantity="other">返済の詳細（%d年）</item>
-    </plurals>
     <plurals name="loan_repayment_detail_unit">
         <item quantity="other">返済の詳細（%d年）、CNY</item>
     </plurals>
@@ -72,10 +63,31 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
+    <plurals name="select_items">
+        <item quantity="other">%d個を選択済み</item>
+    </plurals>
     <plurals name="tenure_months">
         <item quantity="other">%dか月</item>
     </plurals>
     <plurals name="tenure_years">
         <item quantity="other">%d年</item>
+    </plurals>
+    <plurals name="unit_data_display_data_b">
+        <item quantity="other">バイト</item>
+    </plurals>
+    <plurals name="unit_data_display_data_gb">
+        <item quantity="other">ギガバイト</item>
+    </plurals>
+    <plurals name="unit_data_display_data_kb">
+        <item quantity="other">キロバイト</item>
+    </plurals>
+    <plurals name="unit_data_display_data_mb">
+        <item quantity="other">メガバイト</item>
+    </plurals>
+    <plurals name="unit_data_display_data_pb">
+        <item quantity="other">ペタバイト</item>
+    </plurals>
+    <plurals name="unit_data_display_data_tb">
+        <item quantity="other">テラバイト</item>
     </plurals>
 </resources>

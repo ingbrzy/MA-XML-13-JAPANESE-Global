@@ -4,13 +4,13 @@
         <item quantity="other">1時間前</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1時間前</item>
+        <item quantity="other">%d時間前</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">1時間後</item>
+        <item quantity="other">%d時間後</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">30分後</item>
@@ -30,6 +30,9 @@
     <plurals name="account_coins_num">
         <item quantity="other">%1sコイン</item>
     </plurals>
+    <plurals name="atmospheric_pressure_desc">
+        <item quantity="other">大気圧: %s ヘクトパスカル</item>
+    </plurals>
     <plurals name="confirm_delete_tasks">
         <item quantity="other">%d件のタスクを今すぐ削除しますか？</item>
     </plurals>
@@ -46,6 +49,42 @@
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
+    </plurals>
+    <plurals name="health_chart_calories_burned_schedule_format_desc">
+        <item quantity="other">消費カロリー %1$s カロリー</item>
+    </plurals>
+    <plurals name="health_chart_calories_goal_schedule_format_desc">
+        <item quantity="other">カロリー目標: %1$s カロリー</item>
+    </plurals>
+    <plurals name="health_chart_calories_schedule_format">
+        <item quantity="other">%1$s/%2$s kcal</item>
+    </plurals>
+    <plurals name="health_chart_sport_time_current_schedule_format_desc">
+        <item quantity="other">アクティビティ時間: %1$s 分</item>
+    </plurals>
+    <plurals name="health_chart_sport_time_goal_schedule_format_desc">
+        <item quantity="other">アクティビティ目標: %1$s 分</item>
+    </plurals>
+    <plurals name="health_chart_sport_time_schedule_format">
+        <item quantity="other">%1$s/%2$s分</item>
+    </plurals>
+    <plurals name="health_chart_stand_count_schedule_format_desc">
+        <item quantity="other">%1$s 時間以内に立ち上がりました</item>
+    </plurals>
+    <plurals name="health_chart_stand_goal_schedule_format_desc">
+        <item quantity="other">スタンディング目標: %1$s 時間</item>
+    </plurals>
+    <plurals name="health_chart_stand_schedule_format">
+        <item quantity="other">%1$s/%2$s時間</item>
+    </plurals>
+    <plurals name="health_chart_step_count_current_schedule_format_desc">
+        <item quantity="other">現在の歩数: %1$s 歩</item>
+    </plurals>
+    <plurals name="health_chart_step_count_goal_schedule_format_desc">
+        <item quantity="other">歩数の目標: %1$s 歩</item>
+    </plurals>
+    <plurals name="health_chart_step_count_schedule_format">
+        <item quantity="other">%1$s/%2$s歩</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">1時間後</item>
@@ -100,9 +139,6 @@
     <plurals name="purchased_refund_success_dialog_message">
         <item quantity="other">%d時間以内にコインを受け取ることができます。</item>
     </plurals>
-    <plurals name="resource_comment_score_count">
-        <item quantity="other">%d件のコメント</item>
-    </plurals>
     <plurals name="resource_font_download_notification_title_many">
         <item quantity="other">%1$s個のフォントを正常にダウンロードしました</item>
     </plurals>
@@ -114,5 +150,8 @@
     </plurals>
     <plurals name="wallpaper_staggered_item_text">
         <item quantity="other">%1$s | %2$d 画像</item>
+    </plurals>
+    <plurals name="weather_temperature_desc">
+        <item quantity="other">気温: %1$s 度、%2$s</item>
     </plurals>
 </resources>

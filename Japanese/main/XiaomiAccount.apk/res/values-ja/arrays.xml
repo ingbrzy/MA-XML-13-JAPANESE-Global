@@ -4,6 +4,10 @@
         <item>男性</item>
         <item>女性</item>
     </string-array>
+    <string-array name="passport_account_user_gender_name">
+        <item>男性</item>
+        <item>女性</item>
+    </string-array>
     <string-array name="settings_search_account_and_authority_global">
         <item>アカウント</item>
         <item>サードパーティアカウントの追加と管理</item>
@@ -19,15 +23,20 @@
         <item>Xiaomi アカウントのパスワードを変更</item>
         <item>パスワードを変更;パスワードをアップデート;Mi アカウント;アカウント;Xiaomi アカウント</item>
     </string-array>
+    <string-array name="settings_search_cloud_space_share">
+        <item>ファミリーストレージ容量</item>
+        <item>ファミリーストレージ容量を表示/オンにする</item>
+        <item>ファミリーストレージ容量;ストレージ共有</item>
+    </string-array>
+    <string-array name="settings_search_family_service">
+        <item>ファミリーサービス</item>
+        <item>ファミリーサービスを表示/オンにする</item>
+        <item>ファミリー;ファミリーサービス;ファミリー共有</item>
+    </string-array>
     <string-array name="settings_search_help_center">
         <item>ヘルプ</item>
         <item>Xiaomi アカウントのヘルプとサポートを利用する</item>
         <item>Mi アカウント;アカウント;Xiaomi アカウント;アカウントヘルプ;ヘルプセンター</item>
-    </string-array>
-    <string-array name="settings_search_login_2_step_verify">
-        <item>2段階認証</item>
-        <item>Xiaomi アカウントに2段階認証を設定</item>
-        <item>サインイン;ログイン;2段階;認証;Xiaomi;アカウント;Mi アカウント;アカウント;Xiaomi アカウント</item>
     </string-array>
     <string-array name="settings_search_login_and_security">
         <item>アカウントのセキュリティ</item>

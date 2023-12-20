@@ -4,6 +4,13 @@
     <string name="action_text">%sにSMS</string>
     <string name="app_name">タグ</string>
     <string name="button_done">完了</string>
+    <string name="call_notification_answer_action">応答</string>
+    <string name="call_notification_answer_video_action">ビデオ</string>
+    <string name="call_notification_decline_action">拒否</string>
+    <string name="call_notification_hang_up_action">通話終了</string>
+    <string name="call_notification_incoming_text">着信</string>
+    <string name="call_notification_ongoing_text">通話中</string>
+    <string name="call_notification_screening_text">着信をスクリーニング中</string>
     <string name="call_phone_permission_denied">このアプリで発信するには、電話へのアクセス権限を付与する必要があります。タグの権限は [設定] で管理できます</string>
     <string name="empty_tag_prompt">このタグは空です。</string>
     <string name="external_storage_permission_denied">このアプリでファイルにアクセスするには、外部ストレージへのアクセス権限を付与する必要があります。タグの権限は [設定] で管理できます。</string>
