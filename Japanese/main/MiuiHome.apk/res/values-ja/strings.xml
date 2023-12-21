@@ -519,7 +519,6 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -732,7 +731,6 @@
     <string name="small_window">フローティングウィンドウ</string>
     <string name="start_activity_failed">ランチャーを起動できません</string>
     <string name="start_new_window">新しいウィンドウ</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%2$s中%1$s利用可能</string>
     <string name="status_bar_recent_memory_info2" />
