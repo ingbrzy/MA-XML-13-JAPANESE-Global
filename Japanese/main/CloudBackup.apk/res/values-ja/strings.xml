@@ -438,6 +438,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="other_device_main_space">ファースト・スペース</string>
     <string name="other_device_second_space">セカンド・スペース</string>
     <string name="page_title_more_backup_options">追加のバックアップサービス</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">PCモードではアイテムを復元できません。PCモードをオフにして、もう一度お試しください。</string>
     <string name="permission_to_use">アクセス許可の詳細</string>
     <string name="pm">午後</string>
@@ -449,6 +451,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="provision_error_connect_title">接続できません</string>
     <string name="provision_next">次へ</string>
     <string name="provision_restore_data">アイテムを復元中</string>
+    <string name="provision_restore_item_backup_name_with_size">%1$s | 約%2$s</string>
     <string name="provision_skip_underline">スキップ</string>
     <string name="query_restore_description">ホーム画面のレイアウトと設定を復元すると、すでにインストールされているアプリは、ホーム画面上の元の位置に復元されます。このバックアップに含まれていないアプリは、ホーム画面の最後のページに移動されます。</string>
     <string name="query_restore_summary">このデバイス用のXiaomi Cloudバックアップが見つかりました。ホーム画面のアプリや設定を復元するか、またはこのデバイスを新しいデバイスとして使用して以前のXiaomi Cloudバックアップを消去しますか？</string>

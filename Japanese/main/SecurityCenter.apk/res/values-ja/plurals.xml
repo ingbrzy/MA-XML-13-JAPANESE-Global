@@ -376,7 +376,7 @@
         <item quantity="other">%d個の残留APKを削除してください</item>
     </plurals>
     <plurals name="notification_power_consume_issue">
-        <item quantity="other">%d件のバッテリーの使用に関する問題</item>
+        <item quantity="other">消費電力の高い %d 項目</item>
     </plurals>
     <plurals name="notification_power_consume_suggest">
         <item quantity="other">%d項目を最適化してバッテリーを節約</item>
@@ -490,7 +490,7 @@
         <item quantity="other">回</item>
     </plurals>
     <plurals name="power_center_battery_consume_prolblem">
-        <item quantity="other">%d件のバッテリーの使用に関する問題</item>
+        <item quantity="other">消費電力の高い %d 項目</item>
     </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d 日 "</item>
@@ -514,7 +514,7 @@
         <item quantity="other">%d件のバッテリーの使用に関する問題を修正</item>
     </plurals>
     <plurals name="power_center_battery_problem_result">
-        <item quantity="other">%d件のバッテリーの使用に関する問題を修正できます</item>
+        <item quantity="other">%d 項目で消費電力を最適化できます</item>
     </plurals>
     <plurals name="power_center_battery_save_suggest">
         <item quantity="other">%d項目を最適化できます</item>
@@ -554,6 +554,9 @@
     </plurals>
     <plurals name="power_main_open_last_minute_screen_on">
         <item quantity="other">オンにするとスクリーンタイムが%s分追加されます</item>
+    </plurals>
+    <plurals name="power_ntc_dialog_btn">
+        <item quantity="other">了解 (%d)</item>
     </plurals>
     <plurals name="power_off_warning_button_ok_time">
         <item quantity="other">了解 (%d秒)</item>
@@ -625,7 +628,7 @@
         <item quantity="other">%d個のバッテリーの問題が見つかりました。処理してください。</item>
     </plurals>
     <plurals name="quick_optimize_summary_text">
-        <item quantity="other">%d個のバッテリーの問題が解決されました</item>
+        <item quantity="other">消費電力の高い %d 項目が最適化されました</item>
     </plurals>
     <plurals name="reset_data_dialog_ok_tick">
         <item quantity="other">ファクトリーリセット（%d秒）</item>
@@ -689,6 +692,9 @@
     </plurals>
     <plurals name="title_virus_clean">
         <item quantity="other">%d個のウイルスを消去しました</item>
+    </plurals>
+    <plurals name="title_virus_scan_model">
+        <item quantity="other">%d 個のウイルスまたは危険なアプリ</item>
     </plurals>
     <plurals name="traffic_setting_app_count">
         <item quantity="other">%d個のアプリ</item>

@@ -4,13 +4,13 @@
         <item quantity="other">1時間前</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1時間前</item>
+        <item quantity="other">%d時間前</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">1時間後</item>
+        <item quantity="other">%d時間後</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">30分後</item>
@@ -36,11 +36,26 @@
     <plurals name="adblock_total_counts">
         <item quantity="other">これまでに%d件の広告をブロックしました</item>
     </plurals>
+    <plurals name="antivirus_desc_not_scanned_virus_in_days">
+        <item quantity="other">%d日間スキャンしていません</item>
+    </plurals>
     <plurals name="articles_updated_amount">
         <item quantity="other">%1$d本の新しい記事をチェック</item>
     </plurals>
     <plurals name="auto_play_next_tips">
         <item quantity="other">%d秒後に次のビデオを再生します</item>
+    </plurals>
+    <plurals name="back_dialog_antivirus_content_des">
+        <item quantity="other">%d日間デバイスをスキャンしていません。今すぐスキャンしますか？</item>
+    </plurals>
+    <plurals name="back_dialog_day">
+        <item quantity="other">日</item>
+    </plurals>
+    <plurals name="back_dialog_health_check_content_des">
+        <item quantity="other">%d日間デバイスを最適化していません。今すぐ最適化しますか？</item>
+    </plurals>
+    <plurals name="count_likes">
+        <item quantity="other">%s件のいいね！</item>
     </plurals>
     <plurals name="days_ago">
         <item quantity="other">%1$d日前</item>
@@ -113,6 +128,10 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d個を選択済み</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
     <plurals name="mw_last_num_days">
         <item quantity="other">過去%d日間</item>
     </plurals>
@@ -146,8 +165,8 @@
     <plurals name="pref_adblock_counts">
         <item quantity="other">%d件の広告をブロックしました</item>
     </plurals>
-    <plurals name="reading__search_resultful">
-        <item quantity="other">%1$d件の結果が見つかりました</item>
+    <plurals name="recommend_top_guide">
+        <item quantity="other">%d 本の新しいおすすめビデオ</item>
     </plurals>
     <plurals name="search_trending_views">
         <item quantity="other">%s件の検索リクエスト</item>
@@ -220,5 +239,8 @@
     </plurals>
     <plurals name="web_permission_protect_subtitle_time">
         <item quantity="other">%s回</item>
+    </plurals>
+    <plurals name="web_preload_hint_dialog_title">
+        <item quantity="other">先週、Mi ブラウザーはウェブページの読み込み速度を %d 回向上させました！</item>
     </plurals>
 </resources>

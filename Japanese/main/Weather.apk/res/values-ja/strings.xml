@@ -76,19 +76,13 @@
     <string name="aqi_detail_title">大気汚染指数 (AQI)</string>
     <string name="aqi_detail_unit">単位: µg/m³</string>
     <string name="aqi_fifteen_dates_time_format">M/d</string>
-    <string name="aqi_publish_time">%1$sアップデート済み</string>
+    <string name="aqi_publish_time">%1$s更新済み</string>
     <string name="aqi_quality_co_desc">一酸化炭素</string>
-    <string name="aqi_quality_co_pad">CO: %1$s</string>
     <string name="aqi_quality_no2_desc">二酸化窒素</string>
-    <string name="aqi_quality_no2_pad">NO₂: %1$s</string>
     <string name="aqi_quality_o3_desc">オゾン</string>
-    <string name="aqi_quality_o3_pad">O₃: %1$s</string>
     <string name="aqi_quality_pm10_desc">吸入可能粗粒子</string>
-    <string name="aqi_quality_pm10_pad">PM10: %1$s</string>
     <string name="aqi_quality_pm25_desc">微粒子</string>
-    <string name="aqi_quality_pm25_pad">PM2.5: %1$s</string>
     <string name="aqi_quality_so2_desc">二酸化硫黄</string>
-    <string name="aqi_quality_so2_pad">SO₂: %1$s</string>
     <string name="aqi_station_best_quality_station">この付近で一番良い</string>
     <string name="aqi_station_min_distance_station">最寄りの観測地点</string>
     <string name="aqi_title_pad">AQI: %1$s</string>
@@ -163,6 +157,7 @@
     <string name="dynamic_weather">天気</string>
     <string name="early_morning">早朝</string>
     <string name="edit_city">都市を管理</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">アップデート中…</string>
     <string name="empty_view_net_unavailable">ネットワークに接続できませんでした</string>
     <string name="empty_view_refresh">再試行</string>
@@ -213,8 +208,8 @@
     <string name="feedback_result_fail_no_choice">現在の天候を選択してください</string>
     <string name="feedback_result_fail_no_reason">ご協力ありがとうございました！</string>
     <string name="feedback_result_fail_same_type">報告内容は現在の天気と変わらないようです。もう一度お試しください。</string>
-    <string name="feedback_result_success">正常に送信されました。ご協力ありがとうございました。</string>
-    <string name="feedback_sandy">砂嵐</string>
+    <string name="feedback_result_success">正常に送信されました。ご協力ありがとうございました！</string>
+    <string name="feedback_sandy">砂塵嵐</string>
     <string name="feedback_sunny">晴れ</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -272,18 +267,21 @@
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
     <string name="hourly_forcast_now">現在</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">M/d</string>
     <string name="index_item_experience_now">今すぐインストール</string>
     <string name="indices_title_chance_of_rain">降水確率</string>
     <string name="indices_title_feel">体感温度</string>
     <string name="indices_title_pressure">気圧</string>
     <string name="indices_title_uv">UV</string>
-    <string name="indices_title_wind_speed">風速</string>
     <string name="indices_wind_direction_east">東</string>
     <string name="indices_wind_direction_north">北</string>
     <string name="indices_wind_direction_south">南</string>
     <string name="indices_wind_direction_west">西</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">紫外線指数</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">位置情報サービスをオンにする</string>
     <string name="location_tag">位置を特定</string>
     <string name="manager_city_option_add_home">スタートページに追加</string>
@@ -294,16 +292,15 @@
     <string name="minute_rain_feedback_title">天気情報が間違っているようです。</string>
     <string name="minute_rain_now">現在</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
-    <string name="missing_required_permission">必要な権限を無効にしました。</string>
     <string name="miuix_access_state_desc">選択済み</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
-    <string name="miuix_appcompat_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
@@ -392,8 +389,8 @@
     <string name="privacy_grant_or_revoke_settings">同意の撤回</string>
     <string name="privacy_grant_success">正常に承認を付与しました</string>
     <string name="privacy_policy">プライバシーポリシー</string>
-    <string name="privacy_policy_msg">&lt;Data>このアプリには次の機能が含まれます。&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取り扱い方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、設定でいつでも撤回することができます。&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>このアプリには次の機能が含まれます：&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、アプリを閉じているときや使用していないときでも、これらの機能を利用できるようにするために、位置情報などの必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>このアプリには次の機能が含まれます。&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取り扱い方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、設定でいつでも撤回することができます。</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>このアプリには次の機能が含まれます：&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、アプリを閉じているときや使用していないときでも、これらの機能を利用できるようにするために、位置情報などの必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。</Data></string>
     <string name="privacy_revoke_success">承認は正常に撤回されました</string>
     <string name="privacy_settings">プライバシーポリシー</string>
     <string name="pull_fresh_updated">正常にアップデートされました</string>
@@ -412,10 +409,6 @@
     <string name="realtime_wind_default_title">風</string>
     <string name="refresh_fail">ネットワークに接続できませんでした</string>
     <string name="reminder_from_xiaomi_weather_app">Mi 気象警報</string>
-    <string name="request_cta_connect_net">このアプリにインターネットへの接続を許可し、上記の必須のアクセス許可を付与します。</string>
-    <string name="request_permission_location_dialog_content">現在地に関連する天気情報を表示するため</string>
-    <string name="request_permission_main_purpose">天気情報の表示</string>
-    <string name="request_permission_storage_dialog_content">画像形式で天気情報を共有するため</string>
     <string name="revoke_fail">ネットワークに接続できません</string>
     <string name="revoke_privacy_policy_title">同意の撤回</string>
     <string name="saturday">土曜日</string>
@@ -441,7 +434,7 @@
     <string name="share_button">共有</string>
     <string name="share_menu_title">共有</string>
     <string name="share_subject">共有</string>
-    <string name="share_weather_desc">\#MIUI 天気#今日：%1$s、%2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">、</string>
     <string name="share_weather_save_pic_fail">スクリーンショットを撮影できませんでした</string>
     <string name="shortcut_short_label_24_hour_forecast">%d時間予報</string>
@@ -568,9 +561,6 @@
     <string name="user_agreement">利用規約</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
-    <string name="video_banner_regional_weather_update">地域の天気情報</string>
-    <string name="video_banner_weather_forecast">天気予報</string>
-    <string name="video_banner_weather_update">最新の天気情報</string>
     <string name="view_forecast_item_yesterday">昨日</string>
     <string name="view_indexes_item_today">今日</string>
     <string name="view_indexes_item_tommorrow">明日</string>
@@ -591,9 +581,7 @@
     <string name="wind_power">%d</string>
     <string name="wind_unit">%1$skm/h</string>
     <string name="xiaomi_weather_description_content">\"天気\"はシステムアプリです。アプリをアンインストールすると、天気情報を表示したり、関連するウィジェットを使用したりできなくなります。</string>
-    <string name="xiaomi_weather_description_content_remove">\"天気\"はシステムアプリです。ホーム画面のショートカットを削除すると、天気情報を表示したり、関連するウィジェットを使用したりできなくなります。</string>
     <string name="xiaomi_weather_description_title">\"天気\"をアンインストールしますか？</string>
-    <string name="xiaomi_weather_description_title_remove">ホーム画面から\"天気\"を削除しますか？</string>
     <string name="yes_vote_ratio">賛成 %1$s%%</string>
     <string name="yesterday">昨日</string>
 </resources>

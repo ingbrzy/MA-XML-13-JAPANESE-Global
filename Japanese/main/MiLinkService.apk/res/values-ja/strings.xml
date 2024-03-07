@@ -36,6 +36,8 @@
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
     <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
+    <string name="cast_auth_count_down">キャストを開始するには、\"%1$s\"のコードを入力してください (%2$d秒)</string>
+    <string name="cast_auth_title">コードを入力</string>
     <string name="cast_image_des">キャストチュートリアル</string>
     <string name="casting_tips">キャスト中…</string>
     <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
@@ -43,10 +45,11 @@
     <string name="clear_text_end_icon_content_description">テキストを消去</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
+    <string name="close_auxiliary_wifi_hint">キャストするには、\"デュアルバンドWi-Fiスピードブースト\"をオフにしてください</string>
+    <string name="close_auxiliary_wifi_hint_china">Turn off \"Dual band WLAN speed boost\" to be able to cast</string>
+    <string name="close_dp_casting_hint">ケーブルとの接続を切断してから、もう一度お試しください</string>
     <string name="close_hotspot_hint">キャストする前にポータブルホットスポットをオフにしてください</string>
     <string name="close_hotspot_hint_DFS">テレビにアイテムを転送するには、まずホットスポットをオフにしてください。</string>
-    <string name="close_slave_wifi_hint">キャストする前に補助Wi-Fiネットワークから切断してください</string>
-    <string name="close_slave_wifi_hint_china">キャストする前に補助Wi-Fiネットワークから切断してください</string>
     <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
     <string name="config_wifi_label_china">Xiaomi Conference Tapcast WLAN</string>
     <string name="config_wifi_label_global">Xiaomi Conference Tapcast Wi-Fi</string>
@@ -65,6 +68,7 @@
     <string name="device_desc_trust">信頼できるデバイス</string>
     <string name="dialog_can_not_find_device">付近にデバイスが見つかりませんでした</string>
     <string name="dialog_cancle">キャンセル</string>
+    <string name="dialog_close">オフにする</string>
     <string name="dialog_connect_fail">接続できませんでした</string>
     <string name="dialog_connect_retry">タップしてもう一度お試しください</string>
     <string name="dialog_connect_verify_perssion">まず、テレビでのキャストを許可してください</string>
@@ -79,8 +83,8 @@
     <string name="dialog_nearbydevice_permission_message">キャスト機能を使用するには、このデバイスが付近のデバイスにアクセスすることを許可してください。</string>
     <string name="dialog_nearbydevice_permission_title">アクセス許可が必要です</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. モバイルデバイスとテレビの両方を同じWi-Fiネットワークに接続します。&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 一部のテレビモデルでは、この機能はスクリーンミラーリングがオンの場合にのみ使用できます。詳細は &lt;a href=milink://com.milink.service/specification>\"ヘルプ\"&lt;/a> をご覧ください。&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. モバイルデバイスとテレビの両方を同じWi-Fiネットワークに接続します。&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 一部のテレビモデルでは、この機能はスクリーンミラーリングがオンの場合にのみ使用できます。詳細は &lt;a href=milink://com.milink.service/specification>\"ヘルプ\"&lt;/a> をご覧ください。</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">写真、ビデオ、または音楽のストリーミング</string>
     <string name="dialog_open_wifi_bt">オンにする</string>
@@ -94,6 +98,9 @@
     <string name="dialog_scan_message_china">"%1$d. Connect both your mobile device and TV to the same WLAN network.
 
 %2$d. View \"Help\" to learn more."</string>
+    <string name="dialog_scanning_close_dual_wifi_china">Turn off \"Dual band WLAN speed boost\" to be able to cast. Turn this feature off now?</string>
+    <string name="dialog_scanning_close_dual_wifi_global">キャストするには、\"デュアルバンドWi-Fiスピードブースト\"をオフにしてください。この機能を今すぐオフにしますか？</string>
+    <string name="dialog_scanning_close_tethering">キャストするには、ホットスポットをオフにしてください。今すぐホットスポットをオフにしますか？</string>
     <string name="dialog_scanning_device">付近のデバイスを検索中…</string>
     <string name="dialog_scanning_precondition">ワイヤレスディスプレイを使用するには、スマートフォンでWi-FiとBluetoothをオンにします。</string>
     <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
@@ -101,11 +108,13 @@
     <string name="dialog_select_tv">デバイスを選択 (%1$d)</string>
     <string name="dialog_show_help">ヘルプ</string>
     <string name="disconnect">キャストを停止</string>
+    <string name="dp_casting_start_hint">ケーブルで接続されています。キャストは終了しました。</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">デュアルWi-Fiをオフにして、もう一度お試しください</string>
     <string name="early_morning">早朝</string>
     <string name="empty" />
     <string name="enable_screen_projection_summary">画面のコンテンツを外部モニターにキャストする</string>
+    <string name="enable_screen_projection_summary_new">モバイルデバイスの画面を付近のテレビやその他の外部モニターにキャストします</string>
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="error_icon_content_description">エラー</string>
@@ -168,24 +177,32 @@
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
     <string name="global_privacy">使用条件</string>
-    <string name="global_privacy_detail">&lt;Data>このアプリの利用を開始する前に、&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;br>前述のサービスの利用に同意しない場合、このアプリの一部機能を使用できなくなります。ただし、基本的な機能は引き続き利用できます。&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>このアプリの利用を開始する前に、&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;br>前述のサービスの利用に同意しない場合、このアプリの一部機能を使用できなくなります。ただし、基本的な機能は引き続き利用できます。</Data></string>
     <string name="global_privacy_explain">キャストへようこそ！このアプリは、次のサービスを提供します。</string>
     <string name="global_privacy_feature">最小化ウィンドウを使用し、画面をオフにしてキャストし、プライベートアイテムを非表示にします。</string>
     <string name="global_privacy_main">スマートフォンの画面からアイテムをより大きな外部モニターに投影します。</string>
     <string name="global_privacy_negative">同意しない</string>
     <string name="global_privacy_positive">同意</string>
     <string name="global_privacy_screencast">この機能を提供するサービスは、録音またはキャスト中に、画面に表示されるかデバイスから再生されるセンシティブな情報をキャプチャする可能性があります。センシティブな情報には、オーディオ、パスワード、支払い情報、写真、メッセージなどが含まれます。</string>
-    <string name="global_privacy_tip">&lt;Data>基本的なサービスをユーザーに提供し、キャストプロセスの最適化を行うためには、必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=%1$s>プライバシーポリシー&lt;/a>を参照してください。プライバシーポリシーへの同意は、いつでも設定で撤回することができます。&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>基本的なサービスをユーザーに提供し、キャストプロセスの最適化を行うためには、必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=%1$s>プライバシーポリシー&lt;/a>を参照してください。プライバシーポリシーへの同意は、いつでも設定で撤回することができます。</Data></string>
     <string name="hang_up">画面オフの状態でキャスト</string>
     <string name="hang_up_alert_dialog_content">デバイスの画面がオフになってもキャストを続けます。この機能により、消費電力が削減されます。電源ボタンを押すと画面がオンに戻ります。</string>
     <string name="hang_up_alert_dialog_neg">キャンセル</string>
     <string name="hang_up_alert_dialog_pos">OK</string>
     <string name="hang_up_alert_dialog_title">画面オフの状態でキャストしようとしています…</string>
+    <string name="head_toast_connecting">接続中…</string>
+    <string name="head_toast_fail">接続できませんでした</string>
+    <string name="head_toast_success">正常に接続されました</string>
+    <string name="help_page_question_1st_01_international">"%1$d. キャスト先のデバイスが Xiaomi TV の場合は、Miracast をオンにします。
+%2$d. キャスト先のデバイスが Xiaomi 以外のテレビである場合は、テレビが Miracast をサポートしており、この機能がオンになっていることを確認してください。一部のテレビモデルでは、この機能はワイヤレス ディスプレイ、スクリーンミラーリング、マルチスクリーンなど、異なる名称である場合があります。"</string>
+    <string name="help_page_setp_1st_02_international">%1$d. 一部のテレビブランドでは、Miracast が自動的にオンになる場合があります。</string>
+    <string name="help_page_step_1st_01_international">%1$d. Xiaomi TV で Miracast をオンにします。</string>
     <string name="help_page_text_01">ヘルプ</string>
     <string name="help_page_text_02">キャストとは何ですか？</string>
     <string name="help_page_text_03">キャストとは、スマートフォンの画面からより大きな外部モニターにアイテムを投影することです。モバイルデータを使用せずに、画像やビデオを友達や家族と共有できます。</string>
     <string name="help_page_text_04">より大きな画面でアイテムをキャストするにはどうすればよいですか？</string>
     <string name="help_page_text_05">ステップ%1$d： デバイスとネットワーク環境の確認</string>
+    <string name="help_page_text_05_new">ステップ%1$d： デバイスとネットワーク環境の確認</string>
     <string name="help_page_text_06">"%1$d. Xiaomi TVs, set-top boxes, projectors:
 Connect both your mobile device and external monitor to the same WLAN network for best effect. If they are connected to different networks, it might take more time to find the external monitor and connect.
 Note: Older TV models might not support casting across different networks.
@@ -196,13 +213,33 @@ If the two devices can't be connected to the same network, turn on Miracast on y
 注：古いMi テレビでは、異なるネットワークでのキャストがサポートされていない場合があります。
 %2$d. 他のメーカーのテレビ、セットトップボックス、プロジェクターを使用している場合は、モバイルデバイスと外部モニターの両方を同じWi-Fiネットワークに接続します。
 2つのデバイスを同じネットワークに接続できない場合は、外部モニターでMiracastをオンにします。Miracast機能の名前は異なる場合があります。"</string>
+    <string name="help_page_text_06_new_1">Xiaomi TV、セットトップボックス、プロジェクター:</string>
+    <string name="help_page_text_06_new_2">"%1$d. モバイルデバイスと外部モニターが同じ Wi-Fi ネットワークに接続されていることを確認してください。
+%2$d. 一部の Xiaomi TV では、テレビからのキャストを設定したり、デバイスの検索および認証方法をカスタマイズしたりできます。"</string>
+    <string name="help_page_text_06_new_3">*キャスト設定でテレビのキャストの環境設定を行うことができます。</string>
+    <string name="help_page_text_06_new_4">Xiaomi 以外のテレビ、セットトップボックス、プロジェクター:</string>
+    <string name="help_page_text_06_new_5">"%1$d. モバイルデバイスと外部モニターが同じ Wi-Fi ネットワークに接続されていることを確認してください。
+%2$d. 一部のブランドのテレビでは、キャストするには Miracast をオンにする必要があります。"</string>
+    <string name="help_page_text_06_new_6">もっと詳しく知る</string>
     <string name="help_page_text_08">ステップ%1$d：キャストをオンにする</string>
+    <string name="help_page_text_08_new">ステップ%1$d：キャストをオンにする</string>
     <string name="help_page_text_09">"Tap the \"Cast\" toggle on your phone's Notification shade. Turn on both WLAN and Bluetooth for a more stable connection."</string>
     <string name="help_page_text_09_global">デバイスの通知シェードにある \"キャスト\" トグルをタップします。Wi-FiとBluetoothの両方をオンにすると、接続がより安定します。</string>
+    <string name="help_page_text_09_new_1">デバイスのコントロールセンターでキャストをオンにして、外部モニターを検索します。</string>
     <string name="help_page_text_10">写真、ビデオ、ゲーム、プレゼンテーションをキャストしたい場合は、対応するアプリに内蔵されているキャスト機能を利用することができます。</string>
     <string name="help_page_text_11">ステップ%1$d：デバイスを選択</string>
+    <string name="help_page_text_11_new">ステップ%1$d：デバイスを選択</string>
     <string name="help_page_text_12">利用可能なデバイスのリストから外部デバイスを選択して、キャストを開始します。</string>
+    <string name="help_page_text_12_new_1">利用可能なデバイスのリストから外部デバイスを選択して、キャストを開始します。</string>
     <string name="help_page_text_13">外部デバイスに接続できませんか？</string>
+    <string name="help_page_text_13_act_label_1">よくある質問</string>
+    <string name="help_page_text_13_desc_1">"%1$d. モバイルデバイスと外部モニターが同じ Wi-Fi ネットワークまたはホットスポットに接続されていることを確認してください。
+%2$d. ネットワーク環境が安定していることを確認してください。安定していない場合は、ルーターを再起動するか、%3$d GHz ネットワーク帯域に切り替えてください。
+%4$d. Xiaomi TV にキャストする場合は、テレビのワイヤレスキャスト機能をオンにします。接続中はキャストページに留まってください。
+%5$d. 企業や学校などの大規模な公共 LAN の中には、同じ LAN 上のデバイスを検出する機能をサポートしていないものもあります。"</string>
+    <string name="help_page_text_13_desc_2">一部のテレビでは、キャスト時に非 LAN 接続を使用します。これらのデバイスがネットワークから切断されるのは正常です。通常は、キャスト終了後%1$d〜%2$d以内に再接続されます。</string>
+    <string name="help_page_text_13_summary_1">外部デバイスに接続できません</string>
+    <string name="help_page_text_13_summary_2">キャスト中にネットワークが中断される</string>
     <string name="help_page_text_14">"%1$d. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
 Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If there aren't any networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your mobile device and the external monitor, and turn on Miracast on your TV.
 %2$d. If you're casting on a Xiaomi device for the first time, you need to complete verification.
@@ -218,6 +255,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="help_page_text_17">"Bluetooth機能を備えたほとんどのMi テレビモデルでは、手動でMiracastをオンにしなくても、Mi Phoneからアイテムを投影することができます。
 Miracastをオンにする必要がある場合は、[MENU] ボタンを押して、マイ アプリ > キャスト > Miracast を選択してください。"</string>
     <string name="help_page_text_17_1">Xiaomi カスタマーサポート：400-100-5678</string>
+    <string name="help_page_text_17_content">Miracast を手動でオンにしなくても、Bluetooth 機能を備えたほとんどの Xiaomi TV モデルに Xiaomi 製スマートフォンからアイテムを投影できます。Miracast をオンにする必要がある場合は、[MENU] ボタンを押して、他の Android スマートフォンのオプションを使用してキャストを開始します。</string>
     <string name="help_page_text_18">Samsung テレビ</string>
     <string name="help_page_text_19">まず、お使いのデバイスでMiracast機能がサポートされていることを確認してください。一部のモデルでは、リモコンの [SOURCE] ボタンを押すと、\"スクリーンミラーリング\" を選択できます。この機能は、さまざまなモデルでデフォルトでオンになっています。</string>
     <string name="help_page_text_20">Samsung カスタマーサポート：400-810-5858</string>
@@ -280,14 +318,14 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="material_timepicker_text_input_mode_description">時刻をテキストで入力するモードに切り替えます。</string>
     <string name="midnight">真夜中</string>
     <string name="miuix_access_state_desc">選択済み</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
-    <string name="miuix_appcompat_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
@@ -350,6 +388,7 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -398,13 +437,13 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="paipai_error_dialog_msg">ネットワーク設定を確認して、もう一度お試しください。</string>
     <string name="paipai_error_dialog_negative">了解</string>
     <string name="password_toggle_content_description">パスワードを表示</string>
-    <string name="path_setting_cast">接続と共有/キャスト</string>
-    <string name="path_setting_cast_demo">接続と共有/キャスト/デモ</string>
-    <string name="path_setting_cast_demo_document">接続と共有/キャスト/デモ/ドキュメント</string>
-    <string name="path_setting_cast_demo_gallery">接続と共有/キャスト/デモ/写真とビデオ</string>
-    <string name="path_setting_cast_demo_game">接続と共有/キャスト/デモ/ゲーム</string>
-    <string name="path_setting_cast_feature">接続と共有/キャスト/特別な機能</string>
-    <string name="path_setting_cast_help">接続と共有/キャスト/ヘルプ</string>
+    <string name="path_setting_cast">その他の接続オプション/キャスト</string>
+    <string name="path_setting_cast_demo">その他の接続オプション/キャスト/デモ</string>
+    <string name="path_setting_cast_demo_document">その他の接続オプション/キャスト/デモ/ドキュメント</string>
+    <string name="path_setting_cast_demo_gallery">その他の接続オプション/キャスト/デモ/写真とビデオ</string>
+    <string name="path_setting_cast_demo_game">その他の接続オプション/キャスト/デモ/ゲーム</string>
+    <string name="path_setting_cast_feature">その他の接続オプション/キャスト/特別な機能</string>
+    <string name="path_setting_cast_help">その他の接続オプション/キャスト/ヘルプ</string>
     <string name="permission_allowed">付与済み</string>
     <string name="permission_uballowed">未付与</string>
     <string name="pm">午後</string>
@@ -412,7 +451,7 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="privacy_agree">同意</string>
     <string name="privacy_detail">続ける前に、このアプリがインターネットに接続することを許可し、必要な権限を付与してください。</string>
-    <string name="privacy_detail_extra">&lt;Data>一部の機能は、サードパーティのサービスプロバイダーHappyCastによって提供されます。この機能を使用する前に、&lt;a href=%1$s>HappyCast プライバシーポリシー&lt;/a>と&lt;a href=%2$s>HappyCast 法的声明&lt;/a>を読んで同意してください。&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>一部の機能は、サードパーティのサービスプロバイダーHappyCastによって提供されます。この機能を使用する前に、&lt;a href=%1$s>HappyCast プライバシーポリシー&lt;/a>と&lt;a href=%2$s>HappyCast 法的声明&lt;/a>を読んで同意してください。</Data></string>
     <string name="privacy_explain">キャストへようこそ！ キャストを使用すると、スマートフォンの画面から大きな外部モニターにアイテムを投影できます。このアプリが正常に動作するには、インターネットに接続する必要があり、次のアクセス許可が必要です。</string>
     <string name="privacy_negative">終了</string>
     <string name="privacy_permission_ble">Bluetoothのオンとオフの切り替え</string>
@@ -454,11 +493,11 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="privacy_setting_show_lelink_policy">HappyCast プライバシーポリシーを表示</string>
     <string name="privacy_setting_show_policy">プライバシーポリシーを表示</string>
     <string name="privacy_setting_show_user_agreement">利用規約を表示</string>
-    <string name="privacy_text_1">"&lt;Data>キャストへようこそ！キャストでは、スマートフォンの画面からより大きな外部モニターにアイテムを投影することができます。
+    <string name="privacy_text_1"><Data>"キャストへようこそ！キャストでは、スマートフォンの画面からより大きな外部モニターにアイテムを投影することができます。
 当社は、関連する法律、規制、およびプライバシーポリシーに従ってご利用者の個人情報を保護します。一部の機能は、サードパーティのサービスプロバイダー HappyCast によって提供されます。この機能の使用を開始する前に、&lt;a href=%2$s>HappyCast 法的声明&lt;/a>と&lt;a href=%1$s>HappyCast プライバシーポリシー&lt;/a>を読んで同意してください。
-このアプリが正常に動作するためには、インターネットに接続する必要があり、また個人情報を収集するために以下のアクセス許可が必要です。&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>このようなアクセス許可を付与しない場合、または個人情報を共有およびアップロードすることに同意しない場合は、このアプリを使用することはできません。その場合は、このアプリをアンインストールまたはサインアウトするか、設定でアクセス許可を制限することを選択できます。
-この機能の使用を開始する前に、&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;/Data>"</string>
+このアプリが正常に動作するためには、インターネットに接続する必要があり、また個人情報を収集するために以下のアクセス許可が必要です。"</Data></string>
+    <string name="privacy_text_2"><Data>"このようなアクセス許可を付与しない場合、または個人情報を共有およびアップロードすることに同意しない場合は、このアプリを使用することはできません。その場合は、このアプリをアンインストールまたはサインアウトするか、設定でアクセス許可を制限することを選択できます。
+この機能の使用を開始する前に、&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読んで同意してください。"</Data></string>
     <string name="privacy_text_pemission">"　　•これらのアイテムを外部モニターに投影するために、デバイス上の画像にアクセスして保存します
 　　•外部デバイスにオーディオをキャストするために、通話とオーディオを録音します
 　　•デバイスを識別するために、電話番号、IMEI、およびIMSIにアクセスしま
@@ -480,22 +519,38 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="scan_wifi_label_global">Wi-Fiに接続</string>
     <string name="screen_projection">キャスト</string>
     <string name="screen_projection_characteristics">特別な機能</string>
+    <string name="screen_projection_characteristics_cast_summary">画面のコンテンツを付近のテレビにキャストする</string>
+    <string name="screen_projection_characteristics_hang_up_summary_new">バッテリーを節約し発熱を避けるため、キャスト中はモバイルデバイスの画面をオフにしてください</string>
     <string name="screen_projection_characteristics_off_screen_summary">デバイスの画面がオフになっても、キャストを続けることができます。この機能により、消費電力が削減されます。</string>
     <string name="screen_projection_characteristics_off_screen_title">画面オフの状態でキャスト</string>
     <string name="screen_projection_characteristics_privacy_protect_summary">フローティング通知や着信など、プライベートなものを外部モニターに表示しない</string>
     <string name="screen_projection_characteristics_privacy_protect_title">プライベートアイテムを非表示</string>
+    <string name="screen_projection_characteristics_private_summary_new">プライバシーを保護：キャスト中、デバイスにフローティング通知、着信、その他のプライベートなアイテムは表示されません。</string>
     <string name="screen_projection_characteristics_small_window_summary">キャストされるウィンドウを最小化して、スマートフォンの他の機能を使用できるようにします。</string>
+    <string name="screen_projection_characteristics_small_window_summary_new">他のアプリの使用中に画面をキャストし、そのコンテンツをフローティングウィンドウに表示します</string>
     <string name="screen_projection_characteristics_small_window_title">ウィンドウを最小化</string>
+    <string name="screen_projection_entrance_list">利用可能なデバイスを表示する</string>
+    <string name="screen_projection_entrance_list_new">キャストに利用可能なデバイスのリストを表示する</string>
+    <string name="screen_projection_example_document_hint_miui15">* アイテムは付近のテレビに表示されます</string>
+    <string name="screen_projection_example_document_hint_new"><Data>*この機能を使用するには、[ファイル] > [ドキュメント] に移動して &lt;img src=../drawable/ic_cast_icon_photo.png/> アイコンをタップしてください。</Data></string>
     <string name="screen_projection_example_document_summary">外部モニターにプレゼンテーションを表示しながら、スマートフォンでスライドの切り替えや注釈の閲覧ができます。この機能は、[ファイルマネージャー] > [ドキュメント] で使用できます。</string>
+    <string name="screen_projection_example_document_summary_miui15">このデバイスをリモコンとして使用しながら、プレゼンテーションのスライドをテレビに表示します</string>
     <string name="screen_projection_example_document_title">ドキュメント</string>
+    <string name="screen_projection_example_gallery_hint_miui15">* 写真やビデオをキャストするには、ギャラリーでアイテムを選択し、[共有] をタップしてから [キャスト] アイコンをタップします。</string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*この機能を使用するには、ギャラリーに移動して写真を選択し、下部バーの \"送信\" をタップして、&lt;img src=../drawable/ic_cast_icon_photo.png/> アイコンをタップします。</Data></string>
     <string name="screen_projection_example_gallery_summary">ギャラリーアプリ内のアイテムの下にある共有ボタンをタップすると、そのアイテムが外部モニターに表示されます。</string>
+    <string name="screen_projection_example_gallery_summary_miui15">写真やビデオをテレビ画面に表示する</string>
     <string name="screen_projection_example_gallery_title">写真とビデオ</string>
+    <string name="screen_projection_example_game_hint_miui15">"* ゲームをキャストするには、プレイ中にゲームターボの [キャスト] をタップしてください。
+ゲームをキャストする前に、ゲームターボがオンになっていることを確認してください。"</string>
     <string name="screen_projection_example_game_summary">ゲームターボを使用すると、ゲームを外部モニターにキャストできます。この機能をオンにするには、 ゲームターボのツールボックスにあるショートカットを使用します。</string>
+    <string name="screen_projection_example_game_summary_miui15">ゲームセッションをテレビで表示する</string>
     <string name="screen_projection_example_game_title">ゲーム</string>
     <string name="screen_projection_help">ヘルプ</string>
     <string name="screen_projection_sample_summary">ドキュメント、ゲーム、写真、およびビデオのキャスト</string>
     <string name="screen_projection_sample_title">キャスト例</string>
     <string name="screen_projection_title">キャスト</string>
+    <string name="screen_projection_title_miui15">キャスト</string>
     <string name="search_menu_title">検索</string>
     <string name="send">送信</string>
     <string name="show_result_on_tv">テレビで結果を確認してください</string>
@@ -553,6 +608,7 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="thursday_short">木</string>
     <string name="thursday_shortest">木</string>
     <string name="tile_label">キャスト</string>
+    <string name="tile_label_v2">相互接続サービス</string>
     <string name="time_picker_dialog_title">時刻を設定</string>
     <string name="time_picker_label_hour">時</string>
     <string name="time_picker_label_minute">分</string>
@@ -570,7 +626,7 @@ Miracastをオンにする必要がある場合は、[MENU] ボタンを押し�
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>
     <string name="trust_device_desc">これらのデバイスが付近にある場合、最初にここに表示されます</string>
-    <string name="trust_device_dialog_desc">&lt;Data>%sを信頼できるデバイスとしてマークすると、付近にある利用可能なデバイスの中で最初に表示されます。&lt;br>&lt;br>設定で&lt;a href=milink://com.milink.service/trust>信頼できるデバイスを管理&lt;/a>することができます。&lt;/Data></string>
+    <string name="trust_device_dialog_desc"><Data>%sを信頼できるデバイスとしてマークすると、付近にある利用可能なデバイスの中で最初に表示されます。&lt;br>&lt;br>設定で&lt;a href=milink://com.milink.service/trust>信頼できるデバイスを管理&lt;/a>することができます。</Data></string>
     <string name="trust_device_dialog_pos">信頼する</string>
     <string name="trust_device_dialog_title">このデバイスを信頼しますか？</string>
     <string name="trust_device_manager">信頼できるデバイスを管理</string>

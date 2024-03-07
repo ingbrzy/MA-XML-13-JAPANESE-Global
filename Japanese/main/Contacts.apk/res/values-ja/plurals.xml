@@ -4,13 +4,13 @@
         <item quantity="other">1時間前</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1時間前</item>
+        <item quantity="other">%d時間前</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">1時間後</item>
+        <item quantity="other">%d時間後</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">30分後</item>
@@ -35,12 +35,6 @@
     </plurals>
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">呼出回数%1$d回</item>
-    </plurals>
-    <plurals name="call_record_auto_whitelist_summary">
-        <item quantity="other">%d件の電話番号</item>
-    </plurals>
-    <plurals name="call_remove_exception_numbers_confirm">
-        <item quantity="other">%d件の電話番号を削除しますか？</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d件の連絡先または写真が同期されていません</item>
@@ -84,11 +78,11 @@
     <plurals name="group_list_num_numbers_in_group">
         <item quantity="other">%1$d件の番号</item>
     </plurals>
+    <plurals name="group_sms_error_message">
+        <item quantity="other">SMSは受信者を%d人まで指定できます。</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
-    </plurals>
-    <plurals name="hint_account_contacts">
-        <item quantity="other">%1$d個</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d件の連絡先</item>
@@ -155,9 +149,6 @@
     </plurals>
     <plurals name="searchFoundContacts">
         <item quantity="other">%d件見つかりました</item>
-    </plurals>
-    <plurals name="search_group_contacts_result">
-        <item quantity="other">%s件の結果</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">%1$d件以内で選択してください、すべては選択できません</item>

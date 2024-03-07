@@ -15,8 +15,8 @@
     </string-array>
     <string-array name="settings_search_account_and_authority_non_global">
         <item>アカウント</item>
-        <item>サードパーティアカウントの追加と管理</item>
-        <item>アカウント;SNS;WeChat;QQ;Mi アカウント;アカウント;Xiaomi アカウント</item>
+        <item>接続されている WeChat およびその他の SNS アカウントを表示する</item>
+        <item>アクセス許可;SNS;WeChat;Xiaomi アカウント;アカウント</item>
     </string-array>
     <string-array name="settings_search_change_password">
         <item>パスワードを変更</item>

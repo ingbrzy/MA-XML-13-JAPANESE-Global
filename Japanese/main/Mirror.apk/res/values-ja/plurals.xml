@@ -27,6 +27,15 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
+    <plurals name="download_canceled_title_multi">
+        <item quantity="other">%1$sを含む%2$d個のファイルを拒否しました</item>
+    </plurals>
+    <plurals name="download_succeeded_title_multi">
+        <item quantity="other">%1$sを含む%2$d個のファイルを受信しました</item>
+    </plurals>
+    <plurals name="download_title_multi">
+        <item quantity="other">%1$sを含む%2$d個のファイル</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>

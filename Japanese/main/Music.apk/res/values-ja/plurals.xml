@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Nalbum_total_songs">
-        <item quantity="other">合計%d曲</item>
+        <item quantity="other">合計 %d 曲</item>
     </plurals>
     <plurals name="Nassociate_songs">
         <item quantity="other">アルバムカバーと歌詞を検索中 (%1$d/%2$d曲)</item>
     </plurals>
     <plurals name="Ndialog_renew_content">
-        <item quantity="other">"サブスクリプションは%d日後に期限が切れます。
+        <item quantity="other">"サブスクリプションはあと %d 日で期限切れになります。
 更新の手続きを行いますか？"</item>
     </plurals>
     <plurals name="Nhungama_free_download_summary">
-        <item quantity="other">%1$d曲無料でダウンロードできます。今すぐ%2$sをダウンロードしますか？</item>
+        <item quantity="other">無料で %1$d 曲ダウンロードできます。今すぐ %2$s をダウンロードしますか？</item>
     </plurals>
     <plurals name="Nquit_warning">
-        <item quantity="other">プレーヤーは%d分後に停止します</item>
+        <item quantity="other">プレーヤーは %d 分後に停止します</item>
     </plurals>
     <plurals name="Nsong_group_detail_subtitle">
-        <item quantity="other">"%1$sに作成されました 
-合計%2$d曲"</item>
+        <item quantity="other">"%1$s で作成されました 
+合計 %2$d 曲"</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
-        <item quantity="other">%d曲をプレイリストに追加しました</item>
+        <item quantity="other">%d 曲をプレイリストに追加しました</item>
     </plurals>
     <plurals name="Ntracks_count">
-        <item quantity="other">%d曲</item>
+        <item quantity="other">%d 曲</item>
     </plurals>
     <plurals name="Ntracks_remove_from_playlist">
-        <item quantity="other">%d曲をプレイリストから削除しました</item>
+        <item quantity="other">%d 曲をプレイリストから削除しました</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
-        <item quantity="other">%d曲の類似曲</item>
+        <item quantity="other">%d 件の類似の曲</item>
     </plurals>
     <plurals name="a_hour_ago">
         <item quantity="other">1時間前</item>
@@ -59,36 +59,29 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
+    <plurals name="asm_download_batch_action_start_download">
+        <item quantity="other">%1$d 曲をダウンロードキューに追加しました</item>
+    </plurals>
+    <plurals name="asm_main_slide_songlist_num">
+        <item quantity="other">%1$d 曲</item>
+    </plurals>
+    <plurals name="asm_song_with_prefix">
+        <item quantity="other">%1$d 曲</item>
+    </plurals>
     <plurals name="comment_count">
-        <item quantity="other">%d件のコメント</item>
+        <item quantity="other">%d 件のコメント</item>
     </plurals>
     <plurals name="days_ago">
-        <item quantity="other">%d日前</item>
-    </plurals>
-    <plurals name="dialog_confirm_delete_downloads_message">
-        <item quantity="other">%d個を削除しますか？</item>
-    </plurals>
-    <plurals name="dialog_confirm_delete_downloads_message_with_file">
-        <item quantity="other">"%d個のアイテムを削除しますか？
-注意: ファイルも同様にこのデバイスから削除されます。"</item>
+        <item quantity="other">%d 日前</item>
     </plurals>
     <plurals name="dialog_delete_descript">
-        <item quantity="other">%d曲を削除しますか？</item>
+        <item quantity="other">%d 曲を削除しますか？</item>
     </plurals>
     <plurals name="dialog_remove_descript">
-        <item quantity="other">%d曲を削除しますか？</item>
+        <item quantity="other">%d 曲を削除しますか？</item>
     </plurals>
     <plurals name="dialog_request_delete_permission_descript">
         <item quantity="other">選択した曲のうち%d曲が外部フォルダーに保存されています。それらを削除するには必要な権限を付与してください。</item>
-    </plurals>
-    <plurals name="download_finished">
-        <item quantity="other">&lt;font color=\"red\">%d曲&lt;/font>ダウンロードしました</item>
-    </plurals>
-    <plurals name="download_info_count_deleted_tasks">
-        <item quantity="other">%d件のダウンロードを削除しました</item>
-    </plurals>
-    <plurals name="download_running">
-        <item quantity="other">&lt;font color=\"red\">%d曲&lt;/font>ダウンロード中</item>
     </plurals>
     <plurals name="exo_controls_fastforward_by_amount_description">
         <item quantity="other">%d 秒早送り</item>
@@ -102,7 +95,7 @@
         <item quantity="other">%s回視聴</item>
     </plurals>
     <plurals name="free_downloads_num_hint">
-        <item quantity="other">無料ダウンロード残り%d回</item>
+        <item quantity="other">無料ダウンロード残り %d 回</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
@@ -126,10 +119,10 @@
         <item quantity="other">たった今</item>
     </plurals>
     <plurals name="list_header_fans_count">
-        <item quantity="other">%d人のフォロワー</item>
+        <item quantity="other">%d 人のフォロワー</item>
     </plurals>
     <plurals name="list_header_follow_count">
-        <item quantity="other">%d人をフォロー中</item>
+        <item quantity="other">%d 人をフォロー中</item>
     </plurals>
     <plurals name="media_store_new_songs_add">
         <item quantity="other">%d曲の新曲</item>
@@ -142,37 +135,31 @@
         <item quantity="one">%d 件の新しい通知</item>
     </plurals>
     <plurals name="multichoice_title">
-        <item quantity="other">%d個を選択済み</item>
-    </plurals>
-    <plurals name="notif_title_multiple_downloading">
-        <item quantity="other">%1$d個のファイルをダウンロード中</item>
-    </plurals>
-    <plurals name="notification_download_failed_more">
-        <item quantity="other">%1$d個のアイテムをダウンロードできませんでした</item>
+        <item quantity="other">%d 個のアイテムが選択されました</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
     <plurals name="reader_count">
-        <item quantity="other">%d人のフォロワー</item>
+        <item quantity="other">%d 人のフォロワー</item>
     </plurals>
     <plurals name="reward_seconds_remaining">
         <item quantity="other">VIP会員まであと%d秒</item>
     </plurals>
     <plurals name="send_songs_toast">
-        <item quantity="other">%d曲が送信されます</item>
+        <item quantity="other">%d 曲が送信されます</item>
     </plurals>
     <plurals name="skipped_online_songs_tips">
-        <item quantity="other">%d曲をスキップしました。これらを再生するには、設定でオンラインサービスをオンにしてください。</item>
+        <item quantity="other">%d 曲をスキップしました。それらを再生するには、設定でオンラインサービスをオンにしてください。</item>
     </plurals>
     <plurals name="song_already_favorite">
-        <item quantity="other">曲をお気に入りにしました</item>
+        <item quantity="other">曲がお気に入りに登録されました。</item>
     </plurals>
     <plurals name="songs_count">
-        <item quantity="other">%d曲</item>
+        <item quantity="other">%d 曲</item>
     </plurals>
     <plurals name="sound_fade_duration_in_seconds">
-        <item quantity="other">曲間のクロスフェード：%d秒</item>
+        <item quantity="other">曲間のクロスフェード: %d秒</item>
     </plurals>
     <plurals name="task_guide">
         <item quantity="other">今日は%1$d枚のコインを獲得できます</item>
@@ -181,10 +168,10 @@
         <item quantity="other">ビデオ</item>
     </plurals>
     <plurals name="video_play_count">
-        <item quantity="other">%1$s回再生</item>
+        <item quantity="other">%1$s 回再生</item>
     </plurals>
     <plurals name="vip_remain_days_hint">
-        <item quantity="other">残り%d日</item>
+        <item quantity="other">残り %d 日</item>
     </plurals>
     <plurals name="web_reward_dialog_title">
         <item quantity="other">%d秒間視聴すると、報酬としてVIPメンバーシップを獲得できます。終了してもよろしいですか？</item>

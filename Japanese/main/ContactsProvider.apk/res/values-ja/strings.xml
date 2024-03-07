@@ -16,7 +16,6 @@
     <string name="provider_label">連絡先</string>
     <string name="sharedUserLabel">Androidのコアアプリ</string>
     <string name="sim_state_changed">SIMカードが変更されました</string>
-    <string name="third_party_delete_contact_info">\"%s\"が連絡先を削除しようとしています。この操作の実行はサードパーティ製アプリには許可されていません。連絡先を削除するには、MIUIにビルトインされている連絡先アプリを代わりに使用してください。</string>
     <string name="update_accounts_changed">アカウントが変更されました</string>
     <string name="upgrade_out_of_memory_notification_text">タップしてアップデートを完了します。</string>
     <string name="upgrade_out_of_memory_notification_ticker">アップデートにはもっとメモリが必要です。</string>

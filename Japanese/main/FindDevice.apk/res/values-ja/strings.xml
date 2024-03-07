@@ -33,11 +33,17 @@
     <string name="afternoon">午後</string>
     <string name="am">午前</string>
     <string name="app_name">デバイスを探す</string>
+    <string name="call_notification_answer_action">応答</string>
+    <string name="call_notification_answer_video_action">ビデオ</string>
+    <string name="call_notification_decline_action">拒否</string>
+    <string name="call_notification_hang_up_action">通話終了</string>
+    <string name="call_notification_incoming_text">着信</string>
+    <string name="call_notification_ongoing_text">通話中</string>
+    <string name="call_notification_screening_text">着信をスクリーニング中</string>
     <string name="captcha">Captcha</string>
     <string name="change_find_device_status_failed">ロックを解除できませんでした。%s。</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
-    <string name="copy">コピー</string>
     <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">インターネット未接続時に、このデバイスの位置を特定するために電話番号にアクセスするため</string>
     <string name="custom_define_permission_desc_android.permission.SEND_SMS">インターネットに接続されていない時にこのデバイスの位置を特定するため</string>
     <string name="custom_define_permission_desc_android.permission_group.LOCATION">デバイスの位置を特定し、紛失モードに切り替えるため</string>
@@ -48,7 +54,7 @@
     <string name="date_time_picker_dialog_title">日付と時刻を設定</string>
     <string name="default_debt_msg_words">"このデバイスは分割払いの延滞が原因でロックされています。
 詳細については、販売代理店にお問い合わせください。"</string>
-    <string name="default_lock_msg_words">このデバイスは、既存のMi アカウントに関連付けられています。セキュリティ上の理由から、パスワードを入力してデバイスを認証する必要があります。</string>
+    <string name="default_lock_msg_words">このデバイスは、既存のXiaomi アカウントに関連付けられています。セキュリティ上の理由から、パスワードを入力してデバイスを認証する必要があります。</string>
     <string name="default_lock_msg_words_with_phone">このデバイスは紛失したものです。持ち主に連絡してください。</string>
     <string name="device_locked">このデバイスはロックされています</string>
     <string name="device_lost">このデバイスは紛失しました</string>
@@ -63,16 +69,14 @@
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="evening">夕方</string>
-    <string name="expand_button_title">詳細設定</string>
-    <string name="find_device">デバイスを探す</string>
     <string name="find_device_capture_done_notification_content">i.mi.comで写真を見る</string>
     <string name="find_device_capture_done_notification_title">\"デバイスを探す\"がリモートで写真を撮影しました</string>
     <string name="find_device_capture_notification_content">このデバイスを使用してリモートで写真を撮るリクエストがアカウントから送信されました</string>
     <string name="find_device_capture_notification_title">\"デバイスを探す\"が写真を撮影しようとしています</string>
     <string name="find_device_crash">\"デバイスを探す\"は予期せず終了しました。</string>
     <string name="find_device_error_access_denied">アクセスは拒否されました。</string>
-    <string name="find_device_error_account_sys_timeout">"Mi アカウントに接続できませんでした。 "</string>
-    <string name="find_device_error_account_unknown_error">Mi アカウントエラーです (%s)。</string>
+    <string name="find_device_error_account_sys_timeout">Xiaomi アカウントに接続できませんでした。</string>
+    <string name="find_device_error_account_unknown_error">Xiaomi アカウントエラーです (%s)。</string>
     <string name="find_device_error_custom">%s</string>
     <string name="find_device_error_network">ネットワークエラーです。</string>
     <string name="find_device_error_password_changed">アカウントのパスワードは最近変更されました。</string>
@@ -90,16 +94,16 @@
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d日</string>
-    <string name="fmt_date_long_month">MMMM</string>
+    <string name="fmt_date_long_month">M月</string>
     <string name="fmt_date_long_month_day">M月d日</string>
     <string name="fmt_date_long_year_month">yyyy年M月</string>
     <string name="fmt_date_long_year_month_day">yyyy年M月d日</string>
-    <string name="fmt_date_numeric_day">d日</string>
-    <string name="fmt_date_numeric_month">M月</string>
-    <string name="fmt_date_numeric_month_day">M月d日</string>
+    <string name="fmt_date_numeric_day">d</string>
+    <string name="fmt_date_numeric_month">M</string>
+    <string name="fmt_date_numeric_month_day">M/d</string>
     <string name="fmt_date_numeric_year">yyyy</string>
-    <string name="fmt_date_numeric_year_month">yyyy年M月</string>
-    <string name="fmt_date_numeric_year_month_day">yyyy年M月d日</string>
+    <string name="fmt_date_numeric_year_month">yyyy/M</string>
+    <string name="fmt_date_numeric_year_month_day">yyyy/M/d</string>
     <string name="fmt_date_short_month">M月</string>
     <string name="fmt_date_short_month_day">M月d日</string>
     <string name="fmt_date_short_year_month">yyyy年M月</string>
@@ -107,33 +111,33 @@
     <string name="fmt_date_time">D T</string>
     <string name="fmt_date_time_timezone">D T z</string>
     <string name="fmt_date_timezone">D z</string>
-    <string name="fmt_date_year">yyyy</string>
+    <string name="fmt_date_year">yyyy年</string>
     <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">hh</string>
-    <string name="fmt_time_12hour_minute">hh:mm</string>
-    <string name="fmt_time_12hour_minute_pm">aa hh:mm</string>
-    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
-    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_millis_pm">aa hh:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_pm">aa hh:mm:ss</string>
-    <string name="fmt_time_12hour_pm">aa hh</string>
-    <string name="fmt_time_24hour">H</string>
-    <string name="fmt_time_24hour_minute">HH:mm</string>
-    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
-    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
-    <string name="fmt_time_millis">S</string>
-    <string name="fmt_time_minute">m</string>
-    <string name="fmt_time_minute_second">m:s</string>
-    <string name="fmt_time_minute_second_millis">m:s.S</string>
-    <string name="fmt_time_second">s</string>
-    <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_12hour">"h'時'"</string>
+    <string name="fmt_time_12hour_minute">h:mm</string>
+    <string name="fmt_time_12hour_minute_pm">a h:mm</string>
+    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
+    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">a h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_pm">a h:mm:ss</string>
+    <string name="fmt_time_12hour_pm">ah</string>
+    <string name="fmt_time_24hour">"H'時'"</string>
+    <string name="fmt_time_24hour_minute">H:mm</string>
+    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
+    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
+    <string name="fmt_time_millis">"S'ミリ秒'"</string>
+    <string name="fmt_time_minute">"m'分'"</string>
+    <string name="fmt_time_minute_second">"m'分's'秒'"</string>
+    <string name="fmt_time_minute_second_millis">"m'分's.S'秒'"</string>
+    <string name="fmt_time_second">"s'秒'"</string>
+    <string name="fmt_time_second_millis">"s.S'秒'"</string>
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
-    <string name="fmt_weekday_date">EEEE, D</string>
-    <string name="fmt_weekday_date_time">W, D T</string>
-    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
-    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_date">D, EEEE</string>
+    <string name="fmt_weekday_date_time">D, W T</string>
+    <string name="fmt_weekday_date_time_timezone">D, W T z</string>
+    <string name="fmt_weekday_date_timezone">D, W z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
     <string name="fmt_weekday_time">W T</string>
@@ -147,14 +151,15 @@
     <string name="login_extra_steps">サインイン認証</string>
     <string name="login_failed">サインインできませんでした。%s。</string>
     <string name="midnight">真夜中</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
+    <string name="miuix_access_state_desc">選択済み</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
-    <string name="miuix_appcompat_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
@@ -212,8 +217,8 @@
     <string name="morning">午前</string>
     <string name="night">夜</string>
     <string name="noon">正午</string>
-    <string name="not_set">未設定</string>
-    <string name="open_wifi_settings">Wi-Fi設定を開く</string>
+    <string name="open_wifi_settings">WLAN設定を開く</string>
+    <string name="open_wifi_settings_china">WLAN設定を開く</string>
     <string name="passport_checking_vcode">パスワードを確認中…</string>
     <string name="passport_error_empty_vcode">認証コードを入力してください</string>
     <string name="passport_notification_need_unlock_again">もう一度ロックを解除してください</string>
@@ -222,11 +227,10 @@
     <string name="passport_vcode_prompt_long">認証コードを入力してください</string>
     <string name="passport_verify">認証</string>
     <string name="password">パスワードを入力してください</string>
-    <string name="phone_locked">このデバイスはMi アカウント (%s) に関連付けられています。デバイスをアクティブ化するにはパスワードを入力してください。</string>
+    <string name="phone_locked">このデバイスはXiaomi アカウント (%s) に関連付けられています。デバイスをアクティブ化するにはパスワードを入力してください。</string>
     <string name="phone_locked_account_email">、関連付けられたメールアドレス：%s</string>
     <string name="phone_locked_account_phone">、関連付けられた電話番号：%s</string>
     <string name="pm">午後</string>
-    <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="return_to_call">通話に戻る</string>
     <string name="saturday">土曜日</string>
     <string name="saturday_short">土</string>
@@ -236,7 +240,6 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_on_empty_captcha">Captchaは空白にできません</string>
     <string name="stop_on_empty_password">パスワードは空白にできません</string>
-    <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
@@ -307,15 +310,21 @@
     <string name="unlock_error_device_id">デバイスIDを取得できません</string>
     <string name="unlock_error_interrupted">中断されました</string>
     <string name="unlock_error_network">ネットワークに接続できません</string>
-    <string name="unlock_error_passport_sdk_timeout">Mi アカウントSDKが応答していません</string>
     <string name="unlock_error_rpc">RPCエラー</string>
     <string name="unlock_error_server">サーバーエラー</string>
-    <string name="unlock_error_ssl_hand_shake">サーバーに接続できませんでした。日付と時刻を手動で設定してみてください。</string>
     <string name="unlock_error_unknown">サインインできません</string>
     <string name="unlock_error_user_name">ユーザー名が無効です</string>
     <string name="unlock_error_wrong_vcode">入力したコードが正しくありません</string>
     <string name="unlock_help">"ネットワークに接続します。
-有効なSIMカードを挿入し、無効なWi-Fiネットワークには接続しないでください。
+有効なSIMカードを挿入し、無効なWLANネットワークには接続しないでください。
+
+パスワードをお忘れですか？
+id.mi.comにアクセスし、\"パスワードを忘れた場合\"を選択して、指示に従ってください。
+
+デバイスをアクティブ化できませんか？
+i.mi.com/ssにアクセスして申請を送信し、デバイスのロックを解除してください。"</string>
+    <string name="unlock_help_china">"ネットワークに接続します。
+有効なSIMカードを挿入し、無効なWLANネットワークには接続しないでください。
 
 パスワードをお忘れですか？
 id.mi.comにアクセスし、\"パスワードを忘れた場合\"を選択して、指示に従ってください。
@@ -326,10 +335,8 @@ i.mi.com/ssにアクセスして申請を送信し、デバイスのロックを
     <string name="unlock_number">ロック解除コード：%s</string>
     <string name="unlock_wrong_captcha">入力したコードが正しくありません</string>
     <string name="unlocking">アクティブ化中…</string>
-    <string name="v7_preference_off">OFF</string>
-    <string name="v7_preference_on">ON</string>
     <string name="verifing_account">パスワードを認証中…</string>
-    <string name="verify_password_failed">Mi アカウントIDを認証できませんでした。%s。</string>
+    <string name="verify_password_failed">Xiaomi アカウントIDを認証できませんでした。%s。</string>
     <string name="wednesday">水曜日</string>
     <string name="wednesday_short">水</string>
     <string name="wednesday_shortest">水</string>

@@ -29,6 +29,13 @@
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
     <string name="accessing_notification_title">%1$s からファイルにアクセスしています</string>
     <string name="app_label">MTP ホスト</string>
+    <string name="call_notification_answer_action">応答</string>
+    <string name="call_notification_answer_video_action">ビデオ</string>
+    <string name="call_notification_decline_action">拒否</string>
+    <string name="call_notification_hang_up_action">通話終了</string>
+    <string name="call_notification_incoming_text">着信</string>
+    <string name="call_notification_ongoing_text">通話中</string>
+    <string name="call_notification_screening_text">着信をスクリーニング中</string>
     <string name="downloads_app_label">ダウンロード</string>
     <string name="error_busy_device">接続先のデバイスは使用中のため、利用できるようになるまでファイルを転送できません。</string>
     <string name="error_locked_device">ファイルが見つかりません。接続先のデバイスがロックされている可能性があります。その場合は、ロックを解除してからもう一度お試しください。</string>

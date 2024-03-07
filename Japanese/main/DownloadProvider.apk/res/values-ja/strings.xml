@@ -10,6 +10,7 @@
     <string name="download_queued">キューに登録済み</string>
     <string name="download_remaining">残り%s</string>
     <string name="download_running">ダウンロード中</string>
+    <string name="download_running_percent">ダウンロード中 %s</string>
     <string name="download_unknown_title">&lt;無題></string>
     <string name="notif_title_file_size">総計 %1$d</string>
     <string name="notif_title_single_downloading">%1$sをダウンロード中</string>
@@ -32,7 +33,6 @@
     <string name="permlab_downloadManager">ダウンロードにアクセスします。</string>
     <string name="permlab_downloadManagerAdvanced">ダウンロードの高度な機能。</string>
     <string name="permlab_downloadWithoutNotification">通知なしでファイルをダウンロード</string>
-    <string name="permlab_seeAllExternal">USBストレージへのすべてのダウンロードを表示する</string>
     <string name="root_downloads">ダウンロード</string>
     <string name="wifi_recommended_body">"今すぐこの%1$sのダウンロードを開始するとバッテリー駆動時間を縮める可能性があります。またモバイルデータ接続の過剰使用になる恐れもあり、こうした場合はご契約のデータプランに基づき、通信事業者により料金が課されます。
 

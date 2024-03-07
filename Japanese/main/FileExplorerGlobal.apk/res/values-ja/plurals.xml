@@ -1,36 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1時間前</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">%d時間前</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">30分前</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">%d時間後</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">30分後</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">今すぐ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d分後</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">たった今</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">WeChatの会話に含まれている%1$d本のビデオがまもなく期限切れになります。デバイスの内部ストレージにバックアップしますか？</item>
+    </plurals>
+    <plurals name="clockin_day_count">
+        <item quantity="other">%1$s日間連続でチェックインしました。その調子！</item>
+    </plurals>
+    <plurals name="clockin_days">
+        <item quantity="other">%1$s日間連続でチェックイン</item>
+    </plurals>
+    <plurals name="clockin_new_chip">
+        <item quantity="other">&lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font>点を獲得しました</item>
+    </plurals>
     <plurals name="days_ago">
         <item quantity="other">%1$d日前</item>
+    </plurals>
+    <plurals name="delete_cloud_files">
+        <item quantity="other">すべてのデバイスとクラウドから%1$d個のファイルを削除しますか？Mi Driveのファイルは、最近削除したアイテムから復元可能です。</item>
     </plurals>
     <plurals name="delete_files">
         <item quantity="other">%1$d個のファイルを削除しますか？</item>
     </plurals>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">%1$d個のファイル</item>
+    </plurals>
     <plurals name="delete_folders">
         <item quantity="other">%1$d個のフォルダーを削除しますか？</item>
     </plurals>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">と%1$d個のフォルダーを削除しますか？</item>
+    </plurals>
     <plurals name="directory_item_count">
-        <item quantity="other">%d個のアイテム</item>
+        <item quantity="other">%d個</item>
     </plurals>
     <plurals name="file_count">
-        <item quantity="other">%1$d個のアイテム</item>
+        <item quantity="other"> %1$d個</item>
     </plurals>
-    <plurals name="files">
-        <item quantity="other">%1$d個のファイル</item>
-    </plurals>
-    <plurals name="folders">
-        <item quantity="other">%1$d個のフォルダー</item>
+    <plurals name="follow_count">
+        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font>人のフォロワー</item>
     </plurals>
     <plurals name="found_new_files">
         <item quantity="other">%1$d個の新しいファイルが見つかりました</item>
     </plurals>
+    <plurals name="gems">
+        <item quantity="other">%1$s個の宝石</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">30分前</item>
+    </plurals>
     <plurals name="hours_ago">
         <item quantity="other">%1$d時間前</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">1時間後</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">30分後</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">今すぐ</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d分後</item>
+    </plurals>
+    <plurals name="items_picture">
+        <item quantity="other"> (%1$d枚)</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">たった今</item>
     </plurals>
     <plurals name="mins_ago">
         <item quantity="other">%1$d分前</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d個を選択済み</item>
+    </plurals>
+    <plurals name="more_gems">
+        <item quantity="other">あと&lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font>個の宝石を集めると、ラッキードローに参加できます。</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_fail">
+        <item quantity="other">%1$s個のファイルを同期できませんでした</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_success">
+        <item quantity="other">"%1$s個のファイルを同期済み | "</item>
+    </plurals>
+    <plurals name="notification_title_syncing_with_count_no_network">
+        <item quantity="other">ネットワーク接続を待機しています。残りのファイルは%1$sです。</item>
+    </plurals>
     <plurals name="numSelectedFile">
-        <item quantity="other">%1$d個のアイテムを選択済み</item>
+        <item quantity="other">%1$d個を選択済み</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="number_of_comment_flow">
+        <item quantity="other">%1$s件のコメント</item>
+    </plurals>
+    <plurals name="original_user_days">
+        <item quantity="other">" • &lt;font color=#fc7050>%1$d&lt;/font>日"</item>
+    </plurals>
+    <plurals name="original_user_fans">
+        <item quantity="other">" • &lt;font color=#fc7050>%1$s&lt;/font>人のフォロワーを獲得しました！"</item>
+    </plurals>
+    <plurals name="original_user_play_1">
+        <item quantity="other">" • &lt;font color=#fc7050>%1$s&lt;/font>本のビデオをアップロードしました。 "</item>
+    </plurals>
+    <plurals name="original_user_play_2">
+        <item quantity="other">&lt;font color=#fc7050>%1$s&lt;/font>人を笑顔にしました！</item>
+    </plurals>
+    <plurals name="remote_video_update">
+        <item quantity="other">%1$s本の新しいビデオが見つかりました</item>
+    </plurals>
+    <plurals name="search_head_hint_all">
+        <item quantity="other">結果 (%1$dページ)</item>
+    </plurals>
+    <plurals name="search_head_hint_app">
+        <item quantity="other">アプリ \"%1$s\" の関連ファイル (%2$d個)</item>
+    </plurals>
+    <plurals name="search_head_hint_file">
+        <item quantity="other">\"%1$s\" の関連ファイル (%2$d個)</item>
+    </plurals>
+    <plurals name="search_head_hint_tag">
+        <item quantity="other">タグ \"%1$s\" の関連ファイル (%2$d個)</item>
+    </plurals>
+    <plurals name="text_group_count">
+        <item quantity="other">%d個</item>
+    </plurals>
+    <plurals name="total_topic_num">
+        <item quantity="other">%1$s個のトピック</item>
+    </plurals>
+    <plurals name="total_user_num">
+        <item quantity="other">%1$s人</item>
+    </plurals>
+    <plurals name="user_sign_limt">
+        <item quantity="other">%d文字入力できます</item>
+    </plurals>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other"> ダウンロード</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font>本のビデオ</item>
+    </plurals>
+    <plurals name="video_items">
+        <item quantity="other"> %1$d本</item>
+    </plurals>
+    <plurals name="video_play_num">
+        <item quantity="other">%1$s回再生</item>
+    </plurals>
+    <plurals name="video_publish_watchable_hint">
+        <item quantity="other">フォロワーをあと%1$d人増やすとステータスがアップグレードされます</item>
     </plurals>
 </resources>

@@ -968,6 +968,7 @@
     <string name="card_main_private_space_summary">セカンド・スペースを使用することは、2つのデバイスを持っているようなものです</string>
     <string name="card_main_private_space_title">セカンド・スペース</string>
     <string name="card_main_sectool_title">ツール</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_video_manage_title">ビデオを管理</string>
     <string name="card_main_whatsappclean_title">WhatsApp クリーナー</string>
     <string name="card_main_xspace_action">作成</string>
@@ -1337,6 +1338,7 @@
     <string name="dynamic_performance_optimization_title">ダイナミックパフォーマンス</string>
     <string name="early_morning">早朝</string>
     <string name="edit_phone_num">SIM電話番号を編集</string>
+    <string name="ellipsis">…</string>
     <string name="email">メール</string>
     <string name="empty" />
     <string name="empty_app">アプリはありません</string>
@@ -1414,7 +1416,9 @@
     <string name="exo_download_paused_for_wifi">ダウンロード停止: Wi-Fi 接続中</string>
     <string name="exo_download_removing">ダウンロードを削除しています</string>
     <string name="exo_item_list">%1$s、%2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">モノラル</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">代替</string>
     <string name="exo_track_role_closed_captions">字幕</string>
     <string name="exo_track_role_commentary">解説</string>
@@ -2122,8 +2126,8 @@
     <string name="group_clipboard">クリップボード</string>
     <string name="group_connect_device">相互接続性</string>
     <string name="group_file">ファイルとドキュメント</string>
+    <string name="group_file_less_t">ファイルとメディアへのアクセス</string>
     <string name="group_head_data_ai_clipboard">クリップボードの保護</string>
-    <string name="group_head_data_ai_clipboard_desc">アプリがクリップボード内のアイテムにアクセスできるかどうかをシステムが決定できるようにします</string>
     <string name="group_head_data_camera_desc">オフにして、すべてのアプリのカメラへのアクセスを制限します</string>
     <string name="group_head_data_clipboard_desc">オフにして、すべてのアプリのクリップボードへのアクセスを制限します</string>
     <string name="group_head_data_location_desc">オフにして、すべてのアプリの位置情報へのアクセスを制限します</string>
@@ -2599,6 +2603,7 @@
     <string name="menu_text_license_manager">アクセス許可</string>
     <string name="menu_text_networkassistants">データ使用量</string>
     <string name="menu_text_networkassistants_danger">%s以上</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">残り%s</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2607,6 +2612,7 @@
     <string name="menu_text_optimize_manage">スピードブースト</string>
     <string name="menu_text_optimize_manage_1">スピードブースト</string>
     <string name="menu_text_power_manager">バッテリー</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">例外から削除</string>
     <string name="menu_white">例外に追加</string>
     <string name="mi_ime_not_used">Xiaomiが認定したキーボードを使用してください</string>
@@ -2615,6 +2621,9 @@
     <string name="mi_service_traffic_detail">フレームワークの詳細</string>
     <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tap to top up open Mi Sim.&lt;/U>&lt;/font>"</string>
     <string name="mi_sim_link_custom">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>%2$s&lt;/U>&lt;/font>"</string>
+    <string name="mic_noise_reduction_mode_standard">標準</string>
+    <string name="mic_noise_reduction_mode_ultimate">選択</string>
+    <string name="mic_noise_reduction_voiceprint_desc">指定ユーザーからのオーディオのみを保持します</string>
     <string name="midnight">真夜中</string>
     <string name="midrop_post_notification_contentTitle">ファイルを共有する必要がありますか？</string>
     <string name="miui_blur_location">すべてのアプリがおおよその位置情報にアクセスできるようにします</string>
@@ -2712,6 +2721,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -3102,6 +3112,7 @@
     <string name="pc_battery_history_total_consumption_title">合計消費電力</string>
     <string name="pc_battery_history_usetime_title">アクティブ</string>
     <string name="pc_battery_low_health_reminder">バッテリーの交換時期です</string>
+    <string name="pc_button_go_to_setting">設定</string>
     <string name="pc_category_charge_settings">充電設定</string>
     <string name="pc_charged_auto_close_summary">バッテリーが %1$s または完全に充電されたらオフにします</string>
     <string name="pc_charged_auto_close_title">充電完了後オフにする</string>
@@ -3141,6 +3152,7 @@
     <string name="pc_going_to_exit_extreme_mode">休止モードを終了しています</string>
     <string name="pc_going_to_exit_extreme_mode_summary">デバイスは充電中です。休止モードはオフになりました。</string>
     <string name="pc_going_to_extreme_mode">休止モードを起動中</string>
+    <string name="pc_handle_battery_level">グリップ</string>
     <string name="pc_have_no_battery_issue">問題なし</string>
     <string name="pc_hide_more_power_rank_apps">非表示</string>
     <string name="pc_hidemode_normal">バランス</string>
@@ -3200,11 +3212,14 @@
     <string name="pc_performance_mode_dialog_title">パフォーマンスモード</string>
     <string name="pc_performance_mode_noti_summary">パフォーマンスモードでは、消費電力が増加し、デバイスが発熱する可能性があります</string>
     <string name="pc_performance_mode_noti_title">デバイスのパフォーマンスが向上しました</string>
+    <string name="pc_phone_battery_level">スマートフォン</string>
     <string name="pc_power_consume_check">バッテリーの点検</string>
     <string name="pc_power_consume_check_ing">確認中…</string>
+    <string name="pc_power_mode_has_performance">パフォーマンスモードはオンです</string>
     <string name="pc_power_save_settings_new">バッテリーセーバーの設定</string>
     <string name="pc_remind_close_cover_to_charge_summary">充電前にデバイスを折りたたむと、より高速で安定した充電が可能です。</string>
     <string name="pc_remind_close_cover_to_charge_title">折りたたんで充電</string>
+    <string name="pc_reminder_always_protect_summary">制限付き充電に切り替えてバッテリーの劣化を軽減します</string>
     <string name="pc_save_charge">充電</string>
     <string name="pc_save_other_setting">その他の設定</string>
     <string name="pc_save_power">バッテリーセーバー</string>
@@ -3234,6 +3249,11 @@
     <string name="pc_wait_device_cools_down">この機能を使用するには、デバイスの温度が下がるまでお待ちください。</string>
     <string name="pc_wireless_charge_adjust_position_summary">ワイヤレス充電器の上に置いてください</string>
     <string name="pc_wireless_charge_adjust_position_title">デバイスの充電を高速化</string>
+    <string name="pc_wireless_charging_special_stand_summary1">ワイヤレス充電器に付属しているスタンドにデバイスを取り付けます。</string>
+    <string name="pc_wireless_charging_special_stand_summary2">最高の充電パフォーマンスを得るには、ワイヤレス充電器に付属しているスタンドにデバイスを取り付けてください</string>
+    <string name="pc_wireless_charging_special_stand_title">付属の充電スタンドを使用する</string>
+    <string name="pc_wireless_handle_connected">デバイスが接続されました</string>
+    <string name="pc_wireless_handle_title">ワイヤレスカメラグリップ</string>
     <string name="pc_work_in_save_mode">バッテリーセーバー</string>
     <string name="pc_work_in_super_save_mode">ウルトラバッテリーセーバー</string>
     <string name="pc_xiaoai_create_auto_task">Mi AI からの新しいタスク</string>
@@ -3294,6 +3314,7 @@
     <string name="permission_group_camera">この権限により、アプリはカメラを使用して写真やビデオを撮影できます。</string>
     <string name="permission_group_contact">この権限により、アプリは連絡先にアクセスしたり編集したり、このデバイスで作成されたアプリの連絡先を表示したりできるようになります。</string>
     <string name="permission_group_file">この権限により、アプリはこのデバイスに保存されているすべてのファイルにアクセスできます。</string>
+    <string name="permission_group_file_less_t">この権限により、アプリはこのデバイスに保存されている写真、ビデオ、オーディオ、その他のファイルにアクセスできます。</string>
     <string name="permission_group_image_video">この権限により、アプリはこのデバイスに保存されている写真やビデオにアクセスできます。</string>
     <string name="permission_group_location">この権限により、アプリはネットワークまたは衛星経由で位置情報にアクセスできるようになります。</string>
     <string name="permission_group_microphone">この権限により、アプリが録音のためにマイクを使用できるようになります。</string>
@@ -3458,7 +3479,7 @@
     <string name="power_center_batteryrank_all">すべてのバッテリー使用量</string>
     <string name="power_center_batteryrank_hardware">ハードウェアのバッテリー使用量 %s</string>
     <string name="power_center_batteryrank_software">ソフトウェアのバッテリー使用量 %s</string>
-    <string name="power_center_batteryscan_normal">バッテリーの使用に関する問題はありません。結果を表示します。</string>
+    <string name="power_center_batteryscan_normal">すべて良好です。結果を表示します。</string>
     <string name="power_center_charge_status">充電</string>
     <string name="power_center_charge_time">残り%1$sで充電完了</string>
     <string name="power_center_consume_fast">バッテリーの消耗</string>
@@ -3468,6 +3489,11 @@
     <string name="power_center_dialog_msg_top">バッテリーセーバーがオンの場合、以下の最適化が実行されます。</string>
     <string name="power_center_hints_scan_danger_result">バッテリーの問題を修正できます</string>
     <string name="power_center_list_item_auto_brightness">画面の明るさを自動的に調整する</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">時間</string>
     <string name="power_center_list_item_close_bluetooth">Bluetoothをオフにする</string>
     <string name="power_center_list_item_deep_save_title">高度な設定</string>
@@ -3490,7 +3516,7 @@
     <string name="power_center_optimize_title">提案</string>
     <string name="power_center_power_save_summary_text">残り時間を%1$d時間%2$d分まで増やす</string>
     <string name="power_center_power_save_title_text">バッテリーセーバー</string>
-    <string name="power_center_problem_title">問題を修正</string>
+    <string name="power_center_problem_title">高い消費電力</string>
     <string name="power_center_reduce_dpi_summary">QHD+ はより多くの電力を消費します</string>
     <string name="power_center_reduce_resolution">ディスプレイの解像度を下げる</string>
     <string name="power_center_repeat">繰り返し</string>
@@ -3581,6 +3607,9 @@
     <string name="power_main_battery_last_hour_minute">残り%1$s時間%2$s分</string>
     <string name="power_main_battery_last_hour_minute_screen_on">残りのスクリーンタイム %1$s%2$s</string>
     <string name="power_main_open_last_hour_minute_screen_on">オンにするとスクリーンタイムが%1$s%2$s追加されます</string>
+    <string name="power_ntc_dialog_btn_finish">了解</string>
+    <string name="power_ntc_dialog_msg">今すぐ充電器を取り外してください。再度使用する前に、充電ポートをきれいにして乾かしてください。</string>
+    <string name="power_ntc_dialog_title">異物または液体が検出されました</string>
     <string name="power_off_warning_button_ok">了解</string>
     <string name="power_off_warning_message">バッテリー残量が残りわずかです。デバイスは%d秒以内にシャットダウンします。できるだけ早く充電器に接続してください。</string>
     <string name="power_off_warning_notification_title">シャットダウンします</string>
@@ -3723,11 +3752,16 @@
     <string name="pp_app_warning_permission_tips">センシティブな権限リマインダー</string>
     <string name="pp_app_warning_permission_tips_detail">アプリが位置情報、カメラ、マイクへのアクセス許可を要求した際に通知を表示する</string>
     <string name="pp_clipboard">クリップボード</string>
+    <string name="pp_none_read_clipboard_item">通知しない</string>
+    <string name="pp_privacy_lab_clipboard_summary">アプリがクリップボードにアクセスできるかどうかをデバイスが判断し、アクセスしたときに通知を受信できるようにします。</string>
     <string name="pp_privacy_lab_operator_get_number_summary">サインインのために電話番号にアクセスする場合、アプリにユーザーの許可を確認するよう要求します</string>
     <string name="pp_privacy_protection">保護</string>
+    <string name="pp_protect_read_clipboard_item">保護する</string>
     <string name="pp_read_phone_info_summary">SIM情報にアクセスする</string>
     <string name="pp_sms_and_contacts">連絡先とメッセージ</string>
     <string name="pp_special_permission_settings">特別な権限</string>
+    <string name="pp_toast_read_clipboard">アプリがクリップボードのアイテムにアクセスした際に通知する</string>
+    <string name="pp_toast_read_clipboard_item">通知する</string>
     <string name="precise_location_title">正確な位置情報</string>
     <string name="pref_about_traffic_title">データ使用量の設定</string>
     <string name="pref_adjust_data_usage">通信事業者の校正テンプレート</string>
@@ -3772,6 +3806,7 @@
     <string name="pref_normal_traffic_limit">データプランを使い切った場合</string>
     <string name="pref_open_adjust_traffic">通信事業者からの統計情報を使用してデータ使用量を毎日アップデートする</string>
     <string name="pref_operator_not_set">通信事業者が設定されていません</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">データプランを超えて利用した場合</string>
     <string name="pref_package_traffic_settings">データプラン</string>
     <string name="pref_pkg_begin_date">データプランの開始日</string>
@@ -4004,6 +4039,7 @@
     <string name="privacy_risk_result_protection">プライバシー保護</string>
     <string name="privacy_risk_result_screen_fuzzy">アプリのプレビューをぼかす</string>
     <string name="privacy_risk_result_screen_fuzzy_msg">\"最近のタスク\"に表示されるセンシティブなアプリのプレビューをぼかす</string>
+    <string name="privacy_risk_result_screen_shield_msg">センシティブな個人情報を含むアプリのプレビューはぼかされた状態で\"最近のタスク\"に表示されます</string>
     <string name="privacy_risk_result_set_btn">設定</string>
     <string name="privacy_risk_result_success_empty_msg">すべて良好です</string>
     <string name="privacy_risk_result_success_msg">すべての問題が修正されました。</string>
@@ -4071,6 +4107,7 @@
     <string name="privacy_using_record">録音中</string>
     <string name="privacyapp_number_masked_text">通知内容を非表示にしたアプリ</string>
     <string name="privacyapp_number_unmasked_text">通知内容を非表示にできるアプリ</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">メディアサーバー</string>
     <string name="process_vpnsdkmanager_label">ゲームターボ</string>
     <string name="promotion">広告</string>
@@ -4084,10 +4121,10 @@
     <string name="qucick_replay_instrument">選択したメッセンジャー（WhatsApp、WeChat、QQなど）の通知にクイック返信を使用する</string>
     <string name="quick_optimize_checking">スキャン中</string>
     <string name="quick_optimize_no_fix_issue_subtitle">バッテリー駆動時間を延長できませんでした</string>
-    <string name="quick_optimize_no_fix_issue_title">バッテリーの問題を解決できませんでした</string>
+    <string name="quick_optimize_no_fix_issue_title">消費電力の高い項目を最適化できませんでした</string>
     <string name="quick_optimize_no_issue">バッテリーの問題はありません</string>
     <string name="quick_optimize_no_issue_subtitle">すべて良好です</string>
-    <string name="quick_optimize_no_issue_title">バッテリーの問題は見つかりませんでした</string>
+    <string name="quick_optimize_no_issue_title">消費電力の高い項目はありません</string>
     <string name="quick_optimize_sub_battery_text">残り約%s</string>
     <string name="quick_optimize_sub_summary_text">バッテリー駆動時間が%s延長されました</string>
     <string name="quick_optimize_sub_summary_with_battery_text">%1$s延長、残り約%2$s</string>
@@ -4267,7 +4304,7 @@
     <string name="settings">データ使用量の設定</string>
     <string name="settings_battery_consume_abnormal_summary">バッテリーの消耗が早いときに通知を受け取る</string>
     <string name="settings_battery_consume_abnormal_title">バッテリードレイン通知</string>
-    <string name="settings_battery_power_save_suggest_title">バッテリーセーバーの提案と警告</string>
+    <string name="settings_battery_power_save_suggest_title">バッテリーセーバーの提案</string>
     <string name="settings_camera_subtitle_no">メタデータはありません</string>
     <string name="settings_category_other">その他の設定</string>
     <string name="settings_category_overheat">発熱</string>
@@ -4689,6 +4726,8 @@
     <string name="storage_dialog_unsupported">"このデバイスはこの^1をサポートしていません。
 
 この^1をこのデバイスで使用するには、まず設定をしなければなりません。"</string>
+    <string name="storage_fbo_clear">ストレージリフレッシュ</string>
+    <string name="storage_fbo_des">内部ストレージは断片化の影響を受け、デバイスの動作速度が大幅に低下する可能性があります。ストレージリフレッシュは、デバイスが使用されていない間に自動的に動作します。ファイルを物理的に最小のフラグメントに整理することで、遅延を低減します。</string>
     <string name="storage_fbo_number_tip">%1$sに処理済み</string>
     <string name="storage_fbo_tools">ストレージの最適化</string>
     <string name="storage_file_delete_tip">選択したアイテムを完全に削除しますか？一部のアイテムは、必要に応じて再読み込みされる場合があります。</string>
@@ -4780,6 +4819,7 @@
     <string name="summary_usb">マルウェアがUSB経由で送信されないようにする</string>
     <string name="summary_virus">ウイルスを除去してデバイスを安全に保つ</string>
     <string name="summary_virus_cloudscan">アプリの名前と詳細をアップロードし、オンラインウイルス定義を使用してスキャンする</string>
+    <string name="summary_virus_scan_model">これらのセキュリティリスクをできるだけ早く解消してください</string>
     <string name="summary_virus_update">最新のウイルス定義を自動的に取得する</string>
     <string name="summary_xiaomi_roaming">モバイルデータローミングは0.01人民元/MBから</string>
     <string name="sunday">日曜日</string>
@@ -5237,6 +5277,7 @@ Rolled over extra data"</string>
     <string name="vb_movie_power_hint">"シアターモードは、臨場感あふれる視聴体験を提供します。
 デバイスが発熱し、より多くの電力を消費する可能性があります。"</string>
     <string name="vb_movie_subtitle">高いパフォーマンスが必要</string>
+    <string name="vb_mv_style_close_toast">スタイルはオフです</string>
     <string name="vb_power_performance_mode_conflict_toast">パフォーマンスモードがオンの場合、この機能は使用できません</string>
     <string name="vb_power_save_mode_conflict_toast">バッテリーセーバーがオンの場合、この機能は使用できません</string>
     <string name="vb_quick_func_auto_bgm">BGMを認識</string>
@@ -5310,6 +5351,7 @@ Rolled over extra data"</string>
 どちらか一方の機能をオンにすると、もう一方の機能はオフになります。"</string>
     <string name="vb_video_super_division_tips">"鮮明度が不十分ですか？
 解像度のアップスケールを試してみてください。"</string>
+    <string name="vb_vison_dynamic_enhance_close_toast">拡張アニメーションはオフです</string>
     <string name="vb_voice_adjust">シアターオーディオ</string>
     <string name="video_repeat">もう一度再生</string>
     <string name="videobox_hangup_tips_content">画面はロックされますが、この機能がオンの場合、アプリは引き続きバックグラウンドで実行されます。電源ボタンを押すと画面は再びオンになります。今すぐこの機能をオンにしますか？</string>

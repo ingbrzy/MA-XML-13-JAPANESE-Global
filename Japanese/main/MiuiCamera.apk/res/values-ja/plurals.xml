@@ -27,6 +27,9 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
+    <plurals name="accessibility_auto_night_tip">
+        <item quantity="other">%d-second timer for Night mode</item>
+    </plurals>
     <plurals name="accessibility_focus_face_detect">
         <item quantity="other">フォーカスしました。%d個の顔を認識しました。</item>
     </plurals>
@@ -39,6 +42,12 @@
     <plurals name="accessibility_vv_duartion">
         <item quantity="other">時間：%d秒</item>
     </plurals>
+    <plurals name="cinemaster_toast_camera_overflow">
+        <item quantity="other">最大%d台のカメラを同じネットワークに接続できます</item>
+    </plurals>
+    <plurals name="cinemaster_toast_monitor_overflow">
+        <item quantity="other">最大%d台のモニターを同じネットワークに接続できます</item>
+    </plurals>
     <plurals name="clone_guide_tip2">
         <item quantity="other">一度に最大で%d体のクローンを作成できます。</item>
     </plurals>
@@ -48,11 +57,17 @@
     <plurals name="exit_thermal_hint">
         <item quantity="other">&lt;Data>現在、デバイスの温度が高すぎます。&lt;br>このアプリは&lt;font color=#FFCE16>&lt;b>%1$d秒&lt;/b>&lt;/font>後に終了します。現在の進捗状況は自動的に保存されました。&lt;/Data></item>
     </plurals>
+    <plurals name="exit_version_hint">
+        <item quantity="other">&lt;Data>使用しているカメラのバージョンはデバイスのモデルと互換性がありません。&lt;br>アプリは&lt;font color=#FFCE16>&lt;b>%1$d 秒&lt;/b>&lt;/font>後に終了します。カメラのアップデートをアンインストールして、もう一度お試しください。&lt;/Data></item>
+    </plurals>
     <plurals name="fastmotion_pro_min_unit">
         <item quantity="other">%1$d分</item>
     </plurals>
     <plurals name="fastmotion_pro_sec_unit">
         <item quantity="other">%1$d秒</item>
+    </plurals>
+    <plurals name="friend_mode_display_first_dialog">
+        <item quantity="other">タイマーをオンにしました (%1$d秒)。写真はこのデバイスに転送されます。</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
@@ -80,6 +95,9 @@
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="number_unit_seconds_split">
+        <item quantity="other">%d秒</item>
     </plurals>
     <plurals name="pad_ccc_temperature_warning_msg">
         <item quantity="other">デバイスが発熱しています。カメラは%d秒後に閉じられます。写真やビデオは自動的に保存されます。</item>

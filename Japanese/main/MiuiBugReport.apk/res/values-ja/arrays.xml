@@ -9,7 +9,7 @@
         <item>ネットワークにアクセスできません。Wi-Fiに再接続するか、ルーターを再起動してください。</item>
     </string-array>
     <string-array name="net_diag_err_link_quality_china">
-        <item>Poor WLAN connection. Switch wireless bands or reboot the router.</item>
+        <item>Wi-Fi接続が不安定です。ワイヤレスバンドを切り替えるか、ルーターを再起動してください。</item>
         <item>"Can't access network. Reconnect to WLAN or reboot the router."</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity">
@@ -17,7 +17,7 @@
         <item>ネットワークアクセスが制限されています。このデバイスの時刻を調整し、ルーターのネットワーク設定を確認してください。</item>
         <item>ネットワークエラーです。HTTPプロキシの設定を確認してください。</item>
         <item>ネットワークエラーです。ルーターがインターネットにアクセスできるかどうか確認してください。</item>
-        <item>ネットワークに接続できません。Wi-Fiに再接続するか、ルーターを再起動してください。</item>
+        <item>ネットワークにアクセスできません。Wi-Fiに再接続するか、ルーターを再起動してください。</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity_china">
         <item>ネットワークアクセスには認証が必要です</item>
@@ -29,7 +29,7 @@
     <string-array name="net_diag_err_network_dns">
         <item>DNSサーバーエラーです。ルーターのDNS構成を確認してください。</item>
         <item>DNSサーバーから大きな遅延が発生しています。ルーターのDNS構成を確認してください。</item>
-        <item>ゲートウェイにアクセスできません。Wi-Fiに再接続するか、ルーターを再起動してください。</item>
+        <item>ネットワークにアクセスできません。Wi-Fiに再接続するか、ルーターを再起動してください。</item>
     </string-array>
     <string-array name="net_diag_err_network_dns_china">
         <item>DNSサーバーエラーです。ルーターのDNS構成を確認してください。</item>

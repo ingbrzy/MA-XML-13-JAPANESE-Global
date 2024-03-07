@@ -47,8 +47,10 @@
     <string name="anti_flicker_mode">ちらつき防止</string>
     <string name="anti_flicker_mode_categroy">モード</string>
     <string name="anti_flicker_mode_summary">低光量下での広範囲のちらつきを防ぎ、目の疲れを軽減する</string>
+    <string name="anti_flicker_mode_summary_new">低照度下でDC調光を使用し、眼精疲労を軽減する</string>
     <string name="anti_flicker_title">ちらつき防止モード</string>
     <string name="app_name">設定</string>
+    <string name="app_use">アプリスクリーンタイム</string>
     <string name="application_sound">アプリの通知</string>
     <string name="apply_ringtone">Apply</string>
     <string name="arctic_fox">Arctic fox</string>
@@ -111,7 +113,6 @@
     <string name="branch_whipbird">ツグミ科</string>
     <string name="brown_pelican">カッショクペリカン</string>
     <string name="calendar_sound">イベントリマインダー</string>
-    <string name="calendar_tip">カレンダーのリマインダー、メモ、およびタスクでイベントリマインダーのサウンドが機能します</string>
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">カピバラは半水生草食性げっ歯類で、一度に最大5分間水中で息を止めることができます。</string>
@@ -307,6 +308,10 @@
     <string name="focus_time_exception_tip">システム時刻が変更されたようです。集中モードをオフにしました。</string>
     <string name="follow_apps_settings">アプリの設定に基づく</string>
     <string name="follow_sim1">SIM 1の設定を適用</string>
+    <string name="footer_global_fps">"
+%1$d. パフォーマンスモードをオンにすると、リフレッシュレートがシステム最大値の %2$d Hz に切り替わります。高リフレッシュレートのアプリ設定は一時的に利用できなくなります。"</string>
+    <string name="footer_max_fps" formatted="false">"
+%d. リフレッシュレートは、サポートされているアプリやゲームで最大%s Hzまで調整可能です。"</string>
     <string name="force_rest">セッション休憩を使用</string>
     <string name="force_rest_summary">セッションが制限に達した場合、強制的に休憩を取る</string>
     <string name="force_rest_time">休憩時間</string>
@@ -419,17 +424,20 @@
     <string name="marabou_stork">Marabou stork</string>
     <string name="marabou_stork_info">アフリカハゲコウは巨大な鳥であり、頻繁にスカベンジャーになります。</string>
     <string name="masked_palm_civet">ハクビシン</string>
+    <string name="max_fps_string">最大%sHz</string>
     <string name="medium_tree_finch">ダーウィンフィンチ</string>
+    <string name="mi_transfer_banner_summary">複数のデバイスブランドがサポートされています</string>
+    <string name="mi_transfer_banner_title">古いデバイスからアイテムを転送する</string>
     <string name="midnight">真夜中</string>
     <string name="miuix_access_state_desc">選択済み</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
-    <string name="miuix_appcompat_deselect_all">選択を解除</string>
+    <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
@@ -582,6 +590,7 @@
     <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%dHz（バッテリー節約）</string>
     <string name="screen_fps_unit_smooth">%dHz（高品質）</string>
+    <string name="screen_fps_unit_string">%s Hz</string>
     <string name="screen_original_gamut">増強</string>
     <string name="screen_original_gamut_summary">すべての画面コンテンツを可能な限り広い色域で表示する</string>
     <string name="screen_paper_mode_apps_loading">お待ちください…</string>
@@ -640,6 +649,7 @@
     <string name="stop_summary">この機能をオフにすると、すべてのスクリーンタイムの統計とデータが削除されます</string>
     <string name="suggestion">フィードバック</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
+    <string name="summary_max_fps_for_intelligent">シナリオに応じてリフレッシュレートを最大%s Hzまで動的に調整し、パフォーマンスと消費電力のバランスをとる</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
@@ -794,7 +804,7 @@
 このアプリはインターネットに接続する必要があり、個人情報を収集するには以下のアクセス許可が必要です。"</string>
     <string name="usage_home_premission_second_summary">このアプリが正常に動作するには、ご利用者の個人情報を収集する必要があります。当社は、関連する法律、規制およびプライバシーポリシーに従って個人情報を保護します。</string>
     <string name="usage_home_premission_second_summary_double_link_prefix">当社は、関連する法律、規制、およびプライバシーポリシーに従ってご利用者の個人情報を保護します。上記の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合は、このアプリを使用することはできません。承認の撤回は、[スクリーンタイム] > [設定] > [スクリーンタイムをオフにする] で行うことができます。</string>
-    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>このアプリを使用する前に、&lt;a href='%1s'>利用規約&lt;/a>と&lt;a href='%2s'>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;/Data>"</string>
+    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false"><Data>"このアプリを使用する前に、&lt;a href='%1s'>利用規約&lt;/a>と&lt;a href='%2s'>プライバシーポリシー&lt;/a>を読んで同意してください。"</Data></string>
     <string name="usage_home_premission_second_summary_new">当社は、関連する法律、規制、およびプライバシーポリシーに従ってご利用者の個人情報を保護します。上記の権限を付与することに同意しない場合、または個人情報の共有およびアップロードに同意しない場合は、このアプリを使用することはできません。承認の撤回は、[スクリーンタイム] > [設定] > [スクリーンタイムをオフにする] で行うことができます。プライバシーに関してさらにご質問がある場合は、privacy@xiaomi.com までご連絡ください。</string>
     <string name="usage_new_category_limit_summary">このカテゴリーに含まれるすべてのアプリの1日の使用時間制限を設定する</string>
     <string name="usage_new_category_limit_title">アプリカテゴリーの使用を制限</string>
@@ -842,7 +852,7 @@
     <string name="usage_optional_title">任意のアクセス許可</string>
     <string name="usage_permisison_agree_desc_o">スクリーンタイムの統計情報を提供するために、このアプリは次のデータを収集する必要があります：デバイスのロックを解除した回数、アプリのリストと対応する使用時間。</string>
     <string name="usage_permisison_agree_desc_p">スクリーンタイムと集中モードの統計情報を提供するために、このアプリは次のデータを収集する必要があります：デバイスのロックを解除した回数、アプリのリストと対応する使用時間、画面が点灯した回数、集中モードの設定。</string>
-    <string name="usage_permission_double_link" formatted="false">"&lt;Data>このアプリが正常に動作するには、インターネットに接続し、必要な個人情報を収集する必要があります。ユーザーとしてのご利用者の権利と当社によるデータの使用方法を完全に理解するために、&lt;a href='%1s'>利用規約&lt;/a>と&lt;a href='%2s'>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;/Data>"</string>
+    <string name="usage_permission_double_link" formatted="false"><Data>"このアプリが正常に動作するには、インターネットに接続し、必要な個人情報を収集する必要があります。ユーザーとしてのご利用者の権利と当社によるデータの使用方法を完全に理解するために、&lt;a href='%1s'>利用規約&lt;/a>と&lt;a href='%2s'>プライバシーポリシー&lt;/a>を読んで同意してください。"</Data></string>
     <string name="usage_permission_main_desc">"スクリーンタイムへようこそ！
 このアプリはインターネットに接続する必要があり、正常に動作するためには以下の権限が必要です。"</string>
     <string name="usage_permission_title">注意</string>

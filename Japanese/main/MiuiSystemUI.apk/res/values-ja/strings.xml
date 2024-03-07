@@ -934,6 +934,8 @@
     <string name="keyguard_indication_charging_time_wireless">%2$s • ワイヤレス充電中 • 完了まで %1$s</string>
     <string name="keyguard_indication_trust_unlocked">信頼エージェントがロック解除を管理</string>
     <string name="keyguard_left_mi_wallet">Mi ウォレット</string>
+    <string name="keyguard_left_remotecentral">Mi リモート</string>
+    <string name="keyguard_left_smarthome">Mi Home</string>
     <string name="keyguard_left_torch">ライト</string>
     <string name="keyguard_left_view_lock_wallpaper">壁紙カルーセル</string>
     <string name="keyguard_loading_to_editor_tips">ロック画面エディターを開いています…</string>
@@ -1215,6 +1217,7 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="monitoring_description_personal_profile_named_vpn">個人用アプリは %1$sを介してインターネットに接続しています。メールや閲覧データなど、ネットワーク アクティビティは、VPN プロバイダに公開されます。</string>
     <string name="monitoring_description_two_named_vpns">このデバイスは %1$sと %2$sを介してインターネットに接続しています。メールや閲覧データなど、ネットワーク アクティビティは、IT 管理者に公開されます。</string>
     <string name="monitoring_description_vpn_settings">VPN 設定を開く</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s がこのデバイスに関連するデータにアクセスし、アプリを管理し、デバイスの設定を変更できる可能性があります。
 
 ご不明な点がある場合は、%2$s にお問い合わせください。"</string>
@@ -1414,8 +1417,6 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>&lt;font color=#a5220e>\"消去とリセット\"&lt;/font>を選択し、デバイスが再起動されるまで待機してください。&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">データを消去するには？</string>
     <string name="phone_locked_string">このデバイスはロックされています</string>
-    <string name="phone_locked_string_owner_user">ファースト・スペースのパスワードの入力に複数回失敗しました。このデバイスはロックされました。</string>
-    <string name="phone_locked_string_second_user">セカンド・スペースのパスワードの入力に複数回失敗しました。このデバイスはロックされました。</string>
     <string name="pip_close">閉じる</string>
     <string name="pip_collapse">閉じる</string>
     <string name="pip_edu_text">コントロールにアクセス: <annotation icon="home_icon"> ホーム </annotation> を 2 回押します</string>
@@ -1817,6 +1818,8 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="status_bar_clock_date_format_12">M月d日 (E)</string>
     <string name="status_bar_clock_date_time_format">M月d日 (E) H:mm</string>
     <string name="status_bar_clock_date_time_format_12">M月d日 (E) a h:mm</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">イーサネット</string>
     <string name="status_bar_settings_auto_rotation">自動回転画面</string>
     <string name="status_bar_work">仕事用プロファイル</string>

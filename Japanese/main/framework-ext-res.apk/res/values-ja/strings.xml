@@ -519,6 +519,8 @@
     <string name="vigor">活力</string>
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
+    <string name="wallpaper_floral_arrangement_title">フラワーアレンジメント</string>
+    <string name="wallpaper_gradient_title">グラディエント</string>
     <string name="wallpaper_group_black_white_title">黒と白</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
     <string name="wallpaper_group_dynamic_nebula_title">ダイナミック星雲</string>
@@ -530,6 +532,8 @@
     <string name="wallpaper_group_natural_texture_title">自然のパターン</string>
     <string name="wallpaper_group_red_mars_subtitle">NASA、JPL、アリゾナ大学</string>
     <string name="wallpaper_group_red_mars_title">火星</string>
+    <string name="wallpaper_neon_title">ネオン</string>
+    <string name="wallpaper_overlapping_space_title">形と影</string>
     <string name="waterdrop_preview">水滴</string>
     <string name="wifi_assistant_wifi_no_internet">このWi-Fiネットワークはインターネットにアクセスできません</string>
     <string name="wifi_assistant_wifi_no_internet_detail">タップして詳細を表示</string>

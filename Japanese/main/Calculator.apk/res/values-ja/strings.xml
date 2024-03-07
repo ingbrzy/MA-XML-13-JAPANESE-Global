@@ -76,7 +76,7 @@
     <string name="currency_update_time_format">為替レート提供: Webull (%s)</string>
     <string name="currency_update_updating">レートをアップデート中…</string>
     <string name="data_analysis">分析</string>
-    <string name="date_format">yyyy/MM/dd</string>
+    <string name="date_format">yyyy年M月d日</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -126,7 +126,7 @@
     <string name="factorialDesc">階乗</string>
     <string name="fat">過体重</string>
     <string name="female">性別：女性</string>
-    <string name="finance_interest">Interest rate (%s)</string>
+    <string name="finance_interest">金利 (%s)</string>
     <string name="float_window">最小化</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -185,7 +185,7 @@
     <string name="friday_shortest">金</string>
     <string name="fund_loan">基金ローン</string>
     <string name="further_education">さらなる教育</string>
-    <string name="get_loaction_permission_title">位置の特定</string>
+    <string name="get_loaction_permission_title">位置情報へのアクセス</string>
     <string name="get_location_fail_prompt">位置情報を取得できませんでした</string>
     <string name="gst_initial_value">%d</string>
     <string name="gst_percentage">%s</string>
@@ -232,11 +232,12 @@
     <string name="label_days">日</string>
     <string name="label_emi">毎月の支払い</string>
     <string name="label_from_date">開始日</string>
-    <string name="label_interest">金利 (%)</string>
+    <string name="label_interest">金利 (パーセント)</string>
     <string name="label_investment_duration">時間</string>
     <string name="label_months">月</string>
     <string name="label_powered_by">Powered by Mi 電卓</string>
     <string name="label_principal">元金</string>
+    <string name="label_share">共有</string>
     <string name="label_statistics">統計</string>
     <string name="label_to_date">終了日</string>
     <string name="label_total_interest">合計利息</string>
@@ -356,13 +357,13 @@
     <string name="mt_max">入力した金額が大きすぎます</string>
     <string name="mulDesc">かける</string>
     <string name="n_a">該当なし</string>
-    <string name="name_cgst" formatted="false">CGST/SGST: %s%</string>
+    <string name="name_cgst">CGST/SGST: 2.5</string>
     <string name="name_discount">割引 (% オフ)</string>
     <string name="name_original">元の価格</string>
     <string name="name_price">最終価格</string>
     <string name="name_save">"節約 "</string>
     <string name="negDesc">零度以下と以上の温度を切り替える</string>
-    <string name="new_privacy_string">&lt;Data>電卓へようこそ！&lt;br/>このアプリには、次の機能が含まれています：&lt;br/>• 基本的な計算機能&lt;br/>• 関数電卓&lt;br/>• ユニバーサルコンバーター（通貨、測定単位など）&lt;br/>• ローン、投資、毎月の支払い金額などの計算テンプレート&lt;br/>当社が収集した情報の取り扱いについては、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。電卓の利用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。電卓に対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。プライバシーポリシーに同意しない場合は、このアプリの一部機能が使用できません。ただし、基本的な機能については引き続きご利用いただけます。&lt;/Data></string>
+    <string name="new_privacy_string"><Data>電卓へようこそ！&lt;br/>このアプリには、次の機能が含まれています：&lt;br/>• 基本的な計算機能&lt;br/>• 関数電卓&lt;br/>• ユニバーサルコンバーター（通貨、測定単位など）&lt;br/>• ローン、投資、毎月の支払い金額などの計算テンプレート&lt;br/>当社が収集した情報の取り扱いについては、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。電卓の利用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。電卓に対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。プライバシーポリシーに同意しない場合は、このアプリの一部機能が使用できません。ただし、基本的な機能については引き続きご利用いただけます。</Data></string>
     <string name="night">夜</string>
     <string name="none">なし</string>
     <string name="noon">正午</string>
@@ -376,7 +377,7 @@
     <string name="permission_location_miui12">位置情報へのアクセス</string>
     <string name="permission_option_desc_miui12">これらの権限は、追加機能を使用するときに必要です。</string>
     <string name="permission_option_miui12">任意のアクセス許可</string>
-    <string name="permission_privacy_link">&lt;Data>このアプリの使用を開始する前に、&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;/Data></string>
+    <string name="permission_privacy_link"><Data>このアプリの使用を開始する前に、&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読んで同意してください。</Data></string>
     <string name="permission_purpose_miui12_system">電卓へようこそ！このアプリは、通常の電卓の機能と複数のコンバータとライフスタイルの機能を兼ね備えています。</string>
     <string name="permission_remove_desc_miui12">このアプリがインターネットに接続し、そのすべての機能を使用できるように任意のアクセス許可を与えることを許可します。</string>
     <string name="permission_title_miui12">注意</string>
@@ -408,7 +409,7 @@
     <string name="preference_use_voice_title">音声出力</string>
     <string name="preference_user_feedback_title">フィードバック</string>
     <string name="preference_view_privacy_title">プライバシーポリシーを表示</string>
-    <string name="privacy_dialog_title">注意</string>
+    <string name="privacy_dialog_title">プライバシー</string>
     <string name="privacy_revoke_error">撤回できませんでした。もう一度お試しください。</string>
     <string name="privacy_revoke_progress">撤回中…</string>
     <string name="privacy_switch">同意の撤回</string>
@@ -573,6 +574,7 @@
     <string name="unit_data_display_currency_btn">ブータンニュルタム</string>
     <string name="unit_data_display_currency_bwp">ボツワナプーラ</string>
     <string name="unit_data_display_currency_byn">ベラルーシルーブル</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">カナダドル</string>
     <string name="unit_data_display_currency_cdf">コンゴフラン</string>
     <string name="unit_data_display_currency_chf">スイスフラン</string>
@@ -756,11 +758,11 @@
     <string name="unit_data_short_area_acre">ac</string>
     <string name="unit_data_short_area_are">a</string>
     <string name="unit_data_short_area_ha">ha</string>
-    <string name="unit_data_short_area_mu">mu</string>
-    <string name="unit_data_short_area_qing">qing</string>
-    <string name="unit_data_short_area_sq.chi">chi²</string>
+    <string name="unit_data_short_area_mu">畝</string>
+    <string name="unit_data_short_area_qing">頃</string>
+    <string name="unit_data_short_area_sq.chi">尺²</string>
     <string name="unit_data_short_area_sq.cm">cm²</string>
-    <string name="unit_data_short_area_sq.cun">cun²</string>
+    <string name="unit_data_short_area_sq.cun">寸²</string>
     <string name="unit_data_short_area_sq.dm">dm²</string>
     <string name="unit_data_short_area_sq.ft">ft²</string>
     <string name="unit_data_short_area_sq.gongli">gongli²</string>
@@ -779,21 +781,21 @@
     <string name="unit_data_short_data_pb">PB</string>
     <string name="unit_data_short_data_tb">TB</string>
     <string name="unit_data_short_length_au">⊙</string>
-    <string name="unit_data_short_length_chi">chi</string>
+    <string name="unit_data_short_length_chi">尺</string>
     <string name="unit_data_short_length_cm">cm</string>
-    <string name="unit_data_short_length_cun">cun</string>
+    <string name="unit_data_short_length_cun">寸</string>
     <string name="unit_data_short_length_dm">dm</string>
-    <string name="unit_data_short_length_fen">fen</string>
+    <string name="unit_data_short_length_fen">分</string>
     <string name="unit_data_short_length_fm">fthm</string>
     <string name="unit_data_short_length_ft">ft</string>
     <string name="unit_data_short_length_fur">fur</string>
     <string name="unit_data_short_length_gongli">gongli</string>
-    <string name="unit_data_short_length_hao">hao</string>
+    <string name="unit_data_short_length_hao">毫</string>
     <string name="unit_data_short_length_in">in</string>
     <string name="unit_data_short_length_km">km</string>
     <string name="unit_data_short_length_ld">ld</string>
-    <string name="unit_data_short_length_li">li</string>
-    <string name="unit_data_short_length_lii">lii</string>
+    <string name="unit_data_short_length_li">里</string>
+    <string name="unit_data_short_length_lii">厘</string>
     <string name="unit_data_short_length_ly">ly</string>
     <string name="unit_data_short_length_m">m</string>
     <string name="unit_data_short_length_mi">mi</string>
@@ -804,7 +806,7 @@
     <string name="unit_data_short_length_pm">pm</string>
     <string name="unit_data_short_length_um">μm</string>
     <string name="unit_data_short_length_yd">yd</string>
-    <string name="unit_data_short_length_zhang">zhang</string>
+    <string name="unit_data_short_length_zhang">丈</string>
     <string name="unit_data_short_temperature_c">°C</string>
     <string name="unit_data_short_temperature_f">°F</string>
     <string name="unit_data_short_temperature_k">K</string>
@@ -820,12 +822,12 @@
     <string name="unit_data_short_time_week">wk</string>
     <string name="unit_data_short_time_yr">yr</string>
     <string name="unit_data_short_velocity_c">c</string>
-    <string name="unit_data_short_velocity_ftps">fps</string>
-    <string name="unit_data_short_velocity_inps">ips</string>
+    <string name="unit_data_short_velocity_ftps">ft/s</string>
+    <string name="unit_data_short_velocity_inps">in/s</string>
     <string name="unit_data_short_velocity_kmph">km/h</string>
     <string name="unit_data_short_velocity_kmps">km/s</string>
     <string name="unit_data_short_velocity_mach">Ma</string>
-    <string name="unit_data_short_velocity_mileph">mph</string>
+    <string name="unit_data_short_velocity_mileph">mi/h</string>
     <string name="unit_data_short_velocity_mps">m/s</string>
     <string name="unit_data_short_velocity_nmiph">kn</string>
     <string name="unit_data_short_volume_cl">cl</string>
@@ -843,22 +845,22 @@
     <string name="unit_data_short_volume_l">l</string>
     <string name="unit_data_short_volume_ml">ml</string>
     <string name="unit_data_short_weight_ct">ct</string>
-    <string name="unit_data_short_weight_dan">dan</string>
+    <string name="unit_data_short_weight_dan">担</string>
     <string name="unit_data_short_weight_dr">dr</string>
     <string name="unit_data_short_weight_g">g</string>
     <string name="unit_data_short_weight_gr">gr</string>
-    <string name="unit_data_short_weight_jin">jin</string>
+    <string name="unit_data_short_weight_jin">斤</string>
     <string name="unit_data_short_weight_kg">kg</string>
     <string name="unit_data_short_weight_lb">lb</string>
-    <string name="unit_data_short_weight_liang">liang</string>
+    <string name="unit_data_short_weight_liang">両</string>
     <string name="unit_data_short_weight_lt">l.t</string>
     <string name="unit_data_short_weight_mg">mg</string>
     <string name="unit_data_short_weight_oz">oz</string>
     <string name="unit_data_short_weight_q">q</string>
-    <string name="unit_data_short_weight_qian">qian</string>
+    <string name="unit_data_short_weight_qian">匁 (銭)</string>
     <string name="unit_data_short_weight_st">sh.t</string>
     <string name="unit_data_short_weight_t">t</string>
-    <string name="unit_data_short_weight_taijin">jin(tw)</string>
+    <string name="unit_data_short_weight_taijin">斤 (台湾)</string>
     <string name="unit_data_short_weight_ug">μg</string>
     <string name="unit_data_short_weight_uk.cwt">cwt</string>
     <string name="unit_data_short_weight_uk.st">st</string>

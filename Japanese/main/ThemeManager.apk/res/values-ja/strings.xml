@@ -46,6 +46,7 @@
     <string name="actionbar_button_up_description">戻る</string>
     <string name="ad_app_download_start">ダウンロードを開始しています…</string>
     <string name="ad_app_is_downloading">ダウンロード中…</string>
+    <string name="ad_flag_text">広告</string>
     <string name="ad_service">広告を表示</string>
     <string name="add_resource_detail_fail">リソースを追加できません</string>
     <string name="add_ringtone">通知音を追加</string>
@@ -252,7 +253,9 @@
     <string name="exo_download_paused_for_wifi">ダウンロード停止: Wi-Fi 接続中</string>
     <string name="exo_download_removing">ダウンロードを削除しています</string>
     <string name="exo_item_list">%1$s、%2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">モノラル</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">代替</string>
     <string name="exo_track_role_closed_captions">字幕</string>
     <string name="exo_track_role_commentary">解説</string>
@@ -271,6 +274,7 @@
     <string name="expect_more">今後のアップデートにご期待ください！</string>
     <string name="explore_new_and_popular_themes">新着テーマや人気のテーマを探す</string>
     <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
+    <string name="external_wallpaper">外側の画面の壁紙</string>
     <string name="extreme_mode_dialog_message">この機能は、エクストリームモードでは使用できません。エクストリームモードをオフにすると、使用できるようになります。</string>
     <string name="extreme_mode_dialog_ok">了解</string>
     <string name="extreme_mode_dialog_title">警告</string>
@@ -392,6 +396,7 @@
     <string name="incompatible_dialog_ok">了解</string>
     <string name="incompatible_dialog_title">互換性の問題</string>
     <string name="is_setting_wallpaper_message">壁紙を設定中…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">アラーム</string>
     <string name="item_resource_audio_optional_color_ring">呼び出し音</string>
     <string name="item_resource_audio_optional_notification_ring">通知</string>
@@ -549,7 +554,7 @@ mm"</string>
     <string name="month_september">9月</string>
     <string name="month_september_short">9月</string>
     <string name="month_september_shortest">9月</string>
-    <string name="more">その他</string>
+    <string name="more">もっと見る</string>
     <string name="more_personal_setting">追加設定</string>
     <string name="more_ringtones">その他の着信音</string>
     <string name="more_system_wallpaper">その他のシステム壁紙</string>
@@ -561,6 +566,7 @@ mm"</string>
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -659,7 +665,7 @@ mm"</string>
     <string name="payment_coins_balance">(残高：%1s)</string>
     <string name="payment_coins_insufficient_balance">(残高不足)</string>
     <string name="payment_data_move_tips">アカウントデータは、プライバシー規制に準拠するためにお住まいの地域のサーバーに移行されます。移行中にデータが失われるリスクがあります。</string>
-    <string name="payment_instructions">&lt;Data>決済を完了することで、 &lt;a href=\"%1$s\">アプリ内購入に関する注意事項&lt;/a>に同意したことになります。&lt;/Data></string>
+    <string name="payment_instructions"><Data>決済を完了することで、 &lt;a href=\"%1$s\">アプリ内購入に関する注意事項&lt;/a>に同意したことになります。</Data></string>
     <string name="payment_method">支払方法</string>
     <string name="permission_desc">保存したテーマやその他のアイテムを保存するため</string>
     <string name="permission_pop_desc">パーソナライズ設定を変更したり、ダウンロードしたアイテムを保存したりするには、まずテーマがストレージにアクセスすることを許可してください。</string>
@@ -829,6 +835,7 @@ mm"</string>
     <string name="resource_pack_price_info">元の価格: %1$s</string>
     <string name="resource_pack_warning">このテーマでは%1$d 個のコンポーネントを既に購入しています。 残りのコンポーネントを個別に購入する方が安いです。</string>
     <string name="resource_present">ギフト</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">無料</string>
     <string name="resource_price_unit"> Mi クレジット</string>
     <string name="resource_purchase_common_error">エラーが発生しました。もう一度お試しください。</string>
@@ -966,6 +973,7 @@ mm"</string>
     <string name="somatosensory_temperature_format">体感温度 %s°</string>
     <string name="special_topic">カテゴリー</string>
     <string name="start_all">すべて再開</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="still_apply">適用</string>
     <string name="storage_file">ダウンロードしたアイテムを保存するため</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
@@ -992,6 +1000,7 @@ mm"</string>
     <string name="system_aod_dialog_title">常時オンディスプレイ</string>
     <string name="system_phone">通話</string>
     <string name="system_precust">プリインストール</string>
+    <string name="text_play">プレイ</string>
     <string name="the_anniversary_of_lifting_martial_law">戒厳令解除記念日</string>
     <string name="the_anti_aggression_day">反侵略の日</string>
     <string name="the_arbor_day">植樹節</string>
@@ -1097,6 +1106,7 @@ mm"</string>
     <string name="theme_is_external_priority_storage">SDカードに保存</string>
     <string name="theme_is_external_priority_storage_summary">この設定を適用するために、テーマアプリはすぐに再起動されます。</string>
     <string name="theme_multiple_button_title_customize">カスタマイズ</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">いいえ</string>
     <string name="theme_on_the_phone_alert">通話中は再生できません</string>
     <string name="theme_recommend">似たようなテーマ</string>
@@ -1117,6 +1127,7 @@ mm"</string>
     <string name="themes_has_an_updated_version">新しいバージョンのテーマが利用可能です</string>
     <string name="themes_might_like">あなたが気に入りそうなテーマ</string>
     <string name="third_party_pickers_activity_title">%1$sを追加</string>
+    <string name="third_privacy_policies">サードパーティのプライバシーポリシー</string>
     <string name="thursday">木曜日</string>
     <string name="thursday_short">木</string>
     <string name="thursday_shortest">木</string>
@@ -1169,14 +1180,15 @@ mm"</string>
     <string name="update_push_content">今すぐアップデート</string>
     <string name="update_push_title">テーマに新しいバージョンがあります</string>
     <string name="update_title">新しいアップデートが利用可能です</string>
+    <string name="used_wallpaper">以前使用した画像</string>
     <string name="user_agree">同意</string>
     <string name="user_attention_new_theme">%sの新着コンテンツ</string>
     <string name="user_authorization_dialog_agree">同意</string>
     <string name="user_authorization_dialog_agree_a">同意</string>
     <string name="user_authorization_dialog_disagree">終了</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>テーマは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。テーマの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。
-テーマに対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>続ける前に、&lt;a href=\"%1$s\">利用規約&lt;/a>と&lt;a href=\"%2$s\">プライバシーポリシー&lt;/a>に同意してください。この選択は、設定でいつでも変更できます。&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"テーマは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。テーマの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。
+テーマに対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。"</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>続ける前に、&lt;a href=\"%1$s\">利用規約&lt;/a>と&lt;a href=\"%2$s\">プライバシーポリシー&lt;/a>に同意してください。この選択は、設定でいつでも変更できます。</Data></string>
     <string name="user_authorization_dialog_title">使用条件</string>
     <string name="user_know">了解</string>
     <string name="using_theme_has_update_tips">このテーマのアップデートが利用可能です。</string>
@@ -1225,6 +1237,11 @@ mm"</string>
     <string name="wallpaper_settings_no_history">履歴がありません</string>
     <string name="wallpaper_settings_pad_more_page_title">その他の壁紙</string>
     <string name="wallpaper_settings_page_title">壁紙</string>
+    <string name="warning_miui_optimization_closed_dialog_agree">設定</string>
+    <string name="warning_miui_optimization_closed_dialog_disagree">適用</string>
+    <string name="warning_miui_optimization_closed_dialog_message">MIUIの最適化がオンになっていないようです。オフのままだと、このテーマを適用した際に正しく動作しません。このまま適用するか、設定でMIUIの最適化をオンにしてください。</string>
+    <string name="warning_miui_optimization_closed_dialog_message2">システムの最適化がオンになっていないようです。オフのままだと、このテーマを適用した際に正しく動作しません。このまま適用するか、設定でシステムの最適化をオンにしてください。</string>
+    <string name="warning_miui_optimization_closed_dialog_title">注意</string>
     <string name="watermark_label_prefix">AdMob -</string>
     <string name="weather_no_data">天気データがありません</string>
     <string name="wednesday">水曜日</string>

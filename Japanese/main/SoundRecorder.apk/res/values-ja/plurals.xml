@@ -4,13 +4,13 @@
         <item quantity="other">1時間前</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1時間前</item>
+        <item quantity="other">%d時間前</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">1時間後</item>
+        <item quantity="other">%d時間後</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">30分後</item>
@@ -79,9 +79,6 @@
     <plurals name="recovery_failed_dialog_message">
         <item quantity="other">不明なエラーが発生したため、%d個のアイテムを復元できませんでした。</item>
     </plurals>
-    <plurals name="search_alll_records_hint">
-        <item quantity="other">%d件の録音</item>
-    </plurals>
     <plurals name="search_app_records_hint">
         <item quantity="other">%d件の録音</item>
     </plurals>
@@ -96,9 +93,6 @@
     </plurals>
     <plurals name="search_result">
         <item quantity="other">%d件の録音が見つかりました</item>
-    </plurals>
-    <plurals name="text_btn_list_with_message">
-        <item quantity="other">%d件の新しい録音</item>
     </plurals>
     <plurals name="time_left_for_clear_file">
         <item quantity="other">残り%d日</item>

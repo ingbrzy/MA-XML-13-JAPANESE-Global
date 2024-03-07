@@ -2,7 +2,7 @@
 <resources>
     <string-array name="hmode_app_classify1">
         <item>カスタム</item>
-        <item>MIUIバッテリーセーバー</item>
+        <item>バッテリーセーバー</item>
     </string-array>
     <string-array name="hmode_app_classify2">
         <item>アクティブなアプリ</item>

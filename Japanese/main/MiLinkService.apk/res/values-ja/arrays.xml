@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_search_connect_car">
+        <item>アプリを統合する</item>
+        <item>相互接続性/アプリを統合する</item>
+        <item>車の機能</item>
+    </string-array>
+    <string-array name="settings_search_connection_home">
+        <item>相互接続性</item>
+        <item>相互接続性/相互接続性</item>
+        <item>デバイス相互接続、デバイス相互接続サービス、Xiaomi、Xiaomi AIoT、AIoT、Screen Combo、スマート接続、Mi Smart Hub、相互接続性、デュオ、Xiaomi スマートフォン、Xiaomi ラップトップ、マルチスクリーン、デュエット、キャスト、アプリを統合する、ハンドオフ、アプリのハンドオフ、ミラー、 Xiaomi エコシステム、デバイス接続</item>
+    </string-array>
+    <string-array name="settings_search_connection_privacy">
+        <item>プライバシー</item>
+        <item>相互接続性/プライバシー</item>
+        <item>プライバシーと相互接続性、プライバシー</item>
+    </string-array>
+    <string-array name="settings_search_connection_service">
+        <item>Xiaomi 相互接続</item>
+        <item>相互接続性/Xiaomi 相互接続</item>
+        <item>Xiaomi 相互接続サービス、Xiaomi 相互接続</item>
+    </string-array>
+    <string-array name="settings_search_relay_app">
+        <item>アプリのハンドオフ</item>
+        <item>相互接続性/アプリのハンドオフ</item>
+        <item>アプリの転送、ハンドオフ、転送</item>
+    </string-array>
+    <string-array name="settings_search_relay_call">
+        <item>通話</item>
+        <item>相互接続性/通知</item>
+        <item>通話</item>
+    </string-array>
+    <string-array name="settings_search_relay_network">
+        <item>ネットワーク補助</item>
+        <item>相互接続性/ネットワーク補助</item>
+        <item>ネットワーク補助、テザリング、ホットスポット共有</item>
+    </string-array>
+    <string-array name="settings_search_share_Launcher">
+        <item>ホーム画面+</item>
+        <item>相互接続性/ホーム画面+</item>
+        <item>ホーム画面+、Mi Smart Hub、画面共有</item>
+    </string-array>
+    <string-array name="settings_search_share_clipboard">
+        <item>クリップボード</item>
+        <item>相互接続性/クリップボード</item>
+        <item>クリップボード</item>
+    </string-array>
+    <string-array name="settings_search_share_notify">
+        <item>クロスデバイス通知</item>
+        <item>相互接続性/通知</item>
+        <item>クロスデバイス通知</item>
+    </string-array>
+</resources>

@@ -26,8 +26,8 @@
     <string name="SubtleEmphasisDisplayName">斜体 2</string>
     <string name="SubtleReferenceDisplayName">参照</string>
     <string name="TitleDisplayName">タイトル</string>
-    <string name="abc_action_bar_home_description">ホームへ移動</string>
-    <string name="abc_action_bar_up_description">上へ移動</string>
+    <string name="abc_action_bar_home_description">ホームに戻る</string>
+    <string name="abc_action_bar_up_description">前に戻る</string>
     <string name="abc_action_menu_overflow_description">その他のオプション</string>
     <string name="abc_action_mode_done">完了</string>
     <string name="abc_activity_chooser_view_see_all">すべて表示</string>

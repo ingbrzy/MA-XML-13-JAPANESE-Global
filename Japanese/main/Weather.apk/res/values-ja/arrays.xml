@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="aqi_detail_title">
-        <item>良い</item>
-        <item>中程度</item>
-        <item>敏感な人にとっては健康に良くない</item>
-        <item>健康に良くない</item>
-        <item>極めて健康に良くない</item>
-        <item>危険</item>
+        <item>良好</item>
+        <item>普通</item>
+        <item>軽度の汚染</item>
+        <item>中程度の汚染</item>
+        <item>重度の汚染</item>
+        <item>深刻な汚染</item>
     </string-array>
     <string-array name="aqi_title">
         <item>%1$s</item>
@@ -33,13 +33,13 @@
         <item>大気汚染指数 (AQI) %1$s</item>
     </string-array>
     <string-array name="aqi_value">
-        <item>優良</item>
-        <item>良</item>
+        <item>良好</item>
+        <item>普通</item>
         <item>軽度の汚染</item>
         <item>中程度の汚染</item>
         <item>重度の汚染</item>
         <item>深刻な汚染</item>
-        <item>測定上限値越え</item>
+        <item>測定不能</item>
     </string-array>
     <string-array name="hot_city">
         <item>北京</item>
@@ -70,29 +70,60 @@
         <item>中</item>
         <item>弱</item>
     </string-array>
+    <string-array name="realtime_humidity_status">
+        <item>乾燥</item>
+        <item>快適</item>
+        <item>多湿</item>
+    </string-array>
+    <string-array name="realtime_pressure_status">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="realtime_temperature_status">
+        <item>寒い</item>
+        <item>涼しい</item>
+        <item>快適</item>
+        <item>暖かい</item>
+        <item>暑い</item>
+    </string-array>
+    <string-array name="realtime_uv_level">
+        <item>弱い</item>
+        <item>中程度</item>
+        <item>強い</item>
+        <item>非常に強い</item>
+        <item>極端に強い</item>
+    </string-array>
+    <string-array name="settings_atmospheric_pressure_unit_detail">
+        <item>@string/settings_atmospheric_pressure_hpa</item>
+        <item>@string/settings_atmospheric_pressure_mbar</item>
+        <item>@string/settings_atmospheric_pressure_mmhg</item>
+        <item>@string/settings_atmospheric_pressure_inhg</item>
+        <item>@string/settings_atmospheric_pressure_atm</item>
+    </string-array>
     <string-array name="weather_type">
         <item>晴れ</item>
         <item>曇り</item>
         <item>本曇り</item>
-        <item>霧</item>
+        <item>もや</item>
         <item>激しい暴風雨</item>
         <item>豪雨</item>
         <item>暴風雨</item>
         <item>雷雨</item>
-        <item>雨</item>
+        <item>にわか雨</item>
         <item>強い雨</item>
         <item>やや強い雨</item>
         <item>弱い雨</item>
         <item>みぞれ</item>
         <item>暴風雪</item>
-        <item>雪</item>
+        <item>にわか雪</item>
         <item>強い雪</item>
         <item>やや強い雪</item>
         <item>弱い雪</item>
         <item>強い砂嵐</item>
         <item>砂嵐</item>
-        <item>砂塵</item>
-        <item>黄砂</item>
+        <item>弱い砂嵐</item>
+        <item>砂塵嵐</item>
         <item>雹</item>
         <item>粉じん</item>
         <item>煙霧</item>
