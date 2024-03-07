@@ -847,7 +847,6 @@ ID:%s
     <string name="face_name_edit">編集</string>
     <string name="face_name_input">名前を入力してください</string>
     <string name="face_recommend">おすすめ</string>
-    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="facebook_login_btn_content_description">Facebookでサインイン</string>
     <string name="fail_hint">操作を完了できませんでした</string>
     <string name="fail_reason_migrate">処理しています… 数分待ってからもう一度お試しください。</string>
@@ -863,7 +862,6 @@ ID:%s
     <string name="feedback_my_reports">フィードバック</string>
     <string name="feedback_problem">問題を報告</string>
     <string name="feedback_suggest">提案を送信</string>
-    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="file_cannot_print">このアイテムを印刷できません。</string>
     <string name="file_cannot_screen_throw">このアイテムをキャストできません。</string>
     <string name="file_sending">ファイルを転送中…</string>
@@ -960,7 +958,6 @@ ID:%s
     <string name="grant_permission_go_and_set">設定</string>
     <string name="grant_permission_go_and_set_2">設定</string>
     <string name="grant_permission_go_and_set_3">設定</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_manage_storage">アクセス許可が必要です</string>
     <string name="grant_permission_manage_storage_unlock">アイテムを表示するには、デバイスのロックを解除してから、このアプリがすべてのファイルにアクセスすることを許可してください。</string>
     <string name="grant_permission_shortcut">まず、このアプリにホーム画面ショートカットの作成を許可してください。</string>
@@ -1618,7 +1615,6 @@ ID:%s
     <string name="people_page_label">人</string>
     <string name="people_page_photo">人のサムネイル</string>
     <string name="people_page_unname">無名</string>
-    <string name="percent_sign">%</string>
     <string name="permission_account_desc">システムアカウントにサインインして管理するため</string>
     <string name="permission_account_name">アカウントへのアクセス</string>
     <string name="permission_clipboard_desc">クリップボードにアクセスし、アイテムを保存するため</string>
@@ -2085,7 +2081,6 @@ ID:%s
     <string name="share_album_cancel_share">共有を停止</string>
     <string name="share_album_change_background">背景の写真を変更</string>
     <string name="share_album_create_failed">共有アルバムを作成できませんでした</string>
-    <string name="share_album_create_processing">@string/cloud_bacup_disable_processing</string>
     <string name="share_album_exit_button_text">共有を停止</string>
     <string name="share_album_exit_confirm">続けると、このアルバム内のすべてのアイテムにアクセスできなくなります。重要なアイテムは事前に保存してください。</string>
     <string name="share_album_exit_confirm_title">このグループを脱退しますか？</string>
@@ -2172,7 +2167,6 @@ ID:%s
     <string name="share_with_family">家族と共有</string>
     <string name="sharer_quota_fulfiled">このアルバムは既に最大人数と共有しています。</string>
     <string name="show_cloud_albumlist_summary">同期をオフにすると、選択したアルバムの新しいアイテムはクラウドにアップロードされません。</string>
-    <string name="show_cloud_albumlist_title">@string/album_cloud_list_page_title</string>
     <string name="show_hidden_album_summary">隠しアルバムの表示と管理</string>
     <string name="show_hidden_album_title">隠しアルバムを表示</string>
     <string name="show_in_other_albums_disable_toast_long_press_menu">正常に削除されました。このアイテムは\"アルバム\"で表示できます。</string>

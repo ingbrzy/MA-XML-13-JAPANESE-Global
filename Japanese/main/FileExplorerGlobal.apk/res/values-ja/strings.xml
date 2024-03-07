@@ -875,7 +875,6 @@
     <string name="set_pattern">パスワードをアップグレードしてください</string>
     <string name="set_pattern_btn">設定</string>
     <string name="set_pattern_msg">パスワードをもう一度設定してください。プライバシー保護パスワードは、写真、メッセージ、メモにも使用されます。</string>
-    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">%dKB未満</string>
     <string name="size_lv2" formatted="false">%1dKB - %2dMB</string>
     <string name="size_lv3" formatted="false">%1dMB - %2dMB</string>
