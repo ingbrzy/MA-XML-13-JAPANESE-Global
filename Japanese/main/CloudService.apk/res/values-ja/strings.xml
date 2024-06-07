@@ -182,6 +182,8 @@
     <string name="feedback_custom_hint">発生した問題について説明してください。提案等ございましたたら具体的に記載していただけると幸いです。</string>
     <string name="find_device">デバイスを探す</string>
     <string name="find_device_dspt_provision">デバイスを紛失した場合は、&lt;font color=#0097FF>%s&lt;/font>にアクセスして、デバイスの位置特定、ロック、またはリセットできます。この機能は、設定でいつでもオンまたはオフにできます。</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">\"デバイスを探す\"をオンにすると、<u><a href="app://com.miui.cloudservice.gdpr.license">プライバシーポリシー</a></u>に同意したことになります。同意を撤回したい場合は、この機能をオフにしてください。</string>
     <string name="find_device_operation_failure_rpc">RPCエラーにより操作を実行できませんでした。</string>
     <string name="find_device_permissions_footer">\"付与\"をタップして、選択したアクセス許可を付与します。</string>

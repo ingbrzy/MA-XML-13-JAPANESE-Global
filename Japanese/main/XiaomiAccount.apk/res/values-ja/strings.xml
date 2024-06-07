@@ -93,18 +93,14 @@
     <string name="binded">接続済み</string>
     <string name="binded_description" formatted="false">"%sはXiaomi アカウントに接続されました。
 今すぐ%sを使用してXiaomi アカウントにサインインできます。"</string>
-    <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
     <string name="button_agree">同意</string>
     <string name="button_close">閉じる</string>
     <string name="button_refuse">同意しない</string>
     <string name="button_unbind">切断</string>
     <string name="cancel">キャンセル</string>
     <string name="change_password">パスワードを変更</string>
-    <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
-    <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
     <string name="check_apk_update">アップデートを確認</string>
     <string name="child_account_system_ad_disable_hint">この機能は、チャイルドアカウントでは使用できません</string>
-    <string name="clear_text_end_icon_content_description">テキストを消去</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
     <string name="close_drawer">ナビゲーションメニューを閉じる</string>
@@ -208,13 +204,11 @@
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
     <string name="error_dup_binded_email">このメールアドレスはすでに他のXiaomi アカウントと関連付けられています。</string>
-    <string name="error_icon_content_description">エラー</string>
     <string name="error_invalid_bind_address">入力したメールアドレスは無効です。</string>
     <string name="evening">夕方</string>
     <string name="exceed_binded_phone_times_notice">この電話番号はすでに他のXiaomi アカウントと関連付けられています。</string>
     <string name="exit">終了</string>
     <string name="expand_button_title">詳細設定</string>
-    <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_login">Facebookでサインイン</string>
     <string name="failed_dup_secure_phone_number">この電話番号はすでに他のXiaomi アカウントと関連付けられています</string>
@@ -341,7 +335,6 @@
     <string name="help_center">ヘルプ</string>
     <string name="i_agree">OK</string>
     <string name="i_agree_continue">同意</string>
-    <string name="icon_content_description">ダイアログ アイコン</string>
     <string name="identity">識別</string>
     <string name="in_progress">処理しています</string>
     <string name="inconsistent_pwd">パスワードが一致しません</string>
@@ -350,7 +343,6 @@
     <string name="input_new_pwd">新しいパスワードを入力してください</string>
     <string name="input_ps">パスワードを入力</string>
     <string name="io_error_title">ネットワークを確認してください</string>
-    <string name="item_view_role_description">タブ</string>
     <string name="just_a_second">お待ちください…</string>
     <string name="keep_phone_ticket_login">認証コードでサインイン</string>
     <string name="kr_license_desc">Xiaomi アカウントやXiaomi Cloudサービスを利用する前に、当社の利用規約とプライバシーポリシーに同意する必要があります。</string>
@@ -370,18 +362,6 @@
     <string name="login_with_other">その他のオプション</string>
     <string name="logout_account">サインアウト</string>
     <string name="logout_failed">サインアウトできません</string>
-    <string name="material_clock_toggle_content_description">午前または午後を選択</string>
-    <string name="material_hour_selection">時刻を選択してください</string>
-    <string name="material_hour_suffix">%1$s時</string>
-    <string name="material_minute_selection">分を選択</string>
-    <string name="material_minute_suffix">%1$s分</string>
-    <string name="material_timepicker_am">AM</string>
-    <string name="material_timepicker_clock_mode_description">時刻を時計で入力するモードに切り替えます。</string>
-    <string name="material_timepicker_hour">時間</string>
-    <string name="material_timepicker_minute">分</string>
-    <string name="material_timepicker_pm">PM</string>
-    <string name="material_timepicker_select_time">時間を選択</string>
-    <string name="material_timepicker_text_input_mode_description">時刻をテキストで入力するモードに切り替えます。</string>
     <string name="mi_account">マイ アカウント</string>
     <string name="mi_health">Xiaomi Health</string>
     <string name="midnight">真夜中</string>
@@ -398,6 +378,7 @@
     <string name="miuix_appcompat_delete_description">削除</string>
     <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
+    <string name="miuix_appcompat_edit">編集</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
     <string name="miuix_appcompat_select_all">すべて選択</string>
@@ -452,38 +433,6 @@
     <string name="month_september_shortest">9月</string>
     <string name="more">その他</string>
     <string name="morning">午前</string>
-    <string name="mtrl_badge_numberless_content_description">新しい通知</string>
-    <string name="mtrl_chip_close_icon_content_description">%1$s を削除します</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">%1$d 件以上の新しい通知</string>
-    <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
-    <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
-    <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
-    <string name="mtrl_picker_date_header_selected">%1$s</string>
-    <string name="mtrl_picker_date_header_title">日付を選択してください</string>
-    <string name="mtrl_picker_date_header_unselected">選択した日付</string>
-    <string name="mtrl_picker_day_of_week_column_header">曜日の列: %1$s</string>
-    <string name="mtrl_picker_invalid_format">形式が無効です。</string>
-    <string name="mtrl_picker_invalid_format_example">例: %1$s</string>
-    <string name="mtrl_picker_invalid_format_use">使用: %1$s</string>
-    <string name="mtrl_picker_invalid_range">範囲が無効です。</string>
-    <string name="mtrl_picker_navigate_to_year_description">%1$s 年に移動</string>
-    <string name="mtrl_picker_out_of_range">範囲外: %1$s</string>
-    <string name="mtrl_picker_range_header_only_end_selected">開始日～%1$s</string>
-    <string name="mtrl_picker_range_header_only_start_selected">%1$s～終了日</string>
-    <string name="mtrl_picker_range_header_selected">%1$s～%2$s</string>
-    <string name="mtrl_picker_range_header_title">期間を選択してください</string>
-    <string name="mtrl_picker_range_header_unselected">開始日～終了日</string>
-    <string name="mtrl_picker_save">保存</string>
-    <string name="mtrl_picker_text_input_date_hint">日付</string>
-    <string name="mtrl_picker_text_input_date_range_end_hint">終了日</string>
-    <string name="mtrl_picker_text_input_date_range_start_hint">開始日</string>
-    <string name="mtrl_picker_text_input_day_abbr">d</string>
-    <string name="mtrl_picker_text_input_month_abbr">m</string>
-    <string name="mtrl_picker_text_input_year_abbr">y</string>
-    <string name="mtrl_picker_toggle_to_calendar_input_mode">カレンダー入力モードに切り替え</string>
-    <string name="mtrl_picker_toggle_to_day_selection">タップすると、日の選択に切り替わります</string>
-    <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
-    <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
     <string name="multi_user_not_show_sync_activity_message_1">ファースト・スペースのXiaomi アカウントを使用しているようです。</string>
     <string name="multi_user_not_show_sync_activity_message_2">この場合、すべてのデータはセカンド・スペースに同期されます。これを避けるには、クラウドとの同期をオンにしないでください。</string>
     <string name="multi_user_not_show_sync_activity_title">クラウドとの同期をオンにしないでください</string>
@@ -820,7 +769,6 @@
     <string name="passport_wrong_phone_number_format">入力した電話番号の形式が無効です</string>
     <string name="passport_wrong_vcode">入力したコードが正しくありません</string>
     <string name="passport_wrong_voice">入力したコードが正しくありません</string>
-    <string name="password_toggle_content_description">パスワードを表示</string>
     <string name="password_view_hide_password">パスワードを非表示</string>
     <string name="password_view_show_password">パスワードを表示</string>
     <string name="permission_group_contacts">連絡先</string>
@@ -982,7 +930,7 @@
 %2$d. パスワードをリセットできない場合、または誰かがデバイスをロックした場合は、i.mi.comにアクセスしてロックを解除してください。
 %3$d. ロック解除番号：%4$s"</string>
     <string name="update_apk_version_later">今はしない</string>
-    <string name="update_apk_version_now">アップデート</string>
+    <string name="update_apk_version_now">インストール</string>
     <string name="update_email_address_dialog_message">メールアドレスを変更する前に、本人確認を行う必要があります。</string>
     <string name="update_email_address_dialog_title">メールアドレスを変更</string>
     <string name="update_phone_notice">セキュリティ設定を変更</string>
@@ -994,7 +942,6 @@
     <string name="user_agreement_read_phone_permission_desc">電話番号を使用してサインインするため</string>
     <string name="user_agreement_read_phone_permission_title">電話番号の読み取り</string>
     <string name="user_agreement_use_account_msg">Xiaomi アカウントを使用すると、Xiaomiが提供するすべてのサービスにアクセスできます。</string>
-    <string name="user_agreement_wifi_permission_title">Wi-Fiのオンとオフの切り替え</string>
     <string name="user_agreement_wlan_permission_desc">サインイン環境にセキュリティ上の問題がないかを確認するため</string>
     <string name="user_agreement_wlan_permission_title_china">WLANのオンとオフの切り替え</string>
     <string name="user_avatar_update_title">プロフィール写真を変更</string>

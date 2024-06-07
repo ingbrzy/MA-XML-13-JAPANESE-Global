@@ -75,6 +75,7 @@
     <string name="ad_bar_notification_setting_title">イベント</string>
     <string name="ad_click_to_play">タップしてプレイ</string>
     <string name="ad_flag_text">広告</string>
+    <string name="ad_topview_repeat_play">タップしてもう一度再生</string>
     <string name="add_local_shortcut_add">追加</string>
     <string name="add_local_shortcut_des">ホーム画面に\"マイ ビデオ\"を追加すると、ワンタップでローカルのビデオファイルにアクセスできます。</string>
     <string name="add_search_channel_link">URL</string>
@@ -134,6 +135,7 @@
     <string name="cast_forward">早送り</string>
     <string name="cast_forward_10">10 秒早送り</string>
     <string name="cast_forward_30">30 秒早送り</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">ライブ</string>
     <string name="cast_mute">ミュート</string>
     <string name="cast_notification_connected_message">%1$s に接続しました</string>
@@ -261,7 +263,7 @@ ID:%s
     <string name="dialog_cancel">キャンセル</string>
     <string name="dialog_clearn_content">閲覧履歴を今すぐ消去しますか？</string>
     <string name="dialog_clearn_title">履歴を消去</string>
-    <string name="dialog_confirm">OK</string>
+    <string name="dialog_confirm">追加</string>
     <string name="dialog_delete_bookmarks_content">今すぐブックマークを削除しますか？</string>
     <string name="dialog_disagree_continue">続ける</string>
     <string name="dialog_disagree_info">Mi ビデオのプライバシーポリシーに同意しない場合は、当社のオンラインサービスを利用できず、デバイスに保存されているビデオのみ視聴できます。続けてもよろしいですか？</string>
@@ -330,6 +332,8 @@ Mi ビデオは、基本的なサービスを提供するために必要な個�
     <string name="download_unable_tip">このアイテムをダウンロードできません</string>
     <string name="download_video">ビデオをダウンロード中</string>
     <string name="downloading">ダウンロード中…</string>
+    <string name="draw_ad_button_click_text">シェイクまたはタップで開く</string>
+    <string name="draw_ad_button_slide_text">スライドで詳細を表示</string>
     <string name="early_morning">早朝</string>
     <string name="empty" />
     <string name="empty_channels">チャンネルを管理</string>
@@ -414,14 +418,10 @@ Mi ビデオは、基本的なサービスを提供するために必要な個�
     <string name="feedback_activity_title">フィードバック</string>
     <string name="feedback_contact_empty">連絡先情報を入力してください</string>
     <string name="feedback_contact_title">連絡先情報</string>
-    <string name="feedback_detail_input_hint">メッセージを入力してください</string>
-    <string name="feedback_hint">発生した問題について説明してください。</string>
     <string name="feedback_hint_contact">電話番号/QQ/メールアドレス</string>
     <string name="feedback_hint_text">発生した問題について説明してください。</string>
-    <string name="feedback_input_tip">ここでは、問題の説明や提案を行うことができます。</string>
     <string name="feedback_net_error">送信できませんでした。ネットワーク設定を確認してから、もう一度お試しください。</string>
     <string name="feedback_sent">送信</string>
-    <string name="feedback_success">正常に送信されました</string>
     <string name="feedback_success_toast">正常に送信されました。フィードバックありがとうございました！</string>
     <string name="feedback_tag_title">カテゴリー</string>
     <string name="feedback_text_empty_toast">まずフィードバックを入力してください。</string>
@@ -641,7 +641,8 @@ Mi ビデオは、基本的なサービスを提供するために必要な個�
     <string name="have_learned">了解</string>
     <string name="hidden_channels">以下のチャンネルは、ホームページに表示されません。</string>
     <string name="hide">非表示</string>
-    <string name="hide_video_toast">このアイテムは非表示になっています。[ローカル] > [ローカル] > [隠しアイテム] で非表示のアイテムを管理できます。</string>
+    <string name="hide_video_toast">このアイテムは非表示になっています。[ローカル] > [フォルダー] > [隠しアイテム] で非表示のアイテムを管理できます。</string>
+    <string name="hiding_dialog_ok">設定</string>
     <string name="hint_icon_ad_title">おすすめ</string>
     <string name="hint_in_mivideo">サイドパネルで追加機能を確認できます</string>
     <string name="history">履歴</string>
@@ -695,7 +696,6 @@ Mi ビデオは、基本的なサービスを提供するために必要な個�
     <string name="inline_mute_click_tip">タップしてミュートを解除</string>
     <string name="input_email_address_notice">このメールアドレスを使用してアカウントを認証します</string>
     <string name="input_new_pwd">新しいパスワードを入力してください</string>
-    <string name="input_size_tips_new">%d文字以内で入力してください</string>
     <string name="isornot_your_mi_account">これはあなたのMi アカウントですか？</string>
     <string name="item_card_all_replies">すべての返信</string>
     <string name="item_card_continue_play">自動再生</string>
@@ -799,7 +799,6 @@ Mi ビデオは、基本的なサービスを提供するために必要な個�
     <string name="local_zoom_adjust_button">表示モードを切り替える</string>
     <string name="lock_screen">ロック画面</string>
     <string name="login">サインイン</string>
-    <string name="login_tip">サインインすると、フィードバックへの返信を受け取ることができます。</string>
     <string name="logo_neverthink">キュレーション：Neverthink.tv</string>
     <string name="logout">サインアウト</string>
     <string name="logout_account">サインアウト</string>
@@ -887,6 +886,7 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="manager_request_continue">許可</string>
     <string name="manager_request_tip">今後表示しない</string>
     <string name="manager_request_title">このファイルにアクセスできません</string>
+    <string name="mangotv_episode">第%d話</string>
     <string name="mangotv_feature_list_title3">第%s話が追加されました</string>
     <string name="mangotv_feature_more">もっと見る</string>
     <string name="mangotv_feature_title1">エピソード</string>
@@ -916,11 +916,13 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="miuix_appcompat_delete_description">削除</string>
     <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
+    <string name="miuix_appcompat_edit">編集</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
     <string name="miuix_appcompat_select_all">すべて選択</string>
     <string name="miuix_appcompat_select_all_description">すべて選択</string>
     <string name="miuix_appcompat_select_item">アイテムを選択</string>
+    <string name="miuix_dialog_ok">確定</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">正常に更新されました</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">更新中…</string>
@@ -1016,6 +1018,7 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -1045,7 +1048,6 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="music_new_user_dialog_got_it">了解</string>
     <string name="music_new_user_dialog_tip">Mi ビデオへようこそ！このアプリは、ローカルビデオプレーヤーとオンライン音楽・ビデオストリーミングサービスを提供します。</string>
     <string name="my_favorite_channels">お気に入りのチャンネル</string>
-    <string name="my_feedback_title">マイ フィードバック</string>
     <string name="native_body">本文</string>
     <string name="native_headline">見出し</string>
     <string name="native_media_view">メディアビュー</string>
@@ -1056,6 +1058,7 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="network_failed">ネットワークに接続できませんでした</string>
     <string name="newyearfestival_go_to_draw_prizes">抽選に移動</string>
     <string name="newyearfestival_watch_the_video_to_draw_prizes">動画を見て抽選に参加</string>
+    <string name="next_button">次へ</string>
     <string name="nick_name">ニックネーム</string>
     <string name="night">夜</string>
     <string name="no_account">サインインしていません</string>
@@ -1105,6 +1108,7 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="online_play_start_ready_loading_tip_kb">読み込み中 %.2f KB/s</string>
     <string name="online_play_start_ready_loading_tip_mb">読み込み中 %.2f MB/s</string>
     <string name="online_play_title">URLを入力</string>
+    <string name="order_alphabet">A-Z</string>
     <string name="order_recently_subscribe">最近のサブスクリプション</string>
     <string name="order_recently_updated">最近のアップデート</string>
     <string name="out_of_memory_background_playback_is_suspended">メモリ不足によりバックグラウンド再生を一時停止しました</string>
@@ -1241,6 +1245,8 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="photoPickerNotFoundText">利用可能な写真はありません。</string>
     <string name="pip">PiP</string>
     <string name="pip_not_supported_toast">ピクチャー・イン・ピクチャーを使用するには、最新のシステムバージョンにアップデートしてください。</string>
+    <string name="play_at_normal_speed">1倍速で再生中</string>
+    <string name="play_at_speed">%.1f倍速で再生中</string>
     <string name="play_list_player_skeleton_file">mnc_live_tv_list_player_skeleton.json</string>
     <string name="play_list_save_dialog_create">プレイリストを作成</string>
     <string name="play_list_save_dialog_title">プレイリストに追加</string>
@@ -1412,6 +1418,7 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="remaining_space_not_enough">ストレージ容量が不足しているためダウンロードできません</string>
     <string name="reminder">注意</string>
     <string name="rename">名前の変更</string>
+    <string name="rename_dialog_ok">確定</string>
     <string name="rename_word_out">このファイル名は長すぎます</string>
     <string name="report">報告</string>
     <string name="report_content_dislike">暴力または不適切な行動</string>
@@ -1480,6 +1487,7 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="shake_to_open_ad">シェイクして詳細を表示</string>
     <string name="share">共有</string>
     <string name="share_text_before_link">Mi ビデオでは素晴らしいビデオを無料で視聴およびダウンロードできます</string>
+    <string name="share_title">共有</string>
     <string name="share_ugc_waitting">リンクを生成中…</string>
     <string name="shorts_assemble_ad_recommend">おすすめ</string>
     <string name="show_the_location">通知の種類</string>
@@ -1494,6 +1502,7 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="slide_or_click_to_open_ad">スライドまたはタップして詳細を表示</string>
     <string name="slide_save_message">ビデオを生成中…</string>
     <string name="slide_to_open_ad">スライドして詳細を表示</string>
+    <string name="small_mango_play_next_episode">次のエピソード</string>
     <string name="small_video_load_more_hint">上にスワイプすると、他のビデオを再生できます</string>
     <string name="small_video_report">報告する</string>
     <string name="small_video_report_dialog_title">理由を選択してください</string>
@@ -1506,9 +1515,9 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="sns_sign_in">その他のサインイン方法</string>
     <string name="source">"ソース: "</string>
     <string name="start_download_tip">キューに追加されました。プロフィール > ダウンロード で進行状況を確認できます。</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SDカード</string>
     <string name="storage_internal_sdcard">内部ストレージ</string>
-    <string name="submit">送信</string>
     <string name="subscribe">購読</string>
     <string name="subscribe_author_recommend_btn">登録</string>
     <string name="subscribe_author_recommend_title">これらのクリエイターの最新ビデオを視聴するには、登録してください</string>
@@ -1528,6 +1537,7 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="sunday_short">日</string>
     <string name="sunday_shortest">日</string>
     <string name="sure_to_logout">今すぐサインアウトしますか？</string>
+    <string name="swipe_to_exit">もう一度スワイプして終了</string>
     <string name="switch_ratio_pause">再生速度が不安定です。デフォルトの速度に切り替えます。</string>
     <string name="sync_favorites_limit_new">お気に入りには%d本以上のビデオがあります。同期を続けるには、以前のビデオをいくつか削除する必要があります。</string>
     <string name="sync_favorites_message">このデバイスからアカウントにお気に入りを同期しますか？ 使用できなくなったアイテムは削除されます。</string>
@@ -1654,7 +1664,6 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="toast_incentive_redeem_fail_short_of_storage_2002">この報酬は現在利用できません。後でもう一度お試しください。</string>
     <string name="toast_m3u8_download_path_tip">m3u8形式のコンテンツのダウンロードパスを変更できません</string>
     <string name="toast_play_error_tip">このファイルは再生できません</string>
-    <string name="toast_request_too_frequently">操作回数が多すぎます</string>
     <string name="toast_share_failed">共有できませんでした。数分待ってからもう一度お試しください。</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>
@@ -1688,6 +1697,7 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="tt_count_down_view">スキップ</string>
     <string name="tt_dislike_header_tv_back">戻る</string>
     <string name="tt_dislike_header_tv_title">選択する</string>
+    <string name="tt_display_error">表示エラーが発生しました</string>
     <string name="tt_error_access_method_pass">Illegal access method</string>
     <string name="tt_error_ad_type">Illegal ad type</string>
     <string name="tt_error_adtype_differ">Ad type error</string>
@@ -1758,6 +1768,8 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="tt_splash_cache_parse_error">Cache parsing failed</string>
     <string name="tt_splash_not_have_cache_error">No splash cache</string>
     <string name="tt_splash_skip_tv">3s | スキップ</string>
+    <string name="tt_suggestion_commit">送信</string>
+    <string name="tt_suggestion_description">表示エラーの詳細を入力し、送信ボタンをクリックしてください。広告クリエイティブは、問題のトラブルシューティングのためにPangleに送り返されます。</string>
     <string name="tt_sys_error">System error</string>
     <string name="tt_tip">促す</string>
     <string name="tt_toast_ad_on_rewarded">Ad on rewarded</string>
@@ -1785,9 +1797,6 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="tuesday">火曜日</string>
     <string name="tuesday_short">火</string>
     <string name="tuesday_shortest">火</string>
-    <string name="type_content">コンテンツ</string>
-    <string name="type_issue">問題</string>
-    <string name="type_suggestion">提案</string>
     <string name="ugc_no_net">ネットワークに接続できませんでした。ネットワーク設定を確認してから、もう一度お試しください。</string>
     <string name="ui_common_title_back">戻る</string>
     <string name="unknow">不明</string>
@@ -1812,7 +1821,7 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="v_menu_hide">隠す</string>
     <string name="v_more">その他</string>
     <string name="v_next">次へ</string>
-    <string name="v_ok">OK</string>
+    <string name="v_ok">次へ</string>
     <string name="v_online_play">オンラインストリーミング</string>
     <string name="v_pw_need_update_app">すべての機能を使用するには、Mi ビデオをアップデートしてください</string>
     <string name="v_save">保存</string>
@@ -1823,6 +1832,7 @@ Mi ビデオがすべてのビデオファイルにアクセスし、再生す�
     <string name="video_download_fail">ビデオをダウンロードできませんでした</string>
     <string name="video_download_fail_hint">ダウンロードできませんでした</string>
     <string name="video_download_floating_guide">ビデオを無料でダウンロード</string>
+    <string name="video_download_folder">ダウンロードしたビデオ</string>
     <string name="video_download_folder_title">Mi ビデオ ダウンロード</string>
     <string name="video_download_forbidden">このウェブサイトからダウンロードできません</string>
     <string name="video_download_login_guide">%sにサインインするとビデオをダウンロードできます</string>

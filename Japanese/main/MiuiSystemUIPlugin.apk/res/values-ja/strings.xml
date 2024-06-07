@@ -188,7 +188,7 @@
     <string name="kddi_miui_toast_zen_standard_to_off">サイレントモードはオフになりました。着信音と通知音は正常に戻ります。</string>
     <string name="kddi_miui_toast_zen_to_standard">サイレントモードに切り替えました。現在、着信音と通知音は無音です。</string>
     <string name="loading">不明なステータス</string>
-    <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="midnight">真夜中</string>
     <string name="miplay_accessibility_cast">デバイスを選択</string>
     <string name="miplay_accessibility_cover">カバー</string>
@@ -201,6 +201,8 @@
     <string name="miplay_bluetooth_share_des_text">"Xiaomi イヤホンユーザー：充電ケースを開くか、ケースのボタンを %d 秒間押し続けてください。
 Xiaomi イヤホン以外のユーザー：Bluetooth 設定でイヤホンをリセットしてから接続してください。"</string>
     <string name="miplay_bluetooth_share_headphone_pairing">イヤホンを追加してオーディオを共有する</string>
+    <string name="miplay_bluetooth_share_music_cancel_btn_content_des">オーディオの共有が終了しました</string>
+    <string name="miplay_bluetooth_share_music_together_btn_content_des">イヤホンを追加してオーディオを共有する</string>
     <string name="miplay_bluetooth_share_subTitle_text">デバイスのオーディオを他の人と共有する</string>
     <string name="miplay_bluetooth_share_title_text">オーディオを共有</string>
     <string name="miplay_detail_divider_title">スピーカー</string>

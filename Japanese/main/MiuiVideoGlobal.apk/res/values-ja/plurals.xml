@@ -41,9 +41,6 @@
         <item quantity="other">%d 秒巻き戻し</item>
         <item quantity="one">%d 秒巻き戻し</item>
     </plurals>
-    <plurals name="feed_back_home">
-        <item quantity="other">%1$d秒後にホームページに戻ります…</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>

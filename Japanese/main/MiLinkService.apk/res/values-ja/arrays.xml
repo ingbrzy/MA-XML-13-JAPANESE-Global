@@ -22,13 +22,13 @@
     </string-array>
     <string-array name="settings_search_relay_app">
         <item>アプリのハンドオフ</item>
-        <item>相互接続性/アプリのハンドオフ</item>
+        <item>相互接続性/アプリ</item>
         <item>アプリの転送、ハンドオフ、転送</item>
     </string-array>
     <string-array name="settings_search_relay_call">
-        <item>通話</item>
-        <item>相互接続性/通知</item>
-        <item>通話</item>
+        <item>Call sync</item>
+        <item>Interconnectivity/Call sync</item>
+        <item>Call sync, cross-device calls, call handoff, calls</item>
     </string-array>
     <string-array name="settings_search_relay_network">
         <item>ネットワーク補助</item>

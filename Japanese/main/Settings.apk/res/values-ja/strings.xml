@@ -1816,6 +1816,7 @@ aptX Adaptive：コーデックモード"</string>
 上記の操作を既に行っている場合は、Mi アカウントを再度追加してください。そうしないとデバイスのロックを解除できません。"</string>
     <string name="bootloader_tips_ok">了解</string>
     <string name="bootloader_tips_warning">ネットワークから切断したり、Mi アカウントからサインアウトしたり、ファクトリーリセットを実行したり、システムデータを消去したりしないでください。</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bottom_function_settings">追加ボタンの機能</string>
     <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
     <string name="breathing_light_color_menu_title">ライトの色</string>
@@ -2921,6 +2922,7 @@ Googleアカウントなど、アカウントによっては、スマートフ�
     <string name="dialog_wifi_context">デバイスをセットアップするには、インターネットに接続する必要があります。Wi-Fiに接続しないと、モバイルデータが使用される可能性があります。モバイルデータを使用すると、追加のキャリア料金が発生する場合があります。モバイルデータを使用しますか？</string>
     <string name="dialog_wifi_title">モバイルデータの使用</string>
     <string name="dialog_yes">はい</string>
+    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">注意：再起動後、このアプリはデバイスのロックを解除するまで起動できません。</string>
     <string name="disable_overlays">HW オーバーレイを無効化</string>
     <string name="disable_overlays_summary">画面合成に常に GPU を使用する</string>
@@ -2977,6 +2979,9 @@ Googleアカウントなど、アカウントによっては、スマートフ�
     <string name="display_cutout_emulation">ディスプレイ カットアウト</string>
     <string name="display_cutout_emulation_keywords">ディスプレイ カットアウト, ノッチ</string>
     <string name="display_dashboard_summary">ダークモード、フォントサイズ、明るさ</string>
+    <string name="display_notification_icon_0">なし</string>
+    <string name="display_notification_icon_1">%d 個のアイコン</string>
+    <string name="display_notification_icon_3">%d 個のアイコン</string>
     <string name="display_prompt_confirm">了解</string>
     <string name="display_settings">ディスプレイ</string>
     <string name="display_settings_new">ディスプレイと明るさ</string>
@@ -3007,6 +3012,7 @@ Googleアカウントなど、アカウントによっては、スマートフ�
     <string name="dndm_auto_button_title">設定時間にDo Not Disturbモードを繰り返す</string>
     <string name="dndm_auto_setting_group">スケジュール</string>
     <string name="dndm_auto_time_setting">時間を設定</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">終了時刻</string>
     <string name="dndm_auto_time_turn_off_title">自動的にDo Not Disturbモードをオフにする</string>
     <string name="dndm_auto_time_turn_on">開始時刻</string>
@@ -4718,6 +4724,7 @@ Xiaomi Cloudを開き、そこからアイテムを復元します。"</string>
     <string name="lights_title">LEDライト</string>
     <string name="line_breaking_summary">段落の改行を最適化する</string>
     <string name="line_breaking_title">テキストを最適化</string>
+    <string name="link_speed">%1$d Mbps</string>
     <string name="link_turbo_prompt">このページの統計は、Wi-Fi接続速度の向上のために使用されたデータ量のみを表示しています。実際のモバイルデータ使用量を示すものではありません。</string>
     <string name="link_turbo_settings_all_app_display_loading">お待ちください…</string>
     <string name="link_turbo_settings_all_app_reach_max">最大で15個のアプリを選択できます</string>
@@ -5325,6 +5332,7 @@ PINを設定してください。
     <string name="memory_usage">メモリ使用量</string>
     <string name="memory_usage_apps">アプリのメモリ使用状況</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{過去 {time}に 1 個のアプリがメモリを使用しました}other{過去 {time}に # 個のアプリがメモリを使用しました}}</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">過去3時間の平均メモリ使用量: %1$s</string>
     <string name="memorycard_calculating">計算中…</string>
     <string name="memtag_footer">高度なメモリ保護の ON / OFF を切り替えるにはデバイスを再起動する必要があります。ON の場合、デバイスのパフォーマンスが低下することがあります。</string>
@@ -6088,6 +6096,7 @@ PINを設定してください。
     <string name="nfc_more_details">詳細</string>
     <string name="nfc_more_title">その他…</string>
     <string name="nfc_notification_mode_title">NFCカード読み取りリマインダー</string>
+    <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">デフォルトに設定</string>
     <string name="nfc_payment_btn_text_update">更新</string>
     <string name="nfc_payment_default">デフォルトのお支払いアプリ</string>
@@ -6684,6 +6693,7 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
     <string name="power_cell">モバイル ネットワーク</string>
     <string name="power_center">バッテリーの最適化</string>
     <string name="power_charge_remaining">充電されるまで%1$s</string>
+    <string name="power_charging">%1$s - %2$s</string>
     <string name="power_charging_duration">%1$s - 完了まであと %2$s</string>
     <string name="power_charging_future_paused">%1$s - 充電が最適化されました</string>
     <string name="power_charging_limited">%1$s - 充電が最適化されました</string>
@@ -6740,6 +6750,7 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
     <string name="power_remaining_less_than_duration_only">残り時間: %1$s未満</string>
     <string name="power_remaining_more_than_subtext">残り時間: %1$s（%2$s）以上</string>
     <string name="power_remaining_only_more_than_subtext">残り時間: %1$s以上</string>
+    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_screen">画面</string>
     <string name="power_settings_title">システムパフォーマンス</string>
     <string name="power_suggestion_battery_run_out">%1$s 頃に電池がなくなります</string>
@@ -6992,6 +7003,7 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
     <string name="privileged_action_disable_sub_dialog_title">%1$s を OFF にしますか？</string>
     <string name="privileged_action_disable_sub_dialog_title_without_carrier">SIM を OFF にしますか？</string>
     <string name="process_dex2oat_label">アプリの最適化</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">メディアサーバー</string>
     <string name="process_network_tethering">テザリング</string>
     <string name="process_provider_in_use_description">%1$sプロバイダは使用中です。</string>
@@ -7451,19 +7463,14 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
     <string name="screen_paper_mode_update_white_pkg_list_summary">読書モードを自動的に使用するアプリのリストをアップデートする</string>
     <string name="screen_paper_mode_update_white_pkg_list_title">自動的にアップデート</string>
     <string name="screen_paper_texture">テクスチャ</string>
-    <string name="screen_pinning_description">"アプリを固定した場合、そのアプリが他のアプリを開いたり、個人データにアクセスしたりする可能性があります。
+    <string name="screen_pinning_description">ピン留めされたアプリは他のアプリを開いて個人情報にアクセスできます</string>
+    <string name="screen_pinning_dialog_message">"ピン留めされたアプリでできることは以下の通りです:
 
-アプリ固定機能を使用するには: \u0009
-1. アプリ固定機能をオンにします \u0009
-2. [概要] を開きます \u0009
-3. 画面上部のアプリアイコンをタップし、[固定] をタップします"</string>
-    <string name="screen_pinning_dialog_message">"アプリが固定されている場合: 
+• 個人情報へのアクセス
+（例：連絡先やメール）
+• 他のアプリを開く
 
-•\u0009 個人データにアクセスされる可能性があります（連絡先、メールの内容など） 
-•\u0009 固定されたアプリが他のアプリを開く可能性があります 
-
-アプリ固定機能は、相手を信頼できる場合にのみ使用してください。
-"</string>
+このデバイスを他の人と共有する場合は、この機能を慎重に使用してください。"</string>
     <string name="screen_pinning_guest_user_description">"アプリを固定した場合、そのアプリが他のアプリを開いたり、個人データにアクセスしたりする可能性があります。
 
 デバイスを他のユーザーと安全に共有するには、代わりにゲストユーザーを使用してみてください。
@@ -7472,10 +7479,11 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
 1. アプリ固定機能をオンにします \u0009
 2. [概要] を開きます \u0009
 3. 画面上部のアプリアイコンをタップし、[固定] をタップします"</string>
+    <string name="screen_pinning_summary">ピン留めされたアプリは、ピン留めを解除するまで「最近のタスク」に表示されます</string>
     <string name="screen_pinning_switch_off_text">OFF</string>
     <string name="screen_pinning_switch_on_text">ON</string>
-    <string name="screen_pinning_title">アプリ固定</string>
-    <string name="screen_pinning_unlock_none">アプリ固定の解除時にデバイスをロック</string>
+    <string name="screen_pinning_title">アプリのピン留めを許可する</string>
+    <string name="screen_pinning_unlock_none">画面ロックを認証してピン留めを解除します</string>
     <string name="screen_pinning_unlock_password">画面固定の解除前にパスワードを要求</string>
     <string name="screen_pinning_unlock_pattern">画面固定の解除前にロック解除パターンを要求</string>
     <string name="screen_pinning_unlock_pin">画面固定の解除前にPINを要求</string>
@@ -7787,6 +7795,7 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
     <string name="security_encryption_attention_3">新しい画面ロックを設定する必要があります。</string>
     <string name="security_encryption_attention_4">画面ロックは忘れずに覚えておいてください。もし忘れてしまうと、フルリセットを実行してデバイス上のすべてのデータを消去する必要があります。</string>
     <string name="security_encryption_attention_info">アカウント、設定、ダウンロードしたアプリとそのデータ、メディア、その他のファイルを暗号化できます。</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">重要</string>
     <string name="security_encryption_close_dialog_info">画面ロックを使用してデバイスを暗号化しないことを選択すると、一部のGoogleサービスが利用できなくなる場合があります。</string>
     <string name="security_encryption_close_dialog_title">デフォルトのシステム暗号化に戻す</string>
@@ -8381,6 +8390,7 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">スキップ</string>
     <string name="skip_label">スキップ</string>
@@ -8598,8 +8608,10 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
     <string name="status_bar_app_enable_keyguard">ロック画面</string>
     <string name="status_bar_app_enable_message">バッジ</string>
     <string name="status_bar_carrier_settings_no_sim_card">SIMカードなし</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings">通知とステータスバー</string>
     <string name="status_bar_settings_all_app_display_loading">お待ちください…</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">アプリの通知</string>
     <string name="status_bar_settings_notification_bar">通知シェード</string>
     <string name="status_bar_settings_status_bar">ステータスバー</string>
@@ -8922,6 +8934,7 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="summary_divider_text">"、 "</string>
     <string name="summary_quick_control_all_devices">コントロールセンターに付近のテレビ、スピーカー、車のコントロールを表示する</string>
+    <string name="summary_range_symbol_combination">%1$s～%2$s</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_first_day_of_week">日曜日</string>
     <string name="sunday_short">日</string>
@@ -9205,6 +9218,7 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
     <string name="title_quick_control_all_devices">付近のデバイスのコントロールを表示する</string>
     <string name="title_regional_pref_footer">アプリで地域別の設定がサポートされていない場合は、デフォルトの言語 / 地域設定が使用されます。</string>
     <string name="title_show_notification_icon">通知アイコンを表示</string>
+    <string name="title_show_notification_icon_count">表示される通知アイコンの数</string>
     <string name="title_smart_device_control">スマートデバイスコントロール</string>
     <string name="title_special_features_health_global">心拍数</string>
     <string name="title_unavailable_locale">%sは使用できません</string>
@@ -9839,6 +9853,7 @@ PIN を削除すると、デバイスに保存されている指紋モデルも�
     <string name="vision_settings_title">視覚補助</string>
     <string name="voice_access">音声コントロール</string>
     <string name="voice_assist">Mi AI</string>
+    <string name="voice_assist_volume_option_title">@string/voice_assist</string>
     <string name="voice_category">音声</string>
     <string name="voice_helper_title">音声アシスタント</string>
     <string name="voice_input_output_settings">音声入出力</string>
@@ -11004,9 +11019,11 @@ PIN を削除すると、デバイスに保存されている指紋モデルも�
     <string name="zone_auto_summaryOff">キャリアネットワークが提供するタイムゾーンを使用する</string>
     <string name="zone_auto_summaryOn">キャリアネットワークが提供するタイムゾーンを使用する</string>
     <string name="zone_auto_title">タイムゾーンを自動的に設定</string>
+    <string name="zone_info_exemplar_location_and_offset">%1$s（%2$s）</string>
     <string name="zone_info_footer_first_sentence">%1$s を使用します。%2$s</string>
     <string name="zone_info_footer_no_dst">%1$sを使用しています。夏時間はありません。</string>
     <string name="zone_info_footer_second_sentence">%1$sは %2$sに始まります。</string>
+    <string name="zone_info_offset_and_name">%2$s（%1$s）</string>
     <string name="zone_list_menu_sort_alphabetically">アルファベット順に並べ替え</string>
     <string name="zone_list_menu_sort_by_timezone">タイムゾーンで並べ替え</string>
     <string name="zone_menu_by_offset">UTC オフセットで選択</string>

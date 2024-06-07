@@ -122,10 +122,14 @@ mm"</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
+    <string name="miuix_appcompat_cloud_state_disabled">クラウドとの同期はオフです</string>
+    <string name="miuix_appcompat_cloud_state_finished">クラウドと正常に同期しました</string>
+    <string name="miuix_appcompat_cloud_state_syncing">クラウドと同期中…</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
     <string name="miuix_appcompat_delete_description">削除</string>
     <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
+    <string name="miuix_appcompat_edit">編集</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
     <string name="miuix_appcompat_select_all">すべて選択</string>
@@ -139,6 +143,11 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">今のところ以上です</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">お待ちください…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">アイテムを読み込めませんでした</string>
+    <string name="miuix_search_action_mode_cancel">キャンセル</string>
+    <string name="miuix_search_history_clear">検索履歴を消去</string>
+    <string name="miuix_search_history_default_title">検索履歴</string>
+    <string name="miuix_search_recommendation_default_title">こちらをお探しではないですか</string>
+    <string name="miuix_search_recommendation_item_del_des">削除</string>
     <string name="monday">月曜日</string>
     <string name="monday_short">月</string>
     <string name="monday_shortest">月</string>
@@ -361,6 +370,7 @@ mm"</string>
     <string name="saturday_shortest">土</string>
     <string name="search_menu_title">検索</string>
     <string name="send">送信</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
     <string name="sunday_short">日</string>

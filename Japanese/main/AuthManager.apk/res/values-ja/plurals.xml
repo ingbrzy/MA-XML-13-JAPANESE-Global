@@ -27,9 +27,6 @@
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d分前</item>
     </plurals>
-    <plurals name="clipboard_read_ai_deny_more">
-        <item quantity="other">%1$sのクリップボードへのアクセスを%2$d回ブロックしました</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
     </plurals>

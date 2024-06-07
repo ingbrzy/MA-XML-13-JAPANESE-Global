@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="account_user_gender_name">
-        <item>男性</item>
-        <item>女性</item>
-    </string-array>
     <string-array name="exo_controls_playback_speeds">
         <item>0.25x</item>
         <item>0.5x</item>
@@ -35,6 +31,10 @@
         <item>過激派の見解</item>
         <item>サブリミナル広告</item>
         <item>好みではない</item>
+    </string-array>
+    <string-array name="passport_account_user_gender_name">
+        <item>男性</item>
+        <item>女性</item>
     </string-array>
     <string-array name="pref_fling_on_border_gesture_entries">
         <item>戻る/進む</item>
@@ -83,10 +83,6 @@
     <string-array name="pref_web_permissions_sub_two">
         <item>制限</item>
         <item>許可</item>
-    </string-array>
-    <string-array name="setting_swipe_up_target">
-        <item>検索</item>
-        <item>ニュース</item>
     </string-array>
     <string-array name="shortcut_dialog_delete">
         <item>削除</item>

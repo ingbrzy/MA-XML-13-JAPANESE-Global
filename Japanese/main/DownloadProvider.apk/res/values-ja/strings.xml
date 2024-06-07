@@ -10,6 +10,7 @@
     <string name="download_queued">キューに登録済み</string>
     <string name="download_remaining">残り%s</string>
     <string name="download_running">ダウンロード中</string>
+    <string name="download_running_percent">ダウンロード中 %s</string>
     <string name="download_unknown_title">&lt;無題></string>
     <string name="notif_title_file_size">総計 %1$d</string>
     <string name="notif_title_single_downloading">%1$sをダウンロード中</string>

@@ -88,6 +88,7 @@
     <string name="fast_connect_device_battery">バッテリー</string>
     <string name="fast_connect_device_box">ケース</string>
     <string name="fast_connect_device_box_name">%1$s ボックス</string>
+    <string name="fast_connect_device_button_audio_share_fail">了解</string>
     <string name="fast_connect_device_connect_cancel">キャンセル</string>
     <string name="fast_connect_device_connect_ok">接続</string>
     <string name="fast_connect_device_connect_retry">再試行</string>
@@ -96,6 +97,12 @@
     <string name="fast_connect_device_headset_l">左</string>
     <string name="fast_connect_device_headset_r">右</string>
     <string name="fast_connect_device_headset_reset">ケースのボタンを長押し</string>
+    <string name="fast_connect_device_message_audio_share">このデバイスのオーディオをこのイヤホンと共有します</string>
+    <string name="fast_connect_device_replace_current_device">デバイスを切り替える</string>
+    <string name="fast_connect_device_start_audio_share">共有</string>
+    <string name="fast_connect_device_title_audio_share">%1$s と一緒に聞く</string>
+    <string name="fast_connect_device_title_audio_share_fail">%1$s に接続できませんでした。もう一度お試しください。</string>
+    <string name="fast_connect_device_title_audio_share_success">%1$s と一緒に聞いています</string>
     <string name="fast_connect_device_title_connect_fail">%1$sに接続できませんでした</string>
     <string name="fast_connect_device_title_connecting">接続中…</string>
     <string name="fast_connect_device_title_find_headset">%1$sを探す</string>

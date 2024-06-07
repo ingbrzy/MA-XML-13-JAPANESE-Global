@@ -48,6 +48,39 @@
     <plurals name="age_year">
         <item quantity="other">%d歳</item>
     </plurals>
+    <plurals name="ai_create_image_queue">
+        <item quantity="other">%1d人があなたの前にいます</item>
+    </plurals>
+    <plurals name="ai_create_remain_time_hour">
+        <item quantity="other">待機時間: %s 時間</item>
+    </plurals>
+    <plurals name="ai_create_remain_time_minute">
+        <item quantity="other">待機時間: %s 分</item>
+    </plurals>
+    <plurals name="ai_creation_wait_message_time">
+        <item quantity="other">作成中… | 待機時間: %d 秒</item>
+    </plurals>
+    <plurals name="ai_creation_wait_queue">
+        <item quantity="other">作成中… | あなたの前に %d 人がいます</item>
+    </plurals>
+    <plurals name="ai_creation_wait_time_minute">
+        <item quantity="other">待機時間: %d分</item>
+    </plurals>
+    <plurals name="ai_enhance_bar_waiting">
+        <item quantity="other">作成中… | 残り %d 秒</item>
+    </plurals>
+    <plurals name="ai_hour">
+        <item quantity="other">%s時間</item>
+    </plurals>
+    <plurals name="ai_image_over_limit_msg">
+        <item quantity="other">1 人最大 %d 個の AI イメージを作成できます。</item>
+    </plurals>
+    <plurals name="ai_minute">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="ai_select_photo_time_count">
+        <item quantity="other">写真を選択中 (残り%d秒)…</item>
+    </plurals>
     <plurals name="album_already_share_user_count">
         <item quantity="other">%d人に共有しました</item>
     </plurals>
@@ -168,8 +201,17 @@
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">レンダリングできなかった%1$d枚の写真をスキップしました。</item>
     </plurals>
-    <plurals name="file_type_detail_count">
-        <item quantity="other">%1$d個のファイル</item>
+    <plurals name="global_cloud_storage_warn_title_link">
+        <item quantity="other">クラウドストレージが不足しているため、%d 個のアイテムをバックアップできませんでした</item>
+    </plurals>
+    <plurals name="global_sync_error_title">
+        <item quantity="other">%d 個のアイテムをバックアップしていません</item>
+    </plurals>
+    <plurals name="global_syncing_gprs_title_link">
+        <item quantity="other">モバイルデータを使用して %d 個のアイテムをバックアップ中…</item>
+    </plurals>
+    <plurals name="global_syncing_title_link">
+        <item quantity="other">%d 個のアイテムをバックアップ中…</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">30分前</item>
@@ -259,7 +301,7 @@
         <item quantity="other">残り%d個のファイルをダウンロードしています</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">%1$d枚の写真をダウンードできませんでした。ネットワークに接続してからもう一度お試しください。</item>
+        <item quantity="other">%d 個のファイルをダウンロードできませんでした。ネットワークに接続してもう一度お試しください。</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
         <item quantity="other">%1$d個のファイル (%2$d MB) をダウンロードできませんでした。ネットワークに接続してもう一度お試しください。</item>
@@ -268,10 +310,10 @@
         <item quantity="other">%1$d個のファイル (%2$d MB) はまだダウンロードされていません。モバイルデータを使用してダウンロードしますか？</item>
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
-        <item quantity="other">%1$d枚の写真をダウンロードできませんでした。再試行しますか？</item>
+        <item quantity="other">%d 個のファイルをダウンロードできませんでした。再試行しますか？</item>
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
-        <item quantity="other">%1$d枚の写真 (%2$d MB) をダウンロードできませんでした。再試行しますか？</item>
+        <item quantity="other">%1$d 個のファイル (%2$d MB) をダウンロードできませんでした。再試行しますか？</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">デバイスにない%d枚の写真をスキップしました。</item>
@@ -297,83 +339,14 @@
     <plurals name="search_feedback_done_mark_false_positive">
         <item quantity="other">%1$d枚の写真を\"%2$s\"から削除しました。</item>
     </plurals>
-    <plurals name="send_apk_dialog_desc">
-        <item quantity="other">%1$sからの%2$d件のインストールパッケージ (%3$s)</item>
-    </plurals>
-    <plurals name="send_apk_dialog_desc_received">
-        <item quantity="other">%1$sから%2$d件のインストールパッケージ (%3$s) を受信しました</item>
-    </plurals>
-    <plurals name="send_apk_dialog_desc_receiving">
-        <item quantity="other">%1$sから%2$d件のインストールパッケージ (%3$s) を受信中…</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc">
-        <item quantity="other">%1$sからの%2$d件のオーディオファイル (%3$s)</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc_received">
-        <item quantity="other">%1$sから%2$d件のオーディオファイル (%3$s) を受信しました</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc_receiving">
-        <item quantity="other">%1$sから%2$d件のオーディオファイル (%3$s) を受信中…</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc">
-        <item quantity="other">%1$sからの%2$d件の%3$sファイル (%4$s)</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc_received">
-        <item quantity="other">%1$sから%2$d件の%3$sファイル (%4$s) を受信しました</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc_receiving">
-        <item quantity="other">%1$sから%2$d件の%3$sファイル (%4$s) を受信中…</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc">
-        <item quantity="other">%1$sからの%2$d枚の画像</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc_received">
-        <item quantity="other">%1$sから%2$d枚の画像を受信しました</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc_receiving">
-        <item quantity="other">%1$sから%2$d枚の画像を受信中…</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc">
-        <item quantity="other">%1$sからの%2$d件の画像やビデオ</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc_received">
-        <item quantity="other">%1$sから%2$d件の画像やビデオを受信しました</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc_receiving">
-        <item quantity="other">%1$sから%2$d件の画像やビデオを受信中…</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc">
-        <item quantity="other">%1$sからの%2$d件のファイル</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc_received">
-        <item quantity="other">%1$sから%2$d件のファイルを受信しました</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc_receiving">
-        <item quantity="other">%1$sから%2$d件のファイルを受信中…</item>
+    <plurals name="search_title_ai">
+        <item quantity="other">%d 件のアイテムが見つかりました</item>
     </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">共有できませんでした。%d枚の写真を処理中です…</item>
     </plurals>
     <plurals name="send_too_many_files_error">
         <item quantity="other">送信するアイテムを最大%d個選択してください</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc">
-        <item quantity="other">%1$sからの%2$d本のビデオ</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc_received">
-        <item quantity="other">%1$sから%2$d本のビデオを受信しました</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc_receiving">
-        <item quantity="other">%1$sから%2$d本のビデオを受信中…</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc">
-        <item quantity="other">%1$sからの%2$d件のアーカイブ (%3$s)</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc_received">
-        <item quantity="other">%1$sから%2$d件のアーカイブ (%3$s) を受信しました</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc_receiving">
-        <item quantity="other">%1$sから%2$d件のアーカイブ (%3$s) を受信中…</item>
     </plurals>
     <plurals name="share_album_detail_photo_count">
         <item quantity="other">%d枚の写真をアップロードしました</item>
@@ -505,6 +478,15 @@
     </plurals>
     <plurals name="video_count_format">
         <item quantity="other">%1$d個のファイル</item>
+    </plurals>
+    <plurals name="video_editor_component_hint_text">
+        <item quantity="other">%d 個のビデオセグメントを選択してください</item>
+    </plurals>
+    <plurals name="video_editor_component_imageview_content_description">
+        <item quantity="other">ビデオスロット %1$d、%2$s 秒以上のビデオの追加を待機しています</item>
+    </plurals>
+    <plurals name="video_editor_component_next_step_disabled_content_description">
+        <item quantity="other">続けるにはさらに %d 本のビデオを追加してください</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d本のビデオ</item>

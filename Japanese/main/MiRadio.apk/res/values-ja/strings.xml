@@ -40,7 +40,7 @@
     <string name="context_menu_title">%s MHz</string>
     <string name="dialog_sleep_title">スリープタイマーを設定</string>
     <string name="exit_fm">終了</string>
-    <string name="fm_has_turned_off">FMラジオがオフになっています</string>
+    <string name="fm_has_turned_off">FMラジオがオフになりました</string>
     <string name="fmradio_clear_confirm_msg">すべてのプリセットが削除されます。</string>
     <string name="frequency_mhz_fomart">%s MHz</string>
     <string name="global_app_description_content">FMラジオはシステムアプリです。アプリをアンインストールすると、ラジオ放送を聴くことができなくなります。</string>
@@ -69,7 +69,7 @@
     <string name="menu_speaker">スピーカーに切り替える</string>
     <string name="msg_do_not_support_fm">このデバイスはFMラジオをサポートしていません</string>
     <string name="msg_fm_starting">起動中…</string>
-    <string name="msg_internalantenna_optimal">最良の効果を得るためにイヤホンを接続してください</string>
+    <string name="msg_internalantenna_optimal">イヤホンを接続すると効果的です</string>
     <string name="msg_noantenna_message">ヘッドホンが検出されませんでした。一部の機能が利用できない場合があります。</string>
     <string name="msg_try_plug_headset">ヘッドホンに接続してから、もう一度お試しください。</string>
     <string name="new_frequency">新しい周波数</string>
@@ -87,6 +87,9 @@
     <string name="stations_list">ラジオ局リスト</string>
     <string name="stations_list_empty">プリセットはありません</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="talkback_back">戻る</string>
+    <string name="talkback_close">閉じる</string>
+    <string name="talkback_speed">速度</string>
     <string name="toast_added_to_list">リストに追加しました</string>
     <string name="toast_added_to_presets">プリセットに追加しました</string>
     <string name="toast_fm_error_startfailed">録音エラーです。別のアプリが録音機能を使用している可能性があります。</string>
@@ -99,7 +102,6 @@
     <string name="toast_sleep_mode">ラジオは%s後に再生を停止します</string>
     <string name="toast_sleep_mode_exit">スリープタイマーがキャンセルされました</string>
     <string name="turn_off_fm">FMをオフにする</string>
-    <string name="txt_divider">" | "</string>
     <string name="txt_sleep_mode">スリープモード</string>
     <string name="using_recorder_cancel">拒否</string>
     <string name="using_recorder_confirm">許可</string>

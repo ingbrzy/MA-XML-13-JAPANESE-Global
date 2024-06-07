@@ -370,12 +370,17 @@
     <string name="screen_editor_btn_save">保存</string>
     <string name="screen_editor_btn_shell_off">デバイスフレームを削除</string>
     <string name="screen_editor_btn_shell_on">デバイスフレームを追加</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">このスクリーンショットを削除しますか？</string>
     <string name="screen_editor_delete_dialog_picture_msg">この画像を今すぐ削除しますか？</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">完了</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
     <string name="screen_editor_shell_disallowed_with_crop">トリミングしたスクリーンショットにはデバイスフレームを追加できません</string>
     <string name="screen_editor_shell_net_error">デバイスフレームをダウンロードするにはネットワークに接続してください</string>
     <string name="screen_editor_shell_res_downloading">デバイスフレームをダウンロード中…</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">キャンセル</string>
     <string name="screen_save_dialog_btn_delete">スクリーンショットを削除</string>
     <string name="screen_save_dialog_btn_save">ギャラリーに保存</string>

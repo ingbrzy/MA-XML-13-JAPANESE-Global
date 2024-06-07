@@ -56,6 +56,9 @@
     <string name="bluetooth_sap_notif_message">クライアントに接続解除をリクエストしますか？</string>
     <string name="bluetooth_sap_notif_ticker">Bluetooth SIMアクセス</string>
     <string name="bluetooth_sap_notif_title">Bluetooth SIMアクセス</string>
+    <string name="bt_Auracast_audio_share_notification_content">タップして詳細を表示</string>
+    <string name="bt_Auracast_audio_share_notification_title">このデバイスからオーディオをブロードキャスト中…</string>
+    <string name="bt_audio_share_assistant_notification_title">付近のデバイスからブロードキャストを受信しています…</string>
     <string name="bt_audio_share_notification_content">タップしてオプションを表示</string>
     <string name="bt_audio_share_notification_title">オーディオを共有中</string>
     <string name="bt_enable_cancel">キャンセル</string>
@@ -84,6 +87,7 @@
     <string name="call_notification_screening_text">着信をスクリーニング中</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
+    <string name="close_broadcast_audio">停止</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -259,6 +263,7 @@
     <string name="not_exist_file">ファイルがありません</string>
     <string name="not_exist_file_desc">"そのファイルは存在しません。
 "</string>
+    <string name="notice_audio_share_classic_disconnected">音声共有を停止しました</string>
     <string name="notice_audio_share_disconnected">接続が中断されたため、オーディオの共有を停止しました</string>
     <string name="notification_received">Bluetooth共有: %1$sを受信済み</string>
     <string name="notification_received_fail">Bluetooth共有: ファイル%1$sの受信に失敗</string>
@@ -272,7 +277,9 @@
     <string name="opp_notification_group">Bluetooth 共有</string>
     <string name="outbound_history_title">外部への転送</string>
     <string name="outbound_noti_title">Bluetooth共有: 送信したファイル</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">%1$sとの接続の承諾がタイムアウトになりました</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">%1$sでのセッションキーの入力がタイムアウトになりました</string>
     <string name="pbap_notification_group">Bluetooth での連絡先の共有</string>
     <string name="pbap_session_key_dialog_header">Bluetoothセッションキーが必要です</string>

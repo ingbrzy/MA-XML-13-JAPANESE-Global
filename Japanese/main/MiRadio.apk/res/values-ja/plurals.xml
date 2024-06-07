@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="sleep_duration_hour_values">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="sleep_duration_minutes_values">
+        <item quantity="other">%d分</item>
+    </plurals>
     <plurals name="toast_channel_searched">
         <item quantity="other">%1$d局がスキャンされました</item>
     </plurals>

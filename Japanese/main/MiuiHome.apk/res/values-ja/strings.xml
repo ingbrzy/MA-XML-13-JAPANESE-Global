@@ -353,6 +353,7 @@
     <string name="gadget_search_label">検索</string>
     <string name="gadget_weather_title">天気</string>
     <string name="global_search">検索</string>
+    <string name="global_shelf">アプリ検索</string>
     <string name="got_it_botton">了解</string>
     <string name="guide_install_app_msg">このアプリはお使いのデバイスにインストールされていません。今すぐアプリを探してインストールしますか？</string>
     <string name="guide_install_app_title">アプリを見つけてインストールしますか？</string>
@@ -360,6 +361,7 @@
     <string name="guide_privacy_dialog_title">サービス利用規約</string>
     <string name="home_gesture_content_center">コンテンツセンター</string>
     <string name="home_gesture_global_search">検索</string>
+    <string name="home_gesture_global_shelf">アプリ検索</string>
     <string name="home_gesture_no_action">なし</string>
     <string name="home_gesture_notification_and_control_center">通知シェードとコントロールセンター</string>
     <string name="home_gesture_notification_bar">通知</string>
@@ -378,7 +380,7 @@
     <string name="international_home_pull_down_sub_content">[設定] > [ホーム画面] > [ホーム画面を下にスワイプ] でこのジェスチャーを切り替え、コントロールセンターを開くように設定できます</string>
     <string name="international_home_pull_down_up_btn_get">了解</string>
     <string name="international_home_pull_up_content">ホーム画面を上にスワイプしてコンテンツセンターを開きます。</string>
-    <string name="international_home_pull_up_sub_content">検索を開くには、ホーム画面の中央から下にスワイプします。</string>
+    <string name="international_home_pull_up_sub_content">アプリやアプリの提案を見つけるには、ホーム画面の中央から下にスワイプします。</string>
     <string name="item_view_role_description">タブ</string>
     <string name="jeejen_description">"大きなUI要素
 より使いやすくなった通話機能
@@ -443,7 +445,7 @@
     <string name="mi_wallpaper">MIUI テーマ</string>
     <string name="midnight">真夜中</string>
     <string name="minus_one_screen">アプリ保管庫</string>
-    <string name="miui_screen_config_title">ホーム画面の設定</string>
+    <string name="miui_screen_config_title">ホーム画面のレイアウト</string>
     <string name="miui_setting_config_title">ホーム画面の設定</string>
     <string name="miui_widget_menu_replace_text">置き換える</string>
     <string name="miui_widget_toast_for_not_support_by_pa">アプリ保管庫はこのサイズのウィジェットをサポートしていません</string>
@@ -519,6 +521,7 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -648,8 +651,9 @@
     <string name="recent_menu_item_info">情報</string>
     <string name="recent_menu_item_lock">ロック</string>
     <string name="recent_menu_item_unlock">ロックを解除</string>
-    <string name="recent_menu_item_worldcirculate">应用流转</string>
-    <string name="recent_menu_item_worldcirculate_disable">应用无法流转</string>
+    <string name="recent_menu_item_worldcirculate">アプリのタスクを転送</string>
+    <string name="recent_menu_item_worldcirculate_disable">接続されたデバイス間でアプリのタスクを転送できません</string>
+    <string name="recent_pin_text">ピン留め</string>
     <string name="recents_app_info_button_label">アプリ情報</string>
     <string name="recents_config_title">最近のタスク</string>
     <string name="recents_dimiss_task">消去</string>
@@ -731,6 +735,7 @@
     <string name="small_window">フローティングウィンドウ</string>
     <string name="start_activity_failed">ランチャーを起動できません</string>
     <string name="start_new_window">新しいウィンドウ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%2$s中%1$s利用可能</string>
     <string name="status_bar_recent_memory_info2" />
@@ -748,8 +753,10 @@
     <string name="switch_personal_assistant_app_vault">アプリ保管庫</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">なし</string>
+    <string name="switch_personal_assistant_summary">ホーム画面を右にスワイプして Google Discover を開きます</string>
     <string name="switch_screen_button_order">ミラーボタン</string>
     <string name="switch_screen_button_order_desc">戻るボタンとメニューボタンの位置を入れ替える</string>
+    <string name="system_sdk_disabled_toast">システム SDK が無効になっています。まず有効にしてください。</string>
     <string name="system_shortcuts_edit">編集</string>
     <string name="system_shortcuts_icon_remove">削除</string>
     <string name="system_shortcuts_more_operation">アプリ情報</string>
@@ -808,7 +815,7 @@
     <string name="time_picker_label_minute">分</string>
     <string name="title_jeejen">Jeejenホーム画面</string>
     <string name="toast_drag_to_assistant_reject">アプリ保管庫を初期化中…</string>
-    <string name="toast_screen_icons_misplaced">他のソースから復元されました。一部のアイコンが正しく配置されていない場合があります。</string>
+    <string name="toast_screen_icons_misplaced">表示サイズの変更によりアプリの配置がずれている場合があります。</string>
     <string name="toast_split_app_unsupported">このアプリは画面分割をサポートしていません</string>
     <string name="toast_split_select_app">アプリをタップして画面分割を使用</string>
     <string name="today">今日</string>

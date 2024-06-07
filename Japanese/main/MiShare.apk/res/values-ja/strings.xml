@@ -102,7 +102,7 @@
     <string name="error_p2p_create_group_failure_china">"Couldn't connect. Reconnect to WLAN on both devices and try again."</string>
     <string name="error_p2p_recv_connect_timeout">接続できませんでした。両方のデバイスでWi-Fiに再接続して、もう一度お試しください。</string>
     <string name="error_p2p_recv_connect_timeout_china">"Couldn't connect. Reconnect to WLAN on both devices and try again."</string>
-    <string name="error_permission_denied">この機能を使用するには、設定でMi シェアに必要なすべてのアクセス許可を付与してください。</string>
+    <string name="error_permission_denied">この機能を使用するには、設定で Xiaomi Share に必要なすべてのアクセス許可を付与してください。</string>
     <string name="error_receive_file_cannot_read">ファイルを受信できませんでした</string>
     <string name="error_receive_file_changed">受信できません。アイテムが変更されました。</string>
     <string name="error_receive_file_file_opened">このアイテムを受信できませんでした。このアイテムは現在使用中のようです。</string>
@@ -121,8 +121,8 @@
     <string name="error_send_file_service_disabled">転送の発信をキャンセルしました</string>
     <string name="error_send_transfer_error">アイテムを送信できませんでした。数分待ってからもう一度お試しください。</string>
     <string name="error_send_transfer_pc_error">Transfer timed out. Update Xiaomi PC Manager to the latest version and try again.</string>
-    <string name="error_slave_wifi_in_use">デュアルWi-Fiがオンの場合は、Mi シェアは機能しません。設定でデュアルWi-Fiをオフにして、もう一度お試しください。</string>
-    <string name="error_slave_wifi_in_use_china">デュアルWi-Fiがオンの場合は、Mi シェアは機能しません。設定でデュアルWi-Fiをオフにして、もう一度お試しください。</string>
+    <string name="error_slave_wifi_in_use">デュアルWi-Fiがオンの場合は、Xiaomi Shareは機能しません。設定でデュアルWi-Fiをオフにして、もう一度お試しください。</string>
+    <string name="error_slave_wifi_in_use_china">デュアルWi-Fiがオンの場合は、Xiaomi Shareは機能しません。設定でデュアルWi-Fiをオフにして、もう一度お試しください。</string>
     <string name="error_timeout">セッションがタイムアウトしました。1、2分待ってからもう一度お試しください。</string>
     <string name="error_user_refuse">送信できません。転送が拒否されました。</string>
     <string name="error_wifi_display_in_use">キャスト中は他のデバイスにファイルを送信できません</string>
@@ -201,17 +201,17 @@
     <string name="go_to_settings">設定</string>
     <string name="guide_summary_1">共有相手は通知シェードのトグルをタップします</string>
     <string name="guide_summary_2">共有相手のデバイスのアイコンをタップしてください</string>
-    <string name="guide_title_1">両方のデバイスでMi シェアをオンにしてください</string>
+    <string name="guide_title_1">両方のデバイスで Xiaomi Share をオンにしてください</string>
     <string name="guide_title_2">共有相手のデバイスを選択してください</string>
     <string name="help">デバイスが見つかりませんか？</string>
-    <string name="help_content">必要なデバイスが見つからない場合は、相手にMi シェアをオンにするように依頼してください。</string>
+    <string name="help_content">必要なデバイスが見つからない場合は、相手に Xiaomi Share をオンにするよう依頼してください。</string>
     <string name="hide">隠す</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
     <string name="i_know">了解</string>
     <string name="lenovo">Lenovo</string>
     <string name="lenovo_phone">Lenovo</string>
-    <string name="location_enabled">Mi シェアが付近のデバイスを探すために位置情報サービスをオンにしました</string>
+    <string name="location_enabled">Xiaomi Share が付近のデバイスを探すために位置情報サービスをオンにしました</string>
     <string name="meizu">Meizu</string>
     <string name="meizu_phone">Meizu</string>
     <string name="menu_item_permission_manager_and_use_guide_title">アクセス許可の詳細</string>
@@ -231,7 +231,7 @@
     <string name="mi_9_lite">Mi 9 Lite</string>
     <string name="mi_9t">Mi 9T</string>
     <string name="mi_9t_pro">Mi 9T Pro</string>
-    <string name="mi_drop">Mi シェア</string>
+    <string name="mi_drop">Xiaomi Share</string>
     <string name="mi_note_10">Mi Note 10</string>
     <string name="mi_pad_5">Xiaomi Pad 5</string>
     <string name="mi_pad_5_pro">Xiaomi Pad 5 Pro</string>
@@ -239,14 +239,14 @@
     <string name="mi_share_turbo_mode">ターボ転送</string>
     <string name="midnight">真夜中</string>
     <string name="mini_pc_xiaomi_device_model_name">Xiaomi Mini PC</string>
-    <string name="mishare_folder_in_file_explorer">ファイルマネージャー > MiShare</string>
-    <string name="mishare_service_channel_desc">Mi シェアのプロセスに関する通知</string>
-    <string name="mishare_settings_summary_international">"Mi シェアを使用すると、アイテムを付近にある他のデバイスにワイヤレスで送信できます。
+    <string name="mishare_folder_in_file_explorer">ファイルマネージャー > Xiaomi Share</string>
+    <string name="mishare_service_channel_desc">Xiaomi Share のプロセスに関する通知</string>
+    <string name="mishare_settings_summary_international">"Xiaomi Share を使用すると、アイテムを付近にある他のデバイスにワイヤレスで送信できます。
 OPPO、vivo、realmeなどのスマートフォンメーカーがこの機能に対応しています。対応機種の一覧は、各メーカーの公式サイトで確認できます。"</string>
-    <string name="mishare_state_protection">Mi シェアを自動的にオンにする</string>
-    <string name="mishare_state_protection_summary">BluetoothまたはWi-Fiがオンに戻ったときにMi シェアを自動的にオンに戻す</string>
-    <string name="mishare_state_protection_summary_china">BluetoothまたはWi-Fiが再びオンになったときはMi シェアを自動的にオンに戻す</string>
-    <string name="mishare_transefer_channel_desc">Mi シェアで送受信したアイテムに関する通知</string>
+    <string name="mishare_state_protection">Xiaomi Share を自動的にオンにする</string>
+    <string name="mishare_state_protection_summary">BluetoothまたはWi-Fiが再びオンになったときはXiaomi Shareを自動的にオンに戻す</string>
+    <string name="mishare_state_protection_summary_china">BluetoothまたはWLANが再びオンになったときはXiaomi Shareを自動的にオンに戻す</string>
+    <string name="mishare_transefer_channel_desc">Xiaomi Share で送受信したアイテムに関する通知</string>
     <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
@@ -317,8 +317,8 @@ OPPO、vivo、realmeなどのスマートフォンメーカーがこの機能に
     <string name="nfc_check_the_touch_device">デバイスを接続するには、もう一方のデバイスでもWi-FiとBluetoothをオンにする必要があります。[設定] > [接続と共有] > [接続済みのデバイス] でもう一方のデバイスの接続が許可されているかどうかを確認し、もう一度お試しください。</string>
     <string name="nfc_check_the_touch_device_china">デバイスを接続するには、もう一方のデバイスでもWLANとBluetoothをオンにする必要があります。[設定] > [接続と共有] > [接続済みのデバイス] でもう一方のデバイスの接続が許可されているかどうかを確認し、もう一度お試しください。</string>
     <string name="nfc_connect_fail">接続できませんでした。数分待ってからもう一度お試しください。</string>
-    <string name="nfc_connect_fail_lyra_secure">デバイスのコントロールセンターでMi シェアをオンにできます。</string>
-    <string name="nfc_connect_fail_lyra_secure_title">Mi シェアはオフです</string>
+    <string name="nfc_connect_fail_lyra_secure">デバイスのコントロールセンターで Xiaomi Share をオンにできます。</string>
+    <string name="nfc_connect_fail_lyra_secure_title">Xiaomi Share はオフです</string>
     <string name="nfc_connect_fail_pad">接続できませんでした</string>
     <string name="nfc_connecting">接続中…</string>
     <string name="nfc_need_to_enable_your_bluetooth_and_wlan">デバイスを接続するには、まずこのデバイスのWi-FiとBluetoothをオンにしてください。今すぐオンにしますか？</string>
@@ -344,16 +344,16 @@ OPPO、vivo、realmeなどのスマートフォンメーカーがこの機能に
     <string name="pc_device_model_name">パソコン</string>
     <string name="pc_redmi_device_model_name">Redmi ノートパソコン</string>
     <string name="pc_xiaomi_device_model_name">Xiaomi ノートパソコン</string>
-    <string name="permission_apply_purpose">ファイルを転送するため、Mi シェアが付近のデバイスを検出して接続することを許可してください。</string>
-    <string name="permission_denied_hint">Mi シェアを使用できるようにするには、必要な権限を付与してください</string>
+    <string name="permission_apply_purpose">ファイルを転送するため、Xiaomi Share が付近のデバイスを検出して接続することを許可してください。</string>
+    <string name="permission_denied_hint">Xiaomi Share を使用できるようにするには、必要な権限を付与してください</string>
     <string name="permission_related">アクセス許可</string>
     <string name="pm">午後</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="privacy_authorize">承認</string>
     <string name="progress_ratio">%1$d%%</string>
-    <string name="purpose">"Mi シェアへようこそ！このアプリを使用すると、デバイス間でファイルを転送できます。当社は、関連する法律、規制、ポリシーに基づき、ご利用者の個人情報を保護します。
-Mi シェアの利用を開始する前に、次の権限を付与し、必要な個人情報の収集を許可する必要があります。"</string>
-    <string name="purpose_v12">Mi シェアへようこそ！このアプリを使用するとデバイス間でファイルを転送できます。</string>
+    <string name="purpose">"Xiaomi Share へようこそ！このアプリを使用すると、デバイス間でファイルを転送できます。当社は、関連する法律、規制、ポリシーに基づき、ご利用者の個人情報を保護します。
+Xiaomi Share の利用を開始する前に、次の権限を付与し、必要な個人情報の収集を許可する必要があります。"</string>
+    <string name="purpose_v12">Xiaomi Share へようこそ！このアプリを使用するとデバイス間でファイルを転送できます。</string>
     <string name="queue_full">新しい転送を追加する前に、進行中の転送を終了してください。</string>
     <string name="realme">realme</string>
     <string name="realme_phone">realme</string>
@@ -435,7 +435,7 @@ Mi シェアの利用を開始する前に、次の権限を付与し、必要�
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sub_title_mishare_switch">この機能は、%d分後に自動的にオフになります</string>
     <string name="sub_title_turbo_mode">Xiaomiのスマートフォンとタブレット間の超高速転送です。転送中はネットワークが切断されます。</string>
-    <string name="sub_title_withdraw_privacy_policy_consent">プライバシーポリシーへの同意を撤回すると、Mi シェアもオフになります。</string>
+    <string name="sub_title_withdraw_privacy_policy_consent">プライバシーポリシーへの同意を撤回すると、Xiaomi Share もオフになります。</string>
     <string name="success_receive_much_file_from_pc">%1$sから%2$d個を超えるファイルを受信しました。タップして表示します。</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="sunday">日曜日</string>
@@ -495,22 +495,20 @@ Mi シェアの利用を開始する前に、次の権限を付与し、必要�
     <string name="time_picker_label_minute">分</string>
     <string name="tips_p2p_support_use5g">最良の結果を得るには、5GHzのWi-Fiネットワークを使用してください。</string>
     <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
-    <string name="tips_prompt_enable_midrop">Mi シェア</string>
+    <string name="tips_prompt_enable_midrop">Xiaomi Share</string>
     <string name="to_feedback">報告</string>
-    <string name="toast_auto_close_in_minutes">Mi シェアは%d分後に自動的にオフになります</string>
+    <string name="toast_auto_close_in_minutes">Xiaomi Share は %d 分後に自動的にオフになります</string>
     <string name="toast_transfering">アイテムを転送しています。後でもう一度お試しください。</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>
     <string name="transfer_intercept_to_remote">送信できませんでした：%1$s</string>
-    <string name="transfer_to_pc_summary">Mi NotebookにインストールされているAIoTソフトウェアの最新バージョンは、Mi シェアと互換性があります。MIUI ウェブサイトで、サポートされているノートパソコンモデルのリストを確認できます。ノートパソコンがリストにあり、AIoTがインストールされていない場合は、ノートパソコンのBIOSとネットワークアダプタードライバーをアップデートし、AIoTをダウンロードします。</string>
-    <string name="transfer_to_pc_summary_new">&lt;Data>Mi NotebookにインストールされているMIUI+の最新バージョンは、Mi シェアに対応しています。MIUI+のウェブサイト (&lt;a href=%1$s>%2$s&lt;/a>) で、サポートされているノートパソコンのモデルリストを確認できます。お使いのノートパソコンがリストに載っているにもかかわらずMIUI+がインストールされていない場合は、ノートパソコンのBIOSとネットワークアダプターのドライバーをアップデートし、MIUI+をダウンロードしてください。&lt;/Data></string>
-    <string name="transfer_to_pc_summary_new_plus">&lt;Data>Xiaomi PC Manager now supports Mi Share! You can find a list of supported computer models &lt;a href=%1$s>here&lt;/a>.&lt;/Data></string>
+    <string name="transfer_to_pc_summary_new_plus"><Data>Xiaomi PC マネージャーが Xiaomi Share に対応しました。サポートされているパソコンモデルのリストは&lt;a href=%1$s>こちら&lt;/a>で確認できます。</Data></string>
     <string name="transfer_to_pc_title">ファイルをパソコンに送信</string>
-    <string name="transfer_to_phone_summary">通知シェードのトグルを使用してMi シェアをオンにします。その後、写真やファイルの共有を開始すると付近のデバイスが表示されます。受信者のデバイスをタップして、共有するアイテムを送信します。</string>
-    <string name="transfer_to_phone_summary_new">コントロールセンターでMi シェアをオンにすると、アイテムの送受信が簡単にできるようになります。オンにした後、自動的にオフになるまでの%d分間、付近のデバイスとアイテムを共有できます。</string>
+    <string name="transfer_to_phone_summary">通知シェードのトグルを使用して Xiaomi Share をオンにします。その後、写真やファイルの共有を開始すると付近のデバイスが表示されます。受信者のデバイスをタップして、共有するアイテムを送信します。</string>
+    <string name="transfer_to_phone_summary_new">コントロールセンターで Xiaomi Share をオンにすると、アイテムの送受信が簡単にできるようになります。オンにした後、自動的にオフになるまでの%d分間、付近のデバイスとアイテムを共有できます。</string>
     <string name="transfer_to_phone_title">ファイルをスマートフォンに送信</string>
-    <string name="transfer_to_summary">通知シェードのトグルを使用してMi シェアをオンにします。その後、写真やファイルの共有を開始すると付近のデバイスが表示されます。受信者のデバイスをタップして、共有するアイテムを送信します。</string>
-    <string name="transfer_to_summary_new">コントロールセンターでMi シェアをオンにすると、アイテムの送受信が簡単にできるようになります。オンにした後、自動的にオフになるまでの%d分間、付近のデバイスとアイテムを共有できます。</string>
+    <string name="transfer_to_summary">通知シェードのトグルを使用して Xiaomi Share をオンにします。その後、写真やファイルの共有を開始すると付近のデバイスが表示されます。受信者のデバイスをタップして、共有するアイテムを送信します。</string>
+    <string name="transfer_to_summary_new">コントロールセンターで Xiaomi Share をオンにすると、アイテムの送受信が簡単にできるようになります。オンにした後、自動的にオフになるまでの%d分間、付近のデバイスとアイテムを共有できます。</string>
     <string name="transfer_to_title">モバイルデバイスにファイルを送信</string>
     <string name="tuesday">火曜日</string>
     <string name="tuesday_short">火</string>
@@ -519,8 +517,8 @@ Mi シェアの利用を開始する前に、次の権限を付与し、必要�
     <string name="unrecognized_manufacture">不明</string>
     <string name="unrecognized_model">不明なデバイス</string>
     <string name="user_instructions">注意</string>
-    <string name="uwb_guide_summary_1">ターゲットデバイスが見つからない場合は、相手にコントロールセンターにあるMi シェアのトグルをタップするように依頼してください。</string>
-    <string name="uwb_guide_title_1">相手にMi シェアをオンにするように依頼してください</string>
+    <string name="uwb_guide_summary_1">ターゲットデバイスが見つからない場合は、相手にコントロールセンターにある Xiaomi Share のトグルをタップするように依頼してください。</string>
+    <string name="uwb_guide_title_1">相手に Xiaomi Share をオンにするよう依頼してください</string>
     <string name="uwb_guide_title_2">ビームでターゲットデバイスを素早く見つける</string>
     <string name="uwb_setting_guide">もっと詳しく知る</string>
     <string name="uwb_setting_guide_summary">ビームは、UWB技術を用いてターゲットデバイスをワイヤレスで認識します。ターゲットデバイスが認識されると、そのアイコンが前面に表示されます。</string>
@@ -542,7 +540,7 @@ Mi シェアの利用を開始する前に、次の権限を付与し、必要�
     <string name="wifi_is_not_enabled">まず、Wi-Fiをオンにしてください</string>
     <string name="wifi_is_not_enabled_china">まず、Wi-Fiをオンにしてください</string>
     <string name="withdraw">撤回</string>
-    <string name="withdraw_consent_message">続けると、Mi シェアのプライバシーポリシーへの同意を撤回することになります。既に収集され保持されている個人情報は、別段の要求がない限り、適用される法令に基づいて特定の期間内に削除されます。Mi シェアは、必要な個人情報の収集に基づいてサービスを提供しているため、同意を撤回した場合はMi シェアのサービスを受けることを拒否したとみなされます。</string>
+    <string name="withdraw_consent_message">続けると、Xiaomi Share のプライバシーポリシーへの同意を撤回することになります。既に収集され保持されている個人情報は、別段の要求がない限り、適用される法令に基づいて特定の期間内に削除されます。Xiaomi Share は、必要な個人情報の収集に基づいてサービスを提供しているため、同意を撤回した場合は Xiaomi Share のサービスを受けることを拒否したとみなされます。</string>
     <string name="withdraw_consent_title">同意の撤回</string>
     <string name="withdraw_with_time">撤回 (%1$d秒)</string>
     <string name="xiaomi">Mi</string>
