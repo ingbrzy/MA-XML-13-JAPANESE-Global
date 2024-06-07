@@ -23,11 +23,6 @@
         <item>最長</item>
         <item>2日</item>
     </string-array>
-    <string-array name="entries_pref_key_voice_report">
-        <item>@string/voice_report_wiredon</item>
-        <item>@string/voice_report_anytime</item>
-        <item>@string/voice_report_off</item>
-    </string-array>
     <string-array name="entries_sms_validity_period">
         <item>設定なし</item>
         <item>1時間</item>

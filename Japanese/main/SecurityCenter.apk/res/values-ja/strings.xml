@@ -971,7 +971,6 @@
     <string name="card_main_private_space_summary">セカンド・スペースを使用することは、2つのデバイスを持っているようなものです</string>
     <string name="card_main_private_space_title">セカンド・スペース</string>
     <string name="card_main_sectool_title">ツール</string>
-    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_video_manage_title">ビデオを管理</string>
     <string name="card_main_whatsappclean_title">WhatsApp クリーナー</string>
     <string name="card_main_xspace_action">作成</string>
@@ -1341,7 +1340,6 @@
     <string name="dynamic_performance_optimization_title">ダイナミックパフォーマンス</string>
     <string name="early_morning">早朝</string>
     <string name="edit_phone_num">SIM電話番号を編集</string>
-    <string name="ellipsis">…</string>
     <string name="email">メール</string>
     <string name="empty" />
     <string name="empty_app">アプリはありません</string>
@@ -1419,9 +1417,7 @@
     <string name="exo_download_paused_for_wifi">ダウンロード停止: Wi-Fi 接続中</string>
     <string name="exo_download_removing">ダウンロードを削除しています</string>
     <string name="exo_item_list">%1$s、%2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mbps</string>
     <string name="exo_track_mono">モノラル</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">代替</string>
     <string name="exo_track_role_closed_captions">字幕</string>
     <string name="exo_track_role_commentary">解説</string>
@@ -2607,7 +2603,6 @@
     <string name="menu_text_license_manager">アクセス許可</string>
     <string name="menu_text_networkassistants">データ使用量</string>
     <string name="menu_text_networkassistants_danger">%s以上</string>
-    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">残り%s</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2616,7 +2611,6 @@
     <string name="menu_text_optimize_manage">スピードブースト</string>
     <string name="menu_text_optimize_manage_1">スピードブースト</string>
     <string name="menu_text_power_manager">バッテリー</string>
-    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">例外から削除</string>
     <string name="menu_white">例外に追加</string>
     <string name="mi_ime_not_used">Xiaomiが認定したキーボードを使用してください</string>
@@ -2725,7 +2719,6 @@
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
@@ -3493,11 +3486,6 @@
     <string name="power_center_dialog_msg_top">バッテリーセーバーがオンの場合、以下の最適化が実行されます。</string>
     <string name="power_center_hints_scan_danger_result">バッテリーの問題を修正できます</string>
     <string name="power_center_list_item_auto_brightness">画面の明るさを自動的に調整する</string>
-    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
-    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
-    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
-    <string name="power_center_list_item_battery_status_capacity">mAh</string>
-    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">時間</string>
     <string name="power_center_list_item_close_bluetooth">Bluetoothをオフにする</string>
     <string name="power_center_list_item_deep_save_title">高度な設定</string>
@@ -3810,7 +3798,6 @@
     <string name="pref_normal_traffic_limit">データプランを使い切った場合</string>
     <string name="pref_open_adjust_traffic">通信事業者からの統計情報を使用してデータ使用量を毎日アップデートする</string>
     <string name="pref_operator_not_set">通信事業者が設定されていません</string>
-    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">データプランを超えて利用した場合</string>
     <string name="pref_package_traffic_settings">データプラン</string>
     <string name="pref_pkg_begin_date">データプランの開始日</string>
@@ -4111,7 +4098,6 @@
     <string name="privacy_using_record">録音中</string>
     <string name="privacyapp_number_masked_text">通知内容を非表示にしたアプリ</string>
     <string name="privacyapp_number_unmasked_text">通知内容を非表示にできるアプリ</string>
-    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">メディアサーバー</string>
     <string name="process_vpnsdkmanager_label">ゲームターボ</string>
     <string name="promotion">広告</string>
